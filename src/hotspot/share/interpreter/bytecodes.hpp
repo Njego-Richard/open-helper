@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_INTERPRETER_BYTECODES_HPP
 #define SHARE_VM_INTERPRETER_BYTECODES_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // Bytecodes specifies all bytecodes used in the VM and
 // provides utility functions to get bytecode attributes.

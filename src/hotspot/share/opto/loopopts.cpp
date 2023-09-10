@@ -22,11 +22,11 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/barrierSet.hpp"
-#include "gc/shared/c2/barrierSetC2.hpp"
-#include "memory/allocation.inline.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/barrierSetC2.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "opto/addnode.hpp"
 #include "opto/callnode.hpp"
 #include "opto/castnode.hpp"
@@ -40,9 +40,9 @@
 #include "opto/opaquenode.hpp"
 #include "opto/rootnode.hpp"
 #include "opto/subnode.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_ZGC
-#include "gc/z/c2/zBarrierSetC2.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/c2/zBarrierSetC2.hpp"
 #endif
 
 //=============================================================================

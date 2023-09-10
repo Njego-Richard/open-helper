@@ -22,26 +22,26 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "asm/assembler.hpp"
 #include "asm/assembler.inline.hpp"
 #include "ci/ciEnv.hpp"
-#include "gc/shared/cardTableBarrierSet.hpp"
-#include "gc/shared/collectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.inline.hpp"
 #include "interpreter/interpreter.hpp"
 #include "interpreter/interpreterRuntime.hpp"
 #include "interpreter/templateInterpreterGenerator.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "prims/jvm_misc.hpp"
 #include "prims/methodHandles.hpp"
-#include "runtime/biasedLocking.hpp"
-#include "runtime/interfaceSupport.inline.hpp"
-#include "runtime/objectMonitor.hpp"
-#include "runtime/os.hpp"
-#include "runtime/sharedRuntime.hpp"
-#include "runtime/stubRoutines.hpp"
-#include "utilities/hashtable.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/biasedLocking.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/objectMonitor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubRoutines.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Returns whether given imm has equal bit fields <0:size-1> and <size:2*size-1>.
 inline bool Assembler::LogicalImmediate::has_equal_subpatterns(uintx imm, int size) {

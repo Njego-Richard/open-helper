@@ -30,13 +30,13 @@
 #include "prims/jvmtiEventController.hpp"
 #include "prims/jvmtiThreadState.hpp"
 #include "oops/oopHandle.hpp"
-#include "runtime/fieldDescriptor.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/vmOperations.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 //
 // Forward Declarations

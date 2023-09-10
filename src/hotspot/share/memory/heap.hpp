@@ -26,9 +26,9 @@
 #define SHARE_VM_MEMORY_HEAP_HPP
 
 #include "code/codeBlob.hpp"
-#include "memory/allocation.hpp"
-#include "memory/virtualspace.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Blocks
 

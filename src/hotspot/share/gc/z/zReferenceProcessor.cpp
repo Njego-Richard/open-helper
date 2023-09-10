@@ -21,20 +21,20 @@
  * questions.
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/javaClasses.inline.hpp"
-#include "gc/shared/referencePolicy.hpp"
-#include "gc/shared/referenceProcessorStats.hpp"
-#include "gc/z/zHeap.inline.hpp"
-#include "gc/z/zOopClosures.inline.hpp"
-#include "gc/z/zReferenceProcessor.hpp"
-#include "gc/z/zStat.hpp"
-#include "gc/z/zTask.hpp"
-#include "gc/z/zTracer.inline.hpp"
-#include "gc/z/zUtils.inline.hpp"
-#include "memory/universe.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referencePolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessorStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOopClosures.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zReferenceProcessor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zTask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zTracer.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 static const ZStatSubPhase ZSubPhaseConcurrentReferencesProcess("Concurrent References Process");
 static const ZStatSubPhase ZSubPhaseConcurrentReferencesEnqueue("Concurrent References Enqueue");

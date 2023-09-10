@@ -24,11 +24,11 @@
 #ifndef SHARE_GC_Z_ZBARRIER_INLINE_HPP
 #define SHARE_GC_Z_ZBARRIER_INLINE_HPP
 
-#include "gc/z/zAddress.inline.hpp"
-#include "gc/z/zBarrier.hpp"
-#include "gc/z/zOop.inline.hpp"
-#include "gc/z/zResurrection.inline.hpp"
-#include "runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBarrier.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zResurrection.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 template <ZBarrierFastPath fast_path, ZBarrierSlowPath slow_path>
 inline oop ZBarrier::barrier(volatile oop* p, oop o) {

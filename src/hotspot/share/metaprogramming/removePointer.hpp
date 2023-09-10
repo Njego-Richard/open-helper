@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_METAPROGRAMMING_REMOVEPOINTER_HPP
 #define SHARE_VM_METAPROGRAMMING_REMOVEPOINTER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // This metafunction returns for a type T either the underlying type behind
 // the pointer iff T is a pointer type (irrespective of CV qualifiers),

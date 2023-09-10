@@ -21,8 +21,8 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zErrno.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zErrno.hpp"
 
 #include <errno.h>
 #include <string.h>

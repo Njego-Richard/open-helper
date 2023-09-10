@@ -26,10 +26,10 @@
 #define SHARE_VM_SERVICES_DIAGNOSTICARGUMENT_HPP
 
 #include "classfile/vmSymbols.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/os.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 class StringArrayArgument : public CHeapObj<mtInternal> {
 private:

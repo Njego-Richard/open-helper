@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1CONCURRENTREFINETHREAD_HPP
 #define SHARE_VM_GC_G1_G1CONCURRENTREFINETHREAD_HPP
 
-#include "gc/g1/dirtyCardQueue.hpp"
-#include "gc/shared/concurrentGCThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/dirtyCardQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/concurrentGCThread.hpp"
 
 // Forward Decl.
 class CardTableEntryClosure;

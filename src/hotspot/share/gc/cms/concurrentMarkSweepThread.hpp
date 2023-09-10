@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_CMS_CONCURRENTMARKSWEEPTHREAD_HPP
 #define SHARE_VM_GC_CMS_CONCURRENTMARKSWEEPTHREAD_HPP
 
-#include "gc/cms/concurrentMarkSweepGeneration.hpp"
-#include "gc/shared/concurrentGCThread.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/concurrentGCThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 class ConcurrentMarkSweepGeneration;
 class CMSCollector;

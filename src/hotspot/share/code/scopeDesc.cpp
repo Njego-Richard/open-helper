@@ -22,13 +22,13 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "code/debugInfoRec.hpp"
 #include "code/pcDesc.hpp"
 #include "code/scopeDesc.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 ScopeDesc::ScopeDesc(const CompiledMethod* code, int decode_offset, int obj_decode_offset, bool reexecute, bool rethrow_exception, bool return_oop) {
   _code          = code;

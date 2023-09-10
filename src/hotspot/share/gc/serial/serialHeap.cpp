@@ -22,11 +22,11 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/serial/defNewGeneration.inline.hpp"
-#include "gc/serial/serialHeap.hpp"
-#include "gc/serial/tenuredGeneration.inline.hpp"
-#include "gc/shared/genMemoryPools.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/defNewGeneration.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/serialHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/tenuredGeneration.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genMemoryPools.hpp"
 #include "services/memoryManager.hpp"
 
 SerialHeap* SerialHeap::heap() {

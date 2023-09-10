@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_LINKED_LIST_HPP
 #define SHARE_VM_UTILITIES_LINKED_LIST_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 /*
  * The implementation of a generic linked list, which uses various

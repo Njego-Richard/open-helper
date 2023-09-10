@@ -22,18 +22,18 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "code/codeCache.hpp"
 #include "code/nmethod.hpp"
-#include "gc/g1/g1CodeRootSetTable.hpp"
-#include "gc/g1/g1CodeCacheRemSet.hpp"
-#include "gc/g1/heapRegion.hpp"
-#include "memory/heap.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CodeRootSetTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CodeCacheRemSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/hashtable.inline.hpp"
-#include "utilities/stack.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.inline.hpp"
 
 G1CodeRootSetTable* volatile G1CodeRootSetTable::_purge_list = NULL;
 

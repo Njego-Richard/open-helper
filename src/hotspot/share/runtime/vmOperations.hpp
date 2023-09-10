@@ -26,10 +26,10 @@
 #define SHARE_VM_RUNTIME_VMOPERATIONS_HPP
 
 #include "classfile/javaClasses.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/threadSMR.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.hpp"
 #include "code/codeCache.hpp"
 
 // The following classes are used for operations

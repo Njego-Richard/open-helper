@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_CMBITMAP_HPP
 #define SHARE_VM_GC_SHARED_CMBITMAP_HPP
 
-#include "memory/memRegion.hpp"
-#include "utilities/bitMap.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // A generic CM bit map.  This is essentially a wrapper around the BitMap
 // class, with one bit per (1<<_shifter) HeapWords.

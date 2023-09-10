@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_SUPPORT_JFRALLOCATIONTRACER_HPP
 #define SHARE_VM_JFR_SUPPORT_JFRALLOCATIONTRACER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class JfrAllocationTracer : public StackObj {
  public:

@@ -22,16 +22,16 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/cardTable.hpp"
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/space.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.inline.hpp"
 #include "logging/log.hpp"
-#include "memory/virtualspace.hpp"
-#include "runtime/java.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "services/memTracker.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 size_t CardTable::compute_byte_map_size() {
   assert(_guard_index == cards_required(_whole_heap.word_size()) - 1,

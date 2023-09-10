@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_PARALLEL_OBJECTSTARTARRAY_INLINE_HPP
 #define SHARE_VM_GC_PARALLEL_OBJECTSTARTARRAY_INLINE_HPP
 
-#include "gc/parallel/objectStartArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/objectStartArray.hpp"
 
 // Optimized for finding the first object that crosses into
 // a given block. The blocks contain the offset of the last

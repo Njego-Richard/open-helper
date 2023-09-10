@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_JFR_WRITERS_JFRPOSITION_HPP
 #define SHARE_VM_JFR_WRITERS_JFRPOSITION_HPP
 
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 template <typename AP> // AllocationPolicy
 class Position : public AP {

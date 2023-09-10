@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/atomic.hpp"
-#include "utilities/accessFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
 
 void AccessFlags::atomic_set_bits(jint bits) {
   // Atomically update the flags with the bits given

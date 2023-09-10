@@ -25,14 +25,14 @@
 #ifndef SHARE_VM_GC_SHARED_GCTRACETIME_INLINE_HPP
 #define SHARE_VM_GC_SHARED_GCTRACETIME_INLINE_HPP
 
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/gcTimer.hpp"
-#include "gc/shared/gcTrace.hpp"
-#include "gc/shared/gcTraceTime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTimer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTraceTime.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
-#include "memory/universe.hpp"
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 
 #define LOG_STOP_HEAP_FORMAT SIZE_FORMAT "M->" SIZE_FORMAT "M("  SIZE_FORMAT "M)"
 

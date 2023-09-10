@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_G1_G1ROOTPROCESSOR_HPP
 #define SHARE_VM_GC_G1_G1ROOTPROCESSOR_HPP
 
-#include "gc/shared/oopStorageParState.hpp"
-#include "gc/shared/strongRootsScope.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/strongRootsScope.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
 
 class CLDClosure;
 class CodeBlobClosure;

@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/dcmd/jfrDcmds.hpp"
 #include "jfr/instrumentation/jfrJvmtiAgent.hpp"
 #include "jfr/jni/jfrJavaSupport.hpp"
@@ -42,11 +42,11 @@
 #include "jfr/writers/jfrJavaEventWriter.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
-#include "memory/resourceArea.inline.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/flags/jvmFlag.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 #ifdef ASSERT
 #include "prims/jvmtiEnvBase.hpp"
 #endif

@@ -23,15 +23,15 @@
 *
 */
 
-#include "precompiled.hpp"
-#include "runtime/interfaceSupport.inline.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/threadSMR.hpp"
-#include "runtime/timerTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timerTrace.hpp"
 #include "services/threadIdTable.hpp"
-#include "utilities/resourceHash.hpp"
-#include "utilities/concurrentHashTable.inline.hpp"
-#include "utilities/concurrentHashTableTasks.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/resourceHash.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/concurrentHashTable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/concurrentHashTableTasks.inline.hpp"
 
 class ThreadIdTableEntry;
 

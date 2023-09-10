@@ -29,7 +29,7 @@
 #include "logging/logOutputList.hpp"
 #include "logging/logPrefix.hpp"
 #include "logging/logTag.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class LogMessageBuffer;
 

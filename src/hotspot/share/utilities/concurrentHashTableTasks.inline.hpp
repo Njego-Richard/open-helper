@@ -25,8 +25,8 @@
 #ifndef SHARE_UTILITIES_CONCURRENT_HASH_TABLE_TASKS_INLINE_HPP
 #define SHARE_UTILITIES_CONCURRENT_HASH_TABLE_TASKS_INLINE_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/concurrentHashTable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/concurrentHashTable.inline.hpp"
 
 // This inline file contains BulkDeleteTask and GrowTasks which are both bucket
 // operations, which they are serialized with each other.

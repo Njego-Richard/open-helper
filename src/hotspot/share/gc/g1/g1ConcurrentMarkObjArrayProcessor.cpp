@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1ConcurrentMark.inline.hpp"
-#include "gc/g1/g1ConcurrentMarkObjArrayProcessor.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ConcurrentMark.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ConcurrentMarkObjArrayProcessor.inline.hpp"
 
 void G1CMObjArrayProcessor::push_array_slice(HeapWord* what) {
   _task->push(G1TaskQueueEntry::from_slice(what));

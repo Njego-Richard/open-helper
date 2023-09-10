@@ -30,7 +30,7 @@
 #include "jfr/recorder/service/jfrOptionSet.hpp"
 #include "jfr/writers/jfrEncoding.hpp"
 #include "jfr/writers/jfrWriterHost.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/oop.hpp"
 #include "oops/symbol.hpp"
 #include "oops/typeArrayOop.inline.hpp"

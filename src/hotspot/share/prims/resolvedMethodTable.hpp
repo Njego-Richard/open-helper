@@ -27,7 +27,7 @@
 
 #include "oops/symbol.hpp"
 #include "oops/weakHandle.hpp"
-#include "utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 // Hashtable to record Method* used in ResolvedMethods, via. ResolvedMethod oops.
 // This is needed for redefinition to replace Method* with redefined versions.

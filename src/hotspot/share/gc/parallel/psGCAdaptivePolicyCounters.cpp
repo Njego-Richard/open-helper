@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/parallel/psGCAdaptivePolicyCounters.hpp"
-#include "memory/resourceArea.hpp"
-#include "runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psGCAdaptivePolicyCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 
 
 

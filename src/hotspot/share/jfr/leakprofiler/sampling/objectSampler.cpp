@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/jfrEvents.hpp"
 #include "jfr/leakprofiler/sampling/objectSample.hpp"
 #include "jfr/leakprofiler/sampling/objectSampler.hpp"
@@ -34,12 +34,12 @@
 #include "jfr/support/jfrThreadLocal.hpp"
 #include "jfr/utilities/jfrTryLock.hpp"
 #include "logging/log.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/safepoint.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 static ObjectSampler* _instance = NULL;
 

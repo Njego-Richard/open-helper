@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_UTILITIES_GLOBALDEFINITIONS_HPP
 #define SHARE_VM_UTILITIES_GLOBALDEFINITIONS_HPP
 
-#include "utilities/compilerWarnings.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/compilerWarnings.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
-#include COMPILER_HEADER(utilities/globalDefinitions)
+// #include COMPILER_HEADER(utilities/globalDefinitions)
 
 // Defaults for macros that might be defined per compiler.
 #ifndef NOINLINE
@@ -530,8 +530,8 @@ const  uint64_t KlassEncodingMetaspaceMax = (uint64_t(max_juint) + 1) << LogKlas
 #define CODE_CACHE_SIZE_LIMIT (2*G)
 // Allow targets to reduce the default size of the code cache.
 #define CODE_CACHE_DEFAULT_LIMIT CODE_CACHE_SIZE_LIMIT
-
-#include CPU_HEADER(globalDefinitions)
+ 
+// //#include CPU_HEADER(globalDefinitions)
 
 // To assure the IRIW property on processors that are not multiple copy
 // atomic, sync instructions must be issued between volatile reads to

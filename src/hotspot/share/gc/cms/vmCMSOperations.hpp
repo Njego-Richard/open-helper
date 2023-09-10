@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_CMS_VMCMSOPERATIONS_HPP
 #define SHARE_VM_GC_CMS_VMCMSOPERATIONS_HPP
 
-#include "gc/cms/concurrentMarkSweepGeneration.hpp"
-#include "gc/shared/gcCause.hpp"
-#include "gc/shared/gcId.hpp"
-#include "gc/shared/vmGCOperations.hpp"
-#include "runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/vmGCOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
 
 // The VM_CMS_Operation is slightly different from
 // a VM_GC_Operation -- and would not have subclassed easily

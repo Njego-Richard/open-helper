@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/epsilon/epsilonHeap.hpp"
-#include "gc/epsilon/epsilonMemoryPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonMemoryPool.hpp"
 
 EpsilonMemoryPool::EpsilonMemoryPool(EpsilonHeap* heap) :
         _heap(heap),

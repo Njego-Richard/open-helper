@@ -22,18 +22,18 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "code/debugInfoRec.hpp"
 #include "code/pcDesc.hpp"
-#include "gc/shared/collectedHeap.inline.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "oops/oop.inline.hpp"
 #include "prims/forte.hpp"
-#include "runtime/frame.inline.hpp"
-#include "runtime/javaCalls.hpp"
-#include "runtime/thread.inline.hpp"
-#include "runtime/vframe.inline.hpp"
-#include "runtime/vframeArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframeArray.hpp"
 
 // call frame copied from old .h file and renamed
 typedef struct {

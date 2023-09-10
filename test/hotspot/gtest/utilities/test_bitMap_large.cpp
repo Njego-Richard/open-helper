@@ -21,8 +21,8 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "utilities/bitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 #include "unittest.hpp"
 
 // Bitmap size should be large enough to accept large operations.

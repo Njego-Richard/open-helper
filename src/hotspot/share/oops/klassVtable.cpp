@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "classfile/javaClasses.hpp"
 #include "classfile/systemDictionary.hpp"
@@ -30,19 +30,19 @@
 #include "interpreter/linkResolver.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
-#include "memory/metaspaceShared.hpp"
-#include "memory/resourceArea.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "oops/instanceKlass.hpp"
 #include "oops/klassVtable.hpp"
 #include "oops/method.hpp"
 #include "oops/objArrayOop.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/arguments.hpp"
-#include "runtime/flags/flagSetting.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/safepointVerifiers.hpp"
-#include "utilities/copy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/flagSetting.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointVerifiers.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
 
 inline InstanceKlass* klassVtable::ik() const {
   return InstanceKlass::cast(_klass);

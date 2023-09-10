@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_CMS_PAROOPCLOSURES_HPP
 #define SHARE_VM_GC_CMS_PAROOPCLOSURES_HPP
 
-#include "gc/shared/genOopClosures.hpp"
-#include "gc/shared/taskqueue.hpp"
-#include "memory/padded.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genOopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
 
 // Closures for ParNewGeneration
 

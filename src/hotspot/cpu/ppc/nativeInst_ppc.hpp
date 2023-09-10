@@ -27,9 +27,9 @@
 #define CPU_PPC_VM_NATIVEINST_PPC_HPP
 
 #include "asm/macroAssembler.hpp"
-#include "runtime/icache.hpp"
-#include "runtime/os.hpp"
-#include "runtime/safepointMechanism.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointMechanism.hpp"
 
 // We have interfaces for the following instructions:
 //

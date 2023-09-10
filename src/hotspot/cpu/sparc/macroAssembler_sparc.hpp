@@ -26,7 +26,7 @@
 #define CPU_SPARC_VM_MACROASSEMBLER_SPARC_HPP
 
 #include "asm/assembler.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // <sys/trap.h> promises that the system will not use traps 16-31
 #define ST_RESERVED_FOR_USER_0 0x10

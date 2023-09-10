@@ -27,7 +27,7 @@
 #define CPU_AARCH64_VM_JNITYPES_AARCH64_HPP
 
 #include "jni.h"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
 
 // This file holds platform-dependent routines used to write primitive jni

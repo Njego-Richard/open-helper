@@ -22,25 +22,25 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/classLoader.hpp"
 #include "classfile/javaClasses.hpp"
-#include "gc/shared/allocTracer.hpp"
-#include "gc/shared/gcId.hpp"
-#include "gc/shared/gcLocker.hpp"
-#include "gc/shared/genCollectedHeap.hpp"
-#include "gc/shared/vmGCOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/allocTracer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/vmGCOperations.hpp"
 #include "interpreter/oopMapCache.hpp"
 #include "logging/log.hpp"
-#include "memory/oopFactory.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/init.hpp"
-#include "utilities/dtrace.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/preserveException.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/init.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/dtrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/preserveException.hpp"
 #if INCLUDE_G1GC
-#include "gc/g1/g1CollectedHeap.inline.hpp"
-#include "gc/g1/g1Policy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Policy.hpp"
 #endif // INCLUDE_G1GC
 
 VM_GC_Operation::~VM_GC_Operation() {

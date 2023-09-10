@@ -22,25 +22,25 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/systemDictionary.hpp"
-#include "gc/parallel/gcTaskManager.hpp"
-#include "gc/parallel/objectStartArray.hpp"
-#include "gc/parallel/parMarkBitMap.inline.hpp"
-#include "gc/parallel/parallelScavengeHeap.hpp"
-#include "gc/parallel/psCompactionManager.inline.hpp"
-#include "gc/parallel/psOldGen.hpp"
-#include "gc/parallel/psParallelCompact.inline.hpp"
-#include "gc/shared/taskqueue.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/gcTaskManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/objectStartArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parMarkBitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psCompactionManager.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psOldGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psParallelCompact.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.inline.hpp"
 #include "logging/log.hpp"
-#include "memory/iterator.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.inline.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/compressedOops.inline.hpp"
 #include "oops/instanceKlass.inline.hpp"
 #include "oops/instanceMirrorKlass.inline.hpp"
 #include "oops/objArrayKlass.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 PSOldGen*            ParCompactionManager::_old_gen = NULL;
 ParCompactionManager**  ParCompactionManager::_manager_array = NULL;

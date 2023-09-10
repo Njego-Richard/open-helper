@@ -22,13 +22,13 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "prims/jvmtiUtil.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/interfaceSupport.inline.hpp"
-#include "runtime/vmOperations.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 //
 // class JvmtiUtil

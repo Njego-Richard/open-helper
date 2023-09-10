@@ -25,8 +25,8 @@
 #ifndef SHARE_GC_CMS_COMMANDLINEFLAGCONSTRAINTSCMS_HPP
 #define SHARE_GC_CMS_COMMANDLINEFLAGCONSTRAINTSCMS_HPP
 
-#include "runtime/globals.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // CMS Flag Constraints
 JVMFlag::Error ParGCStridesPerThreadConstraintFunc(uintx value, bool verbose);

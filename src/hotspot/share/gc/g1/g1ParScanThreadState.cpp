@@ -22,20 +22,20 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1Allocator.inline.hpp"
-#include "gc/g1/g1CollectedHeap.inline.hpp"
-#include "gc/g1/g1CollectionSet.hpp"
-#include "gc/g1/g1OopClosures.inline.hpp"
-#include "gc/g1/g1ParScanThreadState.inline.hpp"
-#include "gc/g1/g1RootClosures.hpp"
-#include "gc/g1/g1StringDedup.hpp"
-#include "gc/shared/gcTrace.hpp"
-#include "gc/shared/taskqueue.inline.hpp"
-#include "memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Allocator.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectionSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1OopClosures.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ParScanThreadState.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RootClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1StringDedup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/prefetch.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.inline.hpp"
 
 G1ParScanThreadState::G1ParScanThreadState(G1CollectedHeap* g1h, uint worker_id, size_t young_cset_length)
   : _g1h(g1h),

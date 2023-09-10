@@ -25,11 +25,11 @@
 #ifndef SHARE_GC_SHARED_C2_BARRIERSETC2_HPP
 #define SHARE_GC_SHARED_C2_BARRIERSETC2_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/accessDecorators.hpp"
 #include "opto/loopnode.hpp"
 #include "opto/memnode.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // This means the access is mismatched. This means the value of an access
 // is not equivalent to the value pointed to by the address.

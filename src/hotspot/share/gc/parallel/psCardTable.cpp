@@ -22,20 +22,20 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/parallel/gcTaskManager.hpp"
-#include "gc/parallel/objectStartArray.inline.hpp"
-#include "gc/parallel/parallelScavengeHeap.inline.hpp"
-#include "gc/parallel/psCardTable.hpp"
-#include "gc/parallel/psPromotionManager.inline.hpp"
-#include "gc/parallel/psScavenge.hpp"
-#include "gc/parallel/psTasks.hpp"
-#include "gc/parallel/psYoungGen.hpp"
-#include "memory/iterator.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/gcTaskManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/objectStartArray.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psCardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psPromotionManager.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psScavenge.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psTasks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psYoungGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.inline.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/prefetch.inline.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // Checks an individual oop for missing precise marks. Mark
 // may be either dirty or newgen.

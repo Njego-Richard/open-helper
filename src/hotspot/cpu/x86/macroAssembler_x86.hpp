@@ -26,8 +26,8 @@
 #define CPU_X86_VM_MACROASSEMBLER_X86_HPP
 
 #include "asm/assembler.hpp"
-#include "utilities/macros.hpp"
-#include "runtime/rtmLocking.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/rtmLocking.hpp"
 
 // MacroAssembler extends Assembler by frequently used macros.
 //

@@ -25,7 +25,7 @@
 #ifndef RUNTIME_THREADHEAPSAMPLER_HPP
 #define RUNTIME_THREADHEAPSAMPLER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ThreadHeapSampler {
  private:

@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "asm/assembler.inline.hpp"
 #include "asm/macroAssembler.inline.hpp"
 #include "code/compiledIC.hpp"
@@ -32,7 +32,7 @@
 #include "compiler/compilerDirectives.hpp"
 #include "compiler/disassembler.hpp"
 #include "compiler/oopMap.hpp"
-#include "memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "opto/ad.hpp"
 #include "opto/callnode.hpp"
 #include "opto/cfgnode.hpp"
@@ -44,8 +44,8 @@
 #include "opto/runtime.hpp"
 #include "opto/subnode.hpp"
 #include "opto/type.hpp"
-#include "runtime/handles.inline.hpp"
-#include "utilities/xmlstream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/xmlstream.hpp"
 
 #ifndef PRODUCT
 #define DEBUG_ARG(x) , x

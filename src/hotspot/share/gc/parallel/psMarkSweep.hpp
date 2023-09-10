@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSMARKSWEEP_HPP
 #define SHARE_VM_GC_PARALLEL_PSMARKSWEEP_HPP
 
-#include "gc/serial/markSweep.hpp"
-#include "gc/shared/collectorCounters.hpp"
-#include "gc/shared/referenceProcessor.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/markSweep.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 class PSAdaptiveSizePolicy;
 class PSYoungGen;

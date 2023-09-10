@@ -22,26 +22,26 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jni.h"
 #include "jvm.h"
 #include "classfile/javaClasses.inline.hpp"
 #include "classfile/systemDictionary.hpp"
 #include "classfile/vmSymbols.hpp"
-#include "memory/allocation.inline.hpp"
-#include "memory/guardedMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/guardedMemory.hpp"
 #include "oops/instanceKlass.hpp"
 #include "oops/oop.inline.hpp"
 #include "oops/symbol.hpp"
 #include "prims/jniCheck.hpp"
 #include "prims/jvm_misc.hpp"
-#include "runtime/fieldDescriptor.inline.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/interfaceSupport.inline.hpp"
-#include "runtime/jfieldIDWorkaround.hpp"
-#include "runtime/jniHandles.inline.hpp"
-#include "runtime/thread.inline.hpp"
-#include "utilities/formatBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jfieldIDWorkaround.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/formatBuffer.hpp"
 
 // Complain every extra number of unplanned local refs
 #define CHECK_JNI_LOCAL_REF_CAP_WARN_THRESHOLD 32

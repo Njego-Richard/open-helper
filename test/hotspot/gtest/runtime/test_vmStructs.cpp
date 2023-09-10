@@ -21,12 +21,12 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include "unittest.hpp"
 
 #if INCLUDE_VM_STRUCTS
-#include "runtime/vmStructs.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmStructs.hpp"
 
 TEST(VMStructs, last_entries)  {
   // Make sure last entry in the each array is indeed the correct end marker.

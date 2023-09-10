@@ -23,7 +23,7 @@
 // (http://www.iwar.org.uk/comsec/resources/cipher/sha256-384-512.pdf).
 
 #include "asm/macroAssembler.inline.hpp"
-#include "runtime/stubRoutines.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubRoutines.hpp"
 
 /**********************************************************************
  * SHA 256

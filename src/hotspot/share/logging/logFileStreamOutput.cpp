@@ -21,13 +21,13 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "logging/logDecorators.hpp"
 #include "logging/logDecorations.hpp"
 #include "logging/logFileStreamOutput.hpp"
 #include "logging/logMessageBuffer.hpp"
-#include "memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 
 static bool initialized;
 static union {

@@ -22,15 +22,15 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "c1/c1_LIRGenerator.hpp"
 #include "c1/c1_CodeStubs.hpp"
-#include "gc/g1/c1/g1BarrierSetC1.hpp"
-#include "gc/g1/g1BarrierSet.hpp"
-#include "gc/g1/g1BarrierSetAssembler.hpp"
-#include "gc/g1/g1ThreadLocalData.hpp"
-#include "gc/g1/heapRegion.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/c1/g1BarrierSetC1.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1BarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1BarrierSetAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ThreadLocalData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #ifdef ASSERT
 #define __ gen->lir(__FILE__, __LINE__)->

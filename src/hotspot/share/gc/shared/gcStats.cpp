@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/gcStats.hpp"
-#include "gc/shared/gcUtil.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.inline.hpp"
 
 GCStats::GCStats() {
     _avg_promoted       = new AdaptivePaddedNoZeroDevAverage(

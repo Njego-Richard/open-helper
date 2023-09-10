@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/recorder/checkpoint/types/jfrTypeSetUtils.hpp"
 #include "oops/instanceKlass.hpp"
 #include "oops/oop.inline.hpp"

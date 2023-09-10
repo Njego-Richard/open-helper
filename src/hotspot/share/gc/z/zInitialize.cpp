@@ -21,18 +21,18 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zAddress.hpp"
-#include "gc/z/zBarrierSet.hpp"
-#include "gc/z/zCPU.hpp"
-#include "gc/z/zGlobals.hpp"
-#include "gc/z/zInitialize.hpp"
-#include "gc/z/zLargePages.hpp"
-#include "gc/z/zNUMA.hpp"
-#include "gc/z/zStat.hpp"
-#include "gc/z/zTracer.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCPU.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zInitialize.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLargePages.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zNUMA.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zTracer.hpp"
 #include "logging/log.hpp"
-#include "runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 
 ZInitialize::ZInitialize(ZBarrierSet* barrier_set) {
   log_info(gc, init)("Initializing %s", ZGCName);

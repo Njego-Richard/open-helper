@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "classfile/classFileParser.hpp"
 #include "classfile/classFileStream.hpp"
@@ -40,18 +40,18 @@
 #include "jfr/utilities/jfrBigEndian.hpp"
 #include "jfr/writers/jfrBigEndianWriter.hpp"
 #include "logging/log.hpp"
-#include "memory/allocation.inline.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/array.hpp"
 #include "oops/instanceKlass.hpp"
 #include "oops/method.hpp"
 #include "prims/jvmtiRedefineClasses.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/os.hpp"
-#include "runtime/thread.inline.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 static const u2 number_of_new_methods = 5;
 static const u2 number_of_new_fields = 3;

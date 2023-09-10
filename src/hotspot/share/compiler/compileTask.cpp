@@ -22,15 +22,15 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "compiler/compileTask.hpp"
 #include "compiler/compileLog.hpp"
 #include "compiler/compileBroker.hpp"
 #include "compiler/compilerDirectives.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
-#include "memory/resourceArea.hpp"
-#include "runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 CompileTask*  CompileTask::_task_free_list = NULL;
 

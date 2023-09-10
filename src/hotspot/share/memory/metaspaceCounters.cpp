@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "memory/metaspaceCounters.hpp"
-#include "memory/resourceArea.hpp"
-#include "runtime/globals.hpp"
-#include "runtime/perfData.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 class MetaspacePerfCounters: public CHeapObj<mtInternal> {
   friend class VMStructs;

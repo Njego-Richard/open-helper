@@ -22,18 +22,18 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "asm/codeBuffer.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/interfaceSupport.inline.hpp"
-#include "runtime/timerTrace.hpp"
-#include "runtime/safefetch.inline.hpp"
-#include "runtime/sharedRuntime.hpp"
-#include "utilities/align.hpp"
-#include "utilities/copy.hpp"
-#include "utilities/vmError.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timerTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safefetch.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/vmError.hpp"
 #ifdef COMPILER2
 #include "opto/runtime.hpp"
 #endif

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_DEFAULTSTREAM_HPP
 #define SHARE_VM_UTILITIES_DEFAULTSTREAM_HPP
 
-#include "utilities/xmlstream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/xmlstream.hpp"
 
 class defaultStream : public xmlTextStream {
   friend void ostream_abort();

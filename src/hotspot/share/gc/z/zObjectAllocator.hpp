@@ -24,10 +24,10 @@
 #ifndef SHARE_GC_Z_ZOBJECTALLOCATOR_HPP
 #define SHARE_GC_Z_ZOBJECTALLOCATOR_HPP
 
-#include "gc/z/zAllocationFlags.hpp"
-#include "gc/z/zPage.hpp"
-#include "gc/z/zValue.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAllocationFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zValue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZObjectAllocator {
 private:

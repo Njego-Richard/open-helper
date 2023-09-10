@@ -22,13 +22,13 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/classLoaderData.inline.hpp"
 #include "classfile/placeholders.hpp"
 #include "classfile/systemDictionary.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/fieldType.hpp"
-#include "utilities/hashtable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.inline.hpp"
 
 // Placeholder methods
 

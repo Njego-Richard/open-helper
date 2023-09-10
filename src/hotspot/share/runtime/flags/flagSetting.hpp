@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_FLAGS_FLAGSETTING_HPP
 #define SHARE_VM_RUNTIME_FLAGS_FLAGSETTING_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // debug flags control various aspects of the VM and are global accessible
 

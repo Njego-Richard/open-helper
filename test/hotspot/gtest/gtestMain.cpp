@@ -38,7 +38,7 @@
 #include "jni.h"
 #include "unittest.hpp"
 
-#include "runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 
 // Default value for -new-thread option: true on AIX because we run into
 // problems when attempting to initialize the JVM on the primordial thread.

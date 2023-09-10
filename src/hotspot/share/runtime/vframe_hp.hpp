@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_VFRAME_HP_HPP
 #define SHARE_VM_RUNTIME_VFRAME_HP_HPP
 
-#include "runtime/vframe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe.hpp"
 
 class compiledVFrame: public javaVFrame {
  public:

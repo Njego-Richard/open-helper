@@ -21,11 +21,11 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shenandoah/shenandoahMetrics.hpp"
-#include "gc/shenandoah/shenandoahHeap.inline.hpp"
-#include "gc/shenandoah/shenandoahHeapRegion.hpp"
-#include "gc/shenandoah/shenandoahFreeSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahMetrics.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahFreeSet.hpp"
 
 ShenandoahMetricsSnapshot::ShenandoahMetricsSnapshot() {
   _heap = ShenandoahHeap::heap();

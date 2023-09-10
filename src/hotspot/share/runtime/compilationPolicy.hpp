@@ -27,9 +27,9 @@
 
 #include "code/nmethod.hpp"
 #include "compiler/compileBroker.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/vmOperations.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // The CompilationPolicy selects which method (if any) should be compiled.
 // It also decides which methods must always be compiled (i.e., are never

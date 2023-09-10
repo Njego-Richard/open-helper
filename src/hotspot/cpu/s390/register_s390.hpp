@@ -27,7 +27,7 @@
 #define CPU_S390_VM_REGISTER_S390_HPP
 
 #include "asm/register.hpp"
-#include "runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 
 class Address;
 class VMRegImpl;

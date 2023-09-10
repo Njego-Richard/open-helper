@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZARGUMENTS_HPP
 #define SHARE_GC_Z_ZARGUMENTS_HPP
 
-#include "gc/shared/gcArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcArguments.hpp"
 
 class CollectedHeap;
 

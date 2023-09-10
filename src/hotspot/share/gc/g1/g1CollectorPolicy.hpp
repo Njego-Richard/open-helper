@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_G1COLLECTORPOLICY_HPP
 #define SHARE_VM_GC_G1_G1COLLECTORPOLICY_HPP
 
-#include "gc/shared/collectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorPolicy.hpp"
 
 // G1CollectorPolicy is primarily used during initialization and to expose the
 // functionality of the CollectorPolicy interface to the rest of the VM.

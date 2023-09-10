@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/recorder/checkpoint/types/traceid/jfrTraceIdEpoch.hpp"
-#include "runtime/safepoint.hpp"
-#include "runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 // Alternating epochs on each rotation allow for concurrent tagging.
 // The regular epoch shift happens only during a safepoint.

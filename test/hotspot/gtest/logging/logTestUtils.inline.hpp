@@ -24,8 +24,8 @@
 #include "logging/log.hpp"
 #include "logging/logConfiguration.hpp"
 #include "logging/logStream.hpp"
-#include "memory/resourceArea.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "unittest.hpp"
 
 #define LOG_TEST_STRING_LITERAL "a (hopefully) unique log message for testing"

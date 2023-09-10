@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_G1_G1COLLECTIONSET_HPP
 #define SHARE_VM_GC_G1_G1COLLECTIONSET_HPP
 
-#include "gc/g1/collectionSetChooser.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/collectionSetChooser.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class G1CollectedHeap;
 class G1CollectorState;

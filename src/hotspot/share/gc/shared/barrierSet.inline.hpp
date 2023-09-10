@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_GC_SHARED_BARRIERSET_INLINE_HPP
 #define SHARE_VM_GC_SHARED_BARRIERSET_INLINE_HPP
 
-#include "gc/shared/barrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "oops/accessDecorators.hpp"
 #include "oops/arrayOop.hpp"
 #include "oops/compressedOops.inline.hpp"

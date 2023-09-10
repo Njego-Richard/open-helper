@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_JFR_SUPPORT_JFRTHREADID_HPP
 #define SHARE_VM_JFR_SUPPORT_JFRTHREADID_HPP
 
-#include "utilities/macros.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 #if INCLUDE_JFR
 #include "jfr/support/jfrThreadLocal.hpp"

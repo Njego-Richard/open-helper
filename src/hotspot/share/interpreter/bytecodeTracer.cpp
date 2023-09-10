@@ -22,20 +22,20 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/javaClasses.inline.hpp"
 #include "interpreter/bytecodeHistogram.hpp"
 #include "interpreter/bytecodeTracer.hpp"
 #include "interpreter/bytecodes.hpp"
 #include "interpreter/interpreter.hpp"
 #include "interpreter/interpreterRuntime.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/constantPool.inline.hpp"
 #include "oops/methodData.hpp"
 #include "oops/method.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/timer.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 
 // Standard closure for BytecodeTracer: prints the current bytecode

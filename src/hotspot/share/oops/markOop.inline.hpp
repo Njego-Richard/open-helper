@@ -28,7 +28,7 @@
 #include "oops/klass.hpp"
 #include "oops/markOop.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 
 // Should this header be preserved during GC (when biased locking is enabled)?
 inline bool markOopDesc::must_be_preserved_with_bias(oop obj_containing_mark) const {

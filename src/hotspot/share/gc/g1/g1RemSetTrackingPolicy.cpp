@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/collectionSetChooser.hpp"
-#include "gc/g1/g1RemSetTrackingPolicy.hpp"
-#include "gc/g1/heapRegion.inline.hpp"
-#include "gc/g1/heapRegionRemSet.hpp"
-#include "runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/collectionSetChooser.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RemSetTrackingPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionRemSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 
 bool G1RemSetTrackingPolicy::needs_scan_for_rebuild(HeapRegion* r) const {
   // All non-free, non-young, non-closed archive regions need to be scanned for references;

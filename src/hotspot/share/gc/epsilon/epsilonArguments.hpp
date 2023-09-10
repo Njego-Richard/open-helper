@@ -25,7 +25,7 @@
 #ifndef SHARE_GC_EPSILON_EPSILONARGUMENTS_HPP
 #define SHARE_GC_EPSILON_EPSILONARGUMENTS_HPP
 
-#include "gc/shared/gcArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcArguments.hpp"
 
 class CollectedHeap;
 

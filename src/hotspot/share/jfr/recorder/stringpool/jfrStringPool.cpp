@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/javaClasses.inline.hpp"
 #include "jfr/recorder/checkpoint/types/traceid/jfrTraceIdEpoch.hpp"
 #include "jfr/recorder/service/jfrOptionSet.hpp"
@@ -33,11 +33,11 @@
 #include "jfr/recorder/stringpool/jfrStringPoolWriter.hpp"
 #include "jfr/utilities/jfrTypes.hpp"
 #include "logging/log.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/safepoint.hpp"
-#include "runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 
 typedef JfrStringPool::Buffer* BufferPtr;
 

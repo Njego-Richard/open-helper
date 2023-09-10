@@ -24,10 +24,10 @@
 #ifndef SHARE_GC_Z_ZMARK_HPP
 #define SHARE_GC_Z_ZMARK_HPP
 
-#include "gc/z/zMarkStack.hpp"
-#include "gc/z/zMarkTerminate.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMarkStack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMarkTerminate.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class Thread;
 class ZMarkCache;

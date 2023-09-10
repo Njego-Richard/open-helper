@@ -26,7 +26,7 @@
 #ifndef SHARE_RUNTIME_THREADWXSETTERS_INLINE_HPP
 #define SHARE_RUNTIME_THREADWXSETTERS_INLINE_HPP
 
-#include "runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 
 #if defined(__APPLE__) && defined(AARCH64)
 class ThreadWXEnable  {

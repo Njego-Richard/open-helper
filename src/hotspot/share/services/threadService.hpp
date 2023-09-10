@@ -26,13 +26,13 @@
 #define SHARE_VM_SERVICES_THREADSERVICE_HPP
 
 #include "classfile/javaClasses.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/init.hpp"
-#include "runtime/jniHandles.hpp"
-#include "runtime/objectMonitor.hpp"
-#include "runtime/perfData.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/threadSMR.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/init.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/objectMonitor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.hpp"
 #include "services/management.hpp"
 
 class OopClosure;

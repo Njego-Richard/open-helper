@@ -26,8 +26,8 @@
 #define SHARE_VM_PRIMS_PRIVILEGEDSTACK_HPP
 
 #include "oops/oopsHierarchy.hpp"
-#include "runtime/vframe.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 class PrivilegedElement {
  private:

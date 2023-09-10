@@ -26,9 +26,9 @@
 #define SHARE_VM_JFR_UTILITIES_JFRHASHTABLE_HPP
 
 #include "jfr/utilities/jfrAllocation.hpp"
-#include "runtime/orderAccess.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 template <typename T>
 class JfrBasicHashtableEntry : public JfrCHeapObj {

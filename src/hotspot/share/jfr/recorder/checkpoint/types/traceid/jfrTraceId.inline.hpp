@@ -37,8 +37,8 @@
 #include "oops/klass.hpp"
 #include "oops/instanceKlass.hpp"
 #include "oops/method.hpp"
-#include "runtime/thread.inline.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 template <typename T>
 inline traceid set_used_and_get(const T* type) {

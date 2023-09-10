@@ -22,23 +22,23 @@
  */
 
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
 
 #include "classfile/classLoaderData.hpp"
 #include "classfile/systemDictionary.hpp"
 #include "code/codeCache.hpp"
-#include "gc/shenandoah/shenandoahAsserts.hpp"
-#include "gc/shenandoah/shenandoahHeap.hpp"
-#include "gc/shenandoah/shenandoahPhaseTimings.hpp"
-#include "gc/shenandoah/shenandoahRootVerifier.hpp"
-#include "gc/shenandoah/shenandoahStringDedup.hpp"
-#include "gc/shenandoah/shenandoahUtils.hpp"
-#include "gc/shared/weakProcessor.hpp"
-#include "memory/universe.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahAsserts.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahPhaseTimings.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahRootVerifier.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahStringDedup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahUtils.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/weakProcessor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "services/management.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 // Check for overflow of number of root types.
 STATIC_ASSERT((static_cast<uint>(ShenandoahRootVerifier::AllRoots) + 1) > static_cast<uint>(ShenandoahRootVerifier::AllRoots));

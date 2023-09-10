@@ -27,8 +27,8 @@
 
 #include "oops/array.hpp"
 #include "oops/metadata.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 
 class ClassLoaderData;

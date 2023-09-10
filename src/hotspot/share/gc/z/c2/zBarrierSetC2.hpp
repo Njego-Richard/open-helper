@@ -24,10 +24,10 @@
 #ifndef SHARE_GC_Z_C2_ZBARRIERSETC2_HPP
 #define SHARE_GC_Z_C2_ZBARRIERSETC2_HPP
 
-#include "gc/shared/c2/barrierSetC2.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/barrierSetC2.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "opto/node.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 class LoadBarrierNode : public MultiNode {
 private:

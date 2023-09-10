@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_G1_G1REGIONTOSPACEMAPPER_HPP
 #define SHARE_VM_GC_G1_G1REGIONTOSPACEMAPPER_HPP
 
-#include "gc/g1/g1PageBasedVirtualSpace.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1PageBasedVirtualSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class WorkGang;
 

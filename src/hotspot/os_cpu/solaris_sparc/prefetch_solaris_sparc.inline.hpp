@@ -25,7 +25,7 @@
 #ifndef OS_CPU_SOLARIS_SPARC_VM_PREFETCH_SOLARIS_SPARC_INLINE_HPP
 #define OS_CPU_SOLARIS_SPARC_VM_PREFETCH_SOLARIS_SPARC_INLINE_HPP
 
-#include "runtime/prefetch.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.hpp"
 
 // For Sun Studio inplementation is in solaris_sparc.il
 // For gcc inplementation is just below

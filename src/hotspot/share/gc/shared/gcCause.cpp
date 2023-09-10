@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/gcCause.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 const char* GCCause::to_string(GCCause::Cause cause) {
   switch (cause) {

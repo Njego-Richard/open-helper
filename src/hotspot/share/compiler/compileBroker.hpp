@@ -29,8 +29,8 @@
 #include "compiler/abstractCompiler.hpp"
 #include "compiler/compileTask.hpp"
 #include "compiler/compilerDirectives.hpp"
-#include "runtime/perfData.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 #if INCLUDE_JVMCI
 #include "jvmci/jvmciCompiler.hpp"
 #endif

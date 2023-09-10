@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_SAFEPOINTMECHANISM_INLINE_HPP
 #define SHARE_VM_RUNTIME_SAFEPOINTMECHANISM_INLINE_HPP
 
-#include "runtime/safepointMechanism.hpp"
-#include "runtime/safepoint.hpp"
-#include "runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointMechanism.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 
 bool SafepointMechanism::local_poll_armed(JavaThread* thread) {
   const intptr_t poll_word = reinterpret_cast<intptr_t>(thread->get_polling_page());

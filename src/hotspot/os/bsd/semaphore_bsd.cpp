@@ -24,7 +24,7 @@
 
 #include "precompiled/precompiled.hpp"
 #include "semaphore_bsd.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 #include <semaphore.h>
 

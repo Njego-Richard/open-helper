@@ -21,11 +21,11 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "logging/logConfiguration.hpp"
 #include "logging/logDiagnosticCommand.hpp"
-#include "memory/resourceArea.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 LogDiagnosticCommand::LogDiagnosticCommand(outputStream* output, bool heap_allocated)
   : DCmdWithParser(output, heap_allocated),

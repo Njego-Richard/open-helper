@@ -27,9 +27,9 @@
 
 // Dictionaries - An Abstract Data Type
 
-#include "memory/allocation.hpp"
-#include "memory/resourceArea.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 class Dict;
 

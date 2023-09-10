@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_CMS_PROMOTIONINFO_HPP
 #define SHARE_VM_GC_CMS_PROMOTIONINFO_HPP
 
-#include "gc/cms/freeChunk.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/freeChunk.hpp"
 
 // Forward declarations
 class CompactibleFreeListSpace;

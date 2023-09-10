@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZLIVEMAP_HPP
 #define SHARE_GC_Z_ZLIVEMAP_HPP
 
-#include "gc/z/zBitMap.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ObjectClosure;
 

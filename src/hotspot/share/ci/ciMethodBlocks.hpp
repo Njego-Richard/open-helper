@@ -26,8 +26,8 @@
 #define SHARE_VM_CI_CIMETHODBLOCKS_HPP
 
 #include "ci/ciMethod.hpp"
-#include "memory/resourceArea.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 
 class ciBlock;

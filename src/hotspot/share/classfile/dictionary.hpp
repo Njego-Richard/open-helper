@@ -29,8 +29,8 @@
 #include "classfile/systemDictionary.hpp"
 #include "oops/instanceKlass.hpp"
 #include "oops/oop.hpp"
-#include "utilities/hashtable.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 class DictionaryEntry;
 class BoolObjectClosure;

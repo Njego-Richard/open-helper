@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1CONCURRENTMARKTHREAD_HPP
 #define SHARE_VM_GC_G1_G1CONCURRENTMARKTHREAD_HPP
 
-#include "gc/shared/concurrentGCPhaseManager.hpp"
-#include "gc/shared/concurrentGCThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/concurrentGCPhaseManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/concurrentGCThread.hpp"
 
 class G1ConcurrentMark;
 class G1Policy;

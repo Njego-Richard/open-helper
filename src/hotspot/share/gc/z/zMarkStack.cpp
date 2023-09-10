@@ -21,14 +21,14 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zErrno.hpp"
-#include "gc/z/zGlobals.hpp"
-#include "gc/z/zLock.inline.hpp"
-#include "gc/z/zMarkStack.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zErrno.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLock.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMarkStack.inline.hpp"
 #include "logging/log.hpp"
-#include "runtime/atomic.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 #include <sys/mman.h>
 #include <sys/types.h>

@@ -26,8 +26,8 @@
 #define SHARE_VM_UTILITIES_ACCESSFLAGS_HPP
 
 #include "jvm.h"
-#include "utilities/debug.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // AccessFlags is an abstraction over Java access flags.
 

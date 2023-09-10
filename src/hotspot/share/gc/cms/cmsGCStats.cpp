@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/cms/cmsGCStats.hpp"
-#include "gc/shared/gcUtil.inline.hpp"
-#include "runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsGCStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 
 CMSGCStats::CMSGCStats() {
     _avg_promoted       = new AdaptivePaddedNoZeroDevAverage(

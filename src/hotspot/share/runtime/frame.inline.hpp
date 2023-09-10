@@ -30,16 +30,16 @@
 #include "interpreter/bytecodeInterpreter.inline.hpp"
 #include "interpreter/interpreter.hpp"
 #include "oops/method.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/signature.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #ifdef ZERO
 # include "entryFrame_zero.hpp"
 # include "fakeStubFrame_zero.hpp"
 # include "interpreterFrame_zero.hpp"
 #endif
 
-#include CPU_HEADER_INLINE(frame)
+//#include CPU_HEADER_INLINE(frame)
 
 inline bool frame::is_entry_frame() const {
   return StubRoutines::returns_to_call_stub(pc());

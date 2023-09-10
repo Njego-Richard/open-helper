@@ -22,13 +22,13 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/stackMapTable.hpp"
 #include "classfile/verifier.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/fieldType.hpp"
-#include "runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 StackMapTable::StackMapTable(StackMapReader* reader, StackMapFrame* init_frame,
                              u2 max_locals, u2 max_stack,

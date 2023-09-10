@@ -27,30 +27,30 @@
 #define SHARE_VM_RUNTIME_THREAD_HPP
 
 #include "jni.h"
-#include "gc/shared/gcThreadLocalData.hpp"
-#include "gc/shared/threadLocalAllocBuffer.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcThreadLocalData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/threadLocalAllocBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
 #include "prims/jvmtiExport.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/globals.hpp"
-#include "runtime/handshake.hpp"
-#include "runtime/javaFrameAnchor.hpp"
-#include "runtime/jniHandles.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/os.hpp"
-#include "runtime/osThread.hpp"
-#include "runtime/park.hpp"
-#include "runtime/safepoint.hpp"
-#include "runtime/stubRoutines.hpp"
-#include "runtime/threadHeapSampler.hpp"
-#include "runtime/threadLocalStorage.hpp"
-#include "runtime/threadStatisticalInfo.hpp"
-#include "runtime/unhandledOops.hpp"
-#include "utilities/align.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handshake.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaFrameAnchor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/osThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/park.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubRoutines.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadHeapSampler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadLocalStorage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadStatisticalInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/unhandledOops.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #ifdef ZERO
 # include "stack_zero.hpp"
 #endif
@@ -59,7 +59,7 @@
 #endif
 
 #ifdef INCLUDE_THIRD_PARTY_HEAP
-#include "gc/shared/thirdPartyHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/thirdPartyHeap.hpp"
 #endif
 
 

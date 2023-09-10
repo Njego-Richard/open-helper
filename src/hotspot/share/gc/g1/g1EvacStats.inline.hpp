@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1EVACSTATS_INLINE_HPP
 #define SHARE_VM_GC_G1_G1EVACSTATS_INLINE_HPP
 
-#include "gc/g1/g1EvacStats.hpp"
-#include "runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1EvacStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 inline void G1EvacStats::add_direct_allocated(size_t value) {
   Atomic::add(value, &_direct_allocated);

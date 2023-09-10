@@ -21,13 +21,13 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
-#include "gc/shared/stringdedup/stringDedup.hpp"
-#include "gc/shared/stringdedup/stringDedupQueue.hpp"
-#include "gc/shared/stringdedup/stringDedupTable.hpp"
-#include "gc/shared/stringdedup/stringDedupThread.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 
 bool StringDedup::_enabled = false;
 

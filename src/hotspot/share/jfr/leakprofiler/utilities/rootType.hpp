@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_LEAKPROFILER_UTILITIES_ROOTTYPE_HPP
 #define SHARE_VM_LEAKPROFILER_UTILITIES_ROOTTYPE_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class OldObjectRoot : public AllStatic {
  public:

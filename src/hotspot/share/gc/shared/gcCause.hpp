@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_GCCAUSE_HPP
 #define SHARE_VM_GC_SHARED_GCCAUSE_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 //
 // This class exposes implementation details of the various

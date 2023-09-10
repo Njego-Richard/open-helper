@@ -25,7 +25,7 @@
 #ifndef CPU_SPARC_VM_BYTES_SPARC_HPP
 #define CPU_SPARC_VM_BYTES_SPARC_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class Bytes: AllStatic {
  public:

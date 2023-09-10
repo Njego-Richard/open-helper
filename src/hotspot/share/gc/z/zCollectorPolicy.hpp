@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZCOLLECTORPOLICY_HPP
 #define SHARE_GC_Z_ZCOLLECTORPOLICY_HPP
 
-#include "gc/shared/collectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorPolicy.hpp"
 
 class ZCollectorPolicy : public CollectorPolicy {
 public:

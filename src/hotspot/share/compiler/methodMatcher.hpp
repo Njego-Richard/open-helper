@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_COMPILER_METHODMATCHER_HPP
 #define SHARE_VM_COMPILER_METHODMATCHER_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/handles.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 
 class MethodMatcher : public CHeapObj<mtCompiler> {
  public:

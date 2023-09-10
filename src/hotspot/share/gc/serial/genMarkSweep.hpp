@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SERIAL_GENMARKSWEEP_HPP
 #define SHARE_VM_GC_SERIAL_GENMARKSWEEP_HPP
 
-#include "gc/serial/markSweep.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/markSweep.hpp"
 
 class GenMarkSweep : public MarkSweep {
   friend class VM_MarkSweep;

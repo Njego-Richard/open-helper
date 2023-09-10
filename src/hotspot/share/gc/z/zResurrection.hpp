@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZRESURRECTION_HPP
 #define SHARE_GC_Z_ZRESURRECTION_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZResurrection : public AllStatic {
 private:

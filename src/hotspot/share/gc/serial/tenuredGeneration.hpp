@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_SERIAL_TENUREDGENERATION_HPP
 #define SHARE_VM_GC_SERIAL_TENUREDGENERATION_HPP
 
-#include "gc/serial/cSpaceCounters.hpp"
-#include "gc/shared/cardGeneration.hpp"
-#include "gc/shared/gcStats.hpp"
-#include "gc/shared/generationCounters.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/cSpaceCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // TenuredGeneration models the heap containing old (promoted/tenured) objects
 // contained in a single contiguous space.

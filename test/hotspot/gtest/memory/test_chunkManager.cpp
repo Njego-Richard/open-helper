@@ -21,9 +21,9 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "memory/metaspace/chunkManager.hpp"
-#include "memory/metaspace/metaspaceCommon.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/chunkManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metaspaceCommon.hpp"
 
 // The test function is only available in debug builds
 #ifdef ASSERT

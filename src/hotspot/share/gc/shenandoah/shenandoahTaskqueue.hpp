@@ -24,12 +24,12 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHTASKQUEUE_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHTASKQUEUE_HPP
 
-#include "gc/shared/taskqueue.hpp"
-#include "gc/shared/taskqueue.inline.hpp"
-#include "gc/shenandoah/shenandoahPadding.hpp"
-#include "runtime/mutex.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahPadding.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 template<class E, MEMFLAGS F, unsigned int N = TASKQUEUE_SIZE>
 class BufferedOverflowTaskQueue: public OverflowTaskQueue<E, F, N>

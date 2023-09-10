@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_VFRAME_INLINE_HPP
 #define SHARE_VM_RUNTIME_VFRAME_INLINE_HPP
 
-#include "runtime/frame.inline.hpp"
-#include "runtime/vframe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe.hpp"
 
 inline vframeStreamCommon::vframeStreamCommon(JavaThread* thread) : _reg_map(thread, false) {
   _thread = thread;

@@ -21,8 +21,8 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "memory/metaspace/spaceManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/spaceManager.hpp"
 
 using metaspace::SpaceManager;
 

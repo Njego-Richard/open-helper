@@ -26,11 +26,11 @@
 #define SHARE_VM_PRIMS_JVMTIREDEFINECLASSES_HPP
 
 #include "jvmtifiles/jvmtiEnv.hpp"
-#include "memory/oopFactory.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/objArrayKlass.hpp"
 #include "oops/objArrayOop.hpp"
-#include "runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
 
 // Introduction:
 //

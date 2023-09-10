@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "pdh_interface.hpp"
-#include "runtime/os.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // PDH API
 typedef PDH_STATUS (WINAPI *PdhAddCounter_Fn)(HQUERY, LPCSTR, DWORD, HCOUNTER*);

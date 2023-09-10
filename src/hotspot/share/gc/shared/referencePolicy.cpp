@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/javaClasses.hpp"
-#include "gc/shared/referencePolicy.hpp"
-#include "memory/universe.hpp"
-#include "runtime/arguments.hpp"
-#include "runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referencePolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 
 LRUCurrentHeapPolicy::LRUCurrentHeapPolicy() {
   setup();

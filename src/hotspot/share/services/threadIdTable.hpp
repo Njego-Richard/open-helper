@@ -26,7 +26,7 @@
 #ifndef SHARE_SERVICES_THREADIDTABLE_HPP
 #define SHARE_SERVICES_THREADIDTABLE_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class JavaThread;
 class ThreadsList;

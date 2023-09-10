@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_SEMAPHORE_HPP
 #define SHARE_VM_RUNTIME_SEMAPHORE_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 #if defined(LINUX) || defined(SOLARIS) || defined(AIX)
 # include "semaphore_posix.hpp"

@@ -23,12 +23,12 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "asm/codeBuffer.hpp"
 #include "code/relocInfo.hpp"
 #include "nativeInst_zero.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 
 void Relocation::pd_set_data_value(address x, intptr_t o, bool verify_only) {
   ShouldNotCallThis();

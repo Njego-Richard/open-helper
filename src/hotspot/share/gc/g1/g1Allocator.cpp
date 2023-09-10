@@ -22,16 +22,16 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1Allocator.inline.hpp"
-#include "gc/g1/g1AllocRegion.inline.hpp"
-#include "gc/g1/g1EvacStats.inline.hpp"
-#include "gc/g1/g1CollectedHeap.inline.hpp"
-#include "gc/g1/g1Policy.hpp"
-#include "gc/g1/heapRegion.inline.hpp"
-#include "gc/g1/heapRegionSet.inline.hpp"
-#include "gc/g1/heapRegionType.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Allocator.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1AllocRegion.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1EvacStats.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Policy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionSet.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 G1Allocator::G1Allocator(G1CollectedHeap* heap) :
   _g1h(heap),

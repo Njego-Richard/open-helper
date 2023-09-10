@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1BIASEDARRAY_HPP
 #define SHARE_VM_GC_G1_G1BIASEDARRAY_HPP
 
-#include "memory/memRegion.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 // Implements the common base functionality for arrays that contain provisions
 // for accessing its elements using a biased index.

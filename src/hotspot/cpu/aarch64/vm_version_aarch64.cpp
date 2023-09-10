@@ -23,14 +23,14 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/arguments.hpp"
-#include "runtime/globals_extension.hpp"
-#include "runtime/java.hpp"
-#include "runtime/os.hpp"
-#include "runtime/vm_version.hpp"
-#include "utilities/formatBuffer.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/formatBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #include OS_HEADER_INLINE(os)
 

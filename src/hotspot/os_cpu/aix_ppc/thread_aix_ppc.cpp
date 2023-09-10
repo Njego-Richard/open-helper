@@ -24,10 +24,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "memory/metaspace.hpp"
-#include "runtime/frame.inline.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 frame JavaThread::pd_last_frame() {
   assert(has_last_Java_frame(), "must have last_Java_sp() when suspended");

@@ -22,14 +22,14 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1BlockOffsetTable.inline.hpp"
-#include "gc/g1/g1CollectedHeap.inline.hpp"
-#include "gc/g1/heapRegion.hpp"
-#include "gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1BlockOffsetTable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
 #include "logging/log.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/java.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
 #include "services/memTracker.hpp"
 
 

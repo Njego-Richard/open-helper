@@ -24,9 +24,9 @@
 #ifndef SHARE_GC_Z_ZARRAY_INLINE_HPP
 #define SHARE_GC_Z_ZARRAY_INLINE_HPP
 
-#include "gc/z/zArray.hpp"
-#include "memory/allocation.inline.hpp"
-#include "runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 template <typename T>
 inline ZArray<T>::ZArray() :

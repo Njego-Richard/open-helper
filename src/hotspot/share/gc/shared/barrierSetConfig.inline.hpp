@@ -25,22 +25,22 @@
 #ifndef SHARE_VM_GC_SHARED_BARRIERSETCONFIG_INLINE_HPP
 #define SHARE_VM_GC_SHARED_BARRIERSETCONFIG_INLINE_HPP
 
-#include "gc/shared/barrierSetConfig.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetConfig.hpp"
 
-#include "gc/shared/modRefBarrierSet.inline.hpp"
-#include "gc/shared/cardTableBarrierSet.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/modRefBarrierSet.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableBarrierSet.inline.hpp"
 
 #if INCLUDE_EPSILONGC
-#include "gc/epsilon/epsilonBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonBarrierSet.hpp"
 #endif
 #if INCLUDE_G1GC
-#include "gc/g1/g1BarrierSet.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1BarrierSet.inline.hpp"
 #endif
 #if INCLUDE_SHENANDOAHGC
-#include "gc/shenandoah/shenandoahBarrierSet.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahBarrierSet.inline.hpp"
 #endif
 #if INCLUDE_ZGC
-#include "gc/z/zBarrierSet.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBarrierSet.inline.hpp"
 #endif
 
 #ifdef INCLUDE_THIRD_PARTY_HEAP

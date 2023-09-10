@@ -27,8 +27,8 @@
 
 #include "oops/objArrayOop.hpp"
 #include "oops/typeArrayOop.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 class JavaAssertions: AllStatic {
 public:

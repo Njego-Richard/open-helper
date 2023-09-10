@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZREFERENCEPROCESSOR_HPP
 #define SHARE_GC_Z_ZREFERENCEPROCESSOR_HPP
 
-#include "gc/shared/referenceDiscoverer.hpp"
-#include "gc/z/zValue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceDiscoverer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zValue.hpp"
 
 class ReferencePolicy;
 class ZWorkers;

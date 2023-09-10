@@ -25,8 +25,8 @@
 #ifndef SHARE_OOPS_ACCESSBACKEND_HPP
 #define SHARE_OOPS_ACCESSBACKEND_HPP
 
-#include "gc/shared/barrierSetConfig.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetConfig.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "metaprogramming/conditional.hpp"
 #include "metaprogramming/decay.hpp"
 #include "metaprogramming/enableIf.hpp"
@@ -38,8 +38,8 @@
 #include "metaprogramming/isVolatile.hpp"
 #include "oops/accessDecorators.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 
 // This metafunction returns either oop or narrowOop depending on whether

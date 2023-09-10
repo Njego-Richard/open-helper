@@ -24,12 +24,12 @@
 #ifndef SHARE_VM_GC_Z_VMSTRUCTS_Z_HPP
 #define SHARE_VM_GC_Z_VMSTRUCTS_Z_HPP
 
-#include "gc/z/zAddressRangeMap.hpp"
-#include "gc/z/zCollectedHeap.hpp"
-#include "gc/z/zHeap.hpp"
-#include "gc/z/zPageAllocator.hpp"
-#include "gc/z/zPhysicalMemory.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddressRangeMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPageAllocator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPhysicalMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Expose some ZGC globals to the SA agent.
 class ZGlobalsForVMStructs {

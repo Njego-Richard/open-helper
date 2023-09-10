@@ -23,9 +23,9 @@
  */
 
 #include "jvm.h"
-#include "memory/allocation.hpp"
-#include "memory/allocation.inline.hpp"
-#include "runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 #include "vm_version_ext_ppc.hpp"
 
 // VM_Version_Ext statics

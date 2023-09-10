@@ -26,7 +26,7 @@
 #define SHARE_VM_JFR_WRITERS_JFRWRITERHOST_HPP
 
 #include "jni.h"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "jfr/utilities/jfrTime.hpp"
 
 class ClassLoaderData;

@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZPAGETABLEENTRY_HPP
 #define SHARE_GC_Z_ZPAGETABLEENTRY_HPP
 
-#include "gc/z/zBitField.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBitField.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 //
 // Page table entry layout

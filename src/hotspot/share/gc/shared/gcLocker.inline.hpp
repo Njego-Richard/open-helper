@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_GCLOCKER_INLINE_HPP
 #define SHARE_VM_GC_SHARED_GCLOCKER_INLINE_HPP
 
-#include "gc/shared/gcLocker.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 void GCLocker::lock_critical(JavaThread* thread) {
   if (!thread->in_critical()) {

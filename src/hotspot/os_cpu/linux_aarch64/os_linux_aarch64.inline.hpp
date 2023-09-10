@@ -26,7 +26,7 @@
 #ifndef OS_CPU_LINUX_AARCH64_VM_OS_LINUX_AARCH64_INLINE_HPP
 #define OS_CPU_LINUX_AARCH64_VM_OS_LINUX_AARCH64_INLINE_HPP
 
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 // See http://www.technovelty.org/code/c/reading-rdtsc.htl for details
 inline jlong os::rdtsc() {

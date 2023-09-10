@@ -22,20 +22,20 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/cardTableRS.hpp"
-#include "gc/shared/generationSpec.hpp"
-#include "memory/binaryTreeDictionary.hpp"
-#include "memory/filemap.hpp"
-#include "runtime/java.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableRS.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationSpec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/binaryTreeDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/filemap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_CMSGC
-#include "gc/cms/concurrentMarkSweepGeneration.hpp"
-#include "gc/cms/parNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/parNewGeneration.hpp"
 #endif
 #if INCLUDE_SERIALGC
-#include "gc/serial/defNewGeneration.hpp"
-#include "gc/serial/tenuredGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/defNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/tenuredGeneration.hpp"
 #endif
 
 Generation* GenerationSpec::init(ReservedSpace rs, CardTableRS* remset) {

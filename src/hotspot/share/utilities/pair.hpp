@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_PAIR_HPP
 #define SHARE_VM_UTILITIES_PAIR_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 template<typename T, typename V,  typename ALLOC_BASE = ResourceObj>
 class Pair : public ALLOC_BASE {

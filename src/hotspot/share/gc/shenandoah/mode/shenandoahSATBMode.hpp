@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_SHENANDOAH_MODE_SHENANDOAHSATBMODE_HPP
 #define SHARE_GC_SHENANDOAH_MODE_SHENANDOAHSATBMODE_HPP
 
-#include "gc/shenandoah/mode/shenandoahMode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/mode/shenandoahMode.hpp"
 
 class ShenandoahHeuristics;
 

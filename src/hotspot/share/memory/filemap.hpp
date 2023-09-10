@@ -27,10 +27,10 @@
 
 #include "classfile/classLoader.hpp"
 #include "include/cds.h"
-#include "memory/metaspaceShared.hpp"
-#include "memory/metaspace.hpp"
-#include "memory/universe.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // Layout of the file:
 //  header: dump of archive instance plus versioning info, datestamp, etc.

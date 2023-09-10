@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSPROMOTIONLAB_INLINE_HPP
 #define SHARE_VM_GC_PARALLEL_PSPROMOTIONLAB_INLINE_HPP
 
-#include "gc/parallel/psPromotionLAB.hpp"
-#include "gc/shared/collectedHeap.inline.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psPromotionLAB.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 HeapWord* PSYoungPromotionLAB::allocate(size_t size) {
   // Can't assert this, when young fills, we keep the LAB around, but flushed.

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_RUNTIME_GLOBALS_HPP
 #define SHARE_VM_RUNTIME_GLOBALS_HPP
 
-#include "gc/shared/gc_globals.hpp"
-#include "utilities/align.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gc_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #include <float.h> // for DBL_MAX
 
@@ -53,17 +53,17 @@
 #define falseInTiered true
 #endif
 
-#include CPU_HEADER(globals)
-#include OS_HEADER(globals)
-#include OS_CPU_HEADER(globals)
-#ifdef COMPILER1
-#include CPU_HEADER(c1_globals)
-#include OS_HEADER(c1_globals)
-#endif
-#ifdef COMPILER2
-#include CPU_HEADER(c2_globals)
-#include OS_HEADER(c2_globals)
-#endif
+// //#include CPU_HEADER(globals)
+// #include OS_HEADER(globals)
+// #include OS_CPU_HEADER(globals)
+// #ifdef COMPILER1
+// //#include CPU_HEADER(c1_globals)
+// #include OS_HEADER(c1_globals)
+// #endif
+// #ifdef COMPILER2
+// //#include CPU_HEADER(c2_globals)
+// #include OS_HEADER(c2_globals)
+// #endif
 
 #if !defined(COMPILER1) && !defined(COMPILER2) && !INCLUDE_JVMCI
 define_pd_global(bool, BackgroundCompilation,        false);
@@ -2827,6 +2827,6 @@ ARCH_FLAGS(DECLARE_DEVELOPER_FLAG, \
 
 // Extensions
 
-#include "runtime/globals_ext.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_ext.hpp"
 
 #endif // SHARE_VM_RUNTIME_GLOBALS_HPP

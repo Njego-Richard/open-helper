@@ -25,17 +25,17 @@
 #ifndef SHARE_VM_GC_G1_G1MARKSTACK_INLINE_HPP
 #define SHARE_VM_GC_G1_G1MARKSTACK_INLINE_HPP
 
-#include "gc/g1/g1Allocator.inline.hpp"
-#include "gc/g1/g1ConcurrentMarkBitMap.inline.hpp"
-#include "gc/g1/g1FullGCMarker.hpp"
-#include "gc/g1/g1FullGCOopClosures.inline.hpp"
-#include "gc/g1/g1StringDedup.hpp"
-#include "gc/g1/g1StringDedupQueue.hpp"
-#include "gc/shared/preservedMarks.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Allocator.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ConcurrentMarkBitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1FullGCMarker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1FullGCOopClosures.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1StringDedup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1StringDedupQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/preservedMarks.inline.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/compressedOops.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 inline bool G1FullGCMarker::mark_object(oop obj) {
   // Not marking closed archive objects.

@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSPARALLELCOMPACT_HPP
 #define SHARE_VM_GC_PARALLEL_PSPARALLELCOMPACT_HPP
 
-#include "gc/parallel/mutableSpace.hpp"
-#include "gc/parallel/objectStartArray.hpp"
-#include "gc/parallel/parMarkBitMap.hpp"
-#include "gc/parallel/parallelScavengeHeap.hpp"
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/collectorCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/objectStartArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parMarkBitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorCounters.hpp"
 #include "oops/oop.hpp"
 
 class ParallelScavengeHeap;

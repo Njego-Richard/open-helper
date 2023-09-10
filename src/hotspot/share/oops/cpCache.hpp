@@ -26,11 +26,11 @@
 #define SHARE_VM_OOPS_CPCACHEOOP_HPP
 
 #include "interpreter/bytecodes.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/array.hpp"
 #include "oops/oopHandle.hpp"
-#include "utilities/align.hpp"
-#include "utilities/constantTag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/constantTag.hpp"
 
 class PSPromotionManager;
 

@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_UTILITIES_EVENTS_HPP
 #define SHARE_VM_UTILITIES_EVENTS_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/formatBuffer.hpp"
-#include "utilities/vmError.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/formatBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/vmError.hpp"
 
 // Events and EventMark provide interfaces to log events taking place in the vm.
 // This facility is extremly useful for post-mortem debugging. The eventlog

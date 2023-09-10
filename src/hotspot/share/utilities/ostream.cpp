@@ -22,19 +22,19 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "compiler/compileLog.hpp"
-#include "memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/arguments.hpp"
-#include "runtime/os.inline.hpp"
-#include "runtime/vm_version.hpp"
-#include "utilities/defaultStream.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/ostream.hpp"
-#include "utilities/vmError.hpp"
-#include "utilities/xmlstream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/defaultStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/vmError.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/xmlstream.hpp"
 
 // Declarations of jvm methods
 extern "C" void jio_print(const char* s, size_t len);

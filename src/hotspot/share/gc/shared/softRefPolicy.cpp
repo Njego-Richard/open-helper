@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/softRefPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/softRefPolicy.hpp"
 
 SoftRefPolicy::SoftRefPolicy() :
     _should_clear_all_soft_refs(false),

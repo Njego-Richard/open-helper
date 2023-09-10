@@ -22,19 +22,19 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/dirtyCardQueue.hpp"
-#include "gc/g1/g1CollectedHeap.inline.hpp"
-#include "gc/g1/g1RemSet.hpp"
-#include "gc/g1/g1ThreadLocalData.hpp"
-#include "gc/g1/heapRegionRemSet.hpp"
-#include "gc/shared/suspendibleThreadSet.hpp"
-#include "gc/shared/workgroup.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/safepoint.hpp"
-#include "runtime/thread.inline.hpp"
-#include "runtime/threadSMR.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/dirtyCardQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RemSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ThreadLocalData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionRemSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/suspendibleThreadSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workgroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.hpp"
 
 // Closure used for updating remembered sets and recording references that
 // point into the collection set while the mutator is running.

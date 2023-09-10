@@ -24,10 +24,10 @@
 #ifndef SHARE_VM_MEMORY_METACHUNK_HPP
 #define SHARE_VM_MEMORY_METACHUNK_HPP
 
-#include "memory/metaspace/metabase.hpp"
-#include "memory/metaspace/metaspaceCommon.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metabase.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metaspaceCommon.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class MetachunkTest;
 

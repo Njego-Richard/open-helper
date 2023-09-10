@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1ROOTCLOSURESET_HPP
 #define SHARE_VM_GC_G1_G1ROOTCLOSURESET_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 
 class G1CollectedHeap;
 class G1ParScanThreadState;

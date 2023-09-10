@@ -22,17 +22,17 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/jfrEvents.hpp"
-#include "memory/allocation.inline.hpp"
-#include "runtime/arguments.hpp"
-#include "runtime/flags/jvmFlag.hpp"
-#include "runtime/flags/jvmFlagConstraintList.hpp"
-#include "runtime/flags/jvmFlagWriteableList.hpp"
-#include "runtime/flags/jvmFlagRangeList.hpp"
-#include "runtime/globals_extension.hpp"
-#include "utilities/defaultStream.hpp"
-#include "utilities/stringUtils.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlagConstraintList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlagWriteableList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlagRangeList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/defaultStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stringUtils.hpp"
 
 #define DEFAULT_RANGE_STR_CHUNK_SIZE 64
 static char* create_range_str(const char *fmt, ...) {

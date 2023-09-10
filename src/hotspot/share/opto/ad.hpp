@@ -26,8 +26,8 @@
 #define SHARE_VM_OPTO_AD_HPP
 
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
-#include CPU_HEADER(adfiles/ad)
+//#include CPU_HEADER(adfiles/ad)
 
 #endif // SHARE_VM_OPTO_AD_HPP

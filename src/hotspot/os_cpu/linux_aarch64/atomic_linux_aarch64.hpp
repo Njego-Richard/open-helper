@@ -27,7 +27,7 @@
 #define OS_CPU_LINUX_AARCH64_VM_ATOMIC_LINUX_AARCH64_HPP
 
 #include "atomic_aarch64.hpp"
-#include "runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 
 // Implementation of class atomic
 

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_G1_G1HEAPVERIFIER_HPP
 #define SHARE_VM_GC_G1_G1HEAPVERIFIER_HPP
 
-#include "gc/g1/heapRegionSet.hpp"
-#include "memory/allocation.hpp"
-#include "memory/universe.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class G1CollectedHeap;
 

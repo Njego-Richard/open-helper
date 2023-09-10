@@ -27,7 +27,7 @@
 
 #include "oops/oop.inline.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 
 inline bool G1CMObjArrayProcessor::should_be_sliced(oop obj) {
   return obj->is_objArray() && ((size_t)((objArrayOop)obj)->size()) >= 2 * ObjArrayMarkingStride;

@@ -24,12 +24,12 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHOOPCLOSURES_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHOOPCLOSURES_HPP
 
-#include "gc/shared/referenceProcessor.hpp"
-#include "gc/shenandoah/shenandoahHeap.inline.hpp"
-#include "gc/shenandoah/shenandoahStrDedupQueue.hpp"
-#include "gc/shenandoah/shenandoahTaskqueue.hpp"
-#include "memory/iterator.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahStrDedupQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahTaskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 enum UpdateRefsMode {
   NONE,       // No reference updating

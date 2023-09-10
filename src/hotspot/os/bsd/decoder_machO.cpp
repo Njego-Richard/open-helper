@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
 #ifdef __APPLE__
 #include "jvm.h"
 #include "decoder_machO.hpp"
-#include "memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 
 #include <cxxabi.h>
 #include <mach-o/loader.h>

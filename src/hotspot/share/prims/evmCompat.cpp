@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 // This file contains definitions for functions that exist
 // in the ExactVM, but not in HotSpot. They are stubbed out

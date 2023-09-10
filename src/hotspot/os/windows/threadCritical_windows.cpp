@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/thread.inline.hpp"
-#include "runtime/threadCritical.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadCritical.hpp"
 
 // OS-includes here
 # include <windows.h>

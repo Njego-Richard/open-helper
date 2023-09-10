@@ -25,9 +25,9 @@
 #ifndef SHARE_GC_G1_G1FULLGCCOMPACTIONPOINT_HPP
 #define SHARE_GC_G1_G1FULLGCCOMPACTIONPOINT_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 class HeapRegion;
 

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_CONCURRENTGCTHREAD_HPP
 #define SHARE_VM_GC_SHARED_CONCURRENTGCTHREAD_HPP
 
-#include "runtime/thread.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class ConcurrentGCThread: public NamedThread {
   friend class VMStructs;

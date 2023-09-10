@@ -21,15 +21,15 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zHeap.hpp"
-#include "gc/z/zOopClosures.inline.hpp"
-#include "gc/z/zPage.hpp"
-#include "gc/z/zRelocate.hpp"
-#include "gc/z/zRelocationSet.inline.hpp"
-#include "gc/z/zRootsIterator.hpp"
-#include "gc/z/zTask.hpp"
-#include "gc/z/zWorkers.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOopClosures.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zRelocate.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zRelocationSet.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zRootsIterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zTask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zWorkers.hpp"
 
 ZRelocate::ZRelocate(ZWorkers* workers) :
     _workers(workers) {}

@@ -27,7 +27,7 @@
 #include "c1/c1_CodeStubs.hpp"
 #include "c1/c1_IR.hpp"
 #include "c1/c1_LIR.hpp"
-#include "gc/shared/c1/barrierSetC1.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c1/barrierSetC1.hpp"
 #include "oops/accessDecorators.hpp"
 
 class ZLoadBarrierStubC1 : public CodeStub {

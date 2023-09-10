@@ -21,9 +21,9 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zLargePages.hpp"
-#include "runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLargePages.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 
 void ZLargePages::initialize_platform() {
   if (UseLargePages) {

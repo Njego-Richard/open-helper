@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "utilities/count_trailing_zeros.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/count_trailing_zeros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "unittest.hpp"
 
 TEST(count_trailing_zeros, one_or_two_set_bits) {

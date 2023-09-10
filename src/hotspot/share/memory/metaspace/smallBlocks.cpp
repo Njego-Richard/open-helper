@@ -21,11 +21,11 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
-#include "memory/metaspace/smallBlocks.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/smallBlocks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 namespace metaspace {
 

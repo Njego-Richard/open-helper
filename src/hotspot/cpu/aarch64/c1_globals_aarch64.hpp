@@ -26,8 +26,8 @@
 #ifndef CPU_AARCH64_VM_C1_GLOBALS_AARCH64_HPP
 #define CPU_AARCH64_VM_C1_GLOBALS_AARCH64_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Sets the default values for platform dependent flags used by the client compiler.
 // (see c1_globals.hpp)

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_VERIFYOOPCLOSURE_HPP
 #define SHARE_VM_OOPS_VERIFYOOPCLOSURE_HPP
 
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 
 class VerifyOopClosure: public OopClosure {
  protected:

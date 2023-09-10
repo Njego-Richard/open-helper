@@ -29,8 +29,8 @@
 #include "compiler/compilerDefinitions.hpp"
 #include "compiler/compilerOracle.hpp"
 #include "interpreter/invocationCounter.hpp"
-#include "runtime/arguments.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 class MethodCounters : public Metadata {
  friend class VMStructs;

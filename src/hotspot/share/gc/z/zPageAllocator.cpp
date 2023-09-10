@@ -21,19 +21,19 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zAddress.inline.hpp"
-#include "gc/z/zCollectedHeap.hpp"
-#include "gc/z/zFuture.inline.hpp"
-#include "gc/z/zGlobals.hpp"
-#include "gc/z/zLock.inline.hpp"
-#include "gc/z/zPage.inline.hpp"
-#include "gc/z/zPageAllocator.hpp"
-#include "gc/z/zPageCache.inline.hpp"
-#include "gc/z/zPreMappedMemory.inline.hpp"
-#include "gc/z/zStat.hpp"
-#include "gc/z/zTracer.inline.hpp"
-#include "runtime/init.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zFuture.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLock.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPage.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPageAllocator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPageCache.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPreMappedMemory.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zTracer.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/init.hpp"
 
 static const ZStatCounter       ZCounterAllocationRate("Memory", "Allocation Rate", ZStatUnitBytesPerSecond);
 static const ZStatCriticalPhase ZCriticalPhaseAllocationStall("Allocation Stall");

@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSOLDGEN_HPP
 #define SHARE_VM_GC_PARALLEL_PSOLDGEN_HPP
 
-#include "gc/parallel/mutableSpace.hpp"
-#include "gc/parallel/objectStartArray.hpp"
-#include "gc/parallel/psGenerationCounters.hpp"
-#include "gc/parallel/psVirtualspace.hpp"
-#include "gc/parallel/spaceCounters.hpp"
-#include "runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/objectStartArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psGenerationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psVirtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/spaceCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 
 class PSMarkSweepDecorator;
 

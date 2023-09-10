@@ -6,18 +6,18 @@
  */
 
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
-#include "memory/metaspace.hpp"
-#include "memory/metaspace/chunkManager.hpp"
-#include "memory/metaspace/metachunk.hpp"
-#include "memory/metaspace/metaspaceCommon.hpp"
-#include "memory/metaspace/virtualSpaceList.hpp"
-#include "memory/metaspace/virtualSpaceNode.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/chunkManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metachunk.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metaspaceCommon.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/virtualSpaceList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/virtualSpaceNode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 
 namespace metaspace {
 

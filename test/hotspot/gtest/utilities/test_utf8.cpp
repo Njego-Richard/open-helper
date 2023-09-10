@@ -21,8 +21,8 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "utilities/utf8.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/utf8.hpp"
 #include "unittest.hpp"
 
 TEST(utf8, length) {

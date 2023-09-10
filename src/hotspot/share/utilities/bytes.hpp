@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_BYTES_HPP
 #define SHARE_VM_UTILITIES_BYTES_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class Endian : AllStatic {
 public:
@@ -48,6 +48,6 @@ public:
   }
 };
 
-#include CPU_HEADER(bytes)
+//#include CPU_HEADER(bytes)
 
 #endif // SHARE_VM_UTILITIES_BYTES_HPP

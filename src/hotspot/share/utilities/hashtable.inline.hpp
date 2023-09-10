@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_UTILITIES_HASHTABLE_INLINE_HPP
 #define SHARE_VM_UTILITIES_HASHTABLE_INLINE_HPP
 
-#include "memory/allocation.inline.hpp"
-#include "runtime/orderAccess.hpp"
-#include "utilities/hashtable.hpp"
-#include "utilities/dtrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/dtrace.hpp"
 
 // Inline function definitions for hashtable.hpp.
 

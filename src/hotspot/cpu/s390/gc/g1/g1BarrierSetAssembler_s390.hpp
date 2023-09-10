@@ -27,8 +27,8 @@
 #define CPU_S390_GC_G1_G1BARRIERSETASSEMBLER_S390_HPP
 
 #include "asm/macroAssembler.hpp"
-#include "gc/shared/modRefBarrierSetAssembler.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/modRefBarrierSetAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class LIR_Assembler;
 class StubAssembler;

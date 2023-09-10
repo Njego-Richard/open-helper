@@ -26,7 +26,7 @@
 #define SHARE_VM_MEMORY_ITERATOR_INLINE_HPP
 
 #include "classfile/classLoaderData.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/compressedOops.inline.hpp"
 #include "oops/klass.hpp"
@@ -36,7 +36,7 @@
 #include "oops/instanceRefKlass.inline.hpp"
 #include "oops/objArrayKlass.inline.hpp"
 #include "oops/typeArrayKlass.inline.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 inline void MetadataVisitingOopIterateClosure::do_cld(ClassLoaderData* cld) {
   bool claim = true;  // Must claim the class loader data before processing.

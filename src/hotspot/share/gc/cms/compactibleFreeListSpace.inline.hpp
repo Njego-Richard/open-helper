@@ -25,8 +25,8 @@
 #ifndef SHARE_GC_CMS_COMPACTIBLEFREELISTSPACE_INLINE_HPP
 #define SHARE_GC_CMS_COMPACTIBLEFREELISTSPACE_INLINE_HPP
 
-#include "gc/cms/compactibleFreeListSpace.hpp"
-#include "gc/cms/promotionInfo.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/compactibleFreeListSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/promotionInfo.inline.hpp"
 
 template <typename OopClosureType>
 void CompactibleFreeListSpace::oop_since_save_marks_iterate(OopClosureType* blk) {

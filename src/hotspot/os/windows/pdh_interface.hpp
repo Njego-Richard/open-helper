@@ -25,7 +25,7 @@
 #ifndef OS_WINDOWS_VM_PDH_INTERFACE_HPP
 #define OS_WINDOWS_VM_PDH_INTERFACE_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include <pdh.h>
 #include <pdhmsg.h>
 

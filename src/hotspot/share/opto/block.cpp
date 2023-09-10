@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "libadt/vectset.hpp"
-#include "memory/allocation.inline.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "compiler/compilerDirectives.hpp"
 #include "opto/block.hpp"
 #include "opto/cfgnode.hpp"
@@ -35,7 +35,7 @@
 #include "opto/matcher.hpp"
 #include "opto/opcodes.hpp"
 #include "opto/rootnode.hpp"
-#include "utilities/copy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
 
 void Block_Array::grow( uint i ) {
   assert(i >= Max(), "must be an overflow");

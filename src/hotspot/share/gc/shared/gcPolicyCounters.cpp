@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/gcPolicyCounters.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcPolicyCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 
 GCPolicyCounters::GCPolicyCounters(const char* name, int collectors,
                                    int generations) {

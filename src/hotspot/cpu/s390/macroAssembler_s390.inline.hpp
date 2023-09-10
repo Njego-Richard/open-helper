@@ -30,7 +30,7 @@
 #include "asm/macroAssembler.hpp"
 #include "asm/codeBuffer.hpp"
 #include "code/codeCache.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 // Simplified shift operations for single register operands, constant shift amount.
 inline void MacroAssembler::lshift(Register r, int places, bool is_DW) {

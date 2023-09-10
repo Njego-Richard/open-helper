@@ -21,11 +21,11 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1CollectedHeap.inline.hpp"
-#include "gc/g1/g1IHOPControl.hpp"
-#include "gc/g1/g1OldGenAllocationTracker.hpp"
-#include "gc/g1/g1Predictions.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1IHOPControl.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1OldGenAllocationTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Predictions.hpp"
 #include "unittest.hpp"
 
 static void test_update_allocation_tracker(G1OldGenAllocationTracker* alloc_tracker,

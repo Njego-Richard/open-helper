@@ -25,7 +25,7 @@
 #ifndef OS_CPU_LINUX_SPARC_VM_PREFETCH_LINUX_SPARC_INLINE_HPP
 #define OS_CPU_LINUX_SPARC_VM_PREFETCH_LINUX_SPARC_INLINE_HPP
 
-#include "runtime/prefetch.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.hpp"
 
 inline void Prefetch::read(void *loc, intx interval) {
   __asm__ volatile("prefetch [%0+%1], 0" : : "r" (loc), "r" (interval) : "memory" );

@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/parallel/immutableSpace.hpp"
-#include "memory/iterator.inline.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/immutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 void ImmutableSpace::initialize(MemRegion mr) {
   HeapWord* bottom = mr.start();

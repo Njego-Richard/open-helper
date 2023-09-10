@@ -32,9 +32,9 @@
 #include "prims/jvmtiEventController.hpp"
 #include "prims/jvmtiTrace.hpp"
 #include "prims/jvmtiUtil.hpp"
-#include "runtime/stackValueCollection.hpp"
-#include "runtime/vmOperations.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stackValueCollection.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 //
 // Forward Declarations

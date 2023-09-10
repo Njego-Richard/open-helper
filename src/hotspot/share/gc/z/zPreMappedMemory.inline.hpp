@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZPREMAPPEDMEMORY_INLINE_HPP
 #define SHARE_GC_Z_ZPREMAPPEDMEMORY_INLINE_HPP
 
-#include "gc/z/zPreMappedMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPreMappedMemory.hpp"
 
 inline bool ZPreMappedMemory::is_initialized() const {
   return _initialized;

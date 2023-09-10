@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_NUMBERSEQ_HPP
 #define SHARE_VM_UTILITIES_NUMBERSEQ_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 /**
  **  This file contains a few classes that represent number sequence,

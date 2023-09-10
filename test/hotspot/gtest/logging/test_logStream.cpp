@@ -21,7 +21,7 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "logTestFixture.hpp"
 #include "logTestUtils.inline.hpp"
 #include "logging/log.hpp"

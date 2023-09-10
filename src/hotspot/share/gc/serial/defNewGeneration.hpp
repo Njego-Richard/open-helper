@@ -25,14 +25,14 @@
 #ifndef SHARE_VM_GC_SERIAL_DEFNEWGENERATION_HPP
 #define SHARE_VM_GC_SERIAL_DEFNEWGENERATION_HPP
 
-#include "gc/serial/cSpaceCounters.hpp"
-#include "gc/shared/ageTable.hpp"
-#include "gc/shared/copyFailedInfo.hpp"
-#include "gc/shared/generation.hpp"
-#include "gc/shared/generationCounters.hpp"
-#include "gc/shared/preservedMarks.hpp"
-#include "utilities/align.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/cSpaceCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/ageTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/copyFailedInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/preservedMarks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 class ContiguousSpace;
 class ScanClosure;

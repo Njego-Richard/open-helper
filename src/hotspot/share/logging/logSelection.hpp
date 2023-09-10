@@ -26,7 +26,7 @@
 
 #include "logging/logLevel.hpp"
 #include "logging/logTag.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class LogTagSet;
 

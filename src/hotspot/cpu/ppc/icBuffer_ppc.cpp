@@ -23,13 +23,13 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "asm/assembler.hpp"
 #include "assembler_ppc.inline.hpp"
 #include "code/icBuffer.hpp"
-#include "gc/shared/collectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.inline.hpp"
 #include "interpreter/bytecodes.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "nativeInst_ppc.hpp"
 #include "oops/oop.inline.hpp"
 

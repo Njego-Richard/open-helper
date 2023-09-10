@@ -25,8 +25,8 @@
 #ifndef SHARE_GC_G1_COMMANDLINEFLAGCONSTRAINTSG1_HPP
 #define SHARE_GC_G1_COMMANDLINEFLAGCONSTRAINTSG1_HPP
 
-#include "runtime/globals.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // G1 Flag Constraints
 JVMFlag::Error G1RSetRegionEntriesConstraintFunc(intx value, bool verbose);

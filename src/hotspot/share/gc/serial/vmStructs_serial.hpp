@@ -25,8 +25,8 @@
 #ifndef SHARE_GC_SERIAL_VMSTRUCTS_HPP
 #define SHARE_GC_SERIAL_VMSTRUCTS_HPP
 
-#include "gc/serial/serialHeap.hpp"
-#include "gc/serial/tenuredGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/serialHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/tenuredGeneration.hpp"
 
 #define VM_STRUCTS_SERIALGC(nonstatic_field,                                  \
                             volatile_nonstatic_field,                         \

@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/registerMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/registerMap.hpp"
 #include "vmreg_x86.inline.hpp"
 
 address RegisterMap::pd_location(VMReg reg) const {

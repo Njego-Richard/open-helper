@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZBARRIERSET_HPP
 #define SHARE_GC_Z_ZBARRIERSET_HPP
 
-#include "gc/shared/barrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 
 class ZBarrierSetAssembler;
 

@@ -22,11 +22,11 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/heapRegionBounds.inline.hpp"
-#include "gc/g1/jvmFlagConstraintsG1.hpp"
-#include "runtime/globals_extension.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionBounds.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/jvmFlagConstraintsG1.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 JVMFlag::Error G1RSetRegionEntriesConstraintFunc(intx value, bool verbose) {
   if (!UseG1GC) return JVMFlag::SUCCESS;

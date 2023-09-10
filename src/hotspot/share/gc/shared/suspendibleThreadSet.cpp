@@ -22,11 +22,11 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/suspendibleThreadSet.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/semaphore.hpp"
-#include "runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/suspendibleThreadSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/semaphore.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 
 uint   SuspendibleThreadSet::_nthreads          = 0;
 uint   SuspendibleThreadSet::_nthreads_stopped  = 0;

@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1OldGenAllocationTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1OldGenAllocationTracker.hpp"
 #include "logging/log.hpp"
 
 G1OldGenAllocationTracker::G1OldGenAllocationTracker() :

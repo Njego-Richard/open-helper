@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_EPSILON_GLOBALS_HPP
 #define SHARE_VM_GC_EPSILON_GLOBALS_HPP
 
-#include "runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 //
 // Defines all globals flags used by the Epsilon GC.
 //

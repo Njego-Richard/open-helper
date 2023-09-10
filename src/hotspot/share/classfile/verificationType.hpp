@@ -29,8 +29,8 @@
 #include "oops/instanceKlass.hpp"
 #include "oops/oop.hpp"
 #include "oops/symbol.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/signature.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"
 
 enum {
   // As specifed in the JVM spec

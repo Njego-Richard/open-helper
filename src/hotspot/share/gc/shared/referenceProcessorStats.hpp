@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_REFERENCEPROCESSORSTATS_HPP
 #define SHARE_VM_GC_SHARED_REFERENCEPROCESSORSTATS_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class ReferenceProcessor;
 

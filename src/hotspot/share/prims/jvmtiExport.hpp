@@ -26,15 +26,15 @@
 #define SHARE_VM_PRIMS_JVMTIEXPORT_HPP
 
 #include "jvmtifiles/jvmti.h"
-#include "memory/allocation.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "oops/oop.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/handles.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Must be included after jvmti.h.
 #include "jvmticmlr.h"

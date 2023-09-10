@@ -21,15 +21,15 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 #include "logging/log.hpp"
 #include "logging/logSelection.hpp"
 #include "logging/logTagSet.hpp"
-#include "runtime/os.inline.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/ostream.hpp"
-#include "utilities/quickSort.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/quickSort.hpp"
 
 const LogSelection LogSelection::Invalid;
 

@@ -21,9 +21,9 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "runtime/globals.hpp"
-#include "runtime/flags/flagSetting.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/flagSetting.hpp"
 #include "unittest.hpp"
 
 #define TEST_FLAG(f, type, value)                                \

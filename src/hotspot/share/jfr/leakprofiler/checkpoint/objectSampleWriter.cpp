@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfrfiles/jfrTypes.hpp"
 #include "jfr/leakprofiler/chains/edge.hpp"
 #include "jfr/leakprofiler/chains/edgeStore.hpp"
@@ -37,7 +37,7 @@
 #include "jfr/writers/jfrTypeWriterHost.hpp"
 #include "oops/oop.inline.hpp"
 #include "oops/symbol.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 template <typename Data>
 class ObjectSampleAuxInfo : public ResourceObj {

@@ -28,8 +28,8 @@
 #include "ci/ciMethod.hpp"
 #include "code/nmethod.hpp"
 #include "compiler/compileLog.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/xmlstream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/xmlstream.hpp"
 
 // CompileTask
 //

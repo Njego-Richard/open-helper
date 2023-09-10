@@ -22,16 +22,16 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/cms/jvmFlagConstraintsCMS.hpp"
-#include "gc/cms/concurrentMarkSweepGeneration.inline.hpp"
-#include "gc/shared/cardTableRS.hpp"
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/genCollectedHeap.hpp"
-#include "gc/shared/jvmFlagConstraintsGC.hpp"
-#include "memory/universe.hpp"
-#include "runtime/globals_extension.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/jvmFlagConstraintsCMS.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableRS.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/jvmFlagConstraintsGC.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 static JVMFlag::Error ParallelGCThreadsAndCMSWorkQueueDrainThreshold(uint threads, uintx threshold, bool verbose) {
   // CMSWorkQueueDrainThreshold is verified to be less than max_juint

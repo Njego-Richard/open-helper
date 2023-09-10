@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/cms/compactibleFreeListSpace.hpp"
-#include "gc/cms/promotionInfo.hpp"
-#include "gc/shared/genOopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/compactibleFreeListSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/promotionInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genOopClosures.hpp"
 #include "oops/compressedOops.inline.hpp"
 #include "oops/markOop.inline.hpp"
 #include "oops/oop.hpp"

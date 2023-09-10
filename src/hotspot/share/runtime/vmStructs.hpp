@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_VMSTRUCTS_HPP
 #define SHARE_VM_RUNTIME_VMSTRUCTS_HPP
 
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #ifdef COMPILER1
 #include "c1/c1_Runtime1.hpp"
 #endif

@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "ci/ciMethod.hpp"
 #include "interpreter/interpreter.hpp"
-#include "runtime/frame.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
 
 
 // asm based interpreter deoptimization helpers

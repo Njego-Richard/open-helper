@@ -24,10 +24,10 @@
 #ifndef SHARE_GC_Z_ZMESSAGEPORT_INLINE_HPP
 #define SHARE_GC_Z_ZMESSAGEPORT_INLINE_HPP
 
-#include "gc/z/zMessagePort.hpp"
-#include "gc/z/zFuture.inline.hpp"
-#include "gc/z/zList.inline.hpp"
-#include "runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMessagePort.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zFuture.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zList.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 
 template <typename T>
 class ZMessageRequest : public StackObj {

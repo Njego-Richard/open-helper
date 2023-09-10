@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_CMS_ADAPTIVEFREELIST_HPP
 #define SHARE_VM_GC_CMS_ADAPTIVEFREELIST_HPP
 
-#include "gc/cms/allocationStats.hpp"
-#include "memory/freeList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/allocationStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/freeList.hpp"
 
 class CompactibleFreeListSpace;
 

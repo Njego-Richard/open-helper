@@ -22,15 +22,15 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/blockOffsetTable.inline.hpp"
-#include "gc/shared/collectedHeap.inline.hpp"
-#include "gc/shared/space.inline.hpp"
-#include "memory/iterator.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/blockOffsetTable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "logging/log.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/java.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
 #include "services/memTracker.hpp"
 
 //////////////////////////////////////////////////////////////////////

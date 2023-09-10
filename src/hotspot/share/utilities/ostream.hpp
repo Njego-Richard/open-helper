@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_UTILITIES_OSTREAM_HPP
 #define SHARE_VM_UTILITIES_OSTREAM_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/timer.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 DEBUG_ONLY(class ResourceMark;)
 

@@ -27,7 +27,7 @@
 
 #ifndef PRODUCT
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class InternalVMTests : public AllStatic {
   static void run_test(const char* name, void (*test)());

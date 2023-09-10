@@ -22,11 +22,11 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/barrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "interpreter/interp_masm.hpp"
 #include "interpreter/templateTable.hpp"
-#include "runtime/timerTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timerTrace.hpp"
 
 #ifdef CC_INTERP
 

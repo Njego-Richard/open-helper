@@ -25,7 +25,7 @@
 #ifndef SHARE_GC_CMS_CMSARGUMENTS_HPP
 #define SHARE_GC_CMS_CMSARGUMENTS_HPP
 
-#include "gc/shared/gcArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcArguments.hpp"
 
 class CollectedHeap;
 

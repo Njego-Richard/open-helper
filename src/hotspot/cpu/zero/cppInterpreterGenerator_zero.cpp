@@ -23,13 +23,13 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "asm/assembler.hpp"
 #include "interpreter/bytecodeHistogram.hpp"
 #include "interpreter/cppInterpreterGenerator.hpp"
 #include "interpreter/interpreterRuntime.hpp"
 #include "oops/method.hpp"
-#include "runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "interpreter/cppInterpreter.hpp"
 
 address CppInterpreterGenerator::generate_slow_signature_handler() {

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_SERVICES_ALLOCATION_SITE_HPP
 #define SHARE_VM_SERVICES_ALLOCATION_SITE_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/nativeCallStack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/nativeCallStack.hpp"
 
 // Allocation site represents a code path that makes a memory
 // allocation

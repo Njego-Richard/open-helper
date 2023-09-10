@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_ACCESSBARRIERSUPPORT_INLINE_HPP
 #define SHARE_VM_GC_SHARED_ACCESSBARRIERSUPPORT_INLINE_HPP
 
-#include "gc/shared/accessBarrierSupport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/accessBarrierSupport.hpp"
 
 template <DecoratorSet decorators>
 DecoratorSet AccessBarrierSupport::resolve_possibly_unknown_oop_ref_strength(oop base, ptrdiff_t offset) {

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_PRIMS_JVMTIRAWMONITOR_HPP
 #define SHARE_VM_PRIMS_JVMTIRAWMONITOR_HPP
 
-#include "runtime/objectMonitor.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/objectMonitor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 //
 // class JvmtiRawMonitor

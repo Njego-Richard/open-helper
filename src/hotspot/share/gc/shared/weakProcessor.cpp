@@ -22,13 +22,13 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/systemDictionary.hpp"
-#include "gc/shared/oopStorage.inline.hpp"
-#include "gc/shared/weakProcessor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorage.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/weakProcessor.hpp"
 #include "prims/jvmtiExport.hpp"
-#include "runtime/jniHandles.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_JFR
 #include "jfr/jfr.hpp"
 #endif

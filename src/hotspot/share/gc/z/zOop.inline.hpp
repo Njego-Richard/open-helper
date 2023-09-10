@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZOOP_INLINE_HPP
 #define SHARE_GC_Z_ZOOP_INLINE_HPP
 
-#include "gc/z/zAddress.inline.hpp"
-#include "gc/z/zOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOop.hpp"
 #include "oops/oopsHierarchy.hpp"
 
 inline oop ZOop::to_oop(uintptr_t value) {

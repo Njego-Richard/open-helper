@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "interpreter/bytecodes.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/method.hpp"
-#include "utilities/align.hpp"
-#include "utilities/bytes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
 
 
 #if defined(WIN32) && (defined(_MSC_VER) && (_MSC_VER < 1600))

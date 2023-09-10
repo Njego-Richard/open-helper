@@ -21,14 +21,14 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "runtime/mutex.hpp"
-#include "runtime/semaphore.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/vmThread.hpp"
-#include "runtime/vmOperations.hpp"
-#include "utilities/concurrentHashTable.inline.hpp"
-#include "utilities/concurrentHashTableTasks.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/semaphore.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/concurrentHashTable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/concurrentHashTableTasks.inline.hpp"
 #include "utilitiesHelper.inline.hpp"
 #include "unittest.hpp"
 

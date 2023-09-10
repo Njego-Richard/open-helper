@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/parallel/psMemoryPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psMemoryPool.hpp"
 
 PSGenerationPool::PSGenerationPool(PSOldGen* old_gen,
                                    const char* name,

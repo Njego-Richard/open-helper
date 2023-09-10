@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_RECORDER_STRINGPOOL_JFRSTRINGPOOLWRITER_HPP
 #define SHARE_VM_JFR_RECORDER_STRINGPOOL_JFRSTRINGPOOLWRITER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "jfr/recorder/stringpool/jfrStringPoolBuffer.hpp"
 #include "jfr/writers/jfrEventWriterHost.hpp"
 #include "jfr/writers/jfrMemoryWriterHost.hpp"

@@ -24,13 +24,13 @@
 #ifndef SHARE_VM_MEMORY_METASPACE_HPP
 #define SHARE_VM_MEMORY_METASPACE_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/memRegion.hpp"
-#include "memory/metaspaceChunkFreeListSummary.hpp"
-#include "memory/virtualspace.hpp"
-#include "memory/metaspace/metaspaceSizesSnapshot.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceChunkFreeListSummary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metaspaceSizesSnapshot.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Metaspace
 //

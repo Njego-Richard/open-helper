@@ -26,7 +26,7 @@
 #define SHARE_VM_UTILITIES_FORMATBUFFER_HPP
 
 #include "jvm.h"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include <stdarg.h>
 
 // Simple class to format the ctor arguments into a fixed-sized buffer.

@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_SHARED_GENCOLLECTEDHEAP_HPP
 #define SHARE_VM_GC_SHARED_GENCOLLECTEDHEAP_HPP
 
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/collectorPolicy.hpp"
-#include "gc/shared/generation.hpp"
-#include "gc/shared/oopStorageParState.hpp"
-#include "gc/shared/softRefGenPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/softRefGenPolicy.hpp"
 
 class AdaptiveSizePolicy;
 class GCPolicyCounters;

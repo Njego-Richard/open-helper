@@ -21,8 +21,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shenandoah/shenandoahMemoryPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahMemoryPool.hpp"
 
 ShenandoahMemoryPool::ShenandoahMemoryPool(ShenandoahHeap* heap) :
         CollectedMemoryPool("Shenandoah",

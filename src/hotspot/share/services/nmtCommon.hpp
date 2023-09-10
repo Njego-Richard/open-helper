@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_SERVICES_NMT_COMMON_HPP
 #define SHARE_VM_SERVICES_NMT_COMMON_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/align.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 #define CALC_OBJ_SIZE_IN_TYPE(obj, type) (align_up_(sizeof(obj), sizeof(type))/sizeof(type))
 

@@ -21,9 +21,9 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1CodeRootSetTable.hpp"
-#include "gc/g1/g1CodeCacheRemSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CodeRootSetTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CodeCacheRemSet.hpp"
 #include "unittest.hpp"
 
 class G1CodeRootSetTest : public ::testing::Test {

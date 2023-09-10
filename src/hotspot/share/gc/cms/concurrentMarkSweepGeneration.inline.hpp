@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_GC_CMS_CONCURRENTMARKSWEEPGENERATION_INLINE_HPP
 #define SHARE_VM_GC_CMS_CONCURRENTMARKSWEEPGENERATION_INLINE_HPP
 
-#include "gc/cms/cmsHeap.hpp"
-#include "gc/cms/cmsLockVerifier.hpp"
-#include "gc/cms/compactibleFreeListSpace.inline.hpp"
-#include "gc/cms/concurrentMarkSweepGeneration.hpp"
-#include "gc/cms/concurrentMarkSweepThread.hpp"
-#include "gc/cms/parNewGeneration.hpp"
-#include "gc/shared/gcUtil.hpp"
-#include "utilities/align.hpp"
-#include "utilities/bitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsLockVerifier.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/compactibleFreeListSpace.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/parNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 
 inline void CMSBitMap::clear_all() {
   assert_locked();

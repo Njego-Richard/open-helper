@@ -21,12 +21,12 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "logging/logConfiguration.hpp"
 #include "logging/logDecorations.hpp"
-#include "runtime/os.inline.hpp"
-#include "runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 #include "services/management.hpp"
 
 jlong LogDecorations::_vm_start_time_millis = 0;

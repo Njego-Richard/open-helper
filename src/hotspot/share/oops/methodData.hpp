@@ -26,14 +26,14 @@
 #define SHARE_VM_OOPS_METHODDATAOOP_HPP
 
 #include "interpreter/bytecodes.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "oops/metadata.hpp"
 #include "oops/method.hpp"
 #include "oops/oop.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/deoptimization.hpp"
-#include "utilities/align.hpp"
-#include "utilities/copy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
 #if INCLUDE_JVMCI
 #include "jvmci/jvmci_globals.hpp"
 #endif

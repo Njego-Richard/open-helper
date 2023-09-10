@@ -27,8 +27,8 @@
 
 #include "code/compiledMethod.hpp"
 #include "code/nativeInst.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 inline bool CompiledMethod::is_deopt_pc(address pc) { return is_deopt_entry(pc) || is_deopt_mh_entry(pc); }
 

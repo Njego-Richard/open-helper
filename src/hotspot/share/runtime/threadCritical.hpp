@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_THREADCRITICAL_HPP
 #define SHARE_VM_RUNTIME_THREADCRITICAL_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // ThreadCritical is used to protect short non-blocking critical sections.
 // This class must use no vm facilities that require initialization.

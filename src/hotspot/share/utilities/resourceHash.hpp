@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_RESOURCEHASH_HPP
 #define SHARE_VM_UTILITIES_RESOURCEHASH_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 template<typename K> struct ResourceHashtableFns {
     typedef unsigned (*hash_fn)(K const&);

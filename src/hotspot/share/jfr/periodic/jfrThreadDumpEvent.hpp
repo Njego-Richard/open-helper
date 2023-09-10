@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_PERIODIC_JFRDCMDEVENT_HPP
 #define SHARE_VM_JFR_PERIODIC_JFRDCMDEVENT_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 /*
  *  Helper for generating jfr events using output data from Dcmd's.

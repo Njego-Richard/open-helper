@@ -27,8 +27,8 @@
 
 #include "ci/ciBaseObject.hpp"
 #include "ci/ciClassList.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/jniHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
 
 // ciMetadata
 //

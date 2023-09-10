@@ -22,17 +22,17 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "classfile/compactHashtable.inline.hpp"
 #include "classfile/javaClasses.hpp"
 #include "logging/logMessage.hpp"
-#include "memory/heapShared.inline.hpp"
-#include "memory/metadataFactory.hpp"
-#include "memory/metaspaceShared.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heapShared.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metadataFactory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"
 #include "oops/compressedOops.inline.hpp"
-#include "runtime/vmThread.hpp"
-#include "utilities/numberSeq.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/numberSeq.hpp"
 #include <sys/stat.h>
 
 /////////////////////////////////////////////////////

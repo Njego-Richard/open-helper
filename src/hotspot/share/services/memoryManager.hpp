@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_SERVICES_MEMORYMANAGER_HPP
 #define SHARE_VM_SERVICES_MEMORYMANAGER_HPP
 
-#include "gc/shared/gcCause.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/timer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timer.hpp"
 #include "services/memoryUsage.hpp"
 
 // A memory manager is responsible for managing one or more memory pools.

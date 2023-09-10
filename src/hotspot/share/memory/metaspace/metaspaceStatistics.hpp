@@ -26,9 +26,9 @@
 #ifndef SHARE_MEMORY_METASPACE_METASPACESTATISTICS_HPP
 #define SHARE_MEMORY_METASPACE_METASPACESTATISTICS_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "memory/metaspace.hpp" // for MetadataType enum
-#include "memory/metaspace/metachunk.hpp" // for ChunkIndex enum
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp" // for MetadataType enum
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metachunk.hpp" // for ChunkIndex enum
 
 class outputStream;
 

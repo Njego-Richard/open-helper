@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/allocTracer.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/allocTracer.hpp"
 #include "jfr/jfrEvents.hpp"
-#include "runtime/handles.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_JFR
 #include "jfr/support/jfrAllocationTracer.hpp"
 #endif

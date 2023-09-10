@@ -21,8 +21,8 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zUtils.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.inline.hpp"
 #include "unittest.hpp"
 
 #include <limits>

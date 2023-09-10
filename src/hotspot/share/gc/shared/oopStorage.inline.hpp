@@ -25,15 +25,15 @@
 #ifndef SHARE_GC_SHARED_OOPSTORAGE_INLINE_HPP
 #define SHARE_GC_SHARED_OOPSTORAGE_INLINE_HPP
 
-#include "gc/shared/oopStorage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorage.hpp"
 #include "metaprogramming/conditional.hpp"
 #include "metaprogramming/isConst.hpp"
 #include "oops/oop.hpp"
-#include "runtime/safepoint.hpp"
-#include "utilities/align.hpp"
-#include "utilities/count_trailing_zeros.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/count_trailing_zeros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Array of all active blocks.  Refcounted for lock-free reclaim of
 // old array when a new array is allocated for expansion.

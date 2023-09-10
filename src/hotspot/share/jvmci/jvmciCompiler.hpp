@@ -26,7 +26,7 @@
 
 #include "compiler/abstractCompiler.hpp"
 #include "jvmci/jvmciEnv.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 class JVMCICompiler : public AbstractCompiler {
 private:

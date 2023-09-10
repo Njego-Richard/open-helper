@@ -27,9 +27,9 @@
 
 #include "classfile/javaClasses.hpp"
 #include "classfile/vmSymbols.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #ifdef ZERO
 # include "entry_zero.hpp"
@@ -197,7 +197,7 @@ public:
 
   static int ref_kind_to_flags(int ref_kind);
 
-#include CPU_HEADER(methodHandles)
+//#include CPU_HEADER(methodHandles)
 
   // Tracing
   static void trace_method_handle(MacroAssembler* _masm, const char* adaptername) PRODUCT_RETURN;

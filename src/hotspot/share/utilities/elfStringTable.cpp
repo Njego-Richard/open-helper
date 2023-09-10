@@ -22,14 +22,14 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
 #if !defined(_WINDOWS) && !defined(__APPLE__)
 
 #include "jvm.h"
-#include "memory/allocation.inline.hpp"
-#include "runtime/os.hpp"
-#include "utilities/elfStringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/elfStringTable.hpp"
 
 // We will try to load whole string table into memory if we can.
 // Otherwise, fallback to more expensive file operation.

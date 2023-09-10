@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/heapRegionTracer.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionTracer.hpp"
 #include "jfr/jfrEvents.hpp"
 
 void HeapRegionTracer::send_region_type_change(uint index,

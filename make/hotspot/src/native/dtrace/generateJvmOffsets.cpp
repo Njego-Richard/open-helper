@@ -39,9 +39,9 @@
 #define protected public
 
 #include <proc_service.h>
-#include "gc/shared/collectedHeap.hpp"
-#include "memory/heap.hpp"
-#include "runtime/vmStructs.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmStructs.hpp"
 
 typedef enum GEN_variant {
         GEN_OFFSET = 0,

@@ -26,8 +26,8 @@
 #ifndef CPU_S390_VM_GLOBALS_S390_HPP
 #define CPU_S390_VM_GLOBALS_S390_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Sets the default values for platform dependent flags used by the runtime system.
 // (see globals.hpp)

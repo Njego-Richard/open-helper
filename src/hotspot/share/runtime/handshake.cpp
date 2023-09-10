@@ -22,20 +22,20 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
-#include "memory/resourceArea.hpp"
-#include "runtime/handshake.hpp"
-#include "runtime/interfaceSupport.inline.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/osThread.hpp"
-#include "runtime/semaphore.inline.hpp"
-#include "runtime/task.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/vmThread.hpp"
-#include "utilities/formatBuffer.hpp"
-#include "utilities/preserveException.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handshake.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/osThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/semaphore.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/task.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/formatBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/preserveException.hpp"
 
 class HandshakeOperation: public StackObj {
 public:

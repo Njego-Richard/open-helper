@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_PERFDATA_INLINE_HPP
 #define SHARE_VM_RUNTIME_PERFDATA_INLINE_HPP
 
-#include "runtime/perfData.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 inline int PerfDataList::length() {
   return _set->length();

@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZRESURRECTION_INLINE_HPP
 #define SHARE_GC_Z_ZRESURRECTION_INLINE_HPP
 
-#include "gc/z/zResurrection.hpp"
-#include "runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zResurrection.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 inline bool ZResurrection::is_blocked() {
   // We use a loadload barrier to make sure we are not

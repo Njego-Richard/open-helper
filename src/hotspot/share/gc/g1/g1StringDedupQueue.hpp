@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_G1_G1STRINGDEDUPQUEUE_HPP
 #define SHARE_VM_GC_G1_G1STRINGDEDUPQUEUE_HPP
 
-#include "gc/shared/stringdedup/stringDedupQueue.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 class StringDedupUnlinkOrOopsDoClosure;
 

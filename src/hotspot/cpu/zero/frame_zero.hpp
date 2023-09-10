@@ -26,7 +26,7 @@
 #ifndef CPU_ZERO_VM_FRAME_ZERO_HPP
 #define CPU_ZERO_VM_FRAME_ZERO_HPP
 
-#include "runtime/synchronizer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/synchronizer.hpp"
 
 // A frame represents a physical stack frame on the Zero stack.
 

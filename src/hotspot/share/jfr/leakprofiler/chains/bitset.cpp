@@ -21,10 +21,10 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/leakprofiler/chains/bitset.hpp"
 #include "jfr/recorder/storage/jfrVirtualMemory.hpp"
-#include "memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 
 BitSet::BitSet(const MemRegion& covered_region) :
   _vmm(NULL),

@@ -22,6 +22,6 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "utilities/sizes.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/sizes.hpp"
 

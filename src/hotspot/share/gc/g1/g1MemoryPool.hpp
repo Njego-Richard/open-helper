@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_G1MEMORYPOOL_HPP
 #define SHARE_VM_GC_G1_G1MEMORYPOOL_HPP
 
-#include "gc/g1/g1MonitoringSupport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1MonitoringSupport.hpp"
 #include "services/memoryPool.hpp"
 #include "services/memoryUsage.hpp"
 

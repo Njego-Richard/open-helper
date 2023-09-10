@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_METAPROGRAMMING_PRIMITIVECONVERSIONS_HPP
 #define SHARE_VM_METAPROGRAMMING_PRIMITIVECONVERSIONS_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "metaprogramming/enableIf.hpp"
 #include "metaprogramming/integralConstant.hpp"
 #include "metaprogramming/isFloatingPoint.hpp"
 #include "metaprogramming/isIntegral.hpp"
 #include "metaprogramming/isRegisteredEnum.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class PrimitiveConversions : public AllStatic {
 public:

@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_RUNTIME_REFLECTIONUTILS_HPP
 #define SHARE_VM_RUNTIME_REFLECTIONUTILS_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/instanceKlass.hpp"
 #include "oops/objArrayOop.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/reflection.hpp"
-#include "utilities/accessFlags.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/reflection.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // A KlassStream is an abstract stream for streaming over self, superclasses
 // and (super)interfaces. Streaming is done in reverse order (subclasses first,

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUPQUEUE_INLINE_HPP
 #define SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUPQUEUE_INLINE_HPP
 
-#include "gc/shared/stringdedup/stringDedup.hpp"
-#include "gc/shared/stringdedup/stringDedupQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupQueue.hpp"
 
 template <typename Q>
 void StringDedupQueue::create() {

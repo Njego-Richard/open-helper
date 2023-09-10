@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CODE_COMPRESSEDSTREAM_HPP
 #define SHARE_VM_CODE_COMPRESSEDSTREAM_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // Simple interface for filing out and filing in basic types
 // Used for writing out and reading in debugging information.

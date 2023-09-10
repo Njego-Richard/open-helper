@@ -25,8 +25,8 @@
 #ifndef SHARE_MEMORY_METASPACE_METABLOCK_HPP
 #define SHARE_MEMORY_METASPACE_METABLOCK_HPP
 
-#include "memory/metaspace/metabase.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metabase.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 namespace metaspace {
 

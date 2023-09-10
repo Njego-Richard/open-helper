@@ -28,9 +28,9 @@
 #include "asm/macroAssembler.hpp"
 #include "code/stubs.hpp"
 #include "interpreter/bytecodes.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
 
 // This file contains the platform-independent parts
 // of the abstract interpreter and the abstract interpreter generator.

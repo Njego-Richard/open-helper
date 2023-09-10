@@ -22,7 +22,7 @@
 *
 */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "classfile/classFileParser.hpp"
 #include "classfile/classLoader.hpp"
@@ -39,15 +39,15 @@
 #include "classfile/vmSymbols.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/instanceKlass.hpp"
-#include "runtime/arguments.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/javaCalls.hpp"
-#include "runtime/jniHandles.inline.hpp"
-#include "runtime/reflection.hpp"
-#include "utilities/stringUtils.hpp"
-#include "utilities/utf8.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/reflection.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stringUtils.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/utf8.hpp"
 
 static bool verify_module_name(const char *module_name) {
   if (module_name == NULL) return false;

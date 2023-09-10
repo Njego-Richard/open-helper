@@ -22,16 +22,16 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/classLoaderData.inline.hpp"
 #include "classfile/systemDictionary.hpp"
-#include "gc/shared/collectedHeap.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "prims/jvmtiGetLoadedClasses.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/jniHandles.inline.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/stack.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.inline.hpp"
 
 // The closure for GetLoadedClasses
 class LoadedClassesClosure : public KlassClosure {

@@ -28,7 +28,7 @@
 #ifndef CPU_S390_VM_FRAME_S390_HPP
 #define CPU_S390_VM_FRAME_S390_HPP
 
-#include "runtime/synchronizer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/synchronizer.hpp"
 
   //  C frame layout on ZARCH_64.
   //

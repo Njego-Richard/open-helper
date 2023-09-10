@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_METAPROGRAMMING_REMOVECV_HPP
 #define SHARE_VM_METAPROGRAMMING_REMOVECV_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 template <typename T>
 struct RemoveCV: AllStatic {

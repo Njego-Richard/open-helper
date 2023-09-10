@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSPROMOTIONLAB_HPP
 #define SHARE_VM_GC_PARALLEL_PSPROMOTIONLAB_HPP
 
-#include "gc/parallel/objectStartArray.hpp"
-#include "gc/shared/collectedHeap.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/objectStartArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 //
 // PSPromotionLAB is a parallel scavenge promotion lab. This class acts very

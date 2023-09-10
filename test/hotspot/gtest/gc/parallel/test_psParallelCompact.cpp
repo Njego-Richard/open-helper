@@ -21,10 +21,10 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/parallel/parMarkBitMap.inline.hpp"
-#include "gc/parallel/psParallelCompact.hpp"
-#include "gc/parallel/psCompactionManager.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parMarkBitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psParallelCompact.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psCompactionManager.inline.hpp"
 #include "unittest.hpp"
 
 #ifndef PRODUCT

@@ -25,18 +25,18 @@
 #ifndef SHARE_VM_GC_SHARED_SPACE_INLINE_HPP
 #define SHARE_VM_GC_SHARED_SPACE_INLINE_HPP
 
-#include "gc/shared/blockOffsetTable.inline.hpp"
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/generation.hpp"
-#include "gc/shared/space.hpp"
-#include "gc/shared/spaceDecorator.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/blockOffsetTable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/spaceDecorator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "oops/oopsHierarchy.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/prefetch.inline.hpp"
-#include "runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 #if INCLUDE_SERIALGC
-#include "gc/serial/markSweep.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/markSweep.inline.hpp"
 #endif
 
 inline HeapWord* Space::block_start(const void* p) {

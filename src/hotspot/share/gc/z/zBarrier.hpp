@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZBARRIER_HPP
 #define SHARE_GC_Z_ZBARRIER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
 
 typedef bool (*ZBarrierFastPath)(uintptr_t);

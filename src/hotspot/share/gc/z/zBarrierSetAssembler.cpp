@@ -21,10 +21,10 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zBarrierSetAssembler.hpp"
-#include "gc/z/zThreadLocalData.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBarrierSetAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zThreadLocalData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 Address ZBarrierSetAssemblerBase::address_bad_mask_from_thread(Register thread) {
   return Address(thread, ZThreadLocalData::address_bad_mask_offset());

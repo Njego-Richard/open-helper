@@ -25,8 +25,8 @@
 #ifndef OS_BSD_VM_C1_GLOBALS_BSD_HPP
 #define OS_BSD_VM_C1_GLOBALS_BSD_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 //
 // Sets the default values for operating system dependent flags used by the

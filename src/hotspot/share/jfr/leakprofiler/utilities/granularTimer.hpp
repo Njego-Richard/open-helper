@@ -26,7 +26,7 @@
 #define SHARE_VM_LEAKPROFILER_UTILITIES_GRANULARTIMER_HPP
 
 #include "jfr/utilities/jfrTime.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class GranularTimer : public AllStatic {
  private:

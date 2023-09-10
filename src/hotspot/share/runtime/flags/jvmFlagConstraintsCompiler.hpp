@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_JVMFLAGCONSTRAINTSCOMPILER_HPP
 #define SHARE_VM_RUNTIME_JVMFLAGCONSTRAINTSCOMPILER_HPP
 
-#include "runtime/flags/jvmFlag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
 
 /*
  * Here we have compiler arguments constraints functions, which are called automatically

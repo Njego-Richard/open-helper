@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_BLOCKOFFSETTABLE_INLINE_HPP
 #define SHARE_VM_GC_SHARED_BLOCKOFFSETTABLE_INLINE_HPP
 
-#include "gc/shared/blockOffsetTable.hpp"
-#include "gc/shared/space.hpp"
-#include "runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/blockOffsetTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 
 //////////////////////////////////////////////////////////////////////////
 // BlockOffsetTable inlines

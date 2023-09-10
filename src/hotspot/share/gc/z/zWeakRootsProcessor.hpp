@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZWEAKROOTSPROCESSOR_HPP
 #define SHARE_GC_Z_ZWEAKROOTSPROCESSOR_HPP
 
-#include "gc/z/zValue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zValue.hpp"
 
 class ZWorkers;
 

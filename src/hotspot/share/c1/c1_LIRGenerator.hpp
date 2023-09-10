@@ -29,10 +29,10 @@
 #include "c1/c1_Instruction.hpp"
 #include "c1/c1_LIR.hpp"
 #include "ci/ciMethodData.hpp"
-#include "gc/shared/barrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "jfr/support/jfrIntrinsics.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/sizes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/sizes.hpp"
 
 class BarrierSetC1;
 

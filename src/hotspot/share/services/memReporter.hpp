@@ -27,7 +27,7 @@
 
 #if INCLUDE_NMT
 
-#include "memory/metaspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
 #include "oops/instanceKlass.hpp"
 #include "services/memBaseline.hpp"
 #include "services/nmtCommon.hpp"

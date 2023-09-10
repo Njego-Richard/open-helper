@@ -27,7 +27,7 @@
 
 #include "ci/ciEnv.hpp"
 #include "ci/ciMethodData.hpp"
-#include "gc/shared/c2/barrierSetC2.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/barrierSetC2.hpp"
 #include "opto/addnode.hpp"
 #include "opto/callnode.hpp"
 #include "opto/cfgnode.hpp"
@@ -37,7 +37,7 @@
 #include "opto/phaseX.hpp"
 #include "opto/subnode.hpp"
 #include "opto/type.hpp"
-#include "runtime/deoptimization.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 
 class BarrierSetC2;
 class FastLockNode;

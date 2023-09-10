@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_CMS_GSPACECOUNTERS_HPP
 #define SHARE_VM_GC_CMS_GSPACECOUNTERS_HPP
 
-#include "gc/shared/generation.hpp"
-#include "gc/shared/generationCounters.hpp"
-#include "runtime/perfData.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // A GSpaceCounter is a holder class for performance counters
 // that track a space;

@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZARRAY_HPP
 #define SHARE_GC_Z_ZARRAY_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 template <typename T>
 class ZArray {

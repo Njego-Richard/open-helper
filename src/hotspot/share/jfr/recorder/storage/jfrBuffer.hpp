@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_RECORDER_STORAGE_JFRBUFFER_HPP
 #define SHARE_VM_JFR_RECORDER_STORAGE_JFRBUFFER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 //
 // Represents a piece of committed memory.

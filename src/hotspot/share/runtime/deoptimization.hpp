@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_DEOPTIMIZATION_HPP
 #define SHARE_VM_RUNTIME_DEOPTIMIZATION_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 
 class ProfileData;
 class vframeArray;

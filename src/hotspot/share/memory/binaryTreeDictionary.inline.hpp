@@ -25,16 +25,16 @@
 #ifndef SHARE_VM_MEMORY_BINARYTREEDICTIONARY_INLINE_HPP
 #define SHARE_VM_MEMORY_BINARYTREEDICTIONARY_INLINE_HPP
 
-#include "gc/shared/spaceDecorator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/spaceDecorator.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
-#include "memory/binaryTreeDictionary.hpp"
-#include "memory/freeList.inline.hpp"
-#include "memory/resourceArea.hpp"
-#include "runtime/mutex.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/binaryTreeDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/freeList.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 ////////////////////////////////////////////////////////////////////////////////
 // A binary tree based search structure for free blocks.

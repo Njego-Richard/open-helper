@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_PARALLEL_MUTABLENUMASPACE_HPP
 #define SHARE_VM_GC_PARALLEL_MUTABLENUMASPACE_HPP
 
-#include "gc/parallel/mutableSpace.hpp"
-#include "gc/shared/gcUtil.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 /*
  *    The NUMA-aware allocator (MutableNUMASpace) is basically a modification

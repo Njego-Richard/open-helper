@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUPTHREAD_HPP
 #define SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUPTHREAD_HPP
 
-#include "gc/shared/concurrentGCThread.hpp"
-#include "gc/shared/stringdedup/stringDedupStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/concurrentGCThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupStat.hpp"
 
 //
 // The deduplication thread is where the actual deduplication occurs. It waits for

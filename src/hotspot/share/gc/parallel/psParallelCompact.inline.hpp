@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSPARALLELCOMPACT_INLINE_HPP
 #define SHARE_VM_GC_PARALLEL_PSPARALLELCOMPACT_INLINE_HPP
 
-#include "gc/parallel/parallelScavengeHeap.hpp"
-#include "gc/parallel/parMarkBitMap.inline.hpp"
-#include "gc/parallel/psParallelCompact.hpp"
-#include "gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parMarkBitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psParallelCompact.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/compressedOops.inline.hpp"
 #include "oops/klass.hpp"

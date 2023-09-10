@@ -26,7 +26,7 @@
 #define SHARE_VM_OPTO_CHAITIN_HPP
 
 #include "code/vmreg.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "opto/connode.hpp"
 #include "opto/live.hpp"
 #include "opto/matcher.hpp"

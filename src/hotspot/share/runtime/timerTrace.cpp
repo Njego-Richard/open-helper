@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/timerTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timerTrace.hpp"
 
 TraceTime::TraceTime(const char* title,
                      bool doit) {

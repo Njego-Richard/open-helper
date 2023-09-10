@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_PARALLEL_PARMARKBITMAP_INLINE_HPP
 #define SHARE_VM_GC_PARALLEL_PARMARKBITMAP_INLINE_HPP
 
-#include "gc/parallel/parMarkBitMap.hpp"
-#include "utilities/bitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parMarkBitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 
 inline ParMarkBitMap::ParMarkBitMap():
   _beg_bits(), _end_bits(), _region_start(NULL), _region_size(0), _virtual_space(NULL), _reserved_byte_size(0)

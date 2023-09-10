@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_MEMORY_PADDED_INLINE_HPP
 #define SHARE_VM_MEMORY_PADDED_INLINE_HPP
 
-#include "memory/allocation.inline.hpp"
-#include "memory/padded.hpp"
-#include "utilities/align.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Creates an aligned padded array.
 // The memory can't be deleted since the raw memory chunk is not returned.

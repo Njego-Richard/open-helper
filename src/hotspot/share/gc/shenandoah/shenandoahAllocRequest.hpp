@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHALLOCREQUEST_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHALLOCREQUEST_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ShenandoahAllocRequest : StackObj {
 public:

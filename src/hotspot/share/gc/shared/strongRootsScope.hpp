@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_STRONGROOTSSCOPE_HPP
 #define SHARE_VM_GC_SHARED_STRONGROOTSSCOPE_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class MarkScope : public StackObj {
  protected:

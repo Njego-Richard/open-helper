@@ -22,13 +22,13 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "memory/metaspaceShared.hpp"
-#include "runtime/arguments.hpp"
-#include "runtime/os.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/vmError.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/vmError.hpp"
 
 #include <sys/types.h>
 #include <sys/wait.h>

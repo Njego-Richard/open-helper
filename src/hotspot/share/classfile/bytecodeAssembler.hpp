@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_CLASSFILE_BYTECODEASSEMBLER_HPP
 #define SHARE_VM_CLASSFILE_BYTECODEASSEMBLER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/method.hpp"
 #include "oops/symbol.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/resourceHash.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/resourceHash.hpp"
 
 
 /**

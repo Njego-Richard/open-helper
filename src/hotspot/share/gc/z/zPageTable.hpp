@@ -24,10 +24,10 @@
 #ifndef SHARE_GC_Z_ZPAGETABLE_HPP
 #define SHARE_GC_Z_ZPAGETABLE_HPP
 
-#include "gc/z/zAddressRangeMap.hpp"
-#include "gc/z/zGlobals.hpp"
-#include "gc/z/zPageTableEntry.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddressRangeMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPageTableEntry.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZPage;
 

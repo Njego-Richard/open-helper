@@ -26,8 +26,8 @@
 #define SHARE_VM_RUNTIME_REGISTERMAP_HPP
 
 #include "code/vmreg.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class JavaThread;
 
@@ -121,7 +121,7 @@ class RegisterMap : public StackObj {
   void print() const;
 
   // the following contains the definition of pd_xxx methods
-#include CPU_HEADER(registerMap)
+//#include CPU_HEADER(registerMap)
 
 };
 

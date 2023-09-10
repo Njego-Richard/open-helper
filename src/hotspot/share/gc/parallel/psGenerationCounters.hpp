@@ -26,9 +26,9 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSGENERATIONCOUNTERS_HPP
 #define SHARE_VM_GC_PARALLEL_PSGENERATIONCOUNTERS_HPP
 
-#include "gc/parallel/psVirtualspace.hpp"
-#include "gc/shared/generationCounters.hpp"
-#include "runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psVirtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 
 // A PSGenerationCounter is a holder class for performance counters
 // that track a generation

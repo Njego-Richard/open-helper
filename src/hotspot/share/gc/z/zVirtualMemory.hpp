@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZVIRTUALMEMORY_HPP
 #define SHARE_GC_Z_ZVIRTUALMEMORY_HPP
 
-#include "gc/z/zMemory.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZVirtualMemory {
   friend class VMStructs;

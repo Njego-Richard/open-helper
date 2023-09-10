@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_METADATA_JFRSERIALIZER_HPP
 #define SHARE_VM_JFR_METADATA_JFRSERIALIZER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "jfr/recorder/checkpoint/jfrCheckpointWriter.hpp"
 #include "jfrfiles/jfrTypes.hpp"
 

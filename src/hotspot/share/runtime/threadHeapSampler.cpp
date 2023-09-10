@@ -22,11 +22,11 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/sharedRuntime.hpp"
-#include "runtime/threadHeapSampler.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadHeapSampler.hpp"
 
 // Cheap random number generator
 uint64_t ThreadHeapSampler::_rnd;

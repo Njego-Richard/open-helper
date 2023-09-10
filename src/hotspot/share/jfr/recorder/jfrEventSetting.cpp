@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/recorder/jfrEventSetting.inline.hpp"
 
 JfrNativeSettings JfrEventSetting::_jvm_event_settings;

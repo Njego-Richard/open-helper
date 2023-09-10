@@ -21,19 +21,19 @@
  * questions.
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "code/relocInfo.hpp"
 #include "code/nativeInst.hpp"
 #include "code/nmethod.hpp"
-#include "gc/z/zGlobals.hpp"
-#include "gc/z/zHash.inline.hpp"
-#include "gc/z/zNMethodTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHash.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zNMethodTable.hpp"
 #include "logging/log.hpp"
-#include "memory/allocation.inline.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/atomic.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class ZNMethodWithImmediateOops {
 private:

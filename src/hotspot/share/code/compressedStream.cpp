@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "code/compressedStream.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 // 32-bit one-to-one sign encoding taken from Pack200
 // converts leading sign bits into leading zeroes with trailing sign bit

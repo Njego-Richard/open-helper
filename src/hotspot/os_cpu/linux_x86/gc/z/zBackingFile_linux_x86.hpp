@@ -24,7 +24,7 @@
 #ifndef OS_CPU_LINUX_X86_ZBACKINGFILE_LINUX_X86_HPP
 #define OS_CPU_LINUX_X86_ZBACKINGFILE_LINUX_X86_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZBackingFile {
 private:

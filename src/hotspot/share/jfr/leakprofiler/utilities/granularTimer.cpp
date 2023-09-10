@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/leakprofiler/utilities/granularTimer.hpp"
 
 long GranularTimer::_granularity = 0;

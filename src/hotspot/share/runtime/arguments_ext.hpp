@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_ARGUMENTS_EXT_HPP
 #define SHARE_VM_RUNTIME_ARGUMENTS_EXT_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 
 class ArgumentsExt: AllStatic {
 public:

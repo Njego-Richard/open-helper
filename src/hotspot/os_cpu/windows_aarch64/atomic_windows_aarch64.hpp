@@ -26,8 +26,8 @@
 #define OS_CPU_WINDOWS_AARCH64_ATOMIC_WINDOWS_AARCH64_HPP
 
 #include <intrin.h>
-#include "runtime/os.hpp"
-#include "runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 
 
 // As per atomic.hpp all read-modify-write operations have to provide two-way

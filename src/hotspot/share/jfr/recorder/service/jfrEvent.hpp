@@ -30,11 +30,11 @@
 #include "jfr/utilities/jfrTime.hpp"
 #include "jfr/utilities/jfrTypes.hpp"
 #include "jfr/writers/jfrNativeEventWriter.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 #ifdef ASSERT
-#include "utilities/bitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
 #endif
 
 #ifdef ASSERT

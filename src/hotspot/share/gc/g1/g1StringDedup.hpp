@@ -48,8 +48,8 @@
 // This approach avoids making the same object a candidate more than once.
 //
 
-#include "gc/shared/stringdedup/stringDedup.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
 
 class OopClosure;

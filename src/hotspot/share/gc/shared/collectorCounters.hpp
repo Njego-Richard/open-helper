@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_COLLECTORCOUNTERS_HPP
 #define SHARE_VM_GC_SHARED_COLLECTORCOUNTERS_HPP
 
-#include "runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 
 // CollectorCounters is a holder class for performance counters
 // that track a collector

@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/stubRoutines.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubRoutines.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 void OrderAccess::StubRoutines_fence() {
   // Use a stub if it exists.  It may not exist during bootstrap so do

@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZBITMAP_HPP
 #define SHARE_GC_Z_ZBITMAP_HPP
 
-#include "utilities/bitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
 
 class ZBitMap : public CHeapBitMap {
 private:

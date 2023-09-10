@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/generation.hpp"
-#include "gc/shared/genMemoryPools.hpp"
-#include "gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genMemoryPools.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
 #if INCLUDE_SERIALGC
-#include "gc/serial/defNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/defNewGeneration.hpp"
 #endif
 
 ContiguousSpacePool::ContiguousSpacePool(ContiguousSpace* space,

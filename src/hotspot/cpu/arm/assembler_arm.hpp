@@ -25,7 +25,7 @@
 #ifndef CPU_ARM_VM_ASSEMBLER_ARM_HPP
 #define CPU_ARM_VM_ASSEMBLER_ARM_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 enum AsmCondition {
   eq, ne, cs, cc, mi, pl, vs, vc,

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_SERVICES_MEMORYSERVICE_HPP
 #define SHARE_VM_SERVICES_MEMORYSERVICE_HPP
 
-#include "gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
 #include "logging/log.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "services/memoryUsage.hpp"
 
 // Forward declaration

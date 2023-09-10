@@ -29,10 +29,10 @@
 #include "jvmci/systemDictionary_jvmci.hpp"
 #include "oops/objArrayOop.hpp"
 #include "oops/symbol.hpp"
-#include "runtime/java.hpp"
-#include "runtime/reflectionUtils.hpp"
-#include "runtime/signature.hpp"
-#include "utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/reflectionUtils.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 // The dictionary in each ClassLoaderData stores all loaded classes, either
 // initiatied by its class loader or defined by its class loader:

@@ -25,8 +25,8 @@
 #define SHARE_VM_LOGGING_LOGOUTPUTLIST_HPP
 
 #include "logging/logLevel.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class LogOutput;
 

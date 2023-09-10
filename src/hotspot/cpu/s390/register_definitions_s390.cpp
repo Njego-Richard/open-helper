@@ -26,7 +26,7 @@
 // Make sure the defines don't screw up the declarations later on in this file.
 #define DONT_USE_REGISTER_DEFINES
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "asm/assembler.hpp"
 #include "asm/register.hpp"
 #include "register_s390.hpp"

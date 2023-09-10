@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_PERFDATA_HPP
 #define SHARE_VM_RUNTIME_PERFDATA_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/perfMemory.hpp"
-#include "runtime/timer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timer.hpp"
 
 template <typename T> class GrowableArray;
 

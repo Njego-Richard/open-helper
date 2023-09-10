@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_RUNTIME_OSTHREAD_HPP
 #define SHARE_VM_RUNTIME_OSTHREAD_HPP
 
-#include "runtime/frame.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/javaFrameAnchor.hpp"
-#include "runtime/objectMonitor.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaFrameAnchor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/objectMonitor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // The OSThread class holds OS-specific thread information.  It is equivalent
 // to the sys_thread_t structure of the classic JVM implementation.

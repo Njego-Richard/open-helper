@@ -24,9 +24,9 @@
 
 // Concurrent marking bit map wrapper
 
-#include "precompiled.hpp"
-#include "gc/shenandoah/markBitMap.inline.hpp"
-#include "utilities/bitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/markBitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 
 MarkBitMapRO::MarkBitMapRO(int shifter) :
   _bm(),

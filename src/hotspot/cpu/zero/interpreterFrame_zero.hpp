@@ -28,9 +28,9 @@
 
 #include "interpreter/bytecodeInterpreter.hpp"
 #include "oops/method.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "stack_zero.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 #ifdef CC_INTERP
 // |  ...               |

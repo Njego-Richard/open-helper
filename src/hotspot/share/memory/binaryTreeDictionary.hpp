@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_MEMORY_BINARYTREEDICTIONARY_HPP
 #define SHARE_VM_MEMORY_BINARYTREEDICTIONARY_HPP
 
-#include "memory/freeList.hpp"
-#include "memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/freeList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 
 class Mutex;
 

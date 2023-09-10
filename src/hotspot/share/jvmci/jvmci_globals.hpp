@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JVMCI_JVMCIGLOBALS_HPP
 #define SHARE_VM_JVMCI_JVMCIGLOBALS_HPP
 
-#include "runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 
 //
 // Defines all global flags used by the JVMCI compiler. Only flags that need

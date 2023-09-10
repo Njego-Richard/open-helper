@@ -29,11 +29,11 @@
 #include "asm/register.hpp"
 #include "code/oopRecorder.hpp"
 #include "code/relocInfo.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/vm_version.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // This file contains platform-independent assembler declarations.
 
@@ -452,6 +452,6 @@ class AbstractAssembler : public ResourceObj  {
 
 };
 
-#include CPU_HEADER(assembler)
+//#include CPU_HEADER(assembler)
 
 #endif // SHARE_VM_ASM_ASSEMBLER_HPP

@@ -21,17 +21,17 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zAddressRangeMap.inline.hpp"
-#include "gc/z/zBarrier.inline.hpp"
-#include "gc/z/zGlobals.hpp"
-#include "gc/z/zHeapIterator.hpp"
-#include "gc/z/zOop.inline.hpp"
-#include "gc/z/zRootsIterator.hpp"
-#include "memory/iterator.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddressRangeMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBarrier.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeapIterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zRootsIterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/bitMap.inline.hpp"
-#include "utilities/stack.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.inline.hpp"
 
 class ZHeapIteratorBitMap : public CHeapObj<mtGC> {
 private:

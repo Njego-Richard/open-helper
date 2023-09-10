@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_JAVAFRAMEANCHOR_HPP
 #define SHARE_VM_RUNTIME_JAVAFRAMEANCHOR_HPP
 
-#include "runtime/orderAccess.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 //
 // An object for encapsulating the machine/os dependent part of a JavaThread frame state
@@ -79,7 +79,7 @@ friend class JavaCallWrapper;
   // and no one should look at the other fields.
   void zap(void)                                     { _last_Java_sp = NULL; }
 
-#include CPU_HEADER(javaFrameAnchor)
+//#include CPU_HEADER(javaFrameAnchor)
 
 public:
   JavaFrameAnchor()                              { clear(); }

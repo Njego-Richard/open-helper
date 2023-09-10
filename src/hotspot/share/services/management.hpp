@@ -26,9 +26,9 @@
 #define SHARE_VM_SERVICES_MANAGEMENT_HPP
 
 #include "jmm.h"
-#include "memory/allocation.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/timer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timer.hpp"
 
 class OopClosure;
 class ThreadSnapshot;

@@ -23,14 +23,14 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "interpreter/bytecodeInterpreter.hpp"
 #include "interpreter/interpreterRuntime.hpp"
-#include "runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 #include "stack_zero.hpp"
 #include "stack_zero.inline.hpp"
-#include "runtime/frame.inline.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // Inlined causes circular inclusion with thread.hpp
 ZeroStack::ZeroStack()

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_GENOOPCLOSURES_HPP
 #define SHARE_VM_GC_SHARED_GENOOPCLOSURES_HPP
 
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "oops/oop.hpp"
 
 class Generation;

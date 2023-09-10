@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_GCSTATS_HPP
 #define SHARE_VM_GC_SHARED_GCSTATS_HPP
 
-#include "gc/shared/gcUtil.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.hpp"
 
 class GCStats : public CHeapObj<mtGC> {
  protected:

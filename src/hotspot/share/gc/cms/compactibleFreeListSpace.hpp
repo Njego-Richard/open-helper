@@ -25,14 +25,14 @@
 #ifndef SHARE_VM_GC_CMS_COMPACTIBLEFREELISTSPACE_HPP
 #define SHARE_VM_GC_CMS_COMPACTIBLEFREELISTSPACE_HPP
 
-#include "gc/cms/adaptiveFreeList.hpp"
-#include "gc/cms/promotionInfo.hpp"
-#include "gc/shared/blockOffsetTable.hpp"
-#include "gc/shared/cardTable.hpp"
-#include "gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/adaptiveFreeList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/promotionInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/blockOffsetTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
 #include "logging/log.hpp"
-#include "memory/binaryTreeDictionary.hpp"
-#include "memory/freeList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/binaryTreeDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/freeList.hpp"
 
 // Classes in support of keeping track of promotions into a non-Contiguous
 // space, in this case a CompactibleFreeListSpace.

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_G1_VMSTRUCTS_G1_HPP
 #define SHARE_VM_GC_G1_VMSTRUCTS_G1_HPP
 
-#include "gc/g1/g1CollectedHeap.hpp"
-#include "gc/g1/heapRegion.hpp"
-#include "gc/g1/heapRegionManager.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #define VM_STRUCTS_G1GC(nonstatic_field,                                      \
                         volatile_nonstatic_field,                             \

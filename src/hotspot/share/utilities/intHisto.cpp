@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "utilities/intHisto.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/intHisto.hpp"
 
 IntHistogram::IntHistogram(int est, int max) : _max(max), _tot(0) {
   assert(0 <= est && est <= max, "Preconditions");

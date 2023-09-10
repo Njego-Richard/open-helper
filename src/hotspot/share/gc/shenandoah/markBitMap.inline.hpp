@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_SHARED_CMBITMAP_INLINE_HPP
 #define SHARE_VM_GC_SHARED_CMBITMAP_INLINE_HPP
 
-#include "gc/shenandoah/markBitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/markBitMap.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/bitMap.inline.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 inline HeapWord* MarkBitMapRO::getNextMarkedWordAddress(const HeapWord* addr,
                                                const HeapWord* limit) const {

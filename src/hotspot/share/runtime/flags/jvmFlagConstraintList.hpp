@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_JVMFLAGCONSTRAINTLIST_HPP
 #define SHARE_VM_RUNTIME_JVMFLAGCONSTRAINTLIST_HPP
 
-#include "runtime/flags/jvmFlag.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 /*
  * Here we have a mechanism for extracting constraints (as custom functions) for flags,

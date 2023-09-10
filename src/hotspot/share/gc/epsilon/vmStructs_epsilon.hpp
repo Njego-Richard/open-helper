@@ -25,9 +25,9 @@
 #ifndef SHARE_GC_EPSILON_VMSTRUCTS_HPP
 #define SHARE_GC_EPSILON_VMSTRUCTS_HPP
 
-#include "gc/epsilon/epsilonHeap.hpp"
-#include "gc/shared/space.hpp"
-#include "memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
 
 #define VM_STRUCTS_EPSILONGC(nonstatic_field,                       \
                             volatile_nonstatic_field,               \

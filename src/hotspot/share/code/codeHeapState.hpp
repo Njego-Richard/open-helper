@@ -26,10 +26,10 @@
 #ifndef SHARE_CODE_CODEHEAPSTATE_HPP
 #define SHARE_CODE_CODEHEAPSTATE_HPP
 
-#include "memory/heap.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 class CodeHeapState : public CHeapObj<mtCode> {
 

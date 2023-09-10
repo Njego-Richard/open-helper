@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_JVMFLAGRANGELIST_HPP
 #define SHARE_VM_RUNTIME_JVMFLAGRANGELIST_HPP
 
-#include "memory/metaspaceShared.hpp"
-#include "runtime/flags/jvmFlag.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 /*
  * Here we have a mechanism for extracting ranges specified in flag macro tables.

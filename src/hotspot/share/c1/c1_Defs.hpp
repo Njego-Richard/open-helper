@@ -26,8 +26,8 @@
 #define SHARE_VM_C1_C1_DEFS_HPP
 
 #include "asm/register.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // set frame size and return address offset to these values in blobs
 // (if the compiled frame uses ebp as link pointer on IA; otherwise,
@@ -36,7 +36,7 @@ enum {
   no_frame_size            = -1
 };
 
-#include CPU_HEADER(c1_Defs)
+//#include CPU_HEADER(c1_Defs)
 
 // native word offsets from memory address
 enum {

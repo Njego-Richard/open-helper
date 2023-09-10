@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_G1_HEAPREGIONREMSET_HPP
 #define SHARE_VM_GC_G1_HEAPREGIONREMSET_HPP
 
-#include "gc/g1/g1CodeCacheRemSet.hpp"
-#include "gc/g1/g1FromCardCache.hpp"
-#include "gc/g1/sparsePRT.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CodeCacheRemSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1FromCardCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/sparsePRT.hpp"
 
 // Remembered set for a heap region.  Represent a set of "cards" that
 // contain pointers into the owner heap region.  Cards are defined somewhat

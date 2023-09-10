@@ -25,10 +25,10 @@
 #ifndef SHARE_MEMORY_METASPACE_PRINTCLDMETASPACEINFOCLOSURE_HPP
 #define SHARE_MEMORY_METASPACE_PRINTCLDMETASPACEINFOCLOSURE_HPP
 
-#include "memory/iterator.hpp"
-#include "memory/metaspace.hpp"
-#include "memory/metaspace/metaspaceStatistics.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metaspaceStatistics.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class outputStream;
 

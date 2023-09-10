@@ -29,7 +29,7 @@
 #include "opto/callnode.hpp"
 #include "opto/compile.hpp"
 #include "opto/type.hpp"
-#include "runtime/deoptimization.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 
 //---------------------------CallGenerator-------------------------------------
 // The subclasses of this class handle generation of ideal nodes for

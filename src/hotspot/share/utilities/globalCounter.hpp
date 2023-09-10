@@ -25,8 +25,8 @@
 #ifndef SHARE_UTILITIES_GLOBAL_COUNTER_HPP
 #define SHARE_UTILITIES_GLOBAL_COUNTER_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/padded.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
 
 class Thread;
 

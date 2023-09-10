@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_MODULES_HPP
 #define SHARE_VM_CLASSFILE_MODULES_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 
 class ModuleEntryTable;
 class Symbol;

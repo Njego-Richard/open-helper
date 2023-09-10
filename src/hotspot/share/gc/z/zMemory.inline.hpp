@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZMEMORY_INLINE_HPP
 #define SHARE_GC_Z_ZMEMORY_INLINE_HPP
 
-#include "gc/z/zMemory.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 inline ZMemory::ZMemory(uintptr_t start, size_t size) :
     _start(start),

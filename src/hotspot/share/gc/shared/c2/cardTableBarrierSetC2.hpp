@@ -25,7 +25,7 @@
 #ifndef SHARE_GC_SHARED_C2_CARDTABLEBARRIERSETC2_HPP
 #define SHARE_GC_SHARED_C2_CARDTABLEBARRIERSETC2_HPP
 
-#include "gc/shared/c2/modRefBarrierSetC2.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/modRefBarrierSetC2.hpp"
 
 class CardTableBarrierSetC2: public ModRefBarrierSetC2 {
 protected:

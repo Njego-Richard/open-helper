@@ -22,14 +22,14 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "compiler/compilerDefinitions.hpp"
 
 #if INCLUDE_RTM_OPT
 
-#include "memory/allocation.inline.hpp"
-#include "runtime/task.hpp"
-#include "runtime/rtmLocking.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/task.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/rtmLocking.hpp"
 
 
 // One-shot PeriodicTask subclass for enabling RTM locking

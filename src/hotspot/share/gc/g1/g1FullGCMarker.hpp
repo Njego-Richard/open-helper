@@ -25,16 +25,16 @@
 #ifndef SHARE_GC_G1_G1FULLGCMARKER_HPP
 #define SHARE_GC_G1_G1FULLGCMARKER_HPP
 
-#include "gc/g1/g1FullGCOopClosures.hpp"
-#include "gc/shared/preservedMarks.hpp"
-#include "gc/shared/taskqueue.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1FullGCOopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/preservedMarks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "oops/markOop.hpp"
 #include "oops/oop.hpp"
-#include "runtime/timer.hpp"
-#include "utilities/chunkedList.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/chunkedList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 typedef OverflowTaskQueue<oop, mtGC>                 OopQueue;
 typedef OverflowTaskQueue<ObjArrayTask, mtGC>        ObjArrayTaskQueue;

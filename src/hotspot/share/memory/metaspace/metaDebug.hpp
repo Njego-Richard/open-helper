@@ -25,7 +25,7 @@
 #ifndef SHARE_MEMORY_METASPACE_METADEBUG_HPP
 #define SHARE_MEMORY_METASPACE_METADEBUG_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 namespace metaspace {
 

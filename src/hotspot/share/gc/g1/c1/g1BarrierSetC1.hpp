@@ -26,7 +26,7 @@
 #define SHARE_GC_G1_C1_G1BARRIERSETC1_HPP
 
 #include "c1/c1_CodeStubs.hpp"
-#include "gc/shared/c1/modRefBarrierSetC1.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c1/modRefBarrierSetC1.hpp"
 
 class G1PreBarrierStub: public CodeStub {
   friend class G1BarrierSetC1;

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_G1YOUNGGENSIZER_HPP
 #define SHARE_VM_GC_G1_G1YOUNGGENSIZER_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // There are three command line options related to the young gen size:
 // NewSize, MaxNewSize and NewRatio (There is also -Xmn, but that is

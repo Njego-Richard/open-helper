@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_LEAKPROFILER_CHAINS_EDGEUTILS_HPP
 #define SHARE_VM_LEAKPROFILER_CHAINS_EDGEUTILS_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class Edge;
 class Symbol;

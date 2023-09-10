@@ -21,19 +21,19 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zAddress.inline.hpp"
-#include "gc/z/zBackingFile_linux_x86.hpp"
-#include "gc/z/zErrno.hpp"
-#include "gc/z/zLargePages.inline.hpp"
-#include "gc/z/zMemory.hpp"
-#include "gc/z/zNUMA.hpp"
-#include "gc/z/zPhysicalMemory.inline.hpp"
-#include "gc/z/zPhysicalMemoryBacking_linux_x86.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBackingFile_linux_x86.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zErrno.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLargePages.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zNUMA.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPhysicalMemory.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPhysicalMemoryBacking_linux_x86.hpp"
 #include "logging/log.hpp"
-#include "runtime/os.hpp"
-#include "utilities/align.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 #include <stdio.h>
 #include <sys/mman.h>

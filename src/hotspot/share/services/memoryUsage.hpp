@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_SERVICES_MEMORYUSAGE_HPP
 #define SHARE_VM_SERVICES_MEMORYUSAGE_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // A memory usage contains the following attributes about memory usage:
 //  initSize - represents the initial amount of memory (in bytes) that

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_G1EVACSTATS_HPP
 #define SHARE_VM_GC_G1_G1EVACSTATS_HPP
 
-#include "gc/shared/plab.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/plab.hpp"
 
 // Records various memory allocation statistics gathered during evacuation.
 class G1EvacStats : public PLABStats {

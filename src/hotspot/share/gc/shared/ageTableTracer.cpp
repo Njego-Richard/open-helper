@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/ageTableTracer.hpp"
-#include "gc/shared/gcId.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/ageTableTracer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
 #include "jfr/jfrEvents.hpp"
 
 void AgeTableTracer::send_tenuring_distribution_event(uint age, size_t size) {

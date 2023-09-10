@@ -27,9 +27,9 @@
 
 #include "code/oopRecorder.hpp"
 #include "code/relocInfo.hpp"
-#include "utilities/align.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class CodeStrings;
 class PhaseCFG;
@@ -653,7 +653,7 @@ class CodeBuffer: public StackObj {
 
 
   // The following header contains architecture-specific implementations
-#include CPU_HEADER(codeBuffer)
+//#include CPU_HEADER(codeBuffer)
 
 };
 

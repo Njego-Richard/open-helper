@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_PARALLEL_PARMARKBITMAP_HPP
 #define SHARE_VM_GC_PARALLEL_PARMARKBITMAP_HPP
 
-#include "memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 #include "oops/oop.hpp"
-#include "utilities/bitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
 
 class ParMarkBitMapClosure;
 class PSVirtualSpace;

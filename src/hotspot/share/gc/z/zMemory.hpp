@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZMEMORY_HPP
 #define SHARE_GC_Z_ZMEMORY_HPP
 
-#include "gc/z/zList.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZMemory : public CHeapObj<mtGC> {
   friend class ZList<ZMemory>;

@@ -22,14 +22,14 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/symbolTable.hpp"
 #include "interpreter/bytecodeStream.hpp"
 #include "oops/fieldStreams.hpp"
 #include "prims/jvmtiClassFileReconstituter.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/signature.hpp"
-#include "utilities/bytes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
 
 // FIXME: add Deprecated attribute
 // FIXME: fix Synthetic attribute

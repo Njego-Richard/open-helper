@@ -22,8 +22,8 @@
 //
 
 source_hpp %{
-#include "gc/shenandoah/shenandoahBarrierSetAssembler.hpp"
-#include "gc/shenandoah/c2/shenandoahSupport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahBarrierSetAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/c2/shenandoahSupport.hpp"
 %}
 
 instruct compareAndSwapP_shenandoah(rRegI res,

@@ -24,11 +24,11 @@
 #ifndef SHARE_GC_Z_ZMARKSTACK_HPP
 #define SHARE_GC_Z_ZMARKSTACK_HPP
 
-#include "gc/z/zGlobals.hpp"
-#include "gc/z/zLock.hpp"
-#include "gc/z/zMarkStackEntry.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLock.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMarkStackEntry.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 template <typename T, size_t S>
 class ZStack {

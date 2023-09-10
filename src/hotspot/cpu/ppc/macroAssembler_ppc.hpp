@@ -28,8 +28,8 @@
 
 #include "asm/assembler.hpp"
 #include "oops/accessDecorators.hpp"
-#include "runtime/rtmLocking.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/rtmLocking.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // MacroAssembler extends Assembler by a few frequently used macros.
 

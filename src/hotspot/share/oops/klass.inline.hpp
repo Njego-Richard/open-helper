@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_KLASS_INLINE_HPP
 #define SHARE_VM_OOPS_KLASS_INLINE_HPP
 
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "oops/klass.hpp"
 #include "oops/markOop.hpp"
 

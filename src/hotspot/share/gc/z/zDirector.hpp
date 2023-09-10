@@ -24,9 +24,9 @@
 #ifndef SHARE_GC_Z_ZDIRECTOR_HPP
 #define SHARE_GC_Z_ZDIRECTOR_HPP
 
-#include "gc/shared/concurrentGCThread.hpp"
-#include "gc/shared/gcCause.hpp"
-#include "gc/z/zMetronome.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/concurrentGCThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMetronome.hpp"
 
 class ZDirector : public ConcurrentGCThread {
 private:

@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_G1_G1EDENREGIONS_HPP
 #define SHARE_VM_GC_G1_G1EDENREGIONS_HPP
 
-#include "gc/g1/heapRegion.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class G1EdenRegions {
 private:

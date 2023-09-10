@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_G1_G1BARRIERSET_HPP
 #define SHARE_VM_GC_G1_G1BARRIERSET_HPP
 
-#include "gc/g1/dirtyCardQueue.hpp"
-#include "gc/g1/satbMarkQueue.hpp"
-#include "gc/shared/cardTableBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/dirtyCardQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/satbMarkQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableBarrierSet.hpp"
 
 class DirtyCardQueueSet;
 class CardTable;

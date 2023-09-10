@@ -24,8 +24,8 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHPACER_INLINE_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHPACER_INLINE_HPP
 
-#include "gc/shenandoah/shenandoahPacer.hpp"
-#include "runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahPacer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 inline void ShenandoahPacer::report_mark(size_t words) {
   report_internal(words);

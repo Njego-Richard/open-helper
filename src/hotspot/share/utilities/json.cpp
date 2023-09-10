@@ -31,9 +31,9 @@
  * - The last element in an object or array can have an ending comma.
  */
 
-#include "precompiled.hpp"
-#include "utilities/json.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/json.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 #include <math.h>
 
 const char* strchrnul_(const char *s, int c) {

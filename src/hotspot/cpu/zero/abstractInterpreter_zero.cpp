@@ -23,11 +23,11 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "interpreter/bytecodeInterpreter.hpp"
 #include "interpreter/cppInterpreter.hpp"
-#include "runtime/frame.inline.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 int AbstractInterpreter::BasicType_as_index(BasicType type) {
   int i = 0;

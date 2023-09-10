@@ -25,7 +25,7 @@
 #define SHARE_VM_JVMCI_JVMCI_COMPILER_TO_VM_HPP
 
 #include "jni.h"
-#include "runtime/javaCalls.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"
 #include "jvmci/jvmciJavaClasses.hpp"
 
 // Helper class to ensure that references to Klass* are kept alive for G1

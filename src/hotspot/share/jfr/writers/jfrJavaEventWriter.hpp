@@ -26,7 +26,7 @@
 #define SHARE_VM_JFR_WRITERS_JFRJAVAEVENTWRITER_HPP
 
 #include "jni.h"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class JavaThread;
 class Thread;

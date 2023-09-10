@@ -25,7 +25,7 @@
 #ifndef SHARE_JFR_LEAKPROFILER_UTILITIES_VMOPERATION_HPP
 #define SHARE_JFR_LEAKPROFILER_UTILITIES_VMOPERATION_HPP
 
-#include "runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
 
 class OldObjectVMOperation : public VM_Operation {
  public:

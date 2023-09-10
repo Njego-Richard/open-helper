@@ -24,10 +24,10 @@
 #ifndef SHARE_GC_Z_ZPAGECACHE_HPP
 #define SHARE_GC_Z_ZPAGECACHE_HPP
 
-#include "gc/z/zList.hpp"
-#include "gc/z/zPage.hpp"
-#include "gc/z/zValue.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zValue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZPageCache {
 private:

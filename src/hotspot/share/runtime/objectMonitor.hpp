@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_RUNTIME_OBJECTMONITOR_HPP
 #define SHARE_VM_RUNTIME_OBJECTMONITOR_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/padded.hpp"
-#include "runtime/os.hpp"
-#include "runtime/park.hpp"
-#include "runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/park.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 
 class ObjectMonitor;
 

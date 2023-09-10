@@ -26,12 +26,12 @@
 #define SHARE_VM_OOPS_GENERATEOOPMAP_HPP
 
 #include "interpreter/bytecodeStream.hpp"
-#include "memory/allocation.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "oops/method.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "runtime/signature.hpp"
-#include "utilities/bitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
 
 // Forward definition
 class GenerateOopMap;

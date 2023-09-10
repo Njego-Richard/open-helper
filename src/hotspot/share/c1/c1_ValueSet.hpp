@@ -26,8 +26,8 @@
 #define SHARE_VM_C1_C1_VALUESET_HPP
 
 #include "c1/c1_Instruction.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/bitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
 
 // A ValueSet is a simple abstraction on top of a BitMap representing
 // a set of Instructions. Currently it assumes that the number of

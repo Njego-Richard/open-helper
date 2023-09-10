@@ -28,8 +28,8 @@
 #include "asm/codeBuffer.hpp"
 #include "code/stubs.hpp"
 #include "interpreter/bytecodes.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 //
 // For CompiledIC's:

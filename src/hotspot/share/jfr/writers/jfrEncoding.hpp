@@ -26,8 +26,8 @@
 #define SHARE_VM_JFR_WRITERS_JFRENCODING_HPP
 
 #include "jfr/writers/jfrEncoders.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 enum JfrStringEncoding {
   NULL_STRING = 0,

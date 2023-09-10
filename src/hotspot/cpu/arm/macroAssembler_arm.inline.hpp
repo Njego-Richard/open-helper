@@ -28,7 +28,7 @@
 #include "asm/assembler.inline.hpp"
 #include "asm/codeBuffer.hpp"
 #include "code/codeCache.hpp"
-#include "runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 inline void MacroAssembler::pd_patch_instruction(address branch, address target) {
   int instr = *(int*)branch;

@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_OOPS_METADATA_HPP
 #define SHARE_VM_OOPS_METADATA_HPP
 
-#include "utilities/exceptions.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 // This is the base class for an internal Class related metadata
 class Metadata : public MetaspaceObj {

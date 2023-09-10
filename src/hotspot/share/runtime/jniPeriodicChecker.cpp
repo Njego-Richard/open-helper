@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "memory/allocation.inline.hpp"
-#include "runtime/jniPeriodicChecker.hpp"
-#include "runtime/task.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniPeriodicChecker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/task.hpp"
 
 
 // --------------------------------------------------------

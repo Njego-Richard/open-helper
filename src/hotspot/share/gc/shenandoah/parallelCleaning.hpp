@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_PARALLELCLEANING_HPP
 #define SHARE_VM_GC_SHARED_PARALLELCLEANING_HPP
 
-#include "gc/shared/oopStorageParState.hpp"
-#include "gc/shared/workgroup.hpp"
-#include "gc/shenandoah/shenandoahPhaseTimings.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workgroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahPhaseTimings.hpp"
 
 class StringSymbolTableUnlinkTask : public AbstractGangTask {
 private:

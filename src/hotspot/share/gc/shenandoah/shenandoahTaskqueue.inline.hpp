@@ -24,9 +24,9 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHTASKQUEUE_INLINE_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHTASKQUEUE_INLINE_HPP
 
-#include "gc/shared/taskqueue.inline.hpp"
-#include "gc/shenandoah/shenandoahTaskqueue.hpp"
-#include "utilities/stack.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahTaskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.inline.hpp"
 
 template <class E, MEMFLAGS F, unsigned int N>
 bool BufferedOverflowTaskQueue<E, F, N>::pop(E &t) {

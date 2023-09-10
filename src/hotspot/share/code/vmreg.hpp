@@ -26,9 +26,9 @@
 #define SHARE_VM_CODE_VMREG_HPP
 
 #include "asm/register.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 #ifdef COMPILER2
 #include "opto/adlcVMDeps.hpp"
 #endif
@@ -139,7 +139,7 @@ public:
 
   static void set_regName();
 
-#include CPU_HEADER(vmreg)
+//#include CPU_HEADER(vmreg)
 
 };
 

@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZGLOBALS_HPP
 #define SHARE_GC_Z_ZGLOBALS_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include OS_CPU_HEADER(gc/z/zGlobals)
 
 // Collector name

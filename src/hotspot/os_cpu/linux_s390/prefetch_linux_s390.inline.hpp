@@ -26,7 +26,7 @@
 #ifndef OS_CPU_LINUX_S390_VM_PREFETCH_LINUX_S390_INLINE_HPP
 #define OS_CPU_LINUX_S390_VM_PREFETCH_LINUX_S390_INLINE_HPP
 
-#include "runtime/prefetch.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.hpp"
 
 inline void Prefetch::read(void* loc, intx interval) {
   // No prefetch instructions on z/Architecture -> implement trivially.

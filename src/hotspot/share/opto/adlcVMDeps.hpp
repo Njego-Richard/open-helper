@@ -28,7 +28,7 @@
 // adlcVMDeps.hpp is used by both adlc and vm builds.
 // Only include allocation.hpp when we're not building adlc.
 #ifndef SHARE_VM_ADLC_ARENA_HPP
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #endif
 
 // Declare commonly known constant and data structures between the

@@ -22,16 +22,16 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/heapRegion.hpp"
-#include "gc/g1/heapRegionBounds.inline.hpp"
-#include "gc/g1/heapRegionRemSet.hpp"
-#include "gc/g1/sparsePRT.hpp"
-#include "gc/shared/cardTableBarrierSet.hpp"
-#include "gc/shared/space.inline.hpp"
-#include "memory/allocation.inline.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionBounds.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionRemSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/sparsePRT.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 
 // Check that the size of the SparsePRTEntry is evenly divisible by the maximum
 // member type to avoid SIGBUS when accessing them.

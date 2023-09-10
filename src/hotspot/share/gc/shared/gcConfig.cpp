@@ -22,17 +22,17 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/gcConfig.hpp"
-#include "runtime/globals_extension.hpp"
-#include "runtime/java.hpp"
-#include "runtime/os.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcConfig.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_CMSGC
-#include "gc/cms/cmsArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsArguments.hpp"
 #endif
 #if INCLUDE_EPSILONGC
-#include "gc/epsilon/epsilonArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonArguments.hpp"
 #endif
 
 #ifdef INCLUDE_THIRD_PARTY_HEAP
@@ -40,19 +40,19 @@
 #endif
 
 #if INCLUDE_G1GC
-#include "gc/g1/g1Arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Arguments.hpp"
 #endif
 #if INCLUDE_PARALLELGC
-#include "gc/parallel/parallelArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelArguments.hpp"
 #endif
 #if INCLUDE_SERIALGC
-#include "gc/serial/serialArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/serialArguments.hpp"
 #endif
 #if INCLUDE_SHENANDOAHGC
-#include "gc/shenandoah/shenandoahArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahArguments.hpp"
 #endif
 #if INCLUDE_ZGC
-#include "gc/z/zArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zArguments.hpp"
 #endif
 
 struct SupportedGC {

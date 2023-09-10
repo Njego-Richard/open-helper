@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_G1_G1EVACFAILURE_HPP
 #define SHARE_VM_GC_G1_G1EVACFAILURE_HPP
 
-#include "gc/g1/g1OopClosures.hpp"
-#include "gc/g1/heapRegionManager.hpp"
-#include "gc/shared/workgroup.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1OopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workgroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class G1CollectedHeap;
 

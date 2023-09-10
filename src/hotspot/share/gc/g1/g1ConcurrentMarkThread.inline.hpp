@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1CONCURRENTMARKTHREAD_INLINE_HPP
 #define SHARE_VM_GC_G1_G1CONCURRENTMARKTHREAD_INLINE_HPP
 
-#include "gc/g1/g1ConcurrentMark.hpp"
-#include "gc/g1/g1ConcurrentMarkThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ConcurrentMark.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ConcurrentMarkThread.hpp"
 
   // Total virtual time so far.
 inline double G1ConcurrentMarkThread::vtime_accum() {

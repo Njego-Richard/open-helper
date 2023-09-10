@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_SHENANDOAH_SHENANDOAHROOTVERIFIER_HPP
 #define SHARE_GC_SHENANDOAH_SHENANDOAHROOTVERIFIER_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 
 class ShenandoahRootVerifier : public StackObj {
 public:

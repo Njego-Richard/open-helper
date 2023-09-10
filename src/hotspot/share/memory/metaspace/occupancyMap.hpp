@@ -26,9 +26,9 @@
 #ifndef SHARE_MEMORY_METASPACE_OCCUPANCYMAP_HPP
 #define SHARE_MEMORY_METASPACE_OCCUPANCYMAP_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 
 namespace metaspace {

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_EPSILON_BARRIERSET_HPP
 #define SHARE_VM_GC_EPSILON_BARRIERSET_HPP
 
-#include "gc/shared/barrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 
 // No interaction with application is required for Epsilon, and therefore
 // the barrier set is empty.

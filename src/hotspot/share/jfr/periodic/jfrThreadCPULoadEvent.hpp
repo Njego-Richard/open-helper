@@ -26,7 +26,7 @@
 #define SHARE_VM_JFR_PERIODIC_JFRTHREADCPULOAD_HPP
 
 #include "jni.h"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class JavaThread;
 class EventThreadCPULoad;

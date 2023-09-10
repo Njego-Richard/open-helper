@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
 #if !defined(_WINDOWS) && !defined(__APPLE__)
 
@@ -32,14 +32,14 @@
 #include <new>
 
 #include "logging/log.hpp"
-#include "memory/allocation.inline.hpp"
-#include "memory/resourceArea.hpp"
-#include "utilities/decoder.hpp"
-#include "utilities/elfFile.hpp"
-#include "utilities/elfFuncDescTable.hpp"
-#include "utilities/elfStringTable.hpp"
-#include "utilities/elfSymbolTable.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/decoder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/elfFile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/elfFuncDescTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/elfStringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/elfSymbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 // For test only, disable elf section cache and force to read from file directly.
 bool ElfFile::_do_not_cache_elf_section = false;

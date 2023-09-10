@@ -36,10 +36,10 @@
 #include "oops/instanceKlass.hpp"
 #include "oops/oop.hpp"
 #include "oops/typeArrayOop.hpp"
-#include "utilities/accessFlags.hpp"
-#include "utilities/align.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_JFR
 #include "jfr/support/jfrTraceIdExtension.hpp"
 #endif

@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_GCCONFIGURATION_HPP
 #define SHARE_VM_GC_SHARED_GCCONFIGURATION_HPP
 
-#include "gc/shared/gcName.hpp"
-#include "memory/universe.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcName.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class GCConfiguration {
  public:

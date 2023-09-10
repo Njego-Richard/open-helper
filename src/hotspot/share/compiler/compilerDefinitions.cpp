@@ -22,13 +22,13 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "code/codeCache.hpp"
-#include "runtime/globals.hpp"
-#include "runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
 #include "compiler/compilerDefinitions.hpp"
-#include "gc/shared/gcConfig.hpp"
-#include "utilities/defaultStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcConfig.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/defaultStream.hpp"
 
 const char* compilertype2name_tab[compiler_number_of_types] = {
   "",

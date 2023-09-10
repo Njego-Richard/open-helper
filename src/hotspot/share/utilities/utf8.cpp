@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "utilities/utf8.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/utf8.hpp"
 
 // Assume the utf8 string is in legal form and has been
 // checked in the class file parser/format checker.

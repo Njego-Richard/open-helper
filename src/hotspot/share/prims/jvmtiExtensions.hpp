@@ -27,7 +27,7 @@
 
 #include "jvmtifiles/jvmti.h"
 #include "jvmtifiles/jvmtiEnv.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // JvmtiExtensions
 //

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_VM_OPERATIONS_G1_HPP
 #define SHARE_VM_GC_G1_VM_OPERATIONS_G1_HPP
 
-#include "gc/shared/gcId.hpp"
-#include "gc/shared/vmGCOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/vmGCOperations.hpp"
 
 // VM_operations for the G1 collector.
 // VM_GC_Operation:

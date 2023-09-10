@@ -21,12 +21,12 @@
  * questions.
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "logging/logLevel.hpp"
 #include "logging/logSelection.hpp"
 #include "logging/logTagSet.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "logTestUtils.inline.hpp"
 #include "unittest.hpp"
 

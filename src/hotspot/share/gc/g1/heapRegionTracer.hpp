@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_HEAPREGIONTRACER_HPP
 #define SHARE_VM_GC_G1_HEAPREGIONTRACER_HPP
 
-#include "gc/g1/g1HeapRegionTraceType.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1HeapRegionTraceType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class HeapRegionTracer : AllStatic {
   public:

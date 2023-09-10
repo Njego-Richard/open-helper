@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZOOPCLOSURES_HPP
 #define SHARE_GC_Z_ZOOPCLOSURES_HPP
 
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 
 class ZLoadBarrierOopClosure : public BasicOopIterateClosure {
 public:

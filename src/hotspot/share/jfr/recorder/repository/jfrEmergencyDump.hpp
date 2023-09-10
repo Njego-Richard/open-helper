@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_RECORDER_INTERNAL_JFREMERGENCY_HPP
 #define SHARE_VM_JFR_RECORDER_INTERNAL_JFREMERGENCY_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 //
 // Responsible for creating an hs_err<pid>.jfr file in exceptional shutdown situations (crash, OOM)

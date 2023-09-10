@@ -22,13 +22,13 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/dcmd/jfrDcmds.hpp"
 #include "jfr/jfrEvents.hpp"
 #include "jfr/periodic/jfrThreadDumpEvent.hpp"
 #include "logging/log.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 /**
 *  Worker impl for generating and writing dcmd commands

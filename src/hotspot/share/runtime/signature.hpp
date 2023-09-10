@@ -26,7 +26,7 @@
 #ifndef SHARE_VM_RUNTIME_SIGNATURE_HPP
 #define SHARE_VM_RUNTIME_SIGNATURE_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/method.hpp"
 
 // SignatureIterators iterate over a Java signature (or parts of it).

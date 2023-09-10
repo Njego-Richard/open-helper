@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "ci/bcEscapeAnalyzer.hpp"
 #include "ci/ciConstant.hpp"
 #include "ci/ciField.hpp"
@@ -30,9 +30,9 @@
 #include "ci/ciStreams.hpp"
 #include "interpreter/bytecode.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/align.hpp"
-#include "utilities/bitMap.inline.hpp"
-#include "utilities/copy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
 
 #ifndef PRODUCT
   #define TRACE_BCEA(level, code)                                            \

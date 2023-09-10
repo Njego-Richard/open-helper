@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "memory/heap.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heap.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "services/memTracker.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 size_t CodeHeap::header_size() {
   return sizeof(HeapBlock);

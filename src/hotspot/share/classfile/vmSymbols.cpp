@@ -22,16 +22,16 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "classfile/vmSymbols.hpp"
 #include "compiler/compilerDirectives.hpp"
-#include "memory/allocation.inline.hpp"
-#include "memory/oopFactory.hpp"
-#include "memory/metaspaceClosure.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceClosure.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/handles.inline.hpp"
-#include "utilities/xmlstream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/xmlstream.hpp"
 
 
 Symbol* vmSymbols::_symbols[vmSymbols::SID_LIMIT];

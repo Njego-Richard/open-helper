@@ -22,16 +22,16 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/dictionary.hpp"
 #include "classfile/classLoaderData.inline.hpp"
 #include "classfile/loaderConstraints.hpp"
 #include "logging/log.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/handles.inline.hpp"
-#include "runtime/safepoint.hpp"
-#include "utilities/hashtable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.inline.hpp"
 
 void LoaderConstraintEntry::set_loader(int i, oop p) {
   set_loader_data(i, ClassLoaderData::class_loader_data(p));

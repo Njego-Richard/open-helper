@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSPROMOTIONMANAGER_HPP
 #define SHARE_VM_GC_PARALLEL_PSPROMOTIONMANAGER_HPP
 
-#include "gc/parallel/psPromotionLAB.hpp"
-#include "gc/shared/copyFailedInfo.hpp"
-#include "gc/shared/gcTrace.hpp"
-#include "gc/shared/preservedMarks.hpp"
-#include "gc/shared/taskqueue.hpp"
-#include "memory/padded.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psPromotionLAB.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/copyFailedInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/preservedMarks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 //
 // psPromotionManager is used by a single thread to manage object survival

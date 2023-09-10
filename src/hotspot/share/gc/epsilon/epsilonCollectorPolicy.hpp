@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_GC_EPSILON_COLLECTORPOLICY_HPP
 #define SHARE_VM_GC_EPSILON_COLLECTORPOLICY_HPP
 
-#include "gc/shared/collectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorPolicy.hpp"
 
 class EpsilonCollectorPolicy: public CollectorPolicy {
 protected:

@@ -25,8 +25,8 @@
 #ifndef OS_WINDOWS_VM_IPHLP_INTERFACE_HPP
 #define OS_WINDOWS_VM_IPHLP_INTERFACE_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include <WinSock2.h>
 #include <ws2ipdef.h>
 #include <iphlpapi.h>

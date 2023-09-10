@@ -26,7 +26,7 @@
 #define SHARE_VM_OOPS_COMPILEDICHOLDEROOP_HPP
 
 #include "oops/oop.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include "oops/klass.hpp"
 #include "oops/method.hpp"
 

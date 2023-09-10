@@ -27,7 +27,7 @@
 
 #include "jfr/recorder/storage/jfrBuffer.hpp"
 #include "jfr/utilities/jfrTypes.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class Thread;
 

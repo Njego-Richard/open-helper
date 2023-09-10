@@ -24,12 +24,12 @@
 #ifndef SHARE_GC_Z_ZPAGE_HPP
 #define SHARE_GC_Z_ZPAGE_HPP
 
-#include "gc/z/zForwardingTable.hpp"
-#include "gc/z/zList.hpp"
-#include "gc/z/zLiveMap.hpp"
-#include "gc/z/zPhysicalMemory.hpp"
-#include "gc/z/zVirtualMemory.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zForwardingTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLiveMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPhysicalMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zVirtualMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZPage : public CHeapObj<mtGC> {
   friend class VMStructs;

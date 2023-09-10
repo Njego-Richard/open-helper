@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_SHARED_GCLOCKER_HPP
 #define SHARE_VM_GC_SHARED_GCLOCKER_HPP
 
-#include "gc/shared/gcCause.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class JavaThread;
 

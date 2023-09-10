@@ -34,16 +34,16 @@
 #include "libadt/dict.hpp"
 #include "libadt/vectset.hpp"
 #include "jfr/jfrEvents.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/methodData.hpp"
 #include "opto/idealGraphPrinter.hpp"
 #include "opto/phasetype.hpp"
 #include "opto/phase.hpp"
 #include "opto/regmask.hpp"
-#include "runtime/deoptimization.hpp"
-#include "runtime/timerTrace.hpp"
-#include "runtime/vmThread.hpp"
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timerTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 
 class AbstractLockNode;
 class AddPNode;

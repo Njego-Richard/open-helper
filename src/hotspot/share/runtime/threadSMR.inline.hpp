@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_RUNTIME_THREADSMR_INLINE_HPP
 #define SHARE_VM_RUNTIME_THREADSMR_INLINE_HPP
 
-#include "runtime/atomic.hpp"
-#include "memory/iterator.hpp"
-#include "runtime/prefetch.inline.hpp"
-#include "runtime/thread.inline.hpp"
-#include "runtime/threadSMR.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.hpp"
 
 // Devirtualize known thread closure types.
 template <class T>

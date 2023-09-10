@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSCARDTABLE_HPP
 #define SHARE_VM_GC_PARALLEL_PSCARDTABLE_HPP
 
-#include "gc/shared/cardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTable.hpp"
 #include "oops/oop.hpp"
 
 class MutableSpace;

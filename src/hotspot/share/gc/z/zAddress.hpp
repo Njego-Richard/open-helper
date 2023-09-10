@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZADDRESS_HPP
 #define SHARE_GC_Z_ZADDRESS_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZAddress : public AllStatic {
 public:

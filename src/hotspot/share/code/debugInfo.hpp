@@ -29,9 +29,9 @@
 #include "code/location.hpp"
 #include "code/nmethod.hpp"
 #include "code/oopRecorder.hpp"
-#include "runtime/stackValue.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stackValue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // Classes used for serializing debugging information.
 // These abstractions are introducted to provide symmetric

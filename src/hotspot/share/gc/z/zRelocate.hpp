@@ -24,9 +24,9 @@
 #ifndef SHARE_GC_Z_ZRELOCATE_HPP
 #define SHARE_GC_Z_ZRELOCATE_HPP
 
-#include "gc/z/zRelocationSet.hpp"
-#include "gc/z/zWorkers.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zRelocationSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zWorkers.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZRelocate {
   friend class ZRelocateTask;

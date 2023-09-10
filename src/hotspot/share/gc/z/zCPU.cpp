@@ -21,13 +21,13 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zCPU.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCPU.hpp"
 #include "logging/log.hpp"
-#include "memory/padded.inline.hpp"
-#include "runtime/os.hpp"
-#include "runtime/thread.inline.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 #define ZCPU_UNKNOWN_AFFINITY (Thread*)-1;
 #define ZCPU_UNKNOWN_SELF     (Thread*)-2;

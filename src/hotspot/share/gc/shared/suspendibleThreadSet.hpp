@@ -25,7 +25,7 @@
 #ifndef SHARE_GC_SHARED_SUSPENDIBLETHREADSET_HPP
 #define SHARE_GC_SHARED_SUSPENDIBLETHREADSET_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // A SuspendibleThreadSet is a set of threads that can be suspended.
 // A thread can join and later leave the set, and periodically yield.

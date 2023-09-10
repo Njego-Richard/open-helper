@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_UTILITIES_NATIVE_CALL_STACK_HPP
 #define SHARE_VM_UTILITIES_NATIVE_CALL_STACK_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "services/nmtCommon.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 /*
  * This class represents a native call path (does not include Java frame)

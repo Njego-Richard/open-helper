@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_SUPPORT_JFRINTRINSICS_HPP
 #define SHARE_VM_JFR_SUPPORT_JFRINTRINSICS_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #if INCLUDE_JFR
 #include "jfr/support/jfrKlassExtension.hpp"

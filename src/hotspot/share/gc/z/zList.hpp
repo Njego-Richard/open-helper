@@ -24,9 +24,9 @@
 #ifndef SHARE_GC_Z_ZLIST_HPP
 #define SHARE_GC_Z_ZLIST_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 template <typename T> class ZList;
 

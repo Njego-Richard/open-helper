@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_ARENA_HPP
 #define SHARE_VM_ARENA_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 #include <new>
 

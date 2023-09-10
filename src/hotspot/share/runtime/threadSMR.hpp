@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_THREADSMR_HPP
 #define SHARE_VM_RUNTIME_THREADSMR_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/timer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timer.hpp"
 
 class JavaThread;
 class Monitor;

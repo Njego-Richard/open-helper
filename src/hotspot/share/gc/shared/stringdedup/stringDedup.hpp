@@ -63,11 +63,11 @@
 // http://openjdk.java.net/jeps/192
 //
 
-#include "gc/shared/stringdedup/stringDedupQueue.hpp"
-#include "gc/shared/stringdedup/stringDedupStat.hpp"
-#include "gc/shared/stringdedup/stringDedupTable.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 class ThreadClosure;
 

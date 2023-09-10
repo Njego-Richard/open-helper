@@ -28,8 +28,8 @@
 #include "logging/logPrefix.hpp"
 #include "logging/logTagSet.hpp"
 #include "logging/logTag.hpp"
-#include "runtime/os.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class LogMessageBuffer;
 

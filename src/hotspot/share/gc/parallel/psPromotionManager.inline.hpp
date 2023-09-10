@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSPROMOTIONMANAGER_INLINE_HPP
 #define SHARE_VM_GC_PARALLEL_PSPROMOTIONMANAGER_INLINE_HPP
 
-#include "gc/parallel/parallelScavengeHeap.hpp"
-#include "gc/parallel/parMarkBitMap.inline.hpp"
-#include "gc/parallel/psOldGen.hpp"
-#include "gc/parallel/psPromotionLAB.inline.hpp"
-#include "gc/parallel/psPromotionManager.hpp"
-#include "gc/parallel/psScavenge.hpp"
-#include "gc/shared/taskqueue.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parMarkBitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psOldGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psPromotionLAB.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psPromotionManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psScavenge.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.inline.hpp"
 #include "logging/log.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/oop.inline.hpp"

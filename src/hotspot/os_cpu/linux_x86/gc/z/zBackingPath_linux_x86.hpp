@@ -24,8 +24,8 @@
 #ifndef OS_CPU_LINUX_X86_ZBACKINGPATH_LINUX_X86_HPP
 #define OS_CPU_LINUX_X86_ZBACKINGPATH_LINUX_X86_HPP
 
-#include "gc/z/zArray.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZBackingPath : public StackObj {
 private:

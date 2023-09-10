@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_PARALLEL_PCTASKS_HPP
 #define SHARE_VM_GC_PARALLEL_PCTASKS_HPP
 
-#include "gc/parallel/gcTaskManager.hpp"
-#include "gc/parallel/psParallelCompact.hpp"
-#include "gc/parallel/psTasks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/gcTaskManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psParallelCompact.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psTasks.hpp"
 
 
 // Tasks for parallel compaction of the old generation

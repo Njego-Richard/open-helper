@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_VIRTUALSPACE_HPP
 #define SHARE_VM_RUNTIME_VIRTUALSPACE_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // ReservedSpace is a data structure for reserving a contiguous address range.
 

@@ -22,13 +22,13 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1CollectedHeap.inline.hpp"
-#include "gc/g1/g1MonitoringSupport.hpp"
-#include "gc/g1/g1Policy.hpp"
-#include "gc/shared/collectorCounters.hpp"
-#include "gc/shared/hSpaceCounters.hpp"
-#include "memory/metaspaceCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1MonitoringSupport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Policy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/hSpaceCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceCounters.hpp"
 
 G1GenerationCounters::G1GenerationCounters(G1MonitoringSupport* g1mm,
                                            const char* name,

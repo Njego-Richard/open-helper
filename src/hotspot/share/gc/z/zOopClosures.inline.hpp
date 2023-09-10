@@ -24,13 +24,13 @@
 #ifndef SHARE_GC_Z_ZOOPCLOSURES_INLINE_HPP
 #define SHARE_GC_Z_ZOOPCLOSURES_INLINE_HPP
 
-#include "gc/z/zBarrier.inline.hpp"
-#include "gc/z/zHeap.inline.hpp"
-#include "gc/z/zOop.inline.hpp"
-#include "gc/z/zOopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBarrier.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOopClosures.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/atomic.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 inline void ZLoadBarrierOopClosure::do_oop(oop* p) {
   ZBarrier::load_barrier_on_oop_field(p);

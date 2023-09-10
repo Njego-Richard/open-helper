@@ -26,7 +26,7 @@
 
 #include "logging/logDecorators.hpp"
 #include "logging/logOutput.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class LogDecorations;
 

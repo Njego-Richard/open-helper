@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_LEAKPROFILER_CHAINS_ROOTSETCLOSURE_HPP
 #define SHARE_VM_JFR_LEAKPROFILER_CHAINS_ROOTSETCLOSURE_HPP
 
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 
 template <typename Delegate>
 class RootSetClosure: public BasicOopIterateClosure {

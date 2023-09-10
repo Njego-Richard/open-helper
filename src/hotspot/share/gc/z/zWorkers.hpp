@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZWORKERS_HPP
 #define SHARE_GC_Z_ZWORKERS_HPP
 
-#include "gc/shared/workgroup.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workgroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ThreadClosure;
 class ZTask;

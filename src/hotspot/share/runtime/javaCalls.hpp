@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_RUNTIME_JAVACALLS_HPP
 #define SHARE_VM_RUNTIME_JAVACALLS_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/method.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/javaFrameAnchor.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/vmThread.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaFrameAnchor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
-#include CPU_HEADER(jniTypes)
+//#include CPU_HEADER(jniTypes)
 
 // A JavaCallWrapper is constructed before each JavaCall and destructed after the call.
 // Its purpose is to allocate/deallocate a new handle block and to save/restore the last

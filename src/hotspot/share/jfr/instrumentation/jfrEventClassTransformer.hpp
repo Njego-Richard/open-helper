@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_JFR_INSTRUMENTATION_JFREVENTCLASSTRANSFORMER_HPP
 #define SHARE_VM_JFR_INSTRUMENTATION_JFREVENTCLASSTRANSFORMER_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 class ClassFileParser;
 class InstanceKlass;

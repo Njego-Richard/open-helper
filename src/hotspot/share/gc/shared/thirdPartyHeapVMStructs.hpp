@@ -25,12 +25,12 @@
 #ifndef SHARE_GC_SHARED_THIRD_PARTY_HEAP_VM_STRUCTS_HPP
 #define SHARE_GC_SHARED_THIRD_PARTY_HEAP_VM_STRUCTS_HPP
 
-// #include "gc/epsilon/epsilonHeap.hpp"
+// #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonHeap.hpp"
 
 #include THIRD_PARTY_HEAP_FILE(thirdPartyHeap.hpp)
 
-#include "gc/shared/space.hpp"
-#include "memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
 
 #define VM_STRUCTS_THIRD_PARTY_HEAP(nonstatic_field, volatile_nonstatic_field, \
                                     static_field)

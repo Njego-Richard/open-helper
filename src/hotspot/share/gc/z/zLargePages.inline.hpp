@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZLARGEPAGES_INLINE_HPP
 #define SHARE_GC_Z_ZLARGEPAGES_INLINE_HPP
 
-#include "gc/z/zLargePages.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLargePages.hpp"
 
 inline bool ZLargePages::is_enabled() {
   return _state != Disabled;

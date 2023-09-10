@@ -27,7 +27,7 @@
 
 #include "asm/macroAssembler.hpp"
 #include "interpreter/invocationCounter.hpp"
-#include "runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 
 // This file specializes the assember with interpreter-specific macros
 

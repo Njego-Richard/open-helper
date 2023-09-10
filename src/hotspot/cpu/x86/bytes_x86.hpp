@@ -25,9 +25,9 @@
 #ifndef CPU_X86_VM_BYTES_X86_HPP
 #define CPU_X86_VM_BYTES_X86_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/align.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class Bytes: AllStatic {
  private:

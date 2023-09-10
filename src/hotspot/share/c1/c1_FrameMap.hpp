@@ -29,11 +29,11 @@
 #include "c1/c1_Defs.hpp"
 #include "c1/c1_LIR.hpp"
 #include "code/vmreg.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/synchronizer.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/synchronizer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class ciMethod;
 class CallingConvention;
@@ -81,7 +81,7 @@ class FrameMap : public CompilationResourceObj {
     spill_slot_size_in_bytes = 4
   };
 
-#include CPU_HEADER(c1_FrameMap)
+//#include CPU_HEADER(c1_FrameMap)
 
   friend class LIR_OprDesc;
 

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_HEAPREGIONSET_INLINE_HPP
 #define SHARE_VM_GC_G1_HEAPREGIONSET_INLINE_HPP
 
-#include "gc/g1/heapRegionSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionSet.hpp"
 
 inline void HeapRegionSetBase::add(HeapRegion* hr) {
   check_mt_safety();

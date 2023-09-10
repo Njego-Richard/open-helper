@@ -26,7 +26,7 @@
 #ifndef CPU_ZERO_VM_BYTES_ZERO_HPP
 #define CPU_ZERO_VM_BYTES_ZERO_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 typedef union unaligned {
   u4 u;

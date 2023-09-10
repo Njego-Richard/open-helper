@@ -27,7 +27,7 @@
 
 #include "oops/instanceKlass.hpp"
 #include "oops/fieldInfo.hpp"
-#include "runtime/fieldDescriptor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.hpp"
 
 // The is the base class for iteration over the fields array
 // describing the declared fields in the class.  Several subclasses

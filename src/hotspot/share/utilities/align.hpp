@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_ALIGN_HPP
 #define SHARE_VM_UTILITIES_ALIGN_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Signed variants of alignment helpers.  There are two versions of each, a macro
 // for use in places like enum definitions that require compile-time constant

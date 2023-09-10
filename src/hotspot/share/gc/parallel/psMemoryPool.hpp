@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_SERVICES_PSMEMORYPOOL_HPP
 #define SHARE_VM_SERVICES_PSMEMORYPOOL_HPP
 
-#include "gc/parallel/mutableSpace.hpp"
-#include "gc/parallel/psOldGen.hpp"
-#include "gc/parallel/psYoungGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psOldGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psYoungGen.hpp"
 #include "services/memoryPool.hpp"
 #include "services/memoryUsage.hpp"
 

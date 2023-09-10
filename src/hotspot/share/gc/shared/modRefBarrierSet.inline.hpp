@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_MODREFBARRIERSET_INLINE_HPP
 #define SHARE_VM_GC_SHARED_MODREFBARRIERSET_INLINE_HPP
 
-#include "gc/shared/barrierSet.hpp"
-#include "gc/shared/modRefBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/modRefBarrierSet.hpp"
 #include "oops/compressedOops.inline.hpp"
 #include "oops/klass.inline.hpp"
 #include "oops/objArrayOop.hpp"

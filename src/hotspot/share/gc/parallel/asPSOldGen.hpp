@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_GC_PARALLEL_ASPSOLDGEN_HPP
 #define SHARE_VM_GC_PARALLEL_ASPSOLDGEN_HPP
 
-#include "gc/parallel/mutableSpace.hpp"
-#include "gc/parallel/objectStartArray.hpp"
-#include "gc/parallel/psOldGen.hpp"
-#include "gc/parallel/psVirtualspace.hpp"
-#include "gc/parallel/spaceCounters.hpp"
-#include "gc/shared/generationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/objectStartArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psOldGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psVirtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/spaceCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationCounters.hpp"
 
 class ASPSOldGen : public PSOldGen {
   friend class VMStructs;

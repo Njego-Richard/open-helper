@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZNMETHODTABLEENTRY_HPP
 #define SHARE_GC_Z_ZNMETHODTABLEENTRY_HPP
 
-#include "gc/z/zBitField.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBitField.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 //
 // NMethod table entry layout

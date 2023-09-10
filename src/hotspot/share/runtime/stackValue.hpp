@@ -26,7 +26,7 @@
 #define SHARE_VM_RUNTIME_STACKVALUE_HPP
 
 #include "code/location.hpp"
-#include "runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 
 class StackValue : public ResourceObj {
  private:

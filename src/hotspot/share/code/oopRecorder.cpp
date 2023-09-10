@@ -22,15 +22,15 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "ci/ciEnv.hpp"
 #include "ci/ciInstance.hpp"
 #include "ci/ciMetadata.hpp"
 #include "code/oopRecorder.hpp"
-#include "memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/jniHandles.inline.hpp"
-#include "utilities/copy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
 
 #ifdef ASSERT
 template <class T> int ValueRecorder<T>::_find_index_calls = 0;

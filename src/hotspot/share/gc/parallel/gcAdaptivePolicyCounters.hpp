@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_PARALLEL_GCADAPTIVEPOLICYCOUNTERS_HPP
 #define SHARE_VM_GC_PARALLEL_GCADAPTIVEPOLICYCOUNTERS_HPP
 
-#include "gc/shared/adaptiveSizePolicy.hpp"
-#include "gc/shared/gcPolicyCounters.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/adaptiveSizePolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcPolicyCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // This class keeps statistical information and computes the
 // size of the heap.

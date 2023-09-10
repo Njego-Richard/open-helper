@@ -26,7 +26,7 @@
 
 #include "logging/logDecorations.hpp"
 #include "logging/logLevel.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class LogMessageBuffer : public StackObj {
   friend class LogMessageTest;

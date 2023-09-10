@@ -27,7 +27,7 @@
 
 #include "jfr/jni/jfrJavaSupport.hpp"
 #include "jfr/writers/jfrStreamWriterHost.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 template <typename Adapter, typename AP>
 StreamWriterHost<Adapter, AP>::StreamWriterHost(typename Adapter::StorageType* storage, Thread* thread) :

@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "register_arm.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 const int ConcreteRegisterImpl::max_gpr = ConcreteRegisterImpl::num_gpr;
 const int ConcreteRegisterImpl::max_fpr = ConcreteRegisterImpl::num_fpr +

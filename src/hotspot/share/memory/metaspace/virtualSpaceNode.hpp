@@ -25,10 +25,10 @@
 #ifndef SHARE_MEMORY_METASPACE_VIRTUALSPACENODE_HPP
 #define SHARE_MEMORY_METASPACE_VIRTUALSPACENODE_HPP
 
-#include "memory/virtualspace.hpp"
-#include "memory/memRegion.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class outputStream;
 

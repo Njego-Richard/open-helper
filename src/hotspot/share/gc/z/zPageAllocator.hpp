@@ -24,14 +24,14 @@
 #ifndef SHARE_GC_Z_ZPAGEALLOCATOR_HPP
 #define SHARE_GC_Z_ZPAGEALLOCATOR_HPP
 
-#include "gc/z/zAllocationFlags.hpp"
-#include "gc/z/zList.hpp"
-#include "gc/z/zLock.hpp"
-#include "gc/z/zPageCache.hpp"
-#include "gc/z/zPhysicalMemory.hpp"
-#include "gc/z/zPreMappedMemory.hpp"
-#include "gc/z/zVirtualMemory.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAllocationFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLock.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPageCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPhysicalMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPreMappedMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zVirtualMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZPageAllocRequest;
 

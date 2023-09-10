@@ -22,14 +22,14 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "memory/iterator.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/threadSMR.inline.hpp"
-#include "runtime/vmThread.hpp"
-#include "utilities/globalCounter.hpp"
-#include "utilities/spinYield.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalCounter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/spinYield.hpp"
 
 GlobalCounter::PaddedCounter GlobalCounter::_global_counter;
 

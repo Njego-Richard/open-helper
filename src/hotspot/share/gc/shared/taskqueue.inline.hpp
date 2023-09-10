@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_GC_SHARED_TASKQUEUE_INLINE_HPP
 #define SHARE_VM_GC_SHARED_TASKQUEUE_INLINE_HPP
 
-#include "gc/shared/taskqueue.hpp"
-#include "memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/orderAccess.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/stack.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.inline.hpp"
 
 template <class T, MEMFLAGS F>
 inline GenericTaskQueueSet<T, F>::GenericTaskQueueSet(int n) : _n(n) {

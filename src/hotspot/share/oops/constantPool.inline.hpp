@@ -27,7 +27,7 @@
 
 #include "oops/constantPool.hpp"
 #include "oops/cpCache.inline.hpp"
-#include "runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 inline CPSlot ConstantPool::slot_at(int which) const {
   assert(is_within_bounds(which), "index out of bounds");

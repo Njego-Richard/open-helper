@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_LOGGING_LOGPREFIX_HPP
 #define SHARE_VM_LOGGING_LOGPREFIX_HPP
 
-#include "gc/shared/gcId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
 #include "logging/logTag.hpp"
 
 // Prefixes prepend each log message for a specified tagset with a given prefix.

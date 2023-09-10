@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/stackValueCollection.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stackValueCollection.hpp"
 
 jint StackValueCollection::int_at(int slot) const {
   intptr_t val =  at(slot)->get_int();

@@ -24,9 +24,9 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHASSERTS_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHASSERTS_HPP
 
-#include "memory/iterator.hpp"
-#include "runtime/mutex.hpp"
-#include "utilities/formatBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/formatBuffer.hpp"
 
 typedef FormatBuffer<8192> ShenandoahMessageBuffer;
 

@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1OopClosures.inline.hpp"
-#include "gc/g1/g1RootClosures.hpp"
-#include "gc/g1/g1SharedClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1OopClosures.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RootClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1SharedClosures.hpp"
 
 // Closures used for standard G1 evacuation.
 class G1EvacuationClosures : public G1EvacuationRootClosures {

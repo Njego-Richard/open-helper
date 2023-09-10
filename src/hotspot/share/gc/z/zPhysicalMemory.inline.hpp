@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZPHYSICALMEMORY_INLINE_HPP
 #define SHARE_GC_Z_ZPHYSICALMEMORY_INLINE_HPP
 
-#include "gc/z/zPhysicalMemory.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPhysicalMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 inline ZPhysicalMemorySegment::ZPhysicalMemorySegment(uintptr_t start, size_t size) :
     _start(start),

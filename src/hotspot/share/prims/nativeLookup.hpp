@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_PRIMS_NATIVELOOKUP_HPP
 #define SHARE_VM_PRIMS_NATIVELOOKUP_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 
 // NativeLookup provides an interface for finding DLL entry points for
 // Java native functions.

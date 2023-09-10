@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_JFR_LEAKPROFILER_CHAINS_OBJECTSAMPLEMARKER_HPP
 #define SHARE_VM_JFR_LEAKPROFILER_CHAINS_OBJECTSAMPLEMARKER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/markOop.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 //
 // This class will save the original mark oop of a object sample object.
 // It will then install an "identifier" mark oop to be used for

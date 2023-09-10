@@ -26,8 +26,8 @@
 #define SHARE_VM_CI_CIBASEOBJECT_HPP
 
 #include "ci/ciClassList.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/jniHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
 
 // ciBaseObject
 //

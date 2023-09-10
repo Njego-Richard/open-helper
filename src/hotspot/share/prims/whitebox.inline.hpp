@@ -26,7 +26,7 @@
 #define SHARE_VM_PRIMS_WHITEBOX_INLINE_HPP
 
 #include "prims/whitebox.hpp"
-#include "runtime/interfaceSupport.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
 
 // Entry macro to transition from JNI to VM state.
 

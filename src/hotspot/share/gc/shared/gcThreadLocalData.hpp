@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_SHARED_GCTHREADLOCALDATA_HPP
 #define SHARE_GC_SHARED_GCTHREADLOCALDATA_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Thread local data area for GC-specific information. Each GC
 // is free to decide the internal structure and contents of this

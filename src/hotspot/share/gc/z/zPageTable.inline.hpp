@@ -24,9 +24,9 @@
 #ifndef SHARE_GC_Z_ZPAGETABLE_INLINE_HPP
 #define SHARE_GC_Z_ZPAGETABLE_INLINE_HPP
 
-#include "gc/z/zAddress.inline.hpp"
-#include "gc/z/zAddressRangeMap.inline.hpp"
-#include "gc/z/zPageTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddressRangeMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPageTable.hpp"
 
 inline ZPage* ZPageTable::get(uintptr_t addr) const {
   return _map.get(addr).page();

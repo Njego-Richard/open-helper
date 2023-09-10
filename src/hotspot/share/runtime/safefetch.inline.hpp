@@ -25,8 +25,8 @@
 #ifndef SHARE_RUNTIME_SAFEFETCH_INLINE_HPP
 #define SHARE_RUNTIME_SAFEFETCH_INLINE_HPP
 
-#include "runtime/stubRoutines.hpp"
-#include "runtime/threadWXSetters.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubRoutines.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadWXSetters.inline.hpp"
 
 // Safefetch allows to load a value from a location that's not known
 // to be valid. If the load causes a fault, the error value is returned.

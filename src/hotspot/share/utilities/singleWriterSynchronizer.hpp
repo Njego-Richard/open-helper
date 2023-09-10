@@ -25,11 +25,11 @@
 #ifndef SHARE_UTILITIES_SINGLEWRITERSYNCHRONIZER_HPP
 #define SHARE_UTILITIES_SINGLEWRITERSYNCHRONIZER_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/semaphore.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/semaphore.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Synchronization primitive inspired by RCU.
 //

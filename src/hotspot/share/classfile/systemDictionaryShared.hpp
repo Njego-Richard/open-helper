@@ -28,7 +28,7 @@
 #include "oops/klass.hpp"
 #include "classfile/dictionary.hpp"
 #include "classfile/systemDictionary.hpp"
-#include "memory/filemap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/filemap.hpp"
 
 
 /*===============================================================================

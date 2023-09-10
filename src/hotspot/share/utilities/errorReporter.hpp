@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_UTILITIES_ERRORREPORTER_HPP
 #define SHARE_VM_UTILITIES_ERRORREPORTER_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ErrorReporter : public StackObj {
 

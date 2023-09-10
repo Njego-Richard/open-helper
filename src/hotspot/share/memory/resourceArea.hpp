@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_MEMORY_RESOURCEAREA_HPP
 #define SHARE_VM_MEMORY_RESOURCEAREA_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 // The resource area holds temporary data structures in the VM.
 // The actual allocation areas are thread local. Typical usage:

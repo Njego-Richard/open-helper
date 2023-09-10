@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_SHENANDOAH_SHENANDOAHBARRIERSETASSEMBLER_HPP
 #define SHARE_GC_SHENANDOAH_SHENANDOAHBARRIERSETASSEMBLER_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
-#include CPU_HEADER(gc/shenandoah/shenandoahBarrierSetAssembler)
+//#include CPU_HEADER(gc/shenandoah/shenandoahBarrierSetAssembler)
 
 #endif // SHARE_GC_SHENANDOAH_SHENANDOAHBARRIERSETASSEMBLER_HPP

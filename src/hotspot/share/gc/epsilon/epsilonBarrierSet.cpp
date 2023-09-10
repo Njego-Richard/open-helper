@@ -22,18 +22,18 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/thread.hpp"
-#include "gc/epsilon/epsilonBarrierSet.hpp"
-#include "gc/epsilon/epsilonThreadLocalData.hpp"
-#include "gc/shared/collectorPolicy.hpp"
-#include "gc/shared/barrierSet.hpp"
-#include "gc/shared/barrierSetAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonThreadLocalData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetAssembler.hpp"
 #ifdef COMPILER1
-#include "gc/shared/c1/barrierSetC1.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c1/barrierSetC1.hpp"
 #endif
 #ifdef COMPILER2
-#include "gc/shared/c2/barrierSetC2.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/barrierSetC2.hpp"
 #endif
 
 EpsilonBarrierSet::EpsilonBarrierSet() : BarrierSet(

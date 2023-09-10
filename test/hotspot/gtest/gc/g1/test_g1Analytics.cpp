@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1Predictions.hpp"
-#include "gc/g1/g1Analytics.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Predictions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Analytics.hpp"
 #include "unittest.hpp"
 
 TEST_VM(G1Analytics, is_initialized) {

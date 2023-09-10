@@ -25,7 +25,7 @@
 #ifndef OS_CPU_WINDOWS_X86_VM_ATOMIC_WINDOWS_X86_HPP
 #define OS_CPU_WINDOWS_X86_VM_ATOMIC_WINDOWS_X86_HPP
 
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 // The following alternative implementations are needed because
 // Windows 95 doesn't support (some of) the corresponding Windows NT

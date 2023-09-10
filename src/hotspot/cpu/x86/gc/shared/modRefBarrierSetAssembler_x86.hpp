@@ -26,7 +26,7 @@
 #define CPU_X86_GC_SHARED_MODREFBARRIERSETASSEMBLER_X86_HPP
 
 #include "asm/macroAssembler.hpp"
-#include "gc/shared/barrierSetAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetAssembler.hpp"
 
 // The ModRefBarrierSetAssembler filters away accesses on BasicTypes other
 // than T_OBJECT/T_ARRAY (oops). The oop accesses call one of the protected

@@ -21,15 +21,15 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zHeap.hpp"
-#include "gc/z/zOopClosures.inline.hpp"
-#include "gc/z/zOop.inline.hpp"
-#include "memory/iterator.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOopClosures.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.inline.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 static void z_verify_loaded_object(const oop* p, const oop obj) {
   guarantee(ZOop::is_good_or_null(obj),

@@ -25,16 +25,16 @@
 #ifndef SHARE_GC_SHARED_COMMANDLINEFLAGCONSTRAINTSGC_HPP
 #define SHARE_GC_SHARED_COMMANDLINEFLAGCONSTRAINTSGC_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_CMSGC
-#include "gc/cms/jvmFlagConstraintsCMS.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/jvmFlagConstraintsCMS.hpp"
 #endif
 #if INCLUDE_G1GC
-#include "gc/g1/jvmFlagConstraintsG1.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/jvmFlagConstraintsG1.hpp"
 #endif
 #if INCLUDE_PARALLELGC
-#include "gc/parallel/jvmFlagConstraintsParallel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/jvmFlagConstraintsParallel.hpp"
 #endif
 
 /*

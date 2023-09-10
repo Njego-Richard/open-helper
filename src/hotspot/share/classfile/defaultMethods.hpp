@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_CLASSFILE_DEFAULTMETHODS_HPP
 #define SHARE_VM_CLASSFILE_DEFAULTMETHODS_HPP
 
-#include "runtime/handles.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 class InstanceKlass;
 class Symbol;

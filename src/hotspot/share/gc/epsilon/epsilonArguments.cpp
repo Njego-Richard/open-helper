@@ -22,13 +22,13 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/epsilon/epsilonArguments.hpp"
-#include "gc/epsilon/epsilonHeap.hpp"
-#include "gc/epsilon/epsilonCollectorPolicy.hpp"
-#include "gc/shared/gcArguments.inline.hpp"
-#include "runtime/globals.hpp"
-#include "runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonCollectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcArguments.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
 
 size_t EpsilonArguments::conservative_max_heap_alignment() {
   return UseLargePages ? os::large_page_size() : os::vm_page_size();

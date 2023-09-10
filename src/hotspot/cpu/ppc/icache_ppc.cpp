@@ -23,8 +23,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/icache.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
 
 // Use inline assembler to implement icache flush.
 int ICache::ppc64_flush_icache(address start, int lines, int magic) {

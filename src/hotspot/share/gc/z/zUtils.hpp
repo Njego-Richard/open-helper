@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZUTILS_HPP
 #define SHARE_GC_Z_ZUTILS_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZUtils : public AllStatic {
 public:

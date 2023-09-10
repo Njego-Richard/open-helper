@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_MEMORY_HEAPINSPECTION_HPP
 #define SHARE_VM_MEMORY_HEAPINSPECTION_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/objArrayOop.hpp"
 #include "oops/oop.hpp"
 #include "oops/annotations.hpp"
-#include "utilities/macros.hpp"
-#include "gc/shared/workgroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workgroup.hpp"
 
 class ParallelObjectIterator;
 

@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_SHENANDOAH_SHENANDOAHJFRSUPPORT_HPP
 #define SHARE_GC_SHENANDOAH_SHENANDOAHJFRSUPPORT_HPP
 
-#include "runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
 
 class VM_ShenandoahSendHeapRegionInfoEvents : public VM_Operation {
 public:

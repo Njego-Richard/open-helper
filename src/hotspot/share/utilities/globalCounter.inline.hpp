@@ -25,9 +25,9 @@
 #ifndef SHARE_UTILITIES_GLOBAL_COUNTER_INLINE_HPP
 #define SHARE_UTILITIES_GLOBAL_COUNTER_INLINE_HPP
 
-#include "runtime/orderAccess.hpp"
-#include "runtime/thread.inline.hpp"
-#include "utilities/globalCounter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalCounter.hpp"
 
 inline void GlobalCounter::critical_section_begin(Thread *thread) {
   assert(thread == Thread::current(), "must be current thread");

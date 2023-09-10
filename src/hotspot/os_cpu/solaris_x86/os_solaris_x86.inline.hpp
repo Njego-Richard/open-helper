@@ -25,7 +25,7 @@
 #ifndef OS_CPU_SOLARIS_X86_VM_OS_SOLARIS_X86_INLINE_HPP
 #define OS_CPU_SOLARIS_X86_VM_OS_SOLARIS_X86_INLINE_HPP
 
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 extern "C" jlong _raw_rdtsc(); // In .il file
 

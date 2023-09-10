@@ -24,12 +24,12 @@
 #ifndef SHARE_GC_Z_ZMARK_INLINE_HPP
 #define SHARE_GC_Z_ZMARK_INLINE_HPP
 
-#include "gc/z/zAddress.inline.hpp"
-#include "gc/z/zMark.hpp"
-#include "gc/z/zMarkStack.inline.hpp"
-#include "gc/z/zThreadLocalData.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMark.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMarkStack.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zThreadLocalData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 template <bool finalizable, bool publish>
 inline void ZMark::mark_object(uintptr_t addr) {

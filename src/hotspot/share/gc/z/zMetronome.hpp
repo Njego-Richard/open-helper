@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZMETRONOME_HPP
 #define SHARE_GC_Z_ZMETRONOME_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
 
 class ZMetronome : public StackObj {
 private:

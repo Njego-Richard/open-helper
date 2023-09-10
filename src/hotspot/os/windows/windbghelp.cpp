@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 #include "windbghelp.hpp"
 
 #include <windows.h>

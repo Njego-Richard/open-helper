@@ -21,12 +21,12 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zList.inline.hpp"
-#include "gc/z/zNUMA.hpp"
-#include "gc/z/zPage.inline.hpp"
-#include "gc/z/zPageCache.hpp"
-#include "gc/z/zStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zList.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zNUMA.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPage.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPageCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zStat.hpp"
 #include "logging/log.hpp"
 
 static const ZStatCounter ZCounterPageCacheHitL1("Memory", "Page Cache Hit L1", ZStatUnitOpsPerSecond);

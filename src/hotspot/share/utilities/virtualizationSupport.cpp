@@ -23,9 +23,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/os.hpp"
-#include "utilities/virtualizationSupport.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/virtualizationSupport.hpp"
 
 static void *dlHandle = NULL;
 

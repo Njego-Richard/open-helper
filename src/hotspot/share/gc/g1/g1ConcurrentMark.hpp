@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_GC_G1_G1CONCURRENTMARK_HPP
 #define SHARE_VM_GC_G1_G1CONCURRENTMARK_HPP
 
-#include "gc/g1/g1ConcurrentMarkBitMap.hpp"
-#include "gc/g1/g1ConcurrentMarkObjArrayProcessor.hpp"
-#include "gc/g1/g1HeapVerifier.hpp"
-#include "gc/g1/g1RegionMarkStatsCache.hpp"
-#include "gc/g1/heapRegionSet.hpp"
-#include "gc/shared/taskqueue.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ConcurrentMarkBitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ConcurrentMarkObjArrayProcessor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1HeapVerifier.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RegionMarkStatsCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ConcurrentGCTimer;
 class G1ConcurrentMarkThread;

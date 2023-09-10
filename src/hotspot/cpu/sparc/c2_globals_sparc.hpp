@@ -25,8 +25,8 @@
 #ifndef CPU_SPARC_VM_C2_GLOBALS_SPARC_HPP
 #define CPU_SPARC_VM_C2_GLOBALS_SPARC_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Sets the default values for platform dependent flags used by the server compiler.
 // (see c2_globals.hpp).  Alpha-sorted.

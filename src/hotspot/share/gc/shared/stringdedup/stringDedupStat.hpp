@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUPSTAT_HPP
 #define SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUPSTAT_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 // Macros for GC log output formating
 #define STRDEDUP_OBJECTS_FORMAT         UINTX_FORMAT_W(12)

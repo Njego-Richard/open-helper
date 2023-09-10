@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/parallel/parallelScavengeHeap.inline.hpp"
-#include "gc/parallel/psScavenge.hpp"
-#include "gc/parallel/vmPSOperations.hpp"
-#include "gc/shared/gcLocker.hpp"
-#include "utilities/dtrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psScavenge.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/vmPSOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/dtrace.hpp"
 
 // The following methods are used by the parallel scavenge collector
 VM_ParallelGCFailedAllocation::VM_ParallelGCFailedAllocation(size_t word_size,

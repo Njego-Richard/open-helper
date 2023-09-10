@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_PARALLEL_ADJOININGVIRTUALSPACES_HPP
 #define SHARE_VM_GC_PARALLEL_ADJOININGVIRTUALSPACES_HPP
 
-#include "gc/parallel/psVirtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psVirtualspace.hpp"
 
 
 // Contains two virtual spaces that each can individually span

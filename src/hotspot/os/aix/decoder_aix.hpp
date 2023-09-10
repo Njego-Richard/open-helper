@@ -23,7 +23,7 @@
  *
  */
 
-#include "utilities/decoder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/decoder.hpp"
 #include "porting_aix.hpp"
 
 // Provide simple AIXDecoder which enables decoding of C frames in VM.

@@ -28,7 +28,7 @@
 #include "opto/node.hpp"
 #include "opto/phaseX.hpp"
 #include "opto/vectornode.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 #include "libadt/dict.hpp"
 
 //

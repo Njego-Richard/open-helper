@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/serial/serialArguments.hpp"
-#include "gc/serial/serialHeap.hpp"
-#include "gc/shared/collectorPolicy.hpp"
-#include "gc/shared/gcArguments.inline.hpp"
-#include "gc/shared/genCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/serialArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/serialHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcArguments.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
 
 size_t SerialArguments::conservative_max_heap_alignment() {
   return GenCollectedHeap::conservative_max_heap_alignment();

@@ -22,14 +22,14 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zArguments.hpp"
-#include "gc/z/zCollectedHeap.hpp"
-#include "gc/z/zCollectorPolicy.hpp"
-#include "gc/z/zWorkers.hpp"
-#include "gc/shared/gcArguments.inline.hpp"
-#include "runtime/globals.hpp"
-#include "runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCollectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zWorkers.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcArguments.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
 
 size_t ZArguments::conservative_max_heap_alignment() {
   return 0;

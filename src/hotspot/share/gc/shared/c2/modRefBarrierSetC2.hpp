@@ -25,7 +25,7 @@
 #ifndef SHARE_GC_SHARED_C2_MODREFBARRIERSETC2_HPP
 #define SHARE_GC_SHARED_C2_MODREFBARRIERSETC2_HPP
 
-#include "gc/shared/c2/barrierSetC2.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/barrierSetC2.hpp"
 
 class TypeOopPtr;
 

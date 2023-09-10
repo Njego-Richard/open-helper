@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_SERVICES_MEMORYPOOL_HPP
 #define SHARE_VM_SERVICES_MEMORYPOOL_HPP
 
-#include "memory/heap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heap.hpp"
 #include "oops/oop.hpp"
 #include "services/memoryUsage.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // A memory pool represents the memory area that the VM manages.
 // The Java virtual machine has at least one memory pool

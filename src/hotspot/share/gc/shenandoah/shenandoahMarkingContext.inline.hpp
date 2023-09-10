@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHMARKINGCONTEXT_INLINE_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHMARKINGCONTEXT_INLINE_HPP
 
-#include "gc/shenandoah/shenandoahMarkingContext.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahMarkingContext.hpp"
 
 inline MarkBitMap* ShenandoahMarkingContext::mark_bit_map() {
   return &_mark_bit_map;

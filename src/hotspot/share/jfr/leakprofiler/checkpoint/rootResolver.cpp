@@ -22,23 +22,23 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "aot/aotLoader.hpp"
 #include "classfile/stringTable.hpp"
-#include "gc/shared/strongRootsScope.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/strongRootsScope.hpp"
 #include "jfr/leakprofiler/utilities/unifiedOop.hpp"
 #include "jfr/leakprofiler/checkpoint/rootResolver.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "oops/klass.hpp"
 #include "oops/oop.hpp"
 #include "prims/jvmtiThreadState.hpp"
 #include "prims/privilegedStack.hpp"
-#include "runtime/frame.inline.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/threadSMR.inline.hpp"
-#include "runtime/vframe_hp.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe_hp.hpp"
 #include "services/management.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 class ReferenceLocateClosure : public OopClosure {
  protected:

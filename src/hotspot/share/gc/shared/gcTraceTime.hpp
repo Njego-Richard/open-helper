@@ -28,8 +28,8 @@
 #include "logging/log.hpp"
 #include "logging/logHandle.hpp"
 #include "logging/logStream.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 
 class GCTraceCPUTime : public StackObj {
   bool _active;                 // true if times will be measured and printed

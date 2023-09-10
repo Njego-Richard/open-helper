@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_GC_SHARED_BARRIERSET_HPP
 #define SHARE_VM_GC_SHARED_BARRIERSET_HPP
 
-#include "gc/shared/barrierSetConfig.hpp"
-#include "memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetConfig.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 #include "oops/access.hpp"
 #include "oops/accessBackend.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "utilities/fakeRttiSupport.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/fakeRttiSupport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class BarrierSetAssembler;
 class BarrierSetC1;

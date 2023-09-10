@@ -25,7 +25,7 @@
 #define SHARE_VM_AOT_AOTLOADER_INLLINE_HPP
 
 #include "aot/aotLoader.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 #if INCLUDE_AOT
 GrowableArray<AOTCodeHeap*>* AOTLoader::heaps() { return _heaps; }

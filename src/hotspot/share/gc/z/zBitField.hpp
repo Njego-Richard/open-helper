@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZBITFIELD_HPP
 #define SHARE_GC_Z_ZBITFIELD_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 //
 //  Example

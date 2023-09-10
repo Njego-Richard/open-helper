@@ -21,7 +21,7 @@
  * questions.
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "opto/compile.hpp"
 #include "opto/castnode.hpp"
 #include "opto/graphKit.hpp"
@@ -30,11 +30,11 @@
 #include "opto/macro.hpp"
 #include "opto/node.hpp"
 #include "opto/type.hpp"
-#include "utilities/macros.hpp"
-#include "gc/z/zBarrierSet.hpp"
-#include "gc/z/c2/zBarrierSetC2.hpp"
-#include "gc/z/zThreadLocalData.hpp"
-#include "gc/z/zBarrierSetRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/c2/zBarrierSetC2.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zThreadLocalData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBarrierSetRuntime.hpp"
 
 ZBarrierSetC2State::ZBarrierSetC2State(Arena* comp_arena)
   : _load_barrier_nodes(new (comp_arena) GrowableArray<LoadBarrierNode*>(comp_arena, 8,  0, NULL)) {}

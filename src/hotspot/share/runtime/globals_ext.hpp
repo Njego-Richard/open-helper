@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_GLOBALS_EXT_HPP
 #define SHARE_VM_RUNTIME_GLOBALS_EXT_HPP
 
-#include "runtime/flags/jvmFlag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
 
 // globals_extension.hpp extension
 

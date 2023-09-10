@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_CLASSFILE_STRINGTABLE_HPP
 #define SHARE_VM_CLASSFILE_STRINGTABLE_HPP
 
-#include "gc/shared/oopStorage.hpp"
-#include "gc/shared/oopStorageParState.hpp"
-#include "memory/allocation.hpp"
-#include "memory/padded.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
 #include "oops/oop.hpp"
 #include "oops/weakHandle.hpp"
-#include "utilities/concurrentHashTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/concurrentHashTable.hpp"
 
 template <class T, class N> class CompactHashtable;
 class CompactStringTableWriter;

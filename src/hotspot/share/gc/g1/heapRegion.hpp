@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_GC_G1_HEAPREGION_HPP
 #define SHARE_VM_GC_G1_HEAPREGION_HPP
 
-#include "gc/g1/g1BlockOffsetTable.hpp"
-#include "gc/g1/g1HeapRegionTraceType.hpp"
-#include "gc/g1/heapRegionTracer.hpp"
-#include "gc/g1/heapRegionType.hpp"
-#include "gc/g1/survRateGroup.hpp"
-#include "gc/shared/ageTable.hpp"
-#include "gc/shared/cardTable.hpp"
-#include "gc/shared/spaceDecorator.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1BlockOffsetTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1HeapRegionTraceType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionTracer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/survRateGroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/ageTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/spaceDecorator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // A HeapRegion is the smallest piece of a G1CollectedHeap that
 // can be collected independently.

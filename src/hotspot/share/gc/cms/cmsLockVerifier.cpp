@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/cms/cmsLockVerifier.hpp"
-#include "gc/cms/concurrentMarkSweepThread.hpp"
-#include "runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsLockVerifier.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
 
 ///////////// Locking verification specific to CMS //////////////
 // Much like "assert_lock_strong()", except that it relaxes the

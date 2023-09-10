@@ -27,7 +27,7 @@
 
 #include "interpreter/bytecodes.hpp"
 #include "oops/method.hpp"
-#include "utilities/bytes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
 
 // This code has been converted from the 1.1E java virtual machine
 // Thanks to the JavaTopics group for using the code

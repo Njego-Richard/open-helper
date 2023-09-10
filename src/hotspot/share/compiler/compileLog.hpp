@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_COMPILER_COMPILELOG_HPP
 #define SHARE_VM_COMPILER_COMPILELOG_HPP
 
-#include "utilities/xmlstream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/xmlstream.hpp"
 
 class ciBaseObject;
 class ciKlass;

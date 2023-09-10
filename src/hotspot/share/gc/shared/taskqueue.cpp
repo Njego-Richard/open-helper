@@ -22,15 +22,15 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
 #include "oops/oop.inline.hpp"
 #include "logging/log.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/os.hpp"
-#include "runtime/thread.inline.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/stack.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.inline.hpp"
 
 #ifdef TRACESPINNING
 uint ParallelTaskTerminator::_total_yields = 0;

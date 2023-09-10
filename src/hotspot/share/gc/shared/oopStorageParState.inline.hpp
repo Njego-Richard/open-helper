@@ -25,10 +25,10 @@
 #ifndef SHARE_GC_SHARED_OOPSTORAGEPARSTATE_INLINE_HPP
 #define SHARE_GC_SHARED_OOPSTORAGEPARSTATE_INLINE_HPP
 
-#include "gc/shared/oopStorage.inline.hpp"
-#include "gc/shared/oopStorageParState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorage.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.hpp"
 #include "metaprogramming/conditional.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 template<typename F>
 class OopStorage::BasicParState::AlwaysTrueFn {

@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHPHASETIMEINGS_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHPHASETIMEINGS_HPP
 
-#include "gc/shenandoah/shenandoahNumberSeq.hpp"
-#include "gc/shared/workerDataArray.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahNumberSeq.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workerDataArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ShenandoahCollectorPolicy;
 class outputStream;

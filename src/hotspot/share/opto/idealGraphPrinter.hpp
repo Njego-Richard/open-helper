@@ -27,9 +27,9 @@
 
 #include "libadt/dict.hpp"
 #include "libadt/vectset.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/ostream.hpp"
-#include "utilities/xmlstream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/xmlstream.hpp"
 
 #ifndef PRODUCT
 

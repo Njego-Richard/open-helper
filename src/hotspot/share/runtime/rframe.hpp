@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_RFRAME_HPP
 #define SHARE_VM_RUNTIME_RFRAME_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 
 // rframes ("recompiler frames") decorate stack frames with some extra information
 // needed by the recompiler.  The recompiler views the stack (at the time of recompilation)

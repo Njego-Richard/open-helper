@@ -25,10 +25,10 @@
 #ifndef SHARE_GC_CMS_PROMOTIONINFO_INLINE_HPP
 #define SHARE_GC_CMS_PROMOTIONINFO_INLINE_HPP
 
-#include "gc/cms/promotionInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/promotionInfo.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 //////////////////////////////////////////////////////////////////////////////
 // We go over the list of promoted objects, removing each from the list,

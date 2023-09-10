@@ -21,20 +21,20 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/gcId.hpp"
-#include "gc/shared/gcLocker.hpp"
-#include "gc/shared/isGCActiveMark.hpp"
-#include "gc/shared/vmGCOperations.hpp"
-#include "gc/z/zCollectedHeap.hpp"
-#include "gc/z/zDriver.hpp"
-#include "gc/z/zHeap.inline.hpp"
-#include "gc/z/zMessagePort.inline.hpp"
-#include "gc/z/zServiceability.hpp"
-#include "gc/z/zStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/isGCActiveMark.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/vmGCOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zDriver.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMessagePort.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zServiceability.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zStat.hpp"
 #include "logging/log.hpp"
-#include "runtime/vmOperations.hpp"
-#include "runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
 
 static const ZStatPhaseCycle      ZPhaseCycle("Garbage Collection Cycle");
 static const ZStatPhasePause      ZPhasePauseMarkStart("Pause Mark Start");

@@ -26,8 +26,8 @@
 #define SHARE_JFR_RECORDER_CHECKPOINT_TYPES_TRACEID_JFRTRACEIDBITS_INLINE_HPP
 
 #include "jfr/utilities/jfrTypes.hpp"
-#include "runtime/atomic.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #ifdef VM_LITTLE_ENDIAN
 static const int low_offset = 0;

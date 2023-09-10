@@ -27,12 +27,12 @@
 
 #include "interpreter/bytecode.hpp"
 #include "interpreter/linkResolver.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "oops/method.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/signature.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // The InterpreterRuntime is called by the interpreter for everything
 // that cannot/should not be dealt with in assembly and needs C support.
@@ -155,7 +155,7 @@ class InterpreterRuntime: AllStatic {
   static intptr_t trace_bytecode(JavaThread* thread, intptr_t preserve_this_value, intptr_t tos, intptr_t tos2) PRODUCT_RETURN0;
 
   // Platform dependent stuff
-#include CPU_HEADER(interpreterRT)
+//#include CPU_HEADER(interpreterRT)
 
   // optional normalization of fingerprints to reduce the number of adapters
   static uint64_t normalize_fast_native_fingerprint(uint64_t fingerprint);

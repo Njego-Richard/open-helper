@@ -25,8 +25,8 @@
 #ifndef SHARE_GC_SHARED_OOPSTORAGEPARSTATE_HPP
 #define SHARE_GC_SHARED_OOPSTORAGEPARSTATE_HPP
 
-#include "gc/shared/oopStorage.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 //////////////////////////////////////////////////////////////////////////////
 // Support for parallel and optionally concurrent state iteration.

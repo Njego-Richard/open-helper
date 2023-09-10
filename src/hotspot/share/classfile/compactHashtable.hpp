@@ -27,7 +27,7 @@
 
 #include "oops/array.hpp"
 #include "oops/symbol.hpp"
-#include "utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 template <class T, class N> class CompactHashtable;
 class NumberSeq;

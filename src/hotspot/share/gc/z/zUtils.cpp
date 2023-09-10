@@ -21,11 +21,11 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/z/zAddress.inline.hpp"
-#include "gc/z/zUtils.inline.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 #include <stdlib.h>
 

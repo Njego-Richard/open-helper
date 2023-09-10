@@ -25,7 +25,7 @@
 #include <stdio.h>
 #include <sys/types.h>
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "asm/assembler.hpp"
 #include "asm/assembler.inline.hpp"
 #include "interpreter/interpreter.hpp"
@@ -35,9 +35,9 @@ const uintptr_t Assembler::asm_bp = 0x00007fffee09ac88;
 #endif
 
 #include "compiler/disassembler.hpp"
-#include "memory/resourceArea.hpp"
-#include "runtime/interfaceSupport.inline.hpp"
-#include "runtime/sharedRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 #include "immediate_aarch64.hpp"
 
 extern "C" void entry(CodeBuffer *cb);

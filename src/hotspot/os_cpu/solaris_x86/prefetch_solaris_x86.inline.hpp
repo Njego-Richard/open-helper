@@ -25,7 +25,7 @@
 #ifndef OS_CPU_SOLARIS_X86_VM_PREFETCH_SOLARIS_X86_INLINE_HPP
 #define OS_CPU_SOLARIS_X86_VM_PREFETCH_SOLARIS_X86_INLINE_HPP
 
-#include "runtime/prefetch.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.hpp"
 
 extern "C" {
   void _Prefetch_read (void *loc, intx interval);

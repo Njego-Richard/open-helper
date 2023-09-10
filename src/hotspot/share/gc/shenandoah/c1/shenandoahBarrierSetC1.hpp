@@ -25,7 +25,7 @@
 #define SHARE_GC_SHENANDOAH_C1_SHENANDOAHBARRIERSETC1_HPP
 
 #include "c1/c1_CodeStubs.hpp"
-#include "gc/shared/c1/barrierSetC1.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c1/barrierSetC1.hpp"
 
 class ShenandoahPreBarrierStub: public CodeStub {
   friend class ShenandoahBarrierSetC1;

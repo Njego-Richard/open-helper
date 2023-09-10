@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_GC_CMS_PARNEWGENERATION_HPP
 #define SHARE_VM_GC_CMS_PARNEWGENERATION_HPP
 
-#include "gc/cms/parOopClosures.hpp"
-#include "gc/serial/defNewGeneration.hpp"
-#include "gc/shared/copyFailedInfo.hpp"
-#include "gc/shared/gcTrace.hpp"
-#include "gc/shared/oopStorageParState.hpp"
-#include "gc/shared/plab.hpp"
-#include "gc/shared/preservedMarks.hpp"
-#include "gc/shared/taskqueue.hpp"
-#include "memory/padded.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/parOopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/defNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/copyFailedInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/plab.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/preservedMarks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
 
 class ChunkArray;
 class CMSHeap;

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_PARK_HPP
 #define SHARE_VM_RUNTIME_PARK_HPP
 
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 /*
  * Per-thread blocking support for JSR166. See the Java-level
  * Documentation for rationale. Basically, park acts like wait, unpark

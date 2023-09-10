@@ -27,11 +27,11 @@
 #ifndef SHARE_VM_PRIMS_JVMTITAGMAP_HPP
 #define SHARE_VM_PRIMS_JVMTITAGMAP_HPP
 
-#include "gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "jvmtifiles/jvmti.h"
 #include "jvmtifiles/jvmtiEnv.hpp"
-#include "memory/allocation.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 
 // forward references
 class JvmtiTagHashmap;

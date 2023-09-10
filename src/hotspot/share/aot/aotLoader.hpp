@@ -24,8 +24,8 @@
 #ifndef SHARE_VM_AOT_AOTLOADER_HPP
 #define SHARE_VM_AOT_AOTLOADER_HPP
 
-#include "runtime/globals_extension.hpp"
-#include "runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 
 class AOTCodeHeap;
 class AOTCompiledMethod;

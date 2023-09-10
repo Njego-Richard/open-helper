@@ -26,7 +26,7 @@
 #define SHARE_VM_CLASSFILE_CLASSLOADER_INLINE_HPP
 
 #include "classfile/classLoader.hpp"
-#include "runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 // Next entry in class path
 inline ClassPathEntry* ClassPathEntry::next() const { return OrderAccess::load_acquire(&_next); }

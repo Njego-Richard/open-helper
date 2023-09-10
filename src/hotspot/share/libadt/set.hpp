@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_LIBADT_SET_HPP
 #define SHARE_VM_LIBADT_SET_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // Sets - An Abstract Data Type
 

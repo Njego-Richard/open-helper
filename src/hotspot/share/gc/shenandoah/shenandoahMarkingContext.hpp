@@ -24,9 +24,9 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHMARKINGCONTEXT_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHMARKINGCONTEXT_HPP
 
-#include "gc/shenandoah/markBitMap.hpp"
-#include "memory/allocation.hpp"
-#include "memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/markBitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 #include "oops/oopsHierarchy.hpp"
 
 class HeapWord;

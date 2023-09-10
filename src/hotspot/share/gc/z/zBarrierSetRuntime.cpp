@@ -21,10 +21,10 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zBarrier.inline.hpp"
-#include "gc/z/zBarrierSetRuntime.hpp"
-#include "runtime/interfaceSupport.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBarrier.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBarrierSetRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
 
 JRT_LEAF(oopDesc*, ZBarrierSetRuntime::load_barrier_on_oop_field_preloaded(oopDesc* o, oop* p))
   return ZBarrier::load_barrier_on_oop_field_preloaded(p, o);

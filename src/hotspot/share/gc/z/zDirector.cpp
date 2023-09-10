@@ -21,12 +21,12 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zCollectedHeap.hpp"
-#include "gc/z/zDirector.hpp"
-#include "gc/z/zHeap.inline.hpp"
-#include "gc/z/zStat.hpp"
-#include "gc/z/zUtils.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zDirector.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.hpp"
 #include "logging/log.hpp"
 
 const double ZDirector::one_in_1000 = 3.290527;

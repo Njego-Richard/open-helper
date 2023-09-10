@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_GC_SERIAL_MARKSWEEP_HPP
 #define SHARE_VM_GC_SERIAL_MARKSWEEP_HPP
 
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/genOopClosures.hpp"
-#include "gc/shared/taskqueue.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genOopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "oops/markOop.hpp"
 #include "oops/oop.hpp"
-#include "runtime/timer.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 class ReferenceProcessor;
 class DataLayout;

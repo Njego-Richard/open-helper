@@ -25,17 +25,17 @@
 #ifndef SHARE_VM_OOPS_CONSTANTPOOLOOP_HPP
 #define SHARE_VM_OOPS_CONSTANTPOOLOOP_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/arrayOop.hpp"
 #include "oops/cpCache.hpp"
 #include "oops/objArrayOop.hpp"
 #include "oops/oopHandle.hpp"
 #include "oops/symbol.hpp"
 #include "oops/typeArrayOop.hpp"
-#include "runtime/handles.hpp"
-#include "utilities/align.hpp"
-#include "utilities/bytes.hpp"
-#include "utilities/constantTag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/constantTag.hpp"
 
 // A ConstantPool is an array containing class constants as described in the
 // class file.

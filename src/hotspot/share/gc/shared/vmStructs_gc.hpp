@@ -25,40 +25,40 @@
 #ifndef SHARE_GC_SHARED_VMSTRUCTS_GC_HPP
 #define SHARE_GC_SHARED_VMSTRUCTS_GC_HPP
 
-#include "gc/shared/ageTable.hpp"
-#include "gc/shared/cardGeneration.hpp"
-#include "gc/shared/cardTableRS.hpp"
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/genCollectedHeap.hpp"
-#include "gc/shared/generation.hpp"
-#include "gc/shared/generationSpec.hpp"
-#include "gc/shared/oopStorage.hpp"
-#include "gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/ageTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableRS.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationSpec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
 #if INCLUDE_CMSGC
-#include "gc/cms/vmStructs_cms.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/vmStructs_cms.hpp"
 #endif
 #if INCLUDE_EPSILONGC
-#include "gc/epsilon/vmStructs_epsilon.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/vmStructs_epsilon.hpp"
 #endif
 #if INCLUDE_G1GC
-#include "gc/g1/vmStructs_g1.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/vmStructs_g1.hpp"
 #endif
 #if INCLUDE_PARALLELGC
-#include "gc/parallel/vmStructs_parallelgc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/vmStructs_parallelgc.hpp"
 #endif
 #if INCLUDE_SERIALGC
-#include "gc/serial/defNewGeneration.hpp"
-#include "gc/serial/vmStructs_serial.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/defNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/vmStructs_serial.hpp"
 #endif
 #if INCLUDE_SHENANDOAHGC
-#include "gc/shenandoah/vmStructs_shenandoah.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/vmStructs_shenandoah.hpp"
 #endif
 #if INCLUDE_ZGC
-#include "gc/z/vmStructs_z.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/vmStructs_z.hpp"
 #endif
 
 #ifdef INCLUDE_THIRD_PARTY_HEAP
-#include "gc/shared/thirdPartyHeapVMStructs.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/thirdPartyHeapVMStructs.hpp"
 #endif
 
 #define VM_STRUCTS_GC(nonstatic_field,                                                                                               \

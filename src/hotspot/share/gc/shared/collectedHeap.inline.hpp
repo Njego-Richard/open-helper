@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_COLLECTEDHEAP_INLINE_HPP
 #define SHARE_VM_GC_SHARED_COLLECTEDHEAP_INLINE_HPP
 
-#include "gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 inline HeapWord* CollectedHeap::align_allocation_or_fail(HeapWord* addr,
                                                          HeapWord* end,

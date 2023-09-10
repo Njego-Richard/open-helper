@@ -26,7 +26,7 @@
 #ifndef CPU_PPC_VM_BYTES_PPC_HPP
 #define CPU_PPC_VM_BYTES_PPC_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class Bytes: AllStatic {
  public:

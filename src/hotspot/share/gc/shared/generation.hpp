@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_GC_SHARED_GENERATION_HPP
 #define SHARE_VM_GC_SHARED_GENERATION_HPP
 
-#include "gc/shared/collectorCounters.hpp"
-#include "gc/shared/referenceProcessor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessor.hpp"
 #include "logging/log.hpp"
-#include "memory/allocation.hpp"
-#include "memory/memRegion.hpp"
-#include "memory/universe.hpp"
-#include "memory/virtualspace.hpp"
-#include "runtime/mutex.hpp"
-#include "runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 
 // A Generation models a heap area for similarly-aged objects.
 // It will contain one ore more spaces holding the actual objects.

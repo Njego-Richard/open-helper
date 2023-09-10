@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_MODREFBARRIERSET_HPP
 #define SHARE_VM_GC_SHARED_MODREFBARRIERSET_HPP
 
-#include "gc/shared/barrierSet.hpp"
-#include "memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 
 class Klass;
 

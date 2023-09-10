@@ -23,9 +23,9 @@
  */
 
 // no precompiled headers
-#include "memory/allocation.inline.hpp"
-#include "runtime/mutex.hpp"
-#include "runtime/osThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/osThread.hpp"
 
 #include <signal.h>
 

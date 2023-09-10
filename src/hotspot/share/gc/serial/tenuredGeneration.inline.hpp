@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SERIAL_TENUREDGENERATION_INLINE_HPP
 #define SHARE_VM_GC_SERIAL_TENUREDGENERATION_INLINE_HPP
 
-#include "gc/serial/tenuredGeneration.hpp"
-#include "gc/shared/space.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/tenuredGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.inline.hpp"
 
 HeapWord* TenuredGeneration::allocate(size_t word_size,
                                                  bool is_tlab) {

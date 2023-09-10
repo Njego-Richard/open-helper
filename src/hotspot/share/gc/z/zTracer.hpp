@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZTRACER_HPP
 #define SHARE_GC_Z_ZTRACER_HPP
 
-#include "gc/shared/gcTrace.hpp"
-#include "gc/z/zAllocationFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAllocationFlags.hpp"
 
 class ZStatCounter;
 class ZStatPhase;

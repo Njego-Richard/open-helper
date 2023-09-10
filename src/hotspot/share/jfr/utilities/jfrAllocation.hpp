@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_JFR_UTILITIES_JFRALLOCATION_HPP
 #define SHARE_VM_JFR_UTILITIES_JFRALLOCATION_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "services/memTracker.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 /*
  * A subclass to the CHeapObj<mtTracing> allocator, useful for critical

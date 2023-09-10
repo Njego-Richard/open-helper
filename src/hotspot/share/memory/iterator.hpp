@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_MEMORY_ITERATOR_HPP
 #define SHARE_VM_MEMORY_ITERATOR_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 #include "oops/oopsHierarchy.hpp"
 
 class CodeBlob;

@@ -23,8 +23,8 @@
  */
 
 #include "jvm.h"
-#include "utilities/decoder_elf.hpp"
-#include "utilities/elfFile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/decoder_elf.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/elfFile.hpp"
 
 #include <cxxabi.h>
 

@@ -24,14 +24,14 @@
 #ifndef SHARE_GC_Z_ZLIVEMAP_INLINE_HPP
 #define SHARE_GC_Z_ZLIVEMAP_INLINE_HPP
 
-#include "gc/z/zBitMap.inline.hpp"
-#include "gc/z/zLiveMap.hpp"
-#include "gc/z/zMark.hpp"
-#include "gc/z/zOop.inline.hpp"
-#include "gc/z/zUtils.inline.hpp"
-#include "runtime/atomic.hpp"
-#include "utilities/bitMap.inline.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLiveMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMark.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 inline void ZLiveMap::reset() {
   _seqnum = 0;

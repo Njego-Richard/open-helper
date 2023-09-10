@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_MEMORY_METASPACEGCTHRESHOLDUPDATER_HPP
 #define SHARE_VM_MEMORY_METASPACEGCTHRESHOLDUPDATER_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class MetaspaceGCThresholdUpdater : public AllStatic {
  public:

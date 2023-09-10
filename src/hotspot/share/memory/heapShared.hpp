@@ -26,14 +26,14 @@
 #define SHARE_VM_MEMORY_HEAPSHARED_HPP
 
 #include "classfile/systemDictionary.hpp"
-#include "memory/allocation.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "oops/objArrayKlass.hpp"
 #include "oops/oop.hpp"
 #include "oops/typeArrayKlass.hpp"
-#include "utilities/bitMap.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/resourceHash.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/resourceHash.hpp"
 
 #if INCLUDE_CDS_JAVA_HEAP
 // A dump time sub-graph info for Klass _k. It includes the entry points

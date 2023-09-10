@@ -21,14 +21,14 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zArray.inline.hpp"
-#include "gc/z/zPage.inline.hpp"
-#include "gc/z/zRelocationSet.hpp"
-#include "gc/z/zRelocationSetSelector.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zArray.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPage.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zRelocationSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zRelocationSetSelector.hpp"
 #include "logging/log.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 ZRelocationSetSelectorGroup::ZRelocationSetSelectorGroup(const char* name,
                                                          size_t page_size,

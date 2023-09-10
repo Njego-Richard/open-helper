@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_UTF8_HPP
 #define SHARE_VM_UTILITIES_UTF8_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // Low-level interface for UTF8 strings
 

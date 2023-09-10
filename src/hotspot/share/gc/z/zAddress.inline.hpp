@@ -24,9 +24,9 @@
 #ifndef SHARE_GC_Z_ZADDRESS_INLINE_HPP
 #define SHARE_GC_Z_ZADDRESS_INLINE_HPP
 
-#include "gc/z/zAddress.hpp"
-#include "gc/z/zGlobals.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include OS_CPU_HEADER_INLINE(gc/z/zAddress)
 
 inline bool ZAddress::is_null(uintptr_t value) {

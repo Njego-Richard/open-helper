@@ -26,10 +26,10 @@
 #define SHARE_VM_CLASSFILE_CLASSLOADER_HPP
 
 #include "jimage.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/perfData.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // The VM class loader.
 #include <sys/stat.h>

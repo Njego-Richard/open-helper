@@ -27,8 +27,8 @@
 
 #include "oops/oop.hpp"
 #include "oops/weakHandle.hpp"
-#include "memory/iterator.hpp"
-#include "utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 // This class caches the approved protection domains that can access loaded classes.
 // Dictionary entry pd_set point to entries in this hashtable.   Please refer

@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_CMS_VMSTRUCTS_CMS_HPP
 #define SHARE_VM_GC_CMS_VMSTRUCTS_CMS_HPP
 
-#include "gc/cms/cmsHeap.hpp"
-#include "gc/cms/compactibleFreeListSpace.hpp"
-#include "gc/cms/concurrentMarkSweepGeneration.hpp"
-#include "gc/cms/concurrentMarkSweepThread.hpp"
-#include "gc/cms/parNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/compactibleFreeListSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/parNewGeneration.hpp"
 
 #define VM_STRUCTS_CMSGC(nonstatic_field,                                                                                            \
                          volatile_nonstatic_field,                                                                                   \

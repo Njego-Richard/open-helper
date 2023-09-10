@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_G1_G1REMSETTRACKINGPOLICY_HPP
 #define SHARE_VM_GC_G1_G1REMSETTRACKINGPOLICY_HPP
 
-#include "gc/g1/heapRegion.hpp"
-#include "gc/g1/heapRegionType.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // The remembered set tracking policy determines for a given region the state of
 // the remembered set, ie. when it should be tracked, and if/when the remembered

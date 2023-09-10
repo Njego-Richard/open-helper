@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_UTILITIES_CHUNKED_LIST_HPP
 #define SHARE_VM_UTILITIES_CHUNKED_LIST_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 template <class T, MEMFLAGS F> class ChunkedList : public CHeapObj<F> {
   template <class U> friend class TestChunkedList;

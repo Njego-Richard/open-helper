@@ -25,7 +25,7 @@
 #define SHARE_VM_SERVICES_SHENANDOAHMEMORYPOOL_HPP
 
 #ifndef SERIALGC
-#include "gc/shenandoah/shenandoahHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"
 #include "services/memoryPool.hpp"
 #include "services/memoryUsage.hpp"
 #endif

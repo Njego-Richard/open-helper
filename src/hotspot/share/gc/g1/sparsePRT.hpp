@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_GC_G1_SPARSEPRT_HPP
 #define SHARE_VM_GC_G1_SPARSEPRT_HPP
 
-#include "gc/g1/g1CollectedHeap.hpp"
-#include "gc/g1/heapRegion.hpp"
-#include "gc/shared/cardTableBarrierSet.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/mutex.hpp"
-#include "utilities/align.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Sparse remembered set for a heap region (the "owning" region).  Maps
 // indices of other regions to short sequences of cards in the other region

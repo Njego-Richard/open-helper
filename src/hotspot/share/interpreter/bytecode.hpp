@@ -26,10 +26,10 @@
 #define SHARE_VM_INTERPRETER_BYTECODE_HPP
 
 #include "interpreter/bytecodes.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/method.hpp"
-#include "utilities/align.hpp"
-#include "utilities/bytes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
 
 class ciBytecodeStream;
 

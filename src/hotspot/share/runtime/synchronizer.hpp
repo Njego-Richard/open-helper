@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_RUNTIME_SYNCHRONIZER_HPP
 #define SHARE_VM_RUNTIME_SYNCHRONIZER_HPP
 
-#include "memory/padded.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
 #include "oops/markOop.hpp"
-#include "runtime/basicLock.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/basicLock.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 
 class ObjectMonitor;
 class ThreadsList;

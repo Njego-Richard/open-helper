@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "opto/locknode.hpp"
 #include "opto/parse.hpp"
 #include "opto/rootnode.hpp"

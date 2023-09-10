@@ -29,9 +29,9 @@
 #include "classfile/classLoaderData.hpp"
 #include "oops/klass.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
 #include "services/diagnosticCommand.hpp"
-#include "utilities/resourceHash.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/resourceHash.hpp"
 
 
 class ClassLoaderStatsDCmd : public DCmd {

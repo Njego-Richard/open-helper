@@ -29,9 +29,9 @@
 #include "oops/fieldInfo.hpp"
 #include "oops/instanceKlass.hpp"
 #include "oops/symbol.hpp"
-#include "runtime/fieldType.hpp"
-#include "utilities/accessFlags.hpp"
-#include "utilities/constantTag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/constantTag.hpp"
 
 // A fieldDescriptor describes the attributes of a single field (instance or class variable).
 // It needs the class constant pool to work (because it only holds indices into the pool

@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1HeapRegionTraceType.hpp"
-#include "gc/g1/heapRegionType.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1HeapRegionTraceType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionType.hpp"
 
 bool HeapRegionType::is_valid(Tag tag) {
   switch (tag) {

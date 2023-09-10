@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_SURVRATEGROUP_HPP
 #define SHARE_VM_GC_G1_SURVRATEGROUP_HPP
 
-#include "utilities/numberSeq.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/numberSeq.hpp"
 
 class G1Predictions;
 

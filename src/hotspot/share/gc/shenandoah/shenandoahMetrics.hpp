@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHMETRICS_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHMETRICS_HPP
 
-#include "gc/shenandoah/shenandoahHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"
 
 class ShenandoahMetricsSnapshot : public StackObj {
 private:

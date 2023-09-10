@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_STACKVALUECOLLECTION_HPP
 #define SHARE_VM_RUNTIME_STACKVALUECOLLECTION_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/stackValue.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stackValue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 class StackValueCollection : public ResourceObj {
  private:

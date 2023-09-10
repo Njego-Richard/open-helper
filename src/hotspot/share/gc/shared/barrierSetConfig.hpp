@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_BARRIERSETCONFIG_HPP
 #define SHARE_VM_GC_SHARED_BARRIERSETCONFIG_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Do something for each concrete barrier set part of the build.
 #define FOR_EACH_CONCRETE_BARRIER_SET_DO(f)          \

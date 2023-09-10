@@ -25,27 +25,27 @@
 #ifndef SHARE_GC_SHARED_GC_GLOBALS_HPP
 #define SHARE_GC_SHARED_GC_GLOBALS_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_CMSGC
-#include "gc/cms/cms_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cms_globals.hpp"
 #endif
 #if INCLUDE_EPSILONGC
-#include "gc/epsilon/epsilon_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilon_globals.hpp"
 #endif
 #if INCLUDE_G1GC
-#include "gc/g1/g1_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1_globals.hpp"
 #endif
 #if INCLUDE_PARALLELGC
-#include "gc/parallel/parallel_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallel_globals.hpp"
 #endif
 #if INCLUDE_SERIALGC
-#include "gc/serial/serial_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/serial_globals.hpp"
 #endif
 #if INCLUDE_SHENANDOAHGC
-#include "gc/shenandoah/shenandoah_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoah_globals.hpp"
 #endif
 #if INCLUDE_ZGC
-#include "gc/z/z_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/z_globals.hpp"
 #endif
 
 #if INCLUDE_SHENANDOAHGC

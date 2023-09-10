@@ -27,7 +27,7 @@
 
 #include "opto/addnode.hpp"
 #include "opto/node.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 //
 // Adaptation for C2 of the escape analysis algorithm described in:

@@ -25,12 +25,12 @@
 #ifndef SHARE_MEMORY_FREELIST_INLINE_HPP
 #define SHARE_MEMORY_FREELIST_INLINE_HPP
 
-#include "gc/shared/collectedHeap.hpp"
-#include "memory/freeList.hpp"
-#include "runtime/globals.hpp"
-#include "runtime/mutex.hpp"
-#include "runtime/vmThread.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/freeList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Free list.  A FreeList is used to access a linked list of chunks
 // of space in the heap.  The head and tail are maintained so that

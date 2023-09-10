@@ -24,10 +24,10 @@
 #ifndef SHARE_GC_Z_ZADDRESSRANGEMAP_INLINE_HPP
 #define SHARE_GC_Z_ZADDRESSRANGEMAP_INLINE_HPP
 
-#include "gc/z/zAddress.inline.hpp"
-#include "gc/z/zAddressRangeMap.hpp"
-#include "gc/z/zGlobals.hpp"
-#include "memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddressRangeMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 
 template <typename T, size_t AddressRangeShift>
 ZAddressRangeMap<T, AddressRangeShift>::ZAddressRangeMap() :

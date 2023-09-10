@@ -21,11 +21,11 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
-#include "gc/shared/adaptiveSizePolicy.hpp"
-#include "gc/shenandoah/shenandoahWorkerPolicy.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/adaptiveSizePolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahWorkerPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 uint ShenandoahWorkerPolicy::_prev_par_marking     = 0;
 uint ShenandoahWorkerPolicy::_prev_conc_marking    = 0;

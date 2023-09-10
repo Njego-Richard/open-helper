@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "oops/markOop.hpp"
-#include "runtime/thread.inline.hpp"
-#include "runtime/objectMonitor.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/objectMonitor.inline.hpp"
 
 void markOopDesc::print_on(outputStream* st) const {
   if (is_marked()) {

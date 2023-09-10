@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_SAFEPOINTVERIFIERS_HPP
 #define SHARE_VM_RUNTIME_SAFEPOINTVERIFIERS_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 // A NoGCVerifier object can be placed in methods where one assumes that
 // no garbage collection will occur. The destructor will verify this property

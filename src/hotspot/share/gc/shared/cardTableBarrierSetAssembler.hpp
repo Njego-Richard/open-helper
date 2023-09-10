@@ -25,8 +25,8 @@
 #ifndef SHARE_GC_SHARED_CARDTABLEBARRIERSETASSEMBLER_HPP
 #define SHARE_GC_SHARED_CARDTABLEBARRIERSETASSEMBLER_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
-#include CPU_HEADER(gc/shared/cardTableBarrierSetAssembler)
+//#include CPU_HEADER(gc/shared/cardTableBarrierSetAssembler)
 
 #endif // SHARE_GC_SHARED_CARDTABLEBARRIERSETASSEMBLER_HPP

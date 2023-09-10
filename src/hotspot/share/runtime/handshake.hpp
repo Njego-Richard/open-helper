@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_RUNTIME_HANDSHAKE_HPP
 #define SHARE_VM_RUNTIME_HANDSHAKE_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/iterator.hpp"
-#include "runtime/flags/flagSetting.hpp"
-#include "runtime/semaphore.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/flagSetting.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/semaphore.hpp"
 
 class JavaThread;
 

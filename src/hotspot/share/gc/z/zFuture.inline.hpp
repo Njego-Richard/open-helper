@@ -24,10 +24,10 @@
 #ifndef SHARE_GC_Z_ZFUTURE_INLINE_HPP
 #define SHARE_GC_Z_ZFUTURE_INLINE_HPP
 
-#include "gc/z/zFuture.hpp"
-#include "runtime/interfaceSupport.inline.hpp"
-#include "runtime/semaphore.inline.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zFuture.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/semaphore.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 template <typename T>
 inline void ZFuture<T>::set(T value) {

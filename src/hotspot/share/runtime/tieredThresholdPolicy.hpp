@@ -27,8 +27,8 @@
 
 #include "code/nmethod.hpp"
 #include "oops/methodData.hpp"
-#include "runtime/compilationPolicy.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/compilationPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 #ifdef TIERED
 

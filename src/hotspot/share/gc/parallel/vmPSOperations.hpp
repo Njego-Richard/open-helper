@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_PARALLEL_VMPSOPERATIONS_HPP
 #define SHARE_VM_GC_PARALLEL_VMPSOPERATIONS_HPP
 
-#include "gc/parallel/parallelScavengeHeap.hpp"
-#include "gc/shared/gcCause.hpp"
-#include "gc/shared/vmGCOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/vmGCOperations.hpp"
 
 class VM_ParallelGCFailedAllocation : public VM_CollectForAllocation {
  public:

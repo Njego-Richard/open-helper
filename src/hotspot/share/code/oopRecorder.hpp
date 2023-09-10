@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_CODE_OOPRECORDER_HPP
 #define SHARE_VM_CODE_OOPRECORDER_HPP
 
-#include "memory/universe.hpp"
-#include "runtime/handles.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // Recording and retrieval of either oop relocations or metadata in compiled code.
 

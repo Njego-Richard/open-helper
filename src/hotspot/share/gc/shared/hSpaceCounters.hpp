@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_HSPACECOUNTERS_HPP
 #define SHARE_VM_GC_SHARED_HSPACECOUNTERS_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/perfData.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // A HSpaceCounter is a holder class for performance counters
 // that track a collections (logical spaces) in a heap;

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSMARKSWEEPDECORATOR_HPP
 #define SHARE_VM_GC_PARALLEL_PSMARKSWEEPDECORATOR_HPP
 
-#include "gc/parallel/mutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
 
 //
 // A PSMarkSweepDecorator is used to add "ParallelScavenge" style mark sweep operations

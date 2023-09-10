@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_COLLECTIONSETCHOOSER_HPP
 #define SHARE_VM_GC_G1_COLLECTIONSETCHOOSER_HPP
 
-#include "gc/g1/heapRegion.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 class CollectionSetChooser: public CHeapObj<mtGC> {
 

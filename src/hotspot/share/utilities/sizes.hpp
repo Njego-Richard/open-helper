@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_SIZES_HPP
 #define SHARE_VM_UTILITIES_SIZES_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // The following two classes are used to represent 'sizes' and 'offsets' in the VM;
 // they serve as 'unit' types. ByteSize is used for sizes measured in bytes, while

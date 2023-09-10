@@ -26,7 +26,7 @@
 #define SHARE_VM_PRIMS_JVMTIUTIL_HPP
 
 #include "jvmtifiles/jvmti.h"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "prims/jvmtiEventController.hpp"
 
 ///////////////////////////////////////////////////////////////

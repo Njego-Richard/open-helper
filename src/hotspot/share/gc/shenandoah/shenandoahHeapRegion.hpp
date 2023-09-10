@@ -24,14 +24,14 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHHEAPREGION_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHHEAPREGION_HPP
 
-#include "gc/shared/spaceDecorator.hpp"
-#include "gc/shenandoah/shenandoahAllocRequest.hpp"
-#include "gc/shenandoah/shenandoahAsserts.hpp"
-#include "gc/shenandoah/shenandoahHeap.hpp"
-#include "gc/shenandoah/shenandoahPacer.hpp"
-#include "gc/shenandoah/shenandoahPadding.hpp"
-#include "memory/universe.hpp"
-#include "utilities/sizes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/spaceDecorator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahAllocRequest.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahAsserts.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahPacer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahPadding.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/sizes.hpp"
 
 class VMStructs;
 class ShenandoahHeapRegionStateConstant;

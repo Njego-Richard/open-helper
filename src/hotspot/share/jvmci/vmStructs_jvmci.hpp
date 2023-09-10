@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JVMCI_VMSTRUCTS_JVMCI_HPP
 #define SHARE_VM_JVMCI_VMSTRUCTS_JVMCI_HPP
 
-#include "runtime/vmStructs.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmStructs.hpp"
 
 class JVMCIVMStructs {
 public:

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_WEAKPROCESSOR_HPP
 #define SHARE_VM_GC_SHARED_WEAKPROCESSOR_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 
 // Helper class to aid in root scanning and cleaning of weak oops in the VM.
 //

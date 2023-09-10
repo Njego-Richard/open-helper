@@ -1,7 +1,7 @@
 #ifndef SHARE_GC_SHARED_THIRD_PARTY_HEAP_HPP
 #define SHARE_GC_SHARED_THIRD_PARTY_HEAP_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class Thread;
 class GCArguments;

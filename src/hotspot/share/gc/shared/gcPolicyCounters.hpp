@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_GCPOLICYCOUNTERS_HPP
 #define SHARE_VM_GC_SHARED_GCPOLICYCOUNTERS_HPP
 
-#include "runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 
 // GCPolicyCounters is a holder class for performance counters
 // that track a generation

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_HEAPREGIONSET_HPP
 #define SHARE_VM_GC_G1_HEAPREGIONSET_HPP
 
-#include "gc/g1/heapRegion.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #define assert_heap_region_set(p, message) \
   do {                                     \

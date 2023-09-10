@@ -26,8 +26,8 @@
 #define SHARE_VM_COMPILER_DISASSEMBLER_HPP
 
 #include "asm/codeBuffer.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class decode_env;
 
@@ -64,7 +64,7 @@ class Disassembler {
   static bool load_library();
 
   // Machine dependent stuff
-#include CPU_HEADER(disassembler)
+//#include CPU_HEADER(disassembler)
 
  public:
   static bool can_decode() {

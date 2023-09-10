@@ -25,6 +25,6 @@
 #ifndef OS_CPU_WINDOWS_AARCH64_OS_WINDOWS_AARCH64_INLINE_HPP
 #define OS_CPU_WINDOWS_AARCH64_OS_WINDOWS_AARCH64_INLINE_HPP
 
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 #endif // OS_CPU_WINDOWS_AARCH64_OS_WINDOWS_AARCH64_INLINE_HPP

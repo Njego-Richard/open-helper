@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHFREESET_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHFREESET_HPP
 
-#include "gc/shenandoah/shenandoahHeapRegionSet.hpp"
-#include "gc/shenandoah/shenandoahHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeapRegionSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"
 
 class ShenandoahFreeSet : public CHeapObj<mtGC> {
 private:

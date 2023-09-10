@@ -28,8 +28,8 @@
 #include "code/stubs.hpp"
 #include "interpreter/cppInterpreter.hpp"
 #include "interpreter/templateInterpreter.hpp"
-#include "memory/resourceArea.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // This file contains the platform-independent parts
 // of the interpreter and the interpreter generator.

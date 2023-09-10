@@ -24,9 +24,9 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHMARKCOMPACT_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHMARKCOMPACT_HPP
 
-#include "gc/shared/gcTimer.hpp"
-#include "gc/shenandoah/shenandoahHeap.hpp"
-#include "gc/shenandoah/shenandoahHeapRegionSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTimer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeapRegionSet.hpp"
 
 /**
  * This implements Full GC (e.g. when invoking System.gc()) using a mark-compact algorithm.

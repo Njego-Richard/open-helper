@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_GC_SHARED_REFERENCEPROCESSORPHASETIMES_HPP
 #define SHARE_VM_GC_SHARED_REFERENCEPROCESSORPHASETIMES_HPP
 
-#include "gc/shared/referenceProcessor.hpp"
-#include "gc/shared/referenceProcessorStats.hpp"
-#include "gc/shared/workerDataArray.hpp"
-#include "memory/allocation.hpp"
-#include "memory/referenceType.hpp"
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessorStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workerDataArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/referenceType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 
 class DiscoveredList;
 class GCTimer;

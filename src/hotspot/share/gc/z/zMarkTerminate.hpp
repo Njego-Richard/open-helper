@@ -24,9 +24,9 @@
 #ifndef SHARE_GC_Z_ZMARKTERMINATE_HPP
 #define SHARE_GC_Z_ZMARKTERMINATE_HPP
 
-#include "gc/z/zGlobals.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class ZMarkTerminate {
 private:

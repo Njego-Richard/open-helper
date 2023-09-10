@@ -28,7 +28,7 @@
 // Class CardGeneration is a generation that is covered by a card table,
 // and uses a card-size block-offset array to implement block_start.
 
-#include "gc/shared/generation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generation.hpp"
 
 class BlockOffsetSharedArray;
 class CardTableRS;

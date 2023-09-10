@@ -22,18 +22,18 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/copyFailedInfo.hpp"
-#include "gc/shared/gcHeapSummary.hpp"
-#include "gc/shared/gcTimer.hpp"
-#include "gc/shared/gcTrace.hpp"
-#include "gc/shared/gcWhen.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/copyFailedInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcHeapSummary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTimer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcWhen.hpp"
 #include "jfr/jfrEvents.hpp"
-#include "runtime/os.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_G1GC
-#include "gc/g1/evacuationInfo.hpp"
-#include "gc/g1/g1YCTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/evacuationInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1YCTypes.hpp"
 #endif
 
 // All GC dependencies against the trace framework is contained within this file.

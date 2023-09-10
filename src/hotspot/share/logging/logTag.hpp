@@ -25,8 +25,8 @@
 #define SHARE_VM_LOGGING_LOGTAG_HPP
 
 #include "logging/logTag_ext.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // List of available logging tags. New tags should be added here.
 // (The tags 'all', 'disable' and 'help' are special tags that can

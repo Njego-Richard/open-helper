@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_UTILITIES_INTHISTO_HPP
 #define SHARE_VM_UTILITIES_INTHISTO_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // This class implements a simple histogram.
 

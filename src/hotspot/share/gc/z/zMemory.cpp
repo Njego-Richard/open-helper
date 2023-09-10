@@ -21,10 +21,10 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zList.inline.hpp"
-#include "gc/z/zMemory.inline.hpp"
-#include "memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zList.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMemory.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 
 uintptr_t ZMemoryManager::alloc_from_front(size_t size) {
   ZListIterator<ZMemory> iter(&_freelist);

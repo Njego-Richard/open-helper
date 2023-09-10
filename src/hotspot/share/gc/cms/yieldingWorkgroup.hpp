@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_CMS_YIELDINGWORKGROUP_HPP
 #define SHARE_VM_GC_CMS_YIELDINGWORKGROUP_HPP
 
-#include "gc/shared/workgroup.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workgroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Forward declarations
 class YieldingFlexibleGangTask;

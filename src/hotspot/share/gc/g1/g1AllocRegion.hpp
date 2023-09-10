@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_G1_G1ALLOCREGION_HPP
 #define SHARE_VM_GC_G1_G1ALLOCREGION_HPP
 
-#include "gc/g1/heapRegion.hpp"
-#include "gc/g1/g1EvacStats.hpp"
-#include "gc/g1/g1InCSetState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1EvacStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1InCSetState.hpp"
 
 class G1CollectedHeap;
 

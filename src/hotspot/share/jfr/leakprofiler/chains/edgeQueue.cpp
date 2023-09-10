@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/leakprofiler/chains/edgeQueue.hpp"
 #include "jfr/recorder/storage/jfrVirtualMemory.hpp"
 

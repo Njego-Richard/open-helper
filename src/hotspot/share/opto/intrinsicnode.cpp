@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "opto/intrinsicnode.hpp"
 #include "opto/memnode.hpp"
 #include "opto/phaseX.hpp"

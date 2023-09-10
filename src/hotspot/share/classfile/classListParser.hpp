@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_MEMORY_CLASSLISTPARSER_HPP
 #define SHARE_VM_MEMORY_CLASSLISTPARSER_HPP
 
-#include "utilities/exceptions.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 class CDSClassInfo;
 

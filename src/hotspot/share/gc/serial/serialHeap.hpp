@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_SERIAL_SERIALHEAP_HPP
 #define SHARE_VM_GC_SERIAL_SERIALHEAP_HPP
 
-#include "gc/serial/defNewGeneration.hpp"
-#include "gc/serial/tenuredGeneration.hpp"
-#include "gc/shared/genCollectedHeap.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/defNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/tenuredGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 class GenCollectorPolicy;
 class GCMemoryManager;

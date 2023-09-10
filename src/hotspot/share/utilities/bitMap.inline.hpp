@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_UTILITIES_BITMAP_INLINE_HPP
 #define SHARE_VM_UTILITIES_BITMAP_INLINE_HPP
 
-#include "runtime/atomic.hpp"
-#include "utilities/bitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
 
 inline void BitMap::set_bit(idx_t bit) {
   verify_index(bit);

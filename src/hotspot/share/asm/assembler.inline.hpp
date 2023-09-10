@@ -27,6 +27,6 @@
 
 #include "asm/assembler.hpp"
 
-#include CPU_HEADER_INLINE(assembler)
+//#include CPU_HEADER_INLINE(assembler)
 
 #endif // SHARE_VM_ASM_ASSEMBLER_INLINE_HPP

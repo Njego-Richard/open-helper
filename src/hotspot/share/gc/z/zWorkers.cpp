@@ -21,12 +21,12 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zTask.hpp"
-#include "gc/z/zWorkers.inline.hpp"
-#include "runtime/os.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zTask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zWorkers.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 
 uint ZWorkers::calculate_ncpus(double share_in_percent) {
   return ceil(os::initial_active_processor_count() * share_in_percent / 100.0);

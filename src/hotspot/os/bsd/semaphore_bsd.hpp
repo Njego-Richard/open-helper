@@ -25,7 +25,7 @@
 #ifndef OS_BSD_VM_SEMAPHORE_BSD_HPP
 #define OS_BSD_VM_SEMAPHORE_BSD_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 #ifndef __APPLE__
 // Use POSIX semaphores.

@@ -27,7 +27,7 @@
 
 #include "classfile/classLoader.hpp"
 #include "classfile/moduleEntry.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class ClassListParser;
 

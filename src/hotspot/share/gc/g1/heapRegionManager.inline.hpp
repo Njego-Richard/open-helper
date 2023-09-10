@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_G1_HEAPREGIONMANAGER_INLINE_HPP
 #define SHARE_VM_GC_G1_HEAPREGIONMANAGER_INLINE_HPP
 
-#include "gc/g1/heapRegion.hpp"
-#include "gc/g1/heapRegionManager.hpp"
-#include "gc/g1/heapRegionSet.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionSet.inline.hpp"
 
 inline HeapRegion* HeapRegionManager::addr_to_region(HeapWord* addr) const {
   assert(addr < heap_end(),

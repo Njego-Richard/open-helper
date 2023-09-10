@@ -26,7 +26,7 @@
 #define CPU_X86_VM_ASSEMBLER_X86_HPP
 
 #include "asm/register.hpp"
-#include "runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 
 class BiasedLockingCounters;
 

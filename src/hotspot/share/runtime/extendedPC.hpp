@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_EXTENDEDPC_HPP
 #define SHARE_VM_RUNTIME_EXTENDEDPC_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // An ExtendedPC contains the _pc from a signal handler in a platform
 // independent way.

@@ -26,12 +26,12 @@
 #define SHARE_VM_C1_C1_FPUSTACKSIM_HPP
 
 #include "c1/c1_FrameMap.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Provides location for forward declaration of this class, which is
 // only implemented on Intel
 class FpuStackSim;
 
-#include CPU_HEADER(c1_FpuStackSim)
+//#include CPU_HEADER(c1_FpuStackSim)
 
 #endif // SHARE_VM_C1_C1_FPUSTACKSIM_HPP

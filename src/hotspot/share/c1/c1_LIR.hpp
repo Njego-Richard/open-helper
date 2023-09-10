@@ -28,7 +28,7 @@
 #include "c1/c1_Defs.hpp"
 #include "c1/c1_ValueType.hpp"
 #include "oops/method.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class BlockBegin;
 class BlockList;

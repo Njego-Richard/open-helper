@@ -27,9 +27,9 @@
 
 #include "asm/macroAssembler.hpp"
 #include "code/codeCache.hpp"
-#include "runtime/icache.hpp"
-#include "runtime/os.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "register_arm.hpp"
 
 // -------------------------------------------------------------------

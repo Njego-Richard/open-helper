@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_PLAB_HPP
 #define SHARE_VM_GC_SHARED_PLAB_HPP
 
-#include "gc/shared/gcUtil.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Forward declarations.
 class PLABStats;

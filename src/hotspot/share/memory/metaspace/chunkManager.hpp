@@ -25,13 +25,13 @@
 #ifndef SHARE_MEMORY_METASPACE_CHUNKMANAGER_HPP
 #define SHARE_MEMORY_METASPACE_CHUNKMANAGER_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/binaryTreeDictionary.hpp"
-#include "memory/freeList.hpp"
-#include "memory/metaspace/metachunk.hpp"
-#include "memory/metaspace/metaspaceStatistics.hpp"
-#include "memory/metaspaceChunkFreeListSummary.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/binaryTreeDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/freeList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metachunk.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metaspaceStatistics.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceChunkFreeListSummary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class TestVirtualSpaceNodeTest;
 

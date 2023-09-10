@@ -27,7 +27,7 @@
 #define SHARE_VM_PRIMS_STACKWALK_HPP
 
 #include "oops/oop.hpp"
-#include "runtime/vframe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe.hpp"
 
 // BaseFrameStream is an abstract base class for encapsulating the VM-side
 // implementation of the StackWalker API.  There are two concrete subclasses:

@@ -24,10 +24,10 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHBARRIERSET_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHBARRIERSET_HPP
 
-#include "gc/shared/accessBarrierSupport.hpp"
-#include "gc/shared/barrierSet.hpp"
-#include "gc/shenandoah/shenandoahHeap.hpp"
-#include "gc/shenandoah/shenandoahSATBMarkQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/accessBarrierSupport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahSATBMarkQueue.hpp"
 
 class ShenandoahBarrierSetAssembler;
 

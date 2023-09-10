@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_METADATAONSTACKMARK_HPP
 #define SHARE_VM_CLASSFILE_METADATAONSTACKMARK_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/chunkedList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/chunkedList.hpp"
 
 class Metadata;
 

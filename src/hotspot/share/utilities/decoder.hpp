@@ -26,10 +26,10 @@
 #ifndef SHARE_VM_UTILITIES_DECODER_HPP
 #define SHARE_VM_UTILITIES_DECODER_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/mutex.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 class AbstractDecoder : public CHeapObj<mtInternal> {
 public:

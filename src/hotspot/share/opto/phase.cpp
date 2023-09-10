@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "code/nmethod.hpp"
 #include "compiler/compileBroker.hpp"
 #include "opto/compile.hpp"

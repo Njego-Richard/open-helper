@@ -25,17 +25,17 @@
 #ifndef SHARE_VM_GC_SHARED_GCTRACE_HPP
 #define SHARE_VM_GC_SHARED_GCTRACE_HPP
 
-#include "gc/shared/copyFailedInfo.hpp"
-#include "gc/shared/gcCause.hpp"
-#include "gc/shared/gcId.hpp"
-#include "gc/shared/gcName.hpp"
-#include "gc/shared/gcWhen.hpp"
-#include "memory/metaspace.hpp"
-#include "memory/referenceType.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/copyFailedInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcName.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcWhen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/referenceType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 #if INCLUDE_G1GC
-#include "gc/g1/g1YCTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1YCTypes.hpp"
 #endif
 
 class EvacuationInfo;

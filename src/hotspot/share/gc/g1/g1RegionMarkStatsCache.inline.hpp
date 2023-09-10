@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1REGIONMARKSTATSCACHE_INLINE_HPP
 #define SHARE_VM_GC_G1_G1REGIONMARKSTATSCACHE_INLINE_HPP
 
-#include "gc/g1/g1RegionMarkStatsCache.hpp"
-#include "runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RegionMarkStatsCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 inline G1RegionMarkStatsCache::G1RegionMarkStatsCacheEntry* G1RegionMarkStatsCache::find_for_add(uint region_idx) {
   uint const cache_idx = hash(region_idx);

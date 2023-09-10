@@ -26,8 +26,8 @@
 #define SHARE_VM_JFR_RECORDER_SERVICE_JFROPTIONSET_HPP
 
 #include "jni.h"
-#include "memory/allocation.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 template <typename>
 class GrowableArray;

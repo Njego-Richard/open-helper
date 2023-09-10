@@ -27,12 +27,12 @@
 
 #if INCLUDE_NMT
 
-#include "memory/allocation.hpp"
-#include "runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "services/allocationSite.hpp"
 #include "services/mallocTracker.hpp"
 #include "services/nmtCommon.hpp"
-#include "utilities/nativeCallStack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/nativeCallStack.hpp"
 
 // MallocSite represents a code path that eventually calls
 // os::malloc() to allocate memory

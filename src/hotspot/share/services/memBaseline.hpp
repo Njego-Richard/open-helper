@@ -27,12 +27,12 @@
 
 #if INCLUDE_NMT
 
-#include "runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
 #include "services/mallocSiteTable.hpp"
 #include "services/mallocTracker.hpp"
 #include "services/nmtCommon.hpp"
 #include "services/virtualMemoryTracker.hpp"
-#include "utilities/linkedlist.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/linkedlist.hpp"
 
 typedef LinkedListIterator<MallocSite>                   MallocSiteIterator;
 typedef LinkedListIterator<VirtualMemoryAllocationSite>  VirtualMemorySiteIterator;

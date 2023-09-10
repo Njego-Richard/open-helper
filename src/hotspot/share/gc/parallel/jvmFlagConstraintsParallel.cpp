@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/parallel/jvmFlagConstraintsParallel.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/jvmFlagConstraintsParallel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 JVMFlag::Error ParallelGCThreadsConstraintFuncParallel(uint value, bool verbose) {
   // Parallel GC passes ParallelGCThreads when creating GrowableArray as 'int' type parameter.

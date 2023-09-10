@@ -29,7 +29,7 @@
 #include "ci/ciExceptionHandler.hpp"
 #include "ci/ciMethod.hpp"
 #include "ci/ciStreams.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // An XHandler is a C1 internal description for an exception handler
 

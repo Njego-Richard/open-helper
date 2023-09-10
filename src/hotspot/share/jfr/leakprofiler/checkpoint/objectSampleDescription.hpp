@@ -27,7 +27,7 @@
 
 #define OBJECT_SAMPLE_DESCRIPTION_BUFFER_SIZE 100
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class outputStream;
 

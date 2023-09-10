@@ -25,17 +25,17 @@
 #ifndef SHARE_VM_GC_G1_G1PARSCANTHREADSTATE_HPP
 #define SHARE_VM_GC_G1_G1PARSCANTHREADSTATE_HPP
 
-#include "gc/g1/dirtyCardQueue.hpp"
-#include "gc/g1/g1CardTable.hpp"
-#include "gc/g1/g1CollectedHeap.hpp"
-#include "gc/g1/g1OopClosures.hpp"
-#include "gc/g1/g1Policy.hpp"
-#include "gc/g1/g1RemSet.hpp"
-#include "gc/g1/heapRegionRemSet.hpp"
-#include "gc/shared/ageTable.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/dirtyCardQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1OopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Policy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RemSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionRemSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/ageTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 
 class G1PLABAllocator;
 class G1EvacuationRootClosures;

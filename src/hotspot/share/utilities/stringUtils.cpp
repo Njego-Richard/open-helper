@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/stringUtils.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stringUtils.hpp"
 
 int StringUtils::replace_no_expand(char* string, const char* from, const char* to) {
   int replace_count = 0;

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_RECORDER_STORAGE_JFRMEMORYSPACERETRIEVAL_HPP
 #define SHARE_VM_JFR_RECORDER_STORAGE_JFRMEMORYSPACERETRIEVAL_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "jfr/recorder/repository/jfrChunkWriter.hpp"
 #include "jfr/recorder/storage/jfrBuffer.hpp"
 #include "jfr/utilities/jfrAllocation.hpp"

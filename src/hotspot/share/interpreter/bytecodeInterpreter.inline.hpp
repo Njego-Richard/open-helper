@@ -26,8 +26,8 @@
 #define SHARE_VM_INTERPRETER_BYTECODEINTERPRETER_INLINE_HPP
 
 #include "interpreter/bytecodeInterpreter.hpp"
-#include "runtime/stubRoutines.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubRoutines.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // This file holds platform-independent bodies of inline functions for the C++ based interpreter
 

@@ -28,7 +28,7 @@
 
 #include "code/codeCache.hpp"
 #include "code/vmreg.inline.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // Inline functions for z/Architecture frames:
 

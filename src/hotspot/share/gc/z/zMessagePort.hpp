@@ -24,10 +24,10 @@
 #ifndef SHARE_GC_Z_ZMESSAGEPORT_HPP
 #define SHARE_GC_Z_ZMESSAGEPORT_HPP
 
-#include "gc/z/zFuture.hpp"
-#include "gc/z/zList.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zFuture.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
 
 template <typename T> class ZMessageRequest;
 

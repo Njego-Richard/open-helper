@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_WORKERDATAARRAY_INLINE_HPP
 #define SHARE_VM_GC_SHARED_WORKERDATAARRAY_INLINE_HPP
 
-#include "gc/shared/workerDataArray.hpp"
-#include "memory/allocation.inline.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workerDataArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 template <typename T>
 WorkerDataArray<T>::WorkerDataArray(uint length, const char* title) :

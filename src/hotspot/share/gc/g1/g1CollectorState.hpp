@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1COLLECTORSTATE_HPP
 #define SHARE_VM_GC_G1_G1COLLECTORSTATE_HPP
 
-#include "gc/g1/g1YCTypes.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1YCTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // State of the G1 collection.
 class G1CollectorState {

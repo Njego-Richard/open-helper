@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZRELOCATIONSET_INLINE_HPP
 #define SHARE_GC_Z_ZRELOCATIONSET_INLINE_HPP
 
-#include "gc/z/zRelocationSet.hpp"
-#include "runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zRelocationSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 template <bool parallel>
 inline ZRelocationSetIteratorImpl<parallel>::ZRelocationSetIteratorImpl(ZRelocationSet* relocation_set) :

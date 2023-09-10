@@ -22,7 +22,7 @@
  *
  */
 
-#include "utilities/decoder_elf.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/decoder_elf.hpp"
 
 #include <demangle.h>
 

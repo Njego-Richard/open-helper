@@ -24,16 +24,16 @@
 #ifndef SHARE_GC_Z_ZCOLLECTEDHEAP_HPP
 #define SHARE_GC_Z_ZCOLLECTEDHEAP_HPP
 
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/softRefPolicy.hpp"
-#include "gc/z/zBarrierSet.hpp"
-#include "gc/z/zCollectorPolicy.hpp"
-#include "gc/z/zDirector.hpp"
-#include "gc/z/zDriver.hpp"
-#include "gc/z/zInitialize.hpp"
-#include "gc/z/zHeap.hpp"
-#include "gc/z/zRuntimeWorkers.hpp"
-#include "gc/z/zStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/softRefPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCollectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zDirector.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zDriver.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zInitialize.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zRuntimeWorkers.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zStat.hpp"
 
 class ZCollectedHeap : public CollectedHeap {
   friend class VMStructs;

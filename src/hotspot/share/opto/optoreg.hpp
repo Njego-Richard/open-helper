@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_OPTO_OPTOREG_HPP
 #define SHARE_VM_OPTO_OPTOREG_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // AdGlobals contains c2 specific register handling code as specified
 // in the .ad files.
-#include CPU_HEADER(adfiles/adGlobals)
+//#include CPU_HEADER(adfiles/adGlobals)
 
 //------------------------------OptoReg----------------------------------------
 // We eventually need Registers for the Real World.  Registers are essentially

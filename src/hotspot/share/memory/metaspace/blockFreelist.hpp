@@ -25,12 +25,12 @@
 #ifndef SHARE_MEMORY_METASPACE_BLOCKFREELIST_HPP
 #define SHARE_MEMORY_METASPACE_BLOCKFREELIST_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/binaryTreeDictionary.hpp"
-#include "memory/freeList.hpp"
-#include "memory/metaspace/smallBlocks.hpp"
-#include "memory/metaspace/metablock.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/binaryTreeDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/freeList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/smallBlocks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metablock.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 namespace metaspace {
 

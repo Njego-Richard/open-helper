@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_CMS_ALLOCATIONSTATS_HPP
 #define SHARE_VM_GC_CMS_ALLOCATIONSTATS_HPP
 
-#include "gc/shared/gcUtil.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.hpp"
 #include "logging/log.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class AllocationStats {
   // A duration threshold (in ms) used to filter

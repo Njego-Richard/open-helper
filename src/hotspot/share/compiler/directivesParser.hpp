@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_COMPILER_DIRECTIVESPARSER_HPP
 #define SHARE_VM_COMPILER_DIRECTIVESPARSER_HPP
 
-#include "utilities/json.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/json.hpp"
 #include "compiler/compilerDirectives.hpp"
 
 enum FlagType {

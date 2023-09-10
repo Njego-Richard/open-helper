@@ -25,11 +25,11 @@
 #ifndef SHARE_GC_SHARED_MEM_ALLOCATOR_HPP
 #define SHARE_GC_SHARED_MEM_ALLOCATOR_HPP
 
-#include "gc/shared/collectedHeap.hpp"
-#include "memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // These fascilities are used for allocating, and initializing newly allocated objects.
 

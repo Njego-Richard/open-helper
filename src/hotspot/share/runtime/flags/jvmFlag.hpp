@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_FLAGS_JVMFLAG_HPP
 #define SHARE_VM_RUNTIME_FLAGS_JVMFLAG_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // function type that will construct default range string
 typedef const char* (*RangeStrFunc)(void);

@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZSERVICEABILITY_HPP
 #define SHARE_GC_Z_ZSERVICEABILITY_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "services/memoryManager.hpp"
 #include "services/memoryPool.hpp"
 #include "services/memoryService.hpp"

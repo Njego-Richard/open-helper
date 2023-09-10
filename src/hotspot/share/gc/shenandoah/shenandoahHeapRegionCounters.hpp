@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHHEAPREGIONCOUNTERS_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHHEAPREGIONCOUNTERS_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 /**
  * This provides the following in JVMStat:

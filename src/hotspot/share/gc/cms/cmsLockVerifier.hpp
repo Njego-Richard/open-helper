@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_CMS_CMSLOCKVERIFIER_HPP
 #define SHARE_VM_GC_CMS_CMSLOCKVERIFIER_HPP
 
-#include "runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
 
 ///////////// Locking verification specific to CMS //////////////
 // Much like "assert_lock_strong()", except

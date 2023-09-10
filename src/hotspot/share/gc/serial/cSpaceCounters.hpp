@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SERIAL_CSPACECOUNTERS_HPP
 #define SHARE_VM_GC_SERIAL_CSPACECOUNTERS_HPP
 
-#include "gc/shared/generationCounters.hpp"
-#include "gc/shared/space.hpp"
-#include "runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 
 // A CSpaceCounters is a holder class for performance counters
 // that track a space;

@@ -26,10 +26,10 @@
 #define SHARE_VM_SERVICES_CLASSLOADINGSERVICE_HPP
 
 #include "logging/log.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/perfData.hpp"
-#include "utilities/growableArray.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class InstanceKlass;
 

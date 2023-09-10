@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_SOFTREFPOLICY_HPP
 #define SHARE_VM_GC_SHARED_SOFTREFPOLICY_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class SoftRefPolicy {
  private:

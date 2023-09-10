@@ -22,23 +22,23 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/cms/cmsCardTable.hpp"
-#include "gc/cms/compactibleFreeListSpace.hpp"
-#include "gc/cms/concurrentMarkSweepGeneration.hpp"
-#include "gc/cms/concurrentMarkSweepThread.hpp"
-#include "gc/cms/cmsHeap.hpp"
-#include "gc/cms/parNewGeneration.hpp"
-#include "gc/cms/vmCMSOperations.hpp"
-#include "gc/shared/genCollectedHeap.hpp"
-#include "gc/shared/genMemoryPools.hpp"
-#include "gc/shared/genOopClosures.inline.hpp"
-#include "gc/shared/strongRootsScope.hpp"
-#include "gc/shared/workgroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsCardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/compactibleFreeListSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/parNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/vmCMSOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genMemoryPools.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genOopClosures.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/strongRootsScope.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workgroup.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
 #include "services/memoryManager.hpp"
-#include "utilities/stack.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.inline.hpp"
 
 class CompactibleFreeListSpacePool : public CollectedMemoryPool {
 private:

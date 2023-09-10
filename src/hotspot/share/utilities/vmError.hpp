@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_VMERROR_HPP
 #define SHARE_VM_UTILITIES_VMERROR_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class Decoder;
 class frame;

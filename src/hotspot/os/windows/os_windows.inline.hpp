@@ -25,8 +25,8 @@
 #ifndef OS_WINDOWS_VM_OS_WINDOWS_INLINE_HPP
 #define OS_WINDOWS_VM_OS_WINDOWS_INLINE_HPP
 
-#include "runtime/os.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 inline const char* os::dll_file_extension()            { return ".dll"; }
 

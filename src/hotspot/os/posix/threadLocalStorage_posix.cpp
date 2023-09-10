@@ -22,7 +22,7 @@
  *
  */
 
-#include "runtime/threadLocalStorage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadLocalStorage.hpp"
 #include <pthread.h>
 
 static pthread_key_t _thread_key;

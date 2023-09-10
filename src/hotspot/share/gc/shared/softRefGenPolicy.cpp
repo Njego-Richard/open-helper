@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/adaptiveSizePolicy.hpp"
-#include "gc/shared/genCollectedHeap.hpp"
-#include "gc/shared/softRefGenPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/adaptiveSizePolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/softRefGenPolicy.hpp"
 
 void SoftRefGenPolicy::cleared_all_soft_refs() {
   // If near gc overhear limit, continue to clear SoftRefs.  SoftRefs may

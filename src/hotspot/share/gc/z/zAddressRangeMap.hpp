@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZADDRESSRANGEMAP_HPP
 #define SHARE_GC_Z_ZADDRESSRANGEMAP_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 template<typename T, size_t AddressRangeShift>
 class ZAddressRangeMapIterator;

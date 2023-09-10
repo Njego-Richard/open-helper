@@ -26,7 +26,7 @@
 #define SHARE_VM_JFR_RECORDER_STORAGE_JFRSTORAGEUTILS_INLINE_HPP
 
 #include "jfr/recorder/storage/jfrStorageUtils.hpp"
-#include "runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 
 template <typename T>
 inline bool UnBufferedWriteToChunk<T>::write(T* t, const u1* data, size_t size) {

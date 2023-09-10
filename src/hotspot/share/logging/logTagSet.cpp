@@ -21,7 +21,7 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "logging/logDecorations.hpp"
 #include "logging/logFileStreamOutput.hpp"
@@ -31,8 +31,8 @@
 #include "logging/logTag.hpp"
 #include "logging/logTagSet.hpp"
 #include "logging/logTagSetDescriptions.hpp"
-#include "memory/allocation.inline.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 LogTagSet*  LogTagSet::_list      = NULL;
 size_t      LogTagSet::_ntagsets  = 0;

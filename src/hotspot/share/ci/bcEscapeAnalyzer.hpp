@@ -31,8 +31,8 @@
 #include "ci/ciMethodData.hpp"
 #include "code/dependencies.hpp"
 #include "libadt/vectset.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 #endif
 
 // This class implements a fast, conservative analysis of effect of methods

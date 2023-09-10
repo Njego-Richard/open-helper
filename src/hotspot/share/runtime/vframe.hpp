@@ -29,11 +29,11 @@
 #include "code/debugInfoRec.hpp"
 #include "code/location.hpp"
 #include "oops/oop.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/handles.hpp"
-#include "runtime/stackValue.hpp"
-#include "runtime/stackValueCollection.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stackValue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stackValueCollection.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // vframes are virtual stack frames representing source level activations.
 // A single frame may hold several source level activations in the case of

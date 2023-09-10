@@ -25,9 +25,9 @@
 #ifndef SHARE_GC_PARALLEL_PSMARKSWEEPPROXY_HPP
 #define SHARE_GC_PARALLEL_PSMARKSWEEPPROXY_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_SERIALGC
-#include "gc/parallel/psMarkSweep.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psMarkSweep.hpp"
 #endif
 
 #if INCLUDE_SERIALGC

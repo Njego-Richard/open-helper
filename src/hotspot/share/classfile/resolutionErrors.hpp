@@ -26,7 +26,7 @@
 #define SHARE_VM_CLASSFILE_RESOLUTIONERRORS_HPP
 
 #include "oops/constantPool.hpp"
-#include "utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 class ResolutionErrorEntry;
 

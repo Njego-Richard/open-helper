@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_LEAKPROFILER_CHAINS_EDGEQUEUE_HPP
 #define SHARE_VM_JFR_LEAKPROFILER_CHAINS_EDGEQUEUE_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "jfr/leakprofiler/chains/edge.hpp"
 
 class JfrVirtualMemory;

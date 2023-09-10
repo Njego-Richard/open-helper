@@ -21,10 +21,10 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zArray.inline.hpp"
-#include "gc/z/zBackingPath_linux_x86.hpp"
-#include "gc/z/zErrno.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zArray.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBackingPath_linux_x86.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zErrno.hpp"
 #include "logging/log.hpp"
 
 #include <stdio.h>

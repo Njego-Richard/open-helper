@@ -29,10 +29,10 @@
 #include "jvmtifiles/jvmti.h"
 #include "metaprogramming/isRegisteredEnum.hpp"
 #include "metaprogramming/integralConstant.hpp"
-#include "runtime/extendedPC.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/ostream.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/extendedPC.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #ifndef _WINDOWS
 # include <setjmp.h>
 #endif
@@ -889,7 +889,7 @@ class os: AllStatic {
   static char** split_path(const char* path, int* n);
 
   // Extensions
-#include "runtime/os_ext.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os_ext.hpp"
 
  public:
   class CrashProtectionCallback : public StackObj {

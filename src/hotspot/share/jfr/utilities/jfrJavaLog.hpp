@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_JFR_UTILITIES_JFRJAVALOG_HPP
 #define SHARE_VM_JFR_UTILITIES_JFRJAVALOG_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 /*
  * A thin two-way "bridge" allowing our Java components to interface with Unified Logging (UL)

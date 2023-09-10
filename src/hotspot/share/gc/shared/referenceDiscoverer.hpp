@@ -25,8 +25,8 @@
 #ifndef SHARE_GC_SHARED_REFERENCEDISCOVERER_HPP
 #define SHARE_GC_SHARED_REFERENCEDISCOVERER_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/referenceType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/referenceType.hpp"
 #include "oops/oopsHierarchy.hpp"
 
 class ReferenceDiscoverer : public CHeapObj<mtGC> {

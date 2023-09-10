@@ -27,8 +27,8 @@
 
 #include "classfile/systemDictionary.hpp"
 #include "oops/instanceKlass.hpp"
-#include "runtime/handles.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class ClassFileParser;
 

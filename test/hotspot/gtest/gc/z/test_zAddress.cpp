@@ -21,9 +21,9 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zAddress.inline.hpp"
-#include "gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
 #include "unittest.hpp"
 
 class ZAddressTest : public ::testing::Test {

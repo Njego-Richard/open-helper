@@ -25,7 +25,7 @@
 #ifndef SHARE_GC_CMS_CMSGCSTATS_HPP
 #define SHARE_GC_CMS_CMSGCSTATS_HPP
 
-#include "gc/shared/gcStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcStats.hpp"
 
 class CMSGCStats : public GCStats {
  public:

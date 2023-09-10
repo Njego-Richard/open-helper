@@ -27,7 +27,7 @@
 
 #ifdef __APPLE__
 
-#include "utilities/decoder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/decoder.hpp"
 
 // Just a placehold for now, a real implementation should derive
 // from AbstractDecoder

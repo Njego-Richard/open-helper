@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_GC_PARALLEL_VMSTRUCTS_PARALLELGC_HPP
 #define SHARE_VM_GC_PARALLEL_VMSTRUCTS_PARALLELGC_HPP
 
-#include "gc/parallel/asPSOldGen.hpp"
-#include "gc/parallel/asPSYoungGen.hpp"
-#include "gc/parallel/immutableSpace.hpp"
-#include "gc/parallel/mutableSpace.hpp"
-#include "gc/parallel/parallelScavengeHeap.hpp"
-#include "gc/parallel/psOldGen.hpp"
-#include "gc/parallel/psVirtualspace.hpp"
-#include "gc/parallel/psYoungGen.hpp"
-#include "gc/parallel/vmStructs_parallelgc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/asPSOldGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/asPSYoungGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/immutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psOldGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psVirtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psYoungGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/vmStructs_parallelgc.hpp"
 
 #define VM_STRUCTS_PARALLELGC(nonstatic_field, \
                               volatile_nonstatic_field, \

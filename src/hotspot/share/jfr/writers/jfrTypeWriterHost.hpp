@@ -27,7 +27,7 @@
 
 #include "jfr/recorder/checkpoint/jfrCheckpointWriter.hpp"
 #include "jfr/utilities/jfrTypes.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 template <typename WriterImpl, u4 ID>
 class JfrTypeWriterHost : public StackObj {

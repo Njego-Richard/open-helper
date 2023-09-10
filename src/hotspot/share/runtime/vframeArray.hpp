@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_RUNTIME_VFRAMEARRAY_HPP
 #define SHARE_VM_RUNTIME_VFRAMEARRAY_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/arrayOop.hpp"
-#include "runtime/deoptimization.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/monitorChunk.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/monitorChunk.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // A vframeArray is an array used for momentarily storing off stack Java method activations
 // during deoptimization. Essentially it is an array of vframes where each vframe

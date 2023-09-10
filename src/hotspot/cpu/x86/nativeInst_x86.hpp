@@ -26,9 +26,9 @@
 #define CPU_X86_VM_NATIVEINST_X86_HPP
 
 #include "asm/assembler.hpp"
-#include "runtime/icache.hpp"
-#include "runtime/os.hpp"
-#include "runtime/safepointMechanism.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointMechanism.hpp"
 
 // We have interfaces for the following instructions:
 // - NativeInstruction

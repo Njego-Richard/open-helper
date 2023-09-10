@@ -26,11 +26,11 @@
 #define SHARE_VM_SERVICES_DIAGNOSTICFRAMEWORK_HPP
 
 #include "classfile/vmSymbols.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/arguments.hpp"
-#include "runtime/os.hpp"
-#include "runtime/vmThread.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 
 enum DCmdSource {

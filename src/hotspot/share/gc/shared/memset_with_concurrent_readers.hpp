@@ -25,7 +25,7 @@
 #ifndef SRC_SHARE_VM_GC_SHARED_MEMSETWITHCONCURRENTREADERS_HPP
 #define SRC_SHARE_VM_GC_SHARED_MEMSETWITHCONCURRENTREADERS_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #include <stddef.h>
 #include <string.h>

@@ -23,9 +23,9 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_VMSTRUCTS_SHENANDOAH_HPP
 #define SHARE_VM_GC_SHENANDOAH_VMSTRUCTS_SHENANDOAH_HPP
 
-#include "gc/shenandoah/shenandoahHeap.hpp"
-#include "gc/shenandoah/shenandoahHeapRegion.hpp"
-#include "gc/shenandoah/shenandoahMonitoringSupport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahMonitoringSupport.hpp"
 
 #define VM_STRUCTS_SHENANDOAH(nonstatic_field, volatile_nonstatic_field, static_field)  \
   static_field(ShenandoahHeapRegion, RegionSizeBytes,        size_t)                    \

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_PARALLEL_GCTASKTHREAD_HPP
 #define SHARE_VM_GC_PARALLEL_GCTASKTHREAD_HPP
 
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 // Forward declarations of classes defined here.
 class GCTaskThread;

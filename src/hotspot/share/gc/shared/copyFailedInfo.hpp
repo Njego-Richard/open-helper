@@ -26,8 +26,8 @@
 #define SHARE_VM_GC_SHARED_COPYFAILEDINFO_HPP
 
 #include "jfr/support/jfrThreadId.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class CopyFailedInfo : public CHeapObj<mtGC> {
   size_t    _first_size;

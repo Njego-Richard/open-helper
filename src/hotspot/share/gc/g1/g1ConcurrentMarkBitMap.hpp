@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_GC_G1_G1CONCURRENTMARKBITMAP_HPP
 #define SHARE_VM_GC_G1_G1CONCURRENTMARKBITMAP_HPP
 
-#include "gc/g1/g1RegionToSpaceMapper.hpp"
-#include "memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RegionToSpaceMapper.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "utilities/bitMap.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class G1CMBitMap;
 class G1CMTask;

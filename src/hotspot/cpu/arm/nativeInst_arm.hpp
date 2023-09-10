@@ -26,8 +26,8 @@
 #define CPU_ARM_VM_NATIVEINST_ARM_HPP
 
 #include "asm/macroAssembler.hpp"
-#include "runtime/icache.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 
 #ifdef AARCH64

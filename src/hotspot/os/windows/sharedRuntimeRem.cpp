@@ -22,8 +22,8 @@
 *
 */
 
-#include "precompiled.hpp"
-#include "runtime/sharedRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 
 #ifdef _WIN64
 // These are copied defines from fdlibm.h, this allows us to keep the code

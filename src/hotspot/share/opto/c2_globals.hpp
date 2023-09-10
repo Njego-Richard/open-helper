@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OPTO_C2_GLOBALS_HPP
 #define SHARE_VM_OPTO_C2_GLOBALS_HPP
 
-#include "runtime/globals.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
-#include CPU_HEADER(c2_globals)
+//#include CPU_HEADER(c2_globals)
 #include OS_HEADER(c2_globals)
 
 //

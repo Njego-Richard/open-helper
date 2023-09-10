@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_SHARED_PRESERVEDMARKS_INLINE_HPP
 #define SHARE_VM_GC_SHARED_PRESERVEDMARKS_INLINE_HPP
 
-#include "gc/shared/preservedMarks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/preservedMarks.hpp"
 #include "logging/log.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/stack.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.inline.hpp"
 
 inline bool PreservedMarks::should_preserve_mark(oop obj, markOop m) const {
   return m->must_be_preserved_for_promotion_failure(obj);

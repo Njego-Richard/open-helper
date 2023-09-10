@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_ATOMIC_HPP
 #define SHARE_VM_RUNTIME_ATOMIC_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "metaprogramming/conditional.hpp"
 #include "metaprogramming/enableIf.hpp"
 #include "metaprogramming/isIntegral.hpp"
@@ -34,8 +34,8 @@
 #include "metaprogramming/primitiveConversions.hpp"
 #include "metaprogramming/removeCV.hpp"
 #include "metaprogramming/removePointer.hpp"
-#include "utilities/align.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 enum atomic_memory_order {
   // The modes that align with C++11 are intended to

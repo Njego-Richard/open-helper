@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_UTILITIES_JFRTIME_HPP
 #define SHARE_VM_JFR_UTILITIES_JFRTIME_HPP
 
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 
 typedef TimeInstant<CounterRepresentation, FastUnorderedElapsedCounterSource> JfrTicks;
 typedef TimeInterval<CounterRepresentation, FastUnorderedElapsedCounterSource> JfrTickspan;

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_G1_G1ALLOCATOR_HPP
 #define SHARE_VM_GC_G1_G1ALLOCATOR_HPP
 
-#include "gc/g1/g1AllocRegion.hpp"
-#include "gc/g1/g1InCSetState.hpp"
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/plab.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1AllocRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1InCSetState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/plab.hpp"
 
 class EvacuationInfo;
 

@@ -25,7 +25,7 @@
 #ifndef OS_LINUX_VM_OS_LINUX_INLINE_HPP
 #define OS_LINUX_VM_OS_LINUX_INLINE_HPP
 
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 // System includes
 

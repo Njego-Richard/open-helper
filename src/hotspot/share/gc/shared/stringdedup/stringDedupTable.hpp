@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUPTABLE_HPP
 #define SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUPTABLE_HPP
 
-#include "gc/shared/stringdedup/stringDedupStat.hpp"
-#include "runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 
 class StringDedupEntryCache;
 class StringDedupUnlinkOrOopsDoClosure;

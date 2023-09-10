@@ -31,7 +31,7 @@
 #include "ci/ciUtilities.hpp"
 #include "oops/methodData.hpp"
 #include "oops/oop.hpp"
-#include "runtime/deoptimization.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 
 class ciBitData;
 class ciCounterData;

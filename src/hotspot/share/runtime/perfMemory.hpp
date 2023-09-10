@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_PERFMEMORY_HPP
 #define SHARE_VM_RUNTIME_PERFMEMORY_HPP
 
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 /*
  * PerfData Version Constants

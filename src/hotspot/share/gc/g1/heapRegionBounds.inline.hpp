@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_HEAPREGIONBOUNDS_INLINE_HPP
 #define SHARE_VM_GC_G1_HEAPREGIONBOUNDS_INLINE_HPP
 
-#include "gc/g1/heapRegionBounds.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionBounds.hpp"
 
 size_t HeapRegionBounds::min_size() {
   return MIN_REGION_SIZE;

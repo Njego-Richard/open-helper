@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_CONCURRENTGCPHASEMANAGER_HPP
 #define SHARE_VM_GC_CONCURRENTGCPHASEMANAGER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // Manage concurrent phase information, to support WhiteBox testing.
 // Managers are stack allocated.  Managers may be nested, to support

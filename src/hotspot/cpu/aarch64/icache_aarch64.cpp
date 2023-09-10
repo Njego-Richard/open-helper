@@ -23,8 +23,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/icache.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
 
 extern void aarch64TestHook();
 

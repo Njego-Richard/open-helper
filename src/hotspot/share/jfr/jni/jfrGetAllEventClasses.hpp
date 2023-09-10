@@ -25,8 +25,8 @@
 #define SHARE_VM_JFR_JNI_JFRGETALLEVENTCLASSES_HPP
 
 #include "jni.h"
-#include "memory/allocation.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 //
 // Responsible for the delivery of currently loaded jdk.jfr.Event subklasses to Java.

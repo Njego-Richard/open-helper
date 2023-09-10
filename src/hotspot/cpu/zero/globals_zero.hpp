@@ -26,8 +26,8 @@
 #ifndef CPU_ZERO_VM_GLOBALS_ZERO_HPP
 #define CPU_ZERO_VM_GLOBALS_ZERO_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Set the default values for platform dependent flags used by the
 // runtime system.  See globals.hpp for details of what they do.

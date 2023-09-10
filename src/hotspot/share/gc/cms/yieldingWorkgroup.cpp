@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/cms/yieldingWorkgroup.hpp"
-#include "gc/shared/gcId.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/yieldingWorkgroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 YieldingFlexibleGangWorker::YieldingFlexibleGangWorker(YieldingFlexibleWorkGang* gang, int id)
     : AbstractGangWorker(gang, id) {}

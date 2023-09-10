@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CODE_NATIVEINST_HPP
 #define SHARE_VM_CODE_NATIVEINST_HPP
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
-#include CPU_HEADER(nativeInst)
+//#include CPU_HEADER(nativeInst)
 
 #endif // SHARE_VM_CODE_NATIVEINST_HPP

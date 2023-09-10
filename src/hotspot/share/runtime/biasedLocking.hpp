@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_BIASEDLOCKING_HPP
 #define SHARE_VM_RUNTIME_BIASEDLOCKING_HPP
 
-#include "runtime/handles.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // This class describes operations to implement Store-Free Biased
 // Locking. The high-level properties of the scheme are similar to

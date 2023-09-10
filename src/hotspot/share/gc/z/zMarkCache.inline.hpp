@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZMARKCACHE_INLINE_HPP
 #define SHARE_GC_Z_ZMARKCACHE_INLINE_HPP
 
-#include "gc/z/zMarkCache.hpp"
-#include "gc/z/zPage.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMarkCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPage.inline.hpp"
 
 inline void ZMarkCacheEntry::inc_live(ZPage* page, size_t bytes) {
   if (_page == page) {

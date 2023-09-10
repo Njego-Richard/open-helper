@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_PLACEHOLDERS_HPP
 #define SHARE_VM_CLASSFILE_PLACEHOLDERS_HPP
 
-#include "runtime/thread.hpp"
-#include "utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 class PlaceholderEntry;
 

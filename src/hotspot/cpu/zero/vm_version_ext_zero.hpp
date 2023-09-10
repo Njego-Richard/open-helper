@@ -25,8 +25,8 @@
 #ifndef CPU_ZERO_VM_VM_VERSION_EXT_ZERO_HPP
 #define CPU_ZERO_VM_VM_VERSION_EXT_ZERO_HPP
 
-#include "runtime/vm_version.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class VM_Version_Ext : public VM_Version {
  private:

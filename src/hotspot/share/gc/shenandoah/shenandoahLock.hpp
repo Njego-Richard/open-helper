@@ -24,9 +24,9 @@
 #ifndef SHARE_GC_SHENANDOAH_SHENANDOAHLOCK_HPP
 #define SHARE_GC_SHENANDOAH_SHENANDOAHLOCK_HPP
 
-#include "gc/shenandoah/shenandoahPadding.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahPadding.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 class ShenandoahLock  {
 private:

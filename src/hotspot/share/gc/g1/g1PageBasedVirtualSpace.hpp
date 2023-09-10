@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_G1_G1PAGEBASEDVIRTUALSPACE_HPP
 #define SHARE_VM_GC_G1_G1PAGEBASEDVIRTUALSPACE_HPP
 
-#include "memory/memRegion.hpp"
-#include "memory/virtualspace.hpp"
-#include "utilities/align.hpp"
-#include "utilities/bitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
 
 class WorkGang;
 

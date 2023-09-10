@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_REFERENCEPROCESSOR_INLINE_HPP
 #define SHARE_VM_GC_SHARED_REFERENCEPROCESSOR_INLINE_HPP
 
-#include "gc/shared/referenceProcessor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessor.hpp"
 #include "oops/compressedOops.inline.hpp"
 #include "oops/oop.hpp"
 

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_CMS_CMSCOLLECTORPOLICY_HPP
 #define SHARE_VM_GC_CMS_CMSCOLLECTORPOLICY_HPP
 
-#include "gc/shared/collectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorPolicy.hpp"
 
 class ConcurrentMarkSweepPolicy : public GenCollectorPolicy {
  protected:

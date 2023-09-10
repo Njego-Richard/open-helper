@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_CMS_CMSOOPCLOSURES_INLINE_HPP
 #define SHARE_VM_GC_CMS_CMSOOPCLOSURES_INLINE_HPP
 
-#include "gc/cms/cmsOopClosures.hpp"
-#include "gc/cms/concurrentMarkSweepGeneration.hpp"
-#include "gc/shared/taskqueue.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsOopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.inline.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/compressedOops.inline.hpp"
 #include "oops/oop.inline.hpp"

@@ -28,7 +28,7 @@
 
 // Included in orderAccess.hpp header file.
 
-#include "runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 
 // Implementation of class OrderAccess.
 

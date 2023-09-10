@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_MUTEX_HPP
 #define SHARE_VM_RUNTIME_MUTEX_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/os.hpp"
-#include "utilities/histogram.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/histogram.hpp"
 
 // The SplitWord construct allows us to colocate the contention queue
 // (cxq) with the lock-byte.  The queue elements are ParkEvents, which are

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_LEAKPROFILER_SAMPLING_SAMPLEPRIORITYQUEUE_HPP
 #define SHARE_VM_JFR_LEAKPROFILER_SAMPLING_SAMPLEPRIORITYQUEUE_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ObjectSample;
 

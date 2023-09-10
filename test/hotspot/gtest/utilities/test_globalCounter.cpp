@@ -21,12 +21,12 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/os.hpp"
-#include "utilities/globalCounter.hpp"
-#include "utilities/globalCounter.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalCounter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalCounter.inline.hpp"
 #include "utilitiesHelper.inline.hpp"
 
 #define GOOD_VALUE 1337

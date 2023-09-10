@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_JFR_WRITERS_JFRENCODERS_HPP
 #define SHARE_VM_JFR_WRITERS_JFRENCODERS_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/bytes.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 //
 // The Encoding policy prescribes a template

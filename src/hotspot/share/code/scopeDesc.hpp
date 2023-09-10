@@ -28,7 +28,7 @@
 #include "code/debugInfo.hpp"
 #include "code/pcDesc.hpp"
 #include "oops/method.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // SimpleScopeDesc is used when all you need to extract from
 // a given pc,nmethod pair is a Method* and a bci. This is

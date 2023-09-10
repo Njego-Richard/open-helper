@@ -25,14 +25,14 @@
 #ifndef SHARE_GC_G1_G1FULLCOLLECTOR_HPP
 #define SHARE_GC_G1_G1FULLCOLLECTOR_HPP
 
-#include "gc/g1/g1FullGCCompactionPoint.hpp"
-#include "gc/g1/g1FullGCMarker.hpp"
-#include "gc/g1/g1FullGCOopClosures.hpp"
-#include "gc/g1/g1FullGCScope.hpp"
-#include "gc/shared/preservedMarks.hpp"
-#include "gc/shared/referenceProcessor.hpp"
-#include "gc/shared/taskqueue.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1FullGCCompactionPoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1FullGCMarker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1FullGCOopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1FullGCScope.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/preservedMarks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class AbstractGangTask;
 class G1CMBitMap;

@@ -25,8 +25,8 @@
 #ifndef SHARE_GC_PARALLEL_COMMANDLINEFLAGCONSTRAINTSPARALLEL_HPP
 #define SHARE_GC_PARALLEL_COMMANDLINEFLAGCONSTRAINTSPARALLEL_HPP
 
-#include "runtime/globals.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Parallel Subconstraints
 JVMFlag::Error ParallelGCThreadsConstraintFuncParallel(uint value, bool verbose);

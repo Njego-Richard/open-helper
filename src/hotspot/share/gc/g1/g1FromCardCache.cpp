@@ -22,11 +22,11 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1FromCardCache.hpp"
-#include "gc/g1/g1RemSet.hpp"
-#include "memory/padded.inline.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1FromCardCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RemSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 uintptr_t** G1FromCardCache::_cache = NULL;
 uint        G1FromCardCache::_max_regions = 0;

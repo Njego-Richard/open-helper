@@ -26,7 +26,7 @@
 #define SHARE_VM_JFR_RECORDER_STORAGE_JFRMEMORYSPACE_INLINE_HPP
 
 #include "jfr/recorder/storage/jfrMemorySpace.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 template <typename T, template <typename> class RetrievalType, typename Callback>
 JfrMemorySpace<T, RetrievalType, Callback>::

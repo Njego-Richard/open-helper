@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZLIST_INLINE_HPP
 #define SHARE_GC_Z_ZLIST_INLINE_HPP
 
-#include "gc/z/zList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zList.hpp"
 
 template <typename T, bool forward>
 ZListIteratorImpl<T, forward>::ZListIteratorImpl(ZList<T>* list) :

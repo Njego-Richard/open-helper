@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/basicLock.hpp"
-#include "runtime/synchronizer.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/basicLock.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/synchronizer.hpp"
 
 void BasicLock::print_on(outputStream* st) const {
   st->print("monitor");

@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "jvmci/jvmci_globals.hpp"
-#include "gc/shared/gcConfig.hpp"
-#include "utilities/defaultStream.hpp"
-#include "runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcConfig.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/defaultStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
 
 JVMCI_FLAGS(MATERIALIZE_DEVELOPER_FLAG, \
             MATERIALIZE_PD_DEVELOPER_FLAG, \

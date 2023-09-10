@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZWORKERS_INLINE_HPP
 #define SHARE_GC_Z_ZWORKERS_INLINE_HPP
 
-#include "gc/z/zWorkers.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zWorkers.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 inline uint ZWorkers::nparallel() const {
   return _boost ? nworkers() : nparallel_no_boost();

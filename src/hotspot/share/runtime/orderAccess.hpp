@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_ORDERACCESS_HPP
 #define SHARE_VM_RUNTIME_ORDERACCESS_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/atomic.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 //                Memory Access Ordering Model
 //

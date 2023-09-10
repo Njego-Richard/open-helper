@@ -26,9 +26,9 @@
 #define SHARE_VM_INTERPRETER_TEMPLATETABLE_HPP
 
 #include "interpreter/bytecodes.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/frame.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #ifndef CC_INTERP
 // All the necessary definitions used for (bytecode) template generation. Instead of
@@ -351,7 +351,7 @@ class TemplateTable: AllStatic {
   static Template* template_for_wide(Bytecodes::Code code)  { Bytecodes::wide_check(code); return &_template_table_wide[code]; }
 
   // Platform specifics
-#include CPU_HEADER(templateTable)
+//#include CPU_HEADER(templateTable)
 
 };
 #endif /* !CC_INTERP */

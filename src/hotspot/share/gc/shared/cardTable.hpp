@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_SHARED_CARDTABLE_HPP
 #define SHARE_VM_GC_SHARED_CARDTABLE_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 class CardTable: public CHeapObj<mtGC> {
   friend class VMStructs;

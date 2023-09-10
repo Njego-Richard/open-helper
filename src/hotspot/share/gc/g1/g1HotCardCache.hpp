@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_GC_G1_G1HOTCARDCACHE_HPP
 #define SHARE_VM_GC_G1_G1HOTCARDCACHE_HPP
 
-#include "gc/g1/g1CardCounts.hpp"
-#include "gc/g1/g1_globals.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/safepoint.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CardCounts.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class CardTableEntryClosure;
 class DirtyCardQueue;

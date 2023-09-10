@@ -25,8 +25,8 @@
 #ifndef SHARE_RUNTIME_ABSTRACT_VM_VERSION_HPP
 #define SHARE_RUNTIME_ABSTRACT_VM_VERSION_HPP
 
-#include "memory/allocation.hpp"  // For declaration of class AllStatic
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"  // For declaration of class AllStatic
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 typedef enum {
   NoDetectedVirtualization,

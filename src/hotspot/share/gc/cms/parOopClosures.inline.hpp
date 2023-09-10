@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_CMS_PAROOPCLOSURES_INLINE_HPP
 #define SHARE_VM_GC_CMS_PAROOPCLOSURES_INLINE_HPP
 
-#include "gc/cms/cmsHeap.hpp"
-#include "gc/cms/parNewGeneration.hpp"
-#include "gc/cms/parOopClosures.hpp"
-#include "gc/shared/cardTableRS.hpp"
-#include "gc/shared/genOopClosures.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/parNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/parOopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableRS.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genOopClosures.inline.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
 #include "oops/access.inline.hpp"

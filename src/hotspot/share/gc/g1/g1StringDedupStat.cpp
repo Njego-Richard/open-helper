@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
-#include "gc/g1/g1CollectedHeap.inline.hpp"
-#include "gc/g1/g1StringDedupStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1StringDedupStat.hpp"
 #include "logging/log.hpp"
 
 G1StringDedupStat::G1StringDedupStat() : StringDedupStat(),

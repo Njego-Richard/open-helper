@@ -26,8 +26,8 @@
 #define CPU_SPARC_VM_NATIVEINST_SPARC_HPP
 
 #include "asm/macroAssembler.hpp"
-#include "runtime/icache.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 // We have interface for the following instructions:
 // - NativeInstruction

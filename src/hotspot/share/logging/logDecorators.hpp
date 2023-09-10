@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_LOGGING_LOGDECORATORS_HPP
 #define SHARE_VM_LOGGING_LOGDECORATORS_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // The list of available decorators:
 // time         - Current time and date in ISO-8601 format

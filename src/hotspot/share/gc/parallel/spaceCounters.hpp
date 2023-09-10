@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_PARALLEL_SPACECOUNTERS_HPP
 #define SHARE_VM_GC_PARALLEL_SPACECOUNTERS_HPP
 
-#include "gc/parallel/immutableSpace.hpp"
-#include "gc/parallel/mutableSpace.hpp"
-#include "gc/shared/generationCounters.hpp"
-#include "runtime/perfData.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/immutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // A SpaceCounter is a holder class for performance counters
 // that track a space;

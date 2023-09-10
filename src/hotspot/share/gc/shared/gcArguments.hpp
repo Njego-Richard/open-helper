@@ -26,7 +26,7 @@
 #ifndef SHARE_GC_SHARED_GCARGUMENTS_HPP
 #define SHARE_GC_SHARED_GCARGUMENTS_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class CollectedHeap;
 

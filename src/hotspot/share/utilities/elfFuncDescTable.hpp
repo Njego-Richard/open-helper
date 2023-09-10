@@ -29,9 +29,9 @@
 #if !defined(_WINDOWS) && !defined(__APPLE__)
 
 
-#include "memory/allocation.hpp"
-#include "utilities/decoder.hpp"
-#include "utilities/elfFile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/decoder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/elfFile.hpp"
 
 /*
 

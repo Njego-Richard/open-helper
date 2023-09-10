@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_INTERPRETER_INVOCATIONCOUNTER_HPP
 #define SHARE_VM_INTERPRETER_INVOCATIONCOUNTER_HPP
 
-#include "runtime/handles.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 // InvocationCounters are used to trigger actions when a limit (threshold) is reached.
 // For different states, different limits and actions can be defined in the initialization

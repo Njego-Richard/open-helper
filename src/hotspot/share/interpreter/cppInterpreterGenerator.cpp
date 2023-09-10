@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "interpreter/bytecodeInterpreter.hpp"
 #include "interpreter/cppInterpreterGenerator.hpp"
 #include "interpreter/interpreter.hpp"

@@ -22,9 +22,9 @@
 
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "unittest.hpp"
-#include "utilities/linkedlist.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/linkedlist.hpp"
 
 class Integer : public StackObj {
  private:

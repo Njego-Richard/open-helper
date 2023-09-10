@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_CLASSFILE_SYMBOLTABLE_HPP
 #define SHARE_VM_CLASSFILE_SYMBOLTABLE_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/symbol.hpp"
-#include "utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 // The symbol table holds all Symbol*s and corresponding interned strings.
 // Symbol*s and literal strings should be canonicalized.

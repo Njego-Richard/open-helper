@@ -22,16 +22,16 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/parallel/adjoiningGenerations.hpp"
-#include "gc/parallel/adjoiningVirtualSpaces.hpp"
-#include "gc/parallel/generationSizer.hpp"
-#include "gc/parallel/parallelScavengeHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/adjoiningGenerations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/adjoiningVirtualSpaces.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/generationSizer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
-#include "memory/resourceArea.hpp"
-#include "utilities/align.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 // If boundary moving is being used, create the young gen and old
 // gen with ASPSYoungGen and ASPSOldGen, respectively.  Revert to

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_CARDTABLEBARRIERSET_HPP
 #define SHARE_VM_GC_SHARED_CARDTABLEBARRIERSET_HPP
 
-#include "gc/shared/modRefBarrierSet.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/modRefBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 class CardTable;
 

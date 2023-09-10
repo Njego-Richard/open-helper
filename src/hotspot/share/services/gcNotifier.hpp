@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_SERVICES_GCNOTIFIER_HPP
 #define SHARE_VM_SERVICES_GCNOTIFIER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "services/memoryPool.hpp"
 #include "services/memoryService.hpp"
 #include "services/memoryManager.hpp"

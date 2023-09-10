@@ -24,12 +24,12 @@
 #ifndef SHARE_GC_G1_G1THREADLOCALDATA_HPP
 #define SHARE_GC_G1_G1THREADLOCALDATA_HPP
 
-#include "gc/g1/dirtyCardQueue.hpp"
-#include "gc/g1/g1BarrierSet.hpp"
-#include "gc/g1/satbMarkQueue.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/sizes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/dirtyCardQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1BarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/satbMarkQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/sizes.hpp"
 
 class G1ThreadLocalData {
 private:

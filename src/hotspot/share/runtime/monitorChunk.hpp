@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_MONITORCHUNK_HPP
 #define SHARE_VM_RUNTIME_MONITORCHUNK_HPP
 
-#include "runtime/synchronizer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/synchronizer.hpp"
 
 // Data structure for holding monitors for one activation during
 // deoptimization.

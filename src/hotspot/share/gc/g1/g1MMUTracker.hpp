@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_G1_G1MMUTRACKER_HPP
 #define SHARE_VM_GC_G1_G1MMUTRACKER_HPP
 
-#include "gc/shared/gcId.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 // Two major user controls over G1 behavior are setting a pause time goal (MaxGCPauseMillis),
 // over a time slice (GCPauseIntervalMillis). This defines the Minimum Mutator

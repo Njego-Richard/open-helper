@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CODE_RELOCINFO_HPP
 #define SHARE_VM_CODE_RELOCINFO_HPP
 
-#include "runtime/os.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class nmethod;
 class CompiledMethod;
@@ -424,7 +424,7 @@ class relocInfo {
   static void remove_reloc_info_for_address(RelocIterator *itr, address pc, relocType old_type);
 
   // Machine dependent stuff
-#include CPU_HEADER(relocInfo)
+//#include CPU_HEADER(relocInfo)
 
  protected:
   // Derived constant, based on format_width which is PD:

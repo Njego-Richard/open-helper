@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZFUTURE_HPP
 #define SHARE_GC_Z_ZFUTURE_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/semaphore.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/semaphore.hpp"
 
 template <typename T>
 class ZFuture {

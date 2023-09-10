@@ -24,7 +24,7 @@
 
 #include <stdlib.h>
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "code/codeBlob.hpp"
 #include "asm/macroAssembler.hpp"
 

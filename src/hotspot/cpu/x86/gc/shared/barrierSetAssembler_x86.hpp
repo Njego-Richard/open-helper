@@ -26,7 +26,7 @@
 #define CPU_X86_GC_SHARED_BARRIERSETASSEMBLER_X86_HPP
 
 #include "asm/macroAssembler.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/access.hpp"
 
 class InterpreterMacroAssembler;

@@ -24,10 +24,10 @@
 #ifndef SHARE_GC_SHENANDOAH_SHENANDOAHPARALLELCLEANING_HPP
 #define SHARE_GC_SHENANDOAH_SHENANDOAHPARALLELCLEANING_HPP
 
-#include "gc/shared/workgroup.hpp"
-#include "gc/shenandoah/parallelCleaning.hpp"
-#include "gc/shenandoah/shenandoahRootProcessor.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workgroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/parallelCleaning.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahRootProcessor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 
 // Perform weak root cleaning at a pause
 template <typename IsAlive, typename KeepAlive>

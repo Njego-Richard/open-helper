@@ -26,7 +26,7 @@
 #define SHARE_VM_UTILITIES_CONSTANTTAG_HPP
 
 #include "jvm.h"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // constant tags in Java .class files
 

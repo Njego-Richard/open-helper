@@ -26,7 +26,7 @@
 #define CPU_X86_GC_SHARED_CARDTABLEBARRIERSETASSEMBLER_X86_HPP
 
 #include "asm/macroAssembler.hpp"
-#include "gc/shared/modRefBarrierSetAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/modRefBarrierSetAssembler.hpp"
 
 class CardTableBarrierSetAssembler: public ModRefBarrierSetAssembler {
 protected:

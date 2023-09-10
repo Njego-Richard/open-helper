@@ -25,8 +25,8 @@
 #ifndef OS_POSIX_VM_SEMAPHORE_POSIX_HPP
 #define OS_POSIX_VM_SEMAPHORE_POSIX_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 #include <semaphore.h>
 

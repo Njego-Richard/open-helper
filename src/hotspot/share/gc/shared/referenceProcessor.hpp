@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_SHARED_REFERENCEPROCESSOR_HPP
 #define SHARE_VM_GC_SHARED_REFERENCEPROCESSOR_HPP
 
-#include "gc/shared/referenceDiscoverer.hpp"
-#include "gc/shared/referencePolicy.hpp"
-#include "gc/shared/referenceProcessorStats.hpp"
-#include "memory/referenceType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceDiscoverer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referencePolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessorStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/referenceType.hpp"
 #include "oops/instanceRefKlass.hpp"
 
 class AbstractRefProcTaskExecutor;

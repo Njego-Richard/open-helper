@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/javaClasses.hpp"
-#include "memory/universe.hpp"
-#include "runtime/reflectionUtils.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/reflectionUtils.hpp"
 
 KlassStream::KlassStream(InstanceKlass* klass, bool local_only,
                          bool classes_only, bool walk_defaults) {

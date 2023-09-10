@@ -25,8 +25,8 @@
 #ifndef OS_WINDOWS_VM_C2_GLOBALS_WINDOWS_HPP
 #define OS_WINDOWS_VM_C2_GLOBALS_WINDOWS_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 //
 // Sets the default values for operating system dependent flags used by the

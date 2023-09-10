@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/utilities/jfrBlob.hpp"
 
 JfrBlob::JfrBlob(const u1* checkpoint, size_t size) :

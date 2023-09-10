@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_PRIMS_JNICHECK_HPP
 #define SHARE_VM_PRIMS_JNICHECK_HPP
 
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 extern "C" {
   // Report a JNI failure caught by -Xcheck:jni.  Perform a core dump.

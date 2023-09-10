@@ -23,13 +23,13 @@
  */
 
 
-#include "precompiled.hpp"
-#include "gc/shared/gcId.hpp"
-#include "gc/shared/objectCountEventSender.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/objectCountEventSender.hpp"
 #include "jfr/jfrEvents.hpp"
-#include "memory/heapInspection.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heapInspection.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 #if INCLUDE_SERVICES
 
 bool ObjectCountEventSender::should_send_event() {

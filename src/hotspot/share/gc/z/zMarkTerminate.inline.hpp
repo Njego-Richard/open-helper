@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZMARKTERMINATE_INLINE_HPP
 #define SHARE_GC_Z_ZMARKTERMINATE_INLINE_HPP
 
-#include "runtime/atomic.hpp"
-#include "runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 inline ZMarkTerminate::ZMarkTerminate() :
     _nworkers(0),

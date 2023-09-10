@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_JFR_UTILITIES_JFRTRYLOCK_HPP
 #define SHARE_VM_JFR_UTILITIES_JFRTRYLOCK_HPP
 
-#include "runtime/atomic.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class JfrTryLock {
  private:

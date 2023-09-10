@@ -21,11 +21,11 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zForwardingTable.inline.hpp"
-#include "gc/z/zUtils.inline.hpp"
-#include "memory/allocation.inline.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zForwardingTable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 void ZForwardingTable::setup(size_t live_objects) {
   assert(is_null(), "Should be empty");

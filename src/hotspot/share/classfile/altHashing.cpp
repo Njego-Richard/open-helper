@@ -45,12 +45,12 @@
    <http://creativecommons.org/publicdomain/zero/1.0/>.
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/altHashing.hpp"
 #include "classfile/systemDictionary.hpp"
 #include "oops/markOop.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 // Get the hash code of the classes mirror if it exists, otherwise just
 // return a random number, which is one of the possible hash code used for

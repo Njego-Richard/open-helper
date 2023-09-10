@@ -26,9 +26,9 @@
 #define SHARE_VM_INTERPRETER_BYTECODESTREAM_HPP
 
 #include "interpreter/bytecode.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/method.hpp"
-#include "utilities/bytes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
 
 // A BytecodeStream is used for fast iteration over the bytecodes
 // of a Method*.

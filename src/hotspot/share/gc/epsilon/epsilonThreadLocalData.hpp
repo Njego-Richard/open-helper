@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_EPSILON_EPSILONTHREADLOCALDATA_HPP
 #define SHARE_VM_GC_EPSILON_EPSILONTHREADLOCALDATA_HPP
 
-#include "runtime/thread.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class EpsilonThreadLocalData {
 private:

@@ -27,13 +27,13 @@
 
 #if INCLUDE_NMT
 
-#include "memory/allocation.hpp"
-#include "memory/metaspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
 #include "services/allocationSite.hpp"
 #include "services/nmtCommon.hpp"
-#include "utilities/linkedlist.hpp"
-#include "utilities/nativeCallStack.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/linkedlist.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/nativeCallStack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 
 /*

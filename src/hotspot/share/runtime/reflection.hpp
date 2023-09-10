@@ -26,9 +26,9 @@
 #define SHARE_VM_RUNTIME_REFLECTION_HPP
 
 #include "oops/oop.hpp"
-#include "runtime/fieldDescriptor.hpp"
-#include "utilities/accessFlags.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // Class Reflection contains utility methods needed for implementing the
 // reflection api.

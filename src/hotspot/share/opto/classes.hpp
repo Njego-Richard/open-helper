@@ -22,7 +22,7 @@
  *
  */
 
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // The giant table of Node classes.
 // One entry per class, sorted by class name.

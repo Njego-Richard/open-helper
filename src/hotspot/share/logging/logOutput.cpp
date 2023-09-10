@@ -21,16 +21,16 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvm.h"
 #include "logging/log.hpp"
 #include "logging/logFileStreamOutput.hpp"
 #include "logging/logOutput.hpp"
 #include "logging/logSelection.hpp"
 #include "logging/logTagSet.hpp"
-#include "memory/allocation.inline.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/os.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.inline.hpp"
 
 LogOutput::~LogOutput() {
   os::free(_config_string);

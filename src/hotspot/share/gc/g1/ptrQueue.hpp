@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_PTRQUEUE_HPP
 #define SHARE_VM_GC_G1_PTRQUEUE_HPP
 
-#include "utilities/align.hpp"
-#include "utilities/sizes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/sizes.hpp"
 
 // There are various techniques that require threads to be able to log
 // addresses.  For example, a generational write barrier might log

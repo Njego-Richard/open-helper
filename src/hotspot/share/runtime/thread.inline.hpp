@@ -26,11 +26,11 @@
 #ifndef SHARE_VM_RUNTIME_THREAD_INLINE_HPP
 #define SHARE_VM_RUNTIME_THREAD_INLINE_HPP
 
-#include "runtime/atomic.hpp"
-#include "runtime/globals.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/os.inline.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 inline void Thread::set_suspend_flag(SuspendFlags f) {
   uint32_t flags;

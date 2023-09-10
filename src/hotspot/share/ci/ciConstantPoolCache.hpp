@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CI_CICONSTANTPOOLCACHE_HPP
 #define SHARE_VM_CI_CICONSTANTPOOLCACHE_HPP
 
-#include "memory/resourceArea.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // ciConstantPoolCache
 //

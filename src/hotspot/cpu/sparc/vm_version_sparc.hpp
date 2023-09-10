@@ -25,8 +25,8 @@
 #ifndef CPU_SPARC_VM_VM_VERSION_SPARC_HPP
 #define CPU_SPARC_VM_VM_VERSION_SPARC_HPP
 
-#include "runtime/abstract_vm_version.hpp"
-#include "runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/abstract_vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
 
 class VM_Version: public Abstract_VM_Version {
   friend class VMStructs;

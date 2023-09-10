@@ -22,12 +22,12 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "metaprogramming/isSame.hpp"
 #include "metaprogramming/primitiveConversions.hpp"
 #include "unittest.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 struct PrimitiveConversionsTestSupport: AllStatic {
 

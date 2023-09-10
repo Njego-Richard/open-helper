@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZRELOCATIONSETSELECTOR_HPP
 #define SHARE_GC_Z_ZRELOCATIONSETSELECTOR_HPP
 
-#include "gc/z/zArray.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZPage;
 class ZRelocationSet;

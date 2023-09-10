@@ -22,16 +22,16 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jni.h"
 #include "jvm.h"
 #include "classfile/vmSymbols.hpp"
-#include "memory/allocation.inline.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/interfaceSupport.inline.hpp"
-#include "runtime/perfData.inline.hpp"
-#include "runtime/perfMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfMemory.hpp"
 
 /*
  *      Implementation of class jdk.internal.perf.Perf

@@ -25,8 +25,8 @@
 #ifndef OS_WINDOWS_VM_SEMAPHORE_WINDOWS_HPP
 #define OS_WINDOWS_VM_SEMAPHORE_WINDOWS_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 #include <windows.h>
 

@@ -26,10 +26,10 @@
 #define SHARE_VM_UTILITIES_HASHTABLE_HPP
 
 #include "classfile/classLoaderData.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
 #include "oops/symbol.hpp"
-#include "runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 
 // This is a generic hashtable, designed to be used for the symbol
 // and string tables.

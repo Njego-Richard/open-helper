@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_G1SURVIVORREGIONS_HPP
 #define SHARE_VM_GC_G1_G1SURVIVORREGIONS_HPP
 
-#include "runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 
 template <typename T>
 class GrowableArray;

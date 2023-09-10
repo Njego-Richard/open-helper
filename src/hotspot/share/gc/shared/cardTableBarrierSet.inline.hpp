@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_CARDTABLEBARRIERSET_INLINE_HPP
 #define SHARE_VM_GC_SHARED_CARDTABLEBARRIERSET_INLINE_HPP
 
-#include "gc/shared/cardTableBarrierSet.hpp"
-#include "gc/shared/cardTable.hpp"
-#include "runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 template <DecoratorSet decorators, typename T>
 inline void CardTableBarrierSet::write_ref_field_post(T* field, oop newVal) {

@@ -29,7 +29,7 @@
 #include "ci/ciMethod.hpp"
 #include "compiler/methodMatcher.hpp"
 #include "compiler/compilerOracle.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
   //      Directives flag name,    type, default value, compile command name
   #define compilerdirectives_common_flags(cflags) \

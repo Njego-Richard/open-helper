@@ -27,7 +27,7 @@
 
 #include "ci/ciClassList.hpp"
 #include "ci/ciObject.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // ciObjectFactory
 //

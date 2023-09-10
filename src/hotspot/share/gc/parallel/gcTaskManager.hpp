@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_PARALLEL_GCTASKMANAGER_HPP
 #define SHARE_VM_GC_PARALLEL_GCTASKMANAGER_HPP
 
-#include "runtime/mutex.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 //
 // The GCTaskManager is a queue of GCTasks, and accessors

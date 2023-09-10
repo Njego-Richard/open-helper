@@ -30,7 +30,7 @@
 #error "Atomic currently only implemented for PPC64"
 #endif
 
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 // Implementation of class atomic
 

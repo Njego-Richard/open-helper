@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "ci/ciArray.hpp"
 #include "ci/ciArrayKlass.hpp"
 #include "ci/ciConstant.hpp"

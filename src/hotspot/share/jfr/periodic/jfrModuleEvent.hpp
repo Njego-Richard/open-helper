@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_EVENT_JFRMODULEEVENT_HPP
 #define SHARE_VM_JFR_EVENT_JFRMODULEEVENT_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class JfrModuleEvent : AllStatic {
  public:

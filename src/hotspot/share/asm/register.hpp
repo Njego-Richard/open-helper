@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_ASM_REGISTER_HPP
 #define SHARE_VM_ASM_REGISTER_HPP
 
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Use AbstractRegister as shortcut
 class AbstractRegisterImpl;
@@ -95,7 +95,7 @@ enum { name##_##type##EnumValue = value##_##type##EnumValue }
 #define REGISTER_DEFINITION(type, name) \
 const type name = ((type)name##_##type##EnumValue)
 
-#include CPU_HEADER(register)
+//#include CPU_HEADER(register)
 
 // Debugging support
 

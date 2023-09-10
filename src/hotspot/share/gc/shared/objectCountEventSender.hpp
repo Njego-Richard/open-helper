@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_SHARED_OBJECTCOUNTEVENTSENDER_HPP
 #define SHARE_VM_GC_SHARED_OBJECTCOUNTEVENTSENDER_HPP
 
-#include "gc/shared/gcTrace.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 
 #if INCLUDE_SERVICES
 

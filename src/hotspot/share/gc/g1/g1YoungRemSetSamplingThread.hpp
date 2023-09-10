@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_G1YOUNGREMSETSAMPLINGTHREAD_HPP
 #define SHARE_VM_GC_G1_G1YOUNGREMSETSAMPLINGTHREAD_HPP
 
-#include "gc/shared/concurrentGCThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/concurrentGCThread.hpp"
 
 // The G1YoungRemSetSamplingThread is used to re-assess the validity of
 // the prediction for the remembered set lengths of the young generation.

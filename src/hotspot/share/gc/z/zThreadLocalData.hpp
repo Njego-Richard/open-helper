@@ -24,10 +24,10 @@
 #ifndef SHARE_GC_Z_ZTHREADLOCALDATA_HPP
 #define SHARE_GC_Z_ZTHREADLOCALDATA_HPP
 
-#include "gc/z/zMarkStack.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/sizes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMarkStack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/sizes.hpp"
 
 class ZThreadLocalData {
 private:

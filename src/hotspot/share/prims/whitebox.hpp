@@ -27,8 +27,8 @@
 
 #include "jni.h"
 
-#include "utilities/exceptions.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oopsHierarchy.hpp"
 #include "oops/symbol.hpp"
 

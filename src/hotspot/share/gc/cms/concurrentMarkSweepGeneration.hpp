@@ -25,23 +25,23 @@
 #ifndef SHARE_VM_GC_CMS_CONCURRENTMARKSWEEPGENERATION_HPP
 #define SHARE_VM_GC_CMS_CONCURRENTMARKSWEEPGENERATION_HPP
 
-#include "gc/cms/cmsOopClosures.hpp"
-#include "gc/cms/gSpaceCounters.hpp"
-#include "gc/cms/yieldingWorkgroup.hpp"
-#include "gc/shared/cardGeneration.hpp"
-#include "gc/shared/gcHeapSummary.hpp"
-#include "gc/shared/gcStats.hpp"
-#include "gc/shared/gcWhen.hpp"
-#include "gc/shared/generationCounters.hpp"
-#include "gc/shared/space.hpp"
-#include "gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsOopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/gSpaceCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/yieldingWorkgroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcHeapSummary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcWhen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
 #include "logging/log.hpp"
-#include "memory/iterator.hpp"
-#include "memory/virtualspace.hpp"
-#include "runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 #include "services/memoryService.hpp"
-#include "utilities/bitMap.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 // ConcurrentMarkSweepGeneration is in support of a concurrent
 // mark-sweep old generation in the Detlefs-Printezis--Boehm-Demers-Schenker

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OPTO_PHASE_HPP
 #define SHARE_VM_OPTO_PHASE_HPP
 
-#include "runtime/timer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timer.hpp"
 
 class IfNode;
 class MergeMemNode;

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUP_INLINE_HPP
 #define SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUP_INLINE_HPP
 
-#include "gc/shared/stringdedup/stringDedup.hpp"
-#include "gc/shared/stringdedup/stringDedupThread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupThread.inline.hpp"
 
 template <typename Q, typename S>
 void StringDedup::initialize_impl() {

@@ -23,7 +23,7 @@
  *
  */
 
-#include "runtime/icache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
 
 // interface (see ICache::flush_icache_stub_t):
 //   address   addr   (Z_R2, ignored)

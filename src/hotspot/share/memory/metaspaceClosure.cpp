@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "memory/metaspaceClosure.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceClosure.hpp"
 
 // Update the reference to point to new_loc.
 void MetaspaceClosure::Ref::update(address new_loc) const {

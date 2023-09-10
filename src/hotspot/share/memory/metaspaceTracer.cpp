@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/classLoaderData.hpp"
 #include "jfr/jfrEvents.hpp"
-#include "memory/metaspaceTracer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceTracer.hpp"
 #include "oops/oop.inline.hpp"
 
 void MetaspaceTracer::report_gc_threshold(size_t old_val,

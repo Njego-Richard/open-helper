@@ -24,9 +24,9 @@
 #ifndef SHARE_GC_Z_ZBARRIERSETRUNTIME_HPP
 #define SHARE_GC_Z_ZBARRIERSETRUNTIME_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/accessDecorators.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class oopDesc;
 

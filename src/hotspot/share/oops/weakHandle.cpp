@@ -22,15 +22,15 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/systemDictionary.hpp"
 #include "classfile/stringTable.hpp"
-#include "gc/shared/oopStorage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorage.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/oop.hpp"
 #include "oops/weakHandle.inline.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 template <> OopStorage* WeakHandle<vm_class_loader_data>::get_storage() {
   return SystemDictionary::vm_weak_oop_storage();

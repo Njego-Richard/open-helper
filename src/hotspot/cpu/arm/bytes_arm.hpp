@@ -25,8 +25,8 @@
 #ifndef CPU_ARM_VM_BYTES_ARM_HPP
 #define CPU_ARM_VM_BYTES_ARM_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #ifndef VM_LITTLE_ENDIAN
 #define VM_LITTLE_ENDIAN  1

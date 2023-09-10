@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_UTILITIES_JFRDOUBLYLINKEDLIST_HPP
 #define SHARE_VM_JFR_UTILITIES_JFRDOUBLYLINKEDLIST_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 template <typename T>
 class JfrDoublyLinkedList {

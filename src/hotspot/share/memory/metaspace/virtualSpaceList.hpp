@@ -25,9 +25,9 @@
 #ifndef SHARE_MEMORY_METASPACE_VIRTUALSPACELIST_HPP
 #define SHARE_MEMORY_METASPACE_VIRTUALSPACELIST_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/metaspace/virtualSpaceNode.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/virtualSpaceNode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 
 namespace metaspace {

@@ -21,9 +21,9 @@
  * questions.
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "unittest.hpp"
-#include "utilities/chunkedList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/chunkedList.hpp"
 
 class Metadata;
 

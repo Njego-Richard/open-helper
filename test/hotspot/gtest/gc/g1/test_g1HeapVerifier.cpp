@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1Arguments.hpp"
-#include "gc/g1/g1HeapVerifier.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1HeapVerifier.hpp"
 #include "logging/logConfiguration.hpp"
 #include "logging/logTestFixture.hpp"
 #include "unittest.hpp"

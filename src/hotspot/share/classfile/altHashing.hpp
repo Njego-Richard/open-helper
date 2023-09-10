@@ -26,7 +26,7 @@
 #define SHARE_VM_CLASSFILE_ALTHASHING_HPP
 
 #include "jni.h"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 /**
  * Implementation of alternate more secure hashing.

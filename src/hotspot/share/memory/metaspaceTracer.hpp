@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_MEMORY_METASPACETRACER_HPP
 #define SHARE_VM_MEMORY_METASPACETRACER_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/metaspace.hpp"
-#include "memory/metaspaceGCThresholdUpdater.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceGCThresholdUpdater.hpp"
 
 class ClassLoaderData;
 

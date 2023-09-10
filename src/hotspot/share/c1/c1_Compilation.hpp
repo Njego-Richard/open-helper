@@ -29,8 +29,8 @@
 #include "ci/ciMethodData.hpp"
 #include "code/exceptionHandlerTable.hpp"
 #include "compiler/compilerDirectives.hpp"
-#include "memory/resourceArea.hpp"
-#include "runtime/deoptimization.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 
 class CompilationResourceObj;
 class XHandlers;

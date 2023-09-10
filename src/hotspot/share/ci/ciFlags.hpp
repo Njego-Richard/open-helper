@@ -27,8 +27,8 @@
 
 #include "jvm.h"
 #include "ci/ciClassList.hpp"
-#include "utilities/accessFlags.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 // ciFlags
 //

@@ -21,9 +21,9 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zTask.hpp"
-#include "gc/z/zThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zTask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zThread.hpp"
 
 ZTask::GangTask::GangTask(ZTask* ztask, const char* name) :
     AbstractGangTask(name),

@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSCOMPACTIONMANAGER_HPP
 #define SHARE_VM_GC_PARALLEL_PSCOMPACTIONMANAGER_HPP
 
-#include "gc/shared/taskqueue.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 class MutableSpace;
 class PSOldGen;

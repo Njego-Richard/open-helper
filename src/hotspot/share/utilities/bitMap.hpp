@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_UTILITIES_BITMAP_HPP
 #define SHARE_VM_UTILITIES_BITMAP_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/align.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Forward decl;
 class BitMapClosure;

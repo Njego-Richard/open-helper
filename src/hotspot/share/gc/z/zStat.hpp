@@ -24,13 +24,13 @@
 #ifndef SHARE_GC_Z_ZSTAT_HPP
 #define SHARE_GC_Z_ZSTAT_HPP
 
-#include "gc/shared/concurrentGCThread.hpp"
-#include "gc/shared/gcTimer.hpp"
-#include "gc/z/zMetronome.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/concurrentGCThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTimer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMetronome.hpp"
 #include "logging/logHandle.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/numberSeq.hpp"
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/numberSeq.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 
 class ZPage;
 class ZStatSampler;

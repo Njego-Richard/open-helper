@@ -21,14 +21,14 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/generationCounters.hpp"
-#include "gc/shared/hSpaceCounters.hpp"
-#include "gc/z/zCollectedHeap.hpp"
-#include "gc/z/zHeap.inline.hpp"
-#include "gc/z/zServiceability.hpp"
-#include "memory/metaspaceCounters.hpp"
-#include "runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/hSpaceCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zServiceability.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 
 class ZOldGenerationCounters : public GenerationCounters {
 public:

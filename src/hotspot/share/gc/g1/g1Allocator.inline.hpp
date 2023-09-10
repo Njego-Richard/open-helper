@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_G1_G1ALLOCATOR_INLINE_HPP
 #define SHARE_VM_GC_G1_G1ALLOCATOR_INLINE_HPP
 
-#include "gc/g1/g1Allocator.hpp"
-#include "gc/g1/g1AllocRegion.inline.hpp"
-#include "gc/shared/plab.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Allocator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1AllocRegion.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/plab.inline.hpp"
 
 inline MutatorAllocRegion* G1Allocator::mutator_alloc_region() {
   return &_mutator_alloc_region;

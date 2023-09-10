@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZRUNTIMEWORKERS_HPP
 #define SHARE_GC_Z_ZRUNTIMEWORKERS_HPP
 
-#include "gc/shared/workgroup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workgroup.hpp"
 
 class ThreadClosure;
 

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_JFR_RECORDER_SERVICE_JFRMEMORYSIZER_HPP
 #define SHARE_VM_JFR_RECORDER_SERVICE_JFRMEMORYSIZER_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 extern const julong MIN_BUFFER_COUNT;
 extern const julong MIN_GLOBAL_BUFFER_SIZE;

@@ -24,13 +24,13 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHSCHEDULERTHREAD_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHSCHEDULERTHREAD_HPP
 
-#include "gc/shared/gcCause.hpp"
-#include "gc/shared/concurrentGCThread.hpp"
-#include "gc/shenandoah/shenandoahHeap.hpp"
-#include "gc/shenandoah/shenandoahPadding.hpp"
-#include "gc/shenandoah/shenandoahSharedVariables.hpp"
-#include "runtime/task.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/concurrentGCThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahPadding.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahSharedVariables.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/task.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 // Periodic task is useful for doing asynchronous things that do not require (heap) locks,
 // or synchronization with other parts of collector. These could run even when ShenandoahConcurrentThread

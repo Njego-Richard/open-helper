@@ -24,13 +24,13 @@
 #ifndef SHARE_GC_Z_ZUTILS_INLINE_HPP
 #define SHARE_GC_Z_ZUTILS_INLINE_HPP
 
-#include "gc/z/zOop.inline.hpp"
-#include "gc/z/zUtils.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/align.hpp"
-#include "utilities/copy.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 inline size_t ZUtils::round_up_power_of_2(size_t value) {
   assert(value != 0, "Invalid value");

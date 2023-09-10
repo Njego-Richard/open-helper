@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_G1_G1BLOCKOFFSETTABLE_INLINE_HPP
 #define SHARE_VM_GC_G1_G1BLOCKOFFSETTABLE_INLINE_HPP
 
-#include "gc/g1/g1BlockOffsetTable.hpp"
-#include "gc/g1/heapRegion.hpp"
-#include "gc/shared/memset_with_concurrent_readers.hpp"
-#include "gc/shared/space.hpp"
-#include "runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1BlockOffsetTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/memset_with_concurrent_readers.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 inline HeapWord* G1BlockOffsetTablePart::block_start(const void* addr) {
   if (addr >= _space->bottom() && addr < _space->end()) {

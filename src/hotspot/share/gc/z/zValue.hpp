@@ -24,13 +24,13 @@
 #ifndef SHARE_GC_Z_ZVALUE_HPP
 #define SHARE_GC_Z_ZVALUE_HPP
 
-#include "memory/allocation.hpp"
-#include "gc/z/zCPU.hpp"
-#include "gc/z/zGlobals.hpp"
-#include "gc/z/zNUMA.hpp"
-#include "gc/z/zThread.hpp"
-#include "gc/z/zUtils.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCPU.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zNUMA.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 template <typename S>
 class ZValueStorage : public AllStatic {

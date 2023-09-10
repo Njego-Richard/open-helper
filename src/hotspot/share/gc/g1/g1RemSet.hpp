@@ -25,14 +25,14 @@
 #ifndef SHARE_VM_GC_G1_G1REMSET_HPP
 #define SHARE_VM_GC_G1_G1REMSET_HPP
 
-#include "gc/g1/dirtyCardQueue.hpp"
-#include "gc/g1/g1CardTable.hpp"
-#include "gc/g1/g1OopClosures.hpp"
-#include "gc/g1/g1RemSetSummary.hpp"
-#include "gc/g1/heapRegion.hpp"
-#include "memory/allocation.hpp"
-#include "memory/iterator.hpp"
-#include "utilities/ticks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/dirtyCardQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1OopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RemSetSummary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 
 // A G1RemSet provides ways of iterating over pointers into a selected
 // collection set.

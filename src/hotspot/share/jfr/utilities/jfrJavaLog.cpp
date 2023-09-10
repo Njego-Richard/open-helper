@@ -22,14 +22,14 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/jni/jfrJavaSupport.hpp"
 #include "jfr/utilities/jfrJavaLog.hpp"
 #include "jfr/utilities/jfrLogTagSets.hpp"
 #include "logging/log.hpp"
 #include "logging/logConfiguration.hpp"
-#include "memory/resourceArea.hpp"
-#include "runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 
 #define JFR_LOG_TAGS_CONCATED(T0, T1, T2, T3, T4, T5, ...)  \
   T0 ## _ ## T1 ## _ ## T2 ## _ ## T3 ## _ ## T4 ## _ ## T5

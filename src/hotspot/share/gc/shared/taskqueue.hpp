@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_SHARED_TASKQUEUE_HPP
 #define SHARE_VM_GC_SHARED_TASKQUEUE_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/padded.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "utilities/ostream.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 // Simple TaskQueue stats that are collected by default in debug builds.
 

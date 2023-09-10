@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSGCADAPTIVEPOLICYCOUNTERS_HPP
 #define SHARE_VM_GC_PARALLEL_PSGCADAPTIVEPOLICYCOUNTERS_HPP
 
-#include "gc/parallel/gcAdaptivePolicyCounters.hpp"
-#include "gc/parallel/psAdaptiveSizePolicy.hpp"
-#include "gc/shared/gcPolicyCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/gcAdaptivePolicyCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psAdaptiveSizePolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcPolicyCounters.hpp"
 
 // PSGCAdaptivePolicyCounters is a holder class for performance counters
 // that track the data and decisions for the ergonomics policy for the

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSVIRTUALSPACE_HPP
 #define SHARE_VM_GC_PARALLEL_PSVIRTUALSPACE_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
 
 // VirtualSpace for the parallel scavenge collector.
 //

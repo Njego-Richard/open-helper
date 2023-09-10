@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_PARALLEL_MUTABLESPACE_HPP
 #define SHARE_VM_GC_PARALLEL_MUTABLESPACE_HPP
 
-#include "gc/parallel/immutableSpace.hpp"
-#include "memory/memRegion.hpp"
-#include "utilities/copy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/immutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
 
 // A MutableSpace is a subtype of ImmutableSpace that supports the
 // concept of allocation. This includes the concepts that a space may

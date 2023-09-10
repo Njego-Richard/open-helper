@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_UTILITIES_XMLSTREAM_HPP
 #define SHARE_VM_UTILITIES_XMLSTREAM_HPP
 
-#include "runtime/handles.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 class xmlStream;
 class defaultStream;

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_G1_G1REGIONMARKSTATSCACHE_HPP
 #define SHARE_VM_GC_G1_G1REGIONMARKSTATSCACHE_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/pair.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/pair.hpp"
 
 // Per-Region statistics gathered during marking.
 //

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_PARALLEL_IMMUTABLESPACE_HPP
 #define SHARE_VM_GC_PARALLEL_IMMUTABLESPACE_HPP
 
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 
 // An ImmutableSpace is a viewport into a contiguous range
 // (or subrange) of previously allocated objects.

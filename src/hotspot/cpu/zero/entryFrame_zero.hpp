@@ -26,7 +26,7 @@
 #ifndef CPU_ZERO_VM_ENTRYFRAME_ZERO_HPP
 #define CPU_ZERO_VM_ENTRYFRAME_ZERO_HPP
 
-#include "runtime/javaCalls.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"
 #include "stack_zero.hpp"
 
 // |  ...               |

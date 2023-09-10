@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "utilities/decoder.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/decoder.hpp"
 #include "symbolengine.hpp"
 #include "windbghelp.hpp"
 

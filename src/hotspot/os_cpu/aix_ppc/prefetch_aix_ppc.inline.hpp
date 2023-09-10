@@ -26,7 +26,7 @@
 #ifndef OS_CPU_AIX_PPC_VM_PREFETCH_AIX_PPC_INLINE_HPP
 #define OS_CPU_AIX_PPC_VM_PREFETCH_AIX_PPC_INLINE_HPP
 
-#include "runtime/prefetch.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.hpp"
 
 
 inline void Prefetch::read(void *loc, intx interval) {

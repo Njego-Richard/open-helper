@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SATBMARKQUEUE_HPP
 #define SHARE_VM_GC_SHENANDOAH_SATBMARKQUEUE_HPP
 
-#include "gc/g1/ptrQueue.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/ptrQueue.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class JavaThread;
 class ShenandoahSATBMarkQueueSet;

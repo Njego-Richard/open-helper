@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/recorder/service/jfrMemorySizer.hpp"
 #include "logging/log.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 const julong MAX_ADJUSTED_GLOBAL_BUFFER_SIZE = 1 * M;
 const julong MIN_ADJUSTED_GLOBAL_BUFFER_SIZE_CUTOFF = 512 * K;

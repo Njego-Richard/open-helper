@@ -26,7 +26,7 @@
 #define SHARE_VM_JFR_JNI_JFRJNIMETHODREGISTRATION_HPP
 
 #include "jni.h"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 //
 // RegisterNatives for jdk.jfr.internal.JVM

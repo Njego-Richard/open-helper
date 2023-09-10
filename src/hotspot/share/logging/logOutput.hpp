@@ -27,8 +27,8 @@
 #include "logging/logDecorators.hpp"
 #include "logging/logLevel.hpp"
 #include "logging/logMessageBuffer.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class LogDecorations;
 class LogMessageBuffer;

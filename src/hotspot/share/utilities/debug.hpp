@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_UTILITIES_DEBUG_HPP
 #define SHARE_VM_UTILITIES_DEBUG_HPP
 
-#include "utilities/breakpoint.hpp"
-#include "utilities/compilerWarnings.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/breakpoint.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/compilerWarnings.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #include <stddef.h>
 

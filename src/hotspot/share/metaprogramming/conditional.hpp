@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_METAPROGRAMMING_CONDITIONAL_HPP
 #define SHARE_VM_METAPROGRAMMING_CONDITIONAL_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // This trait evaluates its typedef called "type" to TrueType iff the condition
 // is true. Otherwise it evaluates to FalseType.

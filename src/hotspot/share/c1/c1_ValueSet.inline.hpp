@@ -27,7 +27,7 @@
 
 #include "c1/c1_Instruction.hpp"
 #include "c1/c1_ValueSet.hpp"
-#include "utilities/bitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 
 inline ValueSet::ValueSet() : _map(Instruction::number_of_instructions()) {
 }

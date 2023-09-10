@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZCPU_HPP
 #define SHARE_GC_Z_ZCPU_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/padded.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
 
 class Thread;
 

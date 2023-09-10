@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_FIELDDESCRIPTOR_INLINE_HPP
 #define SHARE_VM_RUNTIME_FIELDDESCRIPTOR_INLINE_HPP
 
-#include "runtime/handles.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 // All fieldDescriptor inline functions that (directly or indirectly) use "_cp()" or "_cp->"
 // must be put in this file, as they require runtime/handles.inline.hpp.

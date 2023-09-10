@@ -25,7 +25,7 @@
 #ifndef OS_SOLARIS_VM_OS_SOLARIS_INLINE_HPP
 #define OS_SOLARIS_VM_OS_SOLARIS_INLINE_HPP
 
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 // System includes
 #include <sys/param.h>

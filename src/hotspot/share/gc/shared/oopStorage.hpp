@@ -25,11 +25,11 @@
 #ifndef SHARE_GC_SHARED_OOPSTORAGE_HPP
 #define SHARE_GC_SHARED_OOPSTORAGE_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/singleWriterSynchronizer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/singleWriterSynchronizer.hpp"
 
 class Mutex;
 class outputStream;

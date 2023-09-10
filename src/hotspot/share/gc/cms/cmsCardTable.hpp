@@ -25,8 +25,8 @@
 #ifndef SHARE_GC_CMS_CMSCARDTABLE_HPP
 #define SHARE_GC_CMS_CMSCARDTABLE_HPP
 
-#include "gc/shared/cardTableRS.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableRS.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class DirtyCardToOopClosure;
 class MemRegion;

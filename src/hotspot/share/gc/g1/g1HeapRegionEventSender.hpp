@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_G1HEAPREGIONEVENTSENDER_HPP
 #define SHARE_VM_GC_G1_G1HEAPREGIONEVENTSENDER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class G1HeapRegionEventSender : public AllStatic {
 public:

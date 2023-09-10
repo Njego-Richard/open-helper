@@ -22,7 +22,7 @@
  *
  */
 
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 #ifndef OS_POSIX_VM_OS_POSIX_HPP
 #define OS_POSIX_VM_OS_POSIX_HPP

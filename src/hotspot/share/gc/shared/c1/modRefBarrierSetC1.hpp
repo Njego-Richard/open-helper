@@ -25,7 +25,7 @@
 #ifndef SHARE_GC_SHARED_C1_MODREFBARRIERSETC1_HPP
 #define SHARE_GC_SHARED_C1_MODREFBARRIERSETC1_HPP
 
-#include "gc/shared/c1/barrierSetC1.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c1/barrierSetC1.hpp"
 
 // The ModRefBarrierSetC1 filters away accesses on BasicTypes other
 // than T_OBJECT/T_ARRAY (oops). The oop accesses call one of the protected

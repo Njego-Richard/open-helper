@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_G1_G1IHOPCONTROL_HPP
 #define SHARE_VM_GC_G1_G1IHOPCONTROL_HPP
 
-#include "gc/g1/g1OldGenAllocationTracker.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/numberSeq.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1OldGenAllocationTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/numberSeq.hpp"
 
 class G1Predictions;
 class G1NewTracer;

@@ -21,11 +21,11 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/z/zPage.inline.hpp"
-#include "gc/z/zPhysicalMemory.inline.hpp"
-#include "gc/z/zPreMappedMemory.inline.hpp"
-#include "gc/z/zVirtualMemory.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPage.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPhysicalMemory.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPreMappedMemory.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zVirtualMemory.inline.hpp"
 #include "logging/log.hpp"
 
 ZPreMappedMemory::ZPreMappedMemory(ZVirtualMemoryManager &vmm, ZPhysicalMemoryManager &pmm, size_t size) :

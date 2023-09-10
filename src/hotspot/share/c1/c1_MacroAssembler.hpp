@@ -26,7 +26,7 @@
 #define SHARE_VM_C1_C1_MACROASSEMBLER_HPP
 
 #include "asm/macroAssembler.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class CodeEmitInfo;
 
@@ -46,7 +46,7 @@ class C1_MacroAssembler: public MacroAssembler {
   void verify_stack_oop(int offset) PRODUCT_RETURN;
   void verify_not_null_oop(Register r)  PRODUCT_RETURN;
 
-#include CPU_HEADER(c1_MacroAssembler)
+//#include CPU_HEADER(c1_MacroAssembler)
 
 };
 

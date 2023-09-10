@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_GCHEAPSUMMARY_HPP
 #define SHARE_VM_GC_SHARED_GCHEAPSUMMARY_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/metaspaceChunkFreeListSummary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceChunkFreeListSummary.hpp"
 
 class VirtualSpaceSummary : public StackObj {
   HeapWord* _start;

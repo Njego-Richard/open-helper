@@ -21,11 +21,11 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
-#include "memory/allocation.hpp"
-#include "memory/allocation.inline.hpp"
-#include "memory/guardedMemory.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/guardedMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 void* GuardedMemory::wrap_copy(const void* ptr, const size_t len, const void* tag) {
   size_t total_sz = GuardedMemory::get_total_size(len);

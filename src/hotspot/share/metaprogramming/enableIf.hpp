@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_METAPROGRAMMING_ENABLEIF_HPP
 #define SHARE_VM_METAPROGRAMMING_ENABLEIF_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // This metaprogramming tool allows explicitly enabling and disabling overloads
 // of member functions depending on whether the condition B holds true.

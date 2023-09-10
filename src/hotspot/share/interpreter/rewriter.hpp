@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_INTERPRETER_REWRITER_HPP
 #define SHARE_VM_INTERPRETER_REWRITER_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // The Rewriter adds caches to the constant pool and rewrites bytecode indices
 // pointing into the constant pool for better interpreter performance.

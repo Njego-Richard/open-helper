@@ -25,10 +25,10 @@
 #define SHARE_GC_Z_ZBARRIERSETASSEMBLER_HPP
 
 #include "asm/macroAssembler.hpp"
-#include "gc/shared/barrierSetAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetAssembler.hpp"
 #include "oops/accessDecorators.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class ZBarrierSetAssemblerBase : public BarrierSetAssembler {
 public:
@@ -36,6 +36,6 @@ public:
   static Address address_bad_mask_from_jni_env(Register env);
 };
 
-#include CPU_HEADER(gc/z/zBarrierSetAssembler)
+//#include CPU_HEADER(gc/z/zBarrierSetAssembler)
 
 #endif // SHARE_GC_Z_ZBARRIERSETASSEMBLER_HPP

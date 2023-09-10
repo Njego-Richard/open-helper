@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1CODEBLOBCLOSURE_HPP
 #define SHARE_VM_GC_G1_G1CODEBLOBCLOSURE_HPP
 
-#include "gc/g1/g1CollectedHeap.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 
 class nmethod;
 

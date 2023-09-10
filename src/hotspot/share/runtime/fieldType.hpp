@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_FIELDTYPE_HPP
 #define SHARE_VM_RUNTIME_FIELDTYPE_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/symbol.hpp"
 
 // Note: FieldType should be based on the SignatureIterator (or vice versa).

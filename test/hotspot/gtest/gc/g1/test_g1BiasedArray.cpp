@@ -21,8 +21,8 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/g1/g1BiasedArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1BiasedArray.hpp"
 #include "unittest.hpp"
 
 class TestMappedArray : public G1BiasedMappedArray<int> {

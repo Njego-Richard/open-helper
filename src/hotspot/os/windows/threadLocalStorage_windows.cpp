@@ -22,8 +22,8 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/threadLocalStorage.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadLocalStorage.hpp"
 #include <windows.h>
 
 static DWORD _thread_key;

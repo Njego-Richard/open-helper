@@ -26,7 +26,7 @@
 #define SHARE_VM_RUNTIME_SERVICETHREAD_HPP
 
 #include "prims/jvmtiImpl.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 // A JavaThread for low memory detection support and JVMTI
 // compiled-method-load events.

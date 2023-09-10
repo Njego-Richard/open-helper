@@ -22,9 +22,9 @@
  *
  */
 
-#include "gc/g1/g1CodeBlobClosure.hpp"
-#include "gc/g1/g1OopClosures.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CodeBlobClosure.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1OopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 
 class G1CollectedHeap;
 class G1ParScanThreadState;

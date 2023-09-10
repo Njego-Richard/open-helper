@@ -26,7 +26,7 @@
 #ifndef CPU_S390_VM_BYTES_S390_HPP
 #define CPU_S390_VM_BYTES_S390_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class Bytes: AllStatic {
  public:

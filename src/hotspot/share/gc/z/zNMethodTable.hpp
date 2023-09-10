@@ -24,9 +24,9 @@
 #ifndef SHARE_GC_Z_ZNMETHODTABLE_HPP
 #define SHARE_GC_Z_ZNMETHODTABLE_HPP
 
-#include "gc/z/zGlobals.hpp"
-#include "gc/z/zNMethodTableEntry.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zNMethodTableEntry.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZNMethodTable : public AllStatic {
 private:

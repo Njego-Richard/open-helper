@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_G1_G1CONCURRENTMARKBITMAP_INLINE_HPP
 #define SHARE_VM_GC_G1_G1CONCURRENTMARKBITMAP_INLINE_HPP
 
-#include "gc/g1/g1ConcurrentMarkBitMap.hpp"
-#include "memory/memRegion.hpp"
-#include "utilities/align.hpp"
-#include "utilities/bitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ConcurrentMarkBitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 
 inline bool G1CMBitMap::iterate(G1CMBitMapClosure* cl, MemRegion mr) {
   assert(!mr.is_empty(), "Does not support empty memregion to iterate over");

@@ -26,7 +26,7 @@
 #define SHARE_VM_MEMORY_HEAPSHARED_INLINE_HPP
 
 #include "oops/compressedOops.inline.hpp"
-#include "memory/heapShared.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heapShared.hpp"
 
 #if INCLUDE_CDS_JAVA_HEAP
 

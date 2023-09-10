@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_RUNTIME_VMTHREAD_HPP
 #define SHARE_VM_RUNTIME_VMTHREAD_HPP
 
-#include "runtime/perfData.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/task.hpp"
-#include "runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/task.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
 
 //
 // Prioritized queue of VM operations.

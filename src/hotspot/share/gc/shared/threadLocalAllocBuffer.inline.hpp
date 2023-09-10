@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_SHARED_THREADLOCALALLOCBUFFER_INLINE_HPP
 #define SHARE_VM_GC_SHARED_THREADLOCALALLOCBUFFER_INLINE_HPP
 
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/threadLocalAllocBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/threadLocalAllocBuffer.hpp"
 #include "logging/log.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/copy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
 
 inline HeapWord* ThreadLocalAllocBuffer::allocate(size_t size) {
   invariants();

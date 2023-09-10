@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_LEAKPROFILER_CHECKPOINT_OBJECTSAMPLEWRITER_HPP
 #define SHARE_VM_LEAKPROFILER_CHECKPOINT_OBJECTSAMPLEWRITER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class Edge;
 class EdgeStore;

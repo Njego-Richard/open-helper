@@ -28,9 +28,9 @@
 #include "classfile/verificationType.hpp"
 #include "oops/klass.hpp"
 #include "oops/method.hpp"
-#include "runtime/handles.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // The verifier class
 class Verifier : AllStatic {

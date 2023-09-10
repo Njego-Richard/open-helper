@@ -24,8 +24,8 @@
 #ifndef SHARE_VM_LOGGING_LOGLEVEL_HPP
 #define SHARE_VM_LOGGING_LOGLEVEL_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // The list of log levels:
 //

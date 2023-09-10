@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_TIMER_HPP
 #define SHARE_VM_RUNTIME_TIMER_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Timers for simple measurement.
 

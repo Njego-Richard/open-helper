@@ -29,8 +29,8 @@
 #define CPU_S390_VM_NATIVEINST_S390_HPP
 
 #include "asm/macroAssembler.hpp"
-#include "runtime/icache.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 class NativeCall;
 class NativeFarCall;

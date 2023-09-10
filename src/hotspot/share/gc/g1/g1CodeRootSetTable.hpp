@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_GC_G1_G1CODEROOTSETTABLE_HPP
 #define SHARE_VM_GC_G1_G1CODEROOTSETTABLE_HPP
 
-#include "utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 class nmethod;
 

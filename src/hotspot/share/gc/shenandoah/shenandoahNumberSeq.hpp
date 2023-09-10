@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHNUMBERSEQ_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHNUMBERSEQ_HPP
 
-#include "utilities/numberSeq.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/numberSeq.hpp"
 
 // HDR sequence stores the low-resolution high-dynamic-range values.
 // It does so by maintaining the double array, where first array defines

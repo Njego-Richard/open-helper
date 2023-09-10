@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_GLOBALS_EXTENSION_HPP
 #define SHARE_VM_RUNTIME_GLOBALS_EXTENSION_HPP
 
-#include "runtime/globals.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_JVMCI
 #include "jvmci/jvmci_globals.hpp"
 #endif

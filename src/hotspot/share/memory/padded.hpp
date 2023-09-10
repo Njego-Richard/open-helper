@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_MEMORY_PADDED_HPP
 #define SHARE_VM_MEMORY_PADDED_HPP
 
-#include "utilities/align.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Bytes needed to pad type to avoid cache-line sharing; alignment should be the
 // expected cache line size (a power of two).  The first addend avoids sharing

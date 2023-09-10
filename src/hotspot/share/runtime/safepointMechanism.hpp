@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_RUNTIME_SAFEPOINTMECHANISM_HPP
 #define SHARE_VM_RUNTIME_SAFEPOINTMECHANISM_HPP
 
-#include "runtime/globals.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/sizes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/sizes.hpp"
 
 // This is the abstracted interface for the safepoint implementation
 class SafepointMechanism : public AllStatic {

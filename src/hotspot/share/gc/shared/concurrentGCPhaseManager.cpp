@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/concurrentGCPhaseManager.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/concurrentGCPhaseManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 #define assert_ConcurrentGC_thread() \
   assert(Thread::current()->is_ConcurrentGC_thread(), "precondition")

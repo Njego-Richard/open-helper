@@ -25,14 +25,14 @@
 #ifndef SHARE_VM_GC_EPSILON_COLLECTEDHEAP_HPP
 #define SHARE_VM_GC_EPSILON_COLLECTEDHEAP_HPP
 
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/softRefPolicy.hpp"
-#include "gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/softRefPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
 #include "services/memoryManager.hpp"
-#include "gc/epsilon/epsilonCollectorPolicy.hpp"
-#include "gc/epsilon/epsilonMonitoringSupport.hpp"
-#include "gc/epsilon/epsilonBarrierSet.hpp"
-#include "gc/epsilon/epsilon_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonCollectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonMonitoringSupport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonBarrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilon_globals.hpp"
 
 class EpsilonHeap : public CollectedHeap {
   friend class VMStructs;

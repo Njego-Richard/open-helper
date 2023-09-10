@@ -26,10 +26,10 @@
 #define SHARE_VM_RUNTIME_FRAME_HPP
 
 #include "oops/method.hpp"
-#include "runtime/basicLock.hpp"
-#include "runtime/monitorChunk.hpp"
-#include "runtime/registerMap.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/basicLock.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/monitorChunk.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/registerMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #ifdef ZERO
 # include "stack_zero.hpp"
 #endif
@@ -394,7 +394,7 @@ class frame {
 
   NOT_PRODUCT(void pd_ps();)  // platform dependent frame printing
 
-#include CPU_HEADER(frame)
+//#include CPU_HEADER(frame)
 
 };
 

@@ -22,9 +22,9 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/osThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/osThread.hpp"
 
 OSThread::OSThread(OSThreadStartFunc start_proc, void* start_parm) {
   pd_initialize();

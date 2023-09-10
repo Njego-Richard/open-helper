@@ -27,12 +27,12 @@
 
 #include "logging/logLevel.hpp"
 #include "logging/logTag.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/flags/jvmFlag.hpp"
-#include "runtime/java.hpp"
-#include "runtime/os.hpp"
-#include "runtime/perfData.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 // Arguments parses the command line and recognizes options
 

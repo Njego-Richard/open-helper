@@ -25,10 +25,10 @@
 #ifndef SHARE_MEMORY_METASPACE_SMALLBLOCKS_HPP
 #define SHARE_MEMORY_METASPACE_SMALLBLOCKS_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/binaryTreeDictionary.hpp"
-#include "memory/metaspace/metablock.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/binaryTreeDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metablock.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class outputStream;
 

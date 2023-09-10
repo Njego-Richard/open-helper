@@ -26,7 +26,7 @@
 #define SHARE_VM_CLASSFILE_LOADERCONSTRAINTS_HPP
 
 #include "classfile/placeholders.hpp"
-#include "utilities/hashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 class ClassLoaderData;
 class LoaderConstraintEntry;

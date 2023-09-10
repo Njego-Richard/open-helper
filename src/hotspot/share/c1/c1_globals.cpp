@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "c1/c1_globals.hpp"
 
 C1_FLAGS(MATERIALIZE_DEVELOPER_FLAG, \

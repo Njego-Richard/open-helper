@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_GC_CMS_CMSHEAP_HPP
 #define SHARE_VM_GC_CMS_CMSHEAP_HPP
 
-#include "gc/cms/concurrentMarkSweepGeneration.hpp"
-#include "gc/cms/parNewGeneration.hpp"
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/gcCause.hpp"
-#include "gc/shared/genCollectedHeap.hpp"
-#include "gc/shared/oopStorageParState.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/parNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 class CLDClosure;
 class GenCollectorPolicy;

@@ -26,7 +26,7 @@
 #ifndef SHARE_UTILITIES_VIRTUALIZATIONSUPPORT_HPP
 #define SHARE_UTILITIES_VIRTUALIZATIONSUPPORT_HPP
 
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 typedef enum {
   VMGUESTLIB_ERROR_SUCCESS = 0, // no error occured

@@ -25,8 +25,8 @@
 #ifndef SHARE_MEMORY_METASPACE_METASPACECOMMON_HPP
 #define SHARE_MEMORY_METASPACE_METASPACECOMMON_HPP
 
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class outputStream;
 

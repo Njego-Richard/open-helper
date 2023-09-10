@@ -24,11 +24,11 @@
 #ifndef SHARE_VM_RUNTIME_COMPILERRUNTIME_HPP
 #define SHARE_VM_RUNTIME_COMPILERRUNTIME_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/klass.hpp"
 #include "oops/method.hpp"
-#include "utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 class CompilerRuntime : AllStatic {
  public:

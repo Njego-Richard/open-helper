@@ -26,8 +26,8 @@
 #define SHARE_VM_OOPS_KLASSVTABLE_HPP
 
 #include "oops/oopsHierarchy.hpp"
-#include "runtime/handles.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // A klassVtable abstracts the variable-length vtable that is embedded in InstanceKlass
 // and ArrayKlass.  klassVtable objects are used just as convenient transient accessors to the vtable,

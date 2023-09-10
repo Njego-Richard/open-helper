@@ -22,27 +22,27 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/collectorPolicy.hpp"
-#include "gc/shared/gcConfig.hpp"
-#include "gc/shared/jvmFlagConstraintsGC.hpp"
-#include "gc/shared/plab.hpp"
-#include "gc/shared/threadLocalAllocBuffer.hpp"
-#include "runtime/arguments.hpp"
-#include "runtime/globals.hpp"
-#include "runtime/globals_extension.hpp"
-#include "runtime/thread.inline.hpp"
-#include "utilities/align.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcConfig.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/jvmFlagConstraintsGC.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/plab.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/threadLocalAllocBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_CMSGC
-#include "gc/cms/jvmFlagConstraintsCMS.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/jvmFlagConstraintsCMS.hpp"
 #endif
 #if INCLUDE_G1GC
-#include "gc/g1/jvmFlagConstraintsG1.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/jvmFlagConstraintsG1.hpp"
 #endif
 #if INCLUDE_PARALLELGC
-#include "gc/parallel/jvmFlagConstraintsParallel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/jvmFlagConstraintsParallel.hpp"
 #endif
 #ifdef COMPILER1
 #include "c1/c1_globals.hpp"

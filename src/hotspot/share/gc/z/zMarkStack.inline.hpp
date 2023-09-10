@@ -24,9 +24,9 @@
 #ifndef SHARE_GC_Z_ZMARKSTACK_INLINE_HPP
 #define SHARE_GC_Z_ZMARKSTACK_INLINE_HPP
 
-#include "gc/z/zMarkStack.hpp"
-#include "utilities/debug.hpp"
-#include "runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMarkStack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 template <typename T, size_t S>
 inline ZStack<T, S>::ZStack() :

@@ -22,15 +22,15 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "opto/chaitin.hpp"
 #include "opto/idealGraphPrinter.hpp"
 #include "opto/machnode.hpp"
 #include "opto/parse.hpp"
-#include "runtime/threadCritical.hpp"
-#include "runtime/threadSMR.hpp"
-#include "utilities/stringUtils.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadCritical.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stringUtils.hpp"
 
 #ifndef PRODUCT
 

@@ -25,10 +25,10 @@
 #ifndef SHARE_GC_G1_G1BARRIERSETRUNTIME_HPP
 #define SHARE_GC_G1_G1BARRIERSETRUNTIME_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class oopDesc;
 class JavaThread;

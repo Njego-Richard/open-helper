@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_SUPPORT_JFRSTACKTRACEMARK_HPP
 #define SHARE_VM_JFR_SUPPORT_JFRSTACKTRACEMARK_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "jfrfiles/jfrEventIds.hpp"
 #include "jfr/utilities/jfrTypes.hpp"
 

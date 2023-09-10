@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_COMPILER_COMPILERDEFINITIONS_HPP
 #define SHARE_VM_COMPILER_COMPILERDEFINITIONS_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // The (closed set) of concrete compiler classes.
 enum CompilerType {

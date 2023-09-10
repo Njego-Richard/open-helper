@@ -25,8 +25,8 @@
 #ifndef CPU_X86_VM_RDTSC_X86_HPP
 #define CPU_X86_VM_RDTSC_X86_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Interface to the x86 rdtsc() time counter, if available.
 // Not guaranteed to be synchronized across hardware threads and

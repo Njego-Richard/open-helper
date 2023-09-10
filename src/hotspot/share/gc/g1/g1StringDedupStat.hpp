@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_G1STRINGDEDUPSTAT_HPP
 #define SHARE_VM_GC_G1_G1STRINGDEDUPSTAT_HPP
 
-#include "gc/shared/stringdedup/stringDedupStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupStat.hpp"
 
 // G1 extension for gathering/reporting generational statistics
 class G1StringDedupStat : public StringDedupStat {

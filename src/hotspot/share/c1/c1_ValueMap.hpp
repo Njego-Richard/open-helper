@@ -27,7 +27,7 @@
 
 #include "c1/c1_Instruction.hpp"
 #include "c1/c1_ValueSet.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ValueMapEntry: public CompilationResourceObj {
  private:

@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSADAPTIVESIZEPOLICY_HPP
 #define SHARE_VM_GC_PARALLEL_PSADAPTIVESIZEPOLICY_HPP
 
-#include "gc/shared/adaptiveSizePolicy.hpp"
-#include "gc/shared/gcCause.hpp"
-#include "gc/shared/gcStats.hpp"
-#include "gc/shared/gcUtil.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/adaptiveSizePolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // This class keeps statistical information and computes the
 // optimal free space for both the young and old generation

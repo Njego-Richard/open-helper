@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_G1_G1GCPHASETIMES_HPP
 #define SHARE_VM_GC_G1_G1GCPHASETIMES_HPP
 
-#include "gc/shared/referenceProcessorPhaseTimes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessorPhaseTimes.hpp"
 #include "logging/logLevel.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class LineBuffer;
 class G1ParScanThreadState;

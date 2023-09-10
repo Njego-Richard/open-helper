@@ -21,11 +21,11 @@
  * questions.
  */
 
-#include "gc/z/zErrno.hpp"
-#include "gc/z/zCPU.hpp"
-#include "gc/z/zNUMA.hpp"
-#include "runtime/os.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zErrno.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCPU.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zNUMA.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 #include <unistd.h>
 #include <sys/syscall.h>

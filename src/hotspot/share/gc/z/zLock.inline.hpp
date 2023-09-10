@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZLOCK_INLINE_HPP
 #define SHARE_GC_Z_ZLOCK_INLINE_HPP
 
-#include "gc/z/zLock.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLock.hpp"
 
 inline ZLock::ZLock() {
   pthread_mutex_init(&_lock, NULL);

@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSSCAVENGE_HPP
 #define SHARE_VM_GC_PARALLEL_PSSCAVENGE_HPP
 
-#include "gc/parallel/psCardTable.hpp"
-#include "gc/parallel/psVirtualspace.hpp"
-#include "gc/shared/collectorCounters.hpp"
-#include "gc/shared/gcTrace.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psCardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psVirtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 class GCTaskManager;
 class GCTaskQueue;

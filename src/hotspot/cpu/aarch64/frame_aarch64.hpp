@@ -26,7 +26,7 @@
 #ifndef CPU_AARCH64_VM_FRAME_AARCH64_HPP
 #define CPU_AARCH64_VM_FRAME_AARCH64_HPP
 
-#include "runtime/synchronizer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/synchronizer.hpp"
 
 // A frame represents a physical stack frame (an activation).  Frames can be
 // C or Java frames, and the Java frames can be interpreted or compiled.

@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_CMS_PARNEWGENERATION_INLINE_HPP
 #define SHARE_VM_GC_CMS_PARNEWGENERATION_INLINE_HPP
 
-#include "gc/cms/parNewGeneration.hpp"
-#include "gc/shared/plab.inline.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/parNewGeneration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/plab.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 inline HeapWord* ParScanThreadState::alloc_in_to_space(size_t word_sz) {
   HeapWord* obj = to_space_alloc_buffer()->allocate_aligned(word_sz, SurvivorAlignmentInBytes);

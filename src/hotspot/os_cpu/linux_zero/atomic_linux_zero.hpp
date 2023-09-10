@@ -26,7 +26,7 @@
 #ifndef OS_CPU_LINUX_ZERO_VM_ATOMIC_LINUX_ZERO_HPP
 #define OS_CPU_LINUX_ZERO_VM_ATOMIC_LINUX_ZERO_HPP
 
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 // Implementation of class atomic
 

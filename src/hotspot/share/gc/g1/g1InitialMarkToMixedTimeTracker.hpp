@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1INITIALMARKTOMIXEDTIMETRACKER_HPP
 #define SHARE_VM_GC_G1_G1INITIALMARKTOMIXEDTIMETRACKER_HPP
 
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 // Used to track time from the end of initial mark to the first mixed GC.
 // After calling the initial mark/mixed gc notifications, the result can be

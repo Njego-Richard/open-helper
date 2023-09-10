@@ -27,8 +27,8 @@
 
 #include "jni.h"
 #include "jfr/utilities/jfrAllocation.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class JavaCallArguments;
 class JavaThread;

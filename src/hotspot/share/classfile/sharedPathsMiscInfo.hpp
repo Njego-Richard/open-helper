@@ -26,7 +26,7 @@
 #define SHARE_VM_CLASSFILE_SHAREDPATHSMISCINFO_HPP
 
 #include "classfile/classLoader.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 class outputStream;
 // During dumping time, when processing class paths, we build up the dump-time

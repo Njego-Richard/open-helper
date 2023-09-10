@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_MEMORY_MEMREGION_HPP
 #define SHARE_VM_MEMORY_MEMREGION_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // A very simple data structure representing a contigous region
 // region of address space.

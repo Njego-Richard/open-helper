@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_JFR_LEAKPROFILER_UTILITIES_SAVERESTORE_HPP
 #define SHARE_VM_JFR_LEAKPROFILER_UTILITIES_SAVERESTORE_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "oops/markOop.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 template <typename T, typename Impl>
 class SaveRestore {

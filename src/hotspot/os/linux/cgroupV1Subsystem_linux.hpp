@@ -25,8 +25,8 @@
 #ifndef CGROUP_V1_SUBSYSTEM_LINUX_HPP
 #define CGROUP_V1_SUBSYSTEM_LINUX_HPP
 
-#include "runtime/os.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "cgroupSubsystem_linux.hpp"
 
 // Cgroups version 1 specific implementation

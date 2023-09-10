@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1FROMCARDCACHE_HPP
 #define SHARE_VM_GC_G1_G1FROMCARDCACHE_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/ostream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 // G1FromCardCache remembers the most recently processed card on the heap on
 // a per-region and per-thread basis.

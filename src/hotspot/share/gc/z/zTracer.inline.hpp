@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZTRACER_INLINE_HPP
 #define SHARE_GC_Z_ZTRACER_INLINE_HPP
 
-#include "gc/z/zTracer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zTracer.hpp"
 
 inline ZTracer* ZTracer::tracer() {
   return _tracer;

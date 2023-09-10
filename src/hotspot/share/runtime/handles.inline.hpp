@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_HANDLES_INLINE_HPP
 #define SHARE_VM_RUNTIME_HANDLES_INLINE_HPP
 
-#include "runtime/handles.hpp"
-#include "runtime/thread.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 
 // these inline functions are in a separate file to break an include cycle
 // between Thread and Handle

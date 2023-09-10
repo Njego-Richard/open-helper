@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_G1_G1CARDCOUNTS_HPP
 #define SHARE_VM_GC_G1_G1CARDCOUNTS_HPP
 
-#include "gc/g1/g1CardTable.hpp"
-#include "gc/g1/g1RegionToSpaceMapper.hpp"
-#include "memory/allocation.hpp"
-#include "memory/virtualspace.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RegionToSpaceMapper.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class CardTableBarrierSet;
 class G1CardCounts;

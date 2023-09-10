@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_GC_PARALLEL_ASPSYOUNGGEN_HPP
 #define SHARE_VM_GC_PARALLEL_ASPSYOUNGGEN_HPP
 
-#include "gc/parallel/mutableSpace.hpp"
-#include "gc/parallel/objectStartArray.hpp"
-#include "gc/parallel/psVirtualspace.hpp"
-#include "gc/parallel/psYoungGen.hpp"
-#include "gc/parallel/spaceCounters.hpp"
-#include "gc/shared/generationCounters.hpp"
-#include "gc/shared/spaceDecorator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/objectStartArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psVirtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psYoungGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/spaceCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/spaceDecorator.hpp"
 
 class ASPSYoungGen : public PSYoungGen {
   friend class VMStructs;

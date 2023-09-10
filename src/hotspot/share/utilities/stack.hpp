@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_STACK_HPP
 #define SHARE_VM_UTILITIES_STACK_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // Class Stack (below) grows and shrinks by linking together "segments" which
 // are allocated on demand.  Segments are arrays of the element type (E) plus an

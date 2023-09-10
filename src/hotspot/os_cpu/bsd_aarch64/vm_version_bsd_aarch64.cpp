@@ -24,10 +24,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "runtime/java.hpp"
-#include "runtime/os.hpp"
-#include "runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 #include <sys/sysctl.h>
 
 static bool cpu_has(const char* optional) {

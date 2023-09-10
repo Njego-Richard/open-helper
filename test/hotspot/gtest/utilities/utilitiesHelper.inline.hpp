@@ -24,11 +24,11 @@
 #ifndef GTEST_UTILITIES_HELPER_INLINE_HPP
 #define GTEST_UTILITIES_HELPER_INLINE_HPP
 
-#include "runtime/mutex.hpp"
-#include "runtime/semaphore.hpp"
-#include "runtime/thread.hpp"
-#include "runtime/vmThread.hpp"
-#include "runtime/vmOperations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/semaphore.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
 #include "unittest.hpp"
 
 class VM_StopSafepoint : public VM_Operation {

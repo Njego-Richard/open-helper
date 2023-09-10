@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_EPSILON_EPSILONMEMORYPOOL_HPP
 #define SHARE_VM_GC_EPSILON_EPSILONMEMORYPOOL_HPP
 
-#include "gc/epsilon/epsilonHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonHeap.hpp"
 #include "services/memoryPool.hpp"
 #include "services/memoryUsage.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class EpsilonMemoryPool : public CollectedMemoryPool {
 private:

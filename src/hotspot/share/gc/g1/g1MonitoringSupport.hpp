@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_G1MONITORINGSUPPORT_HPP
 #define SHARE_VM_GC_G1_G1MONITORINGSUPPORT_HPP
 
-#include "gc/shared/generationCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationCounters.hpp"
 
 class CollectorCounters;
 class G1CollectedHeap;

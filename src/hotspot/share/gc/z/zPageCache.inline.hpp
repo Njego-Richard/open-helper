@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_Z_ZPAGECACHE_INLINE_HPP
 #define SHARE_GC_Z_ZPAGECACHE_INLINE_HPP
 
-#include "gc/z/zPageCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPageCache.hpp"
 
 inline size_t ZPageCache::available() const {
   return _available;

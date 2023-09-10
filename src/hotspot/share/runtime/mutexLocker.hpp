@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_MUTEXLOCKER_HPP
 #define SHARE_VM_RUNTIME_MUTEXLOCKER_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/flags/flagSetting.hpp"
-#include "runtime/mutex.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/flagSetting.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
 
 // Mutexes used in the VM.
 

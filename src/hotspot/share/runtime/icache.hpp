@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_ICACHE_HPP
 #define SHARE_VM_RUNTIME_ICACHE_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/stubCodeGenerator.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubCodeGenerator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Interface for updating the instruction cache.  Whenever the VM modifies
 // code, part of the processor instruction cache potentially has to be flushed.
@@ -69,7 +69,7 @@ class AbstractICache : AllStatic {
 // Must be included before the definition of ICacheStubGenerator
 // because ICacheStubGenerator uses ICache definitions.
 
-#include CPU_HEADER(icache)
+//#include CPU_HEADER(icache)
 
 class ICacheStubGenerator : public StubCodeGenerator {
  public:

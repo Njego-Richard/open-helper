@@ -31,8 +31,8 @@
 #include "c1/c1_Instruction.hpp"
 #include "c1/c1_LIR.hpp"
 #include "c1/c1_LIRGenerator.hpp"
-#include "utilities/align.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class FpuStackAllocator;
 class IRScopeDebugInfo;
@@ -958,6 +958,6 @@ class LinearScanTimers : public StackObj {
 #endif // ifndef PRODUCT
 
 // Pick up platform-dependent implementation details
-#include CPU_HEADER(c1_LinearScan)
+//#include CPU_HEADER(c1_LinearScan)
 
 #endif // SHARE_VM_C1_C1_LINEARSCAN_HPP

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OOPS_ARRAY_HPP
 #define SHARE_VM_OOPS_ARRAY_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/metaspace.hpp"
-#include "utilities/align.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Array for metadata allocation
 

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_PARALLEL_GENERATIONSIZER_HPP
 #define SHARE_VM_GC_PARALLEL_GENERATIONSIZER_HPP
 
-#include "gc/shared/collectorPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorPolicy.hpp"
 
 // There is a nice batch of tested generation sizing code in
 // GenCollectorPolicy. Lets reuse it!

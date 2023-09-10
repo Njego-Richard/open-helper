@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_JFR_UTILITIES_JFRTIMECONVERTER_HPP
 #define SHARE_VM_JFR_UTILITIES_JFRTIMECONVERTER_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class JfrTimeConverter : AllStatic {
  private:

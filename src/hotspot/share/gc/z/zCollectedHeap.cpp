@@ -21,17 +21,17 @@
  * questions.
  */
 
-#include "precompiled.hpp"
-#include "gc/shared/gcHeapSummary.hpp"
-#include "gc/z/zCollectedHeap.hpp"
-#include "gc/z/zGlobals.hpp"
-#include "gc/z/zHeap.inline.hpp"
-#include "gc/z/zNMethodTable.hpp"
-#include "gc/z/zServiceability.hpp"
-#include "gc/z/zStat.hpp"
-#include "gc/z/zUtils.inline.hpp"
-#include "memory/iterator.hpp"
-#include "runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcHeapSummary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zNMethodTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zServiceability.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zStat.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 
 ZCollectedHeap* ZCollectedHeap::heap() {
   CollectedHeap* heap = Universe::heap();

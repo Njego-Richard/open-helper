@@ -28,9 +28,9 @@
 
 // misc_aix.hpp, misc_aix.cpp: convenience functions needed for the OpenJDK AIX
 // port.
-#include "utilities/globalDefinitions.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 #include <pthread.h>
 

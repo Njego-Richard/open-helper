@@ -25,7 +25,7 @@
 #ifndef CPU_ARM_VM_FRAME_ARM_HPP
 #define CPU_ARM_VM_FRAME_ARM_HPP
 
-#include "runtime/synchronizer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/synchronizer.hpp"
 
  public:
   enum {

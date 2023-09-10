@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_SHARED_PRESERVEDMARKS_HPP
 #define SHARE_VM_GC_SHARED_PRESERVEDMARKS_HPP
 
-#include "memory/allocation.hpp"
-#include "memory/padded.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
 #include "oops/oop.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 class PreservedMarksSet;
 class WorkGang;

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_WORKERMANAGER_HPP
 #define SHARE_VM_GC_SHARED_WORKERMANAGER_HPP
 
-#include "gc/shared/adaptiveSizePolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/adaptiveSizePolicy.hpp"
 
 class WorkerManager : public AllStatic {
  public:

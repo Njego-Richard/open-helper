@@ -25,7 +25,7 @@
 #ifndef OS_CPU_SOLARIS_X86_VM_COUNTTRAILINGZEROS_HPP
 #define OS_CPU_SOLARIS_X86_VM_COUNTTRAILINGZEROS_HPP
 
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 inline unsigned count_trailing_zeros(uintx x) {
   assert(x != 0, "precondition");

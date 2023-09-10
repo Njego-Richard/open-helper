@@ -26,7 +26,7 @@
 #ifndef CPU_AARCH64_VM_BYTES_AARCH64_HPP
 #define CPU_AARCH64_VM_BYTES_AARCH64_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class Bytes: AllStatic {
  public:

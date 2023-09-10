@@ -27,9 +27,9 @@
 
 #include "classfile/compactHashtable.hpp"
 #include "classfile/javaClasses.hpp"
-#include "memory/allocation.inline.hpp"
-#include "memory/filemap.hpp"
-#include "memory/heapShared.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/filemap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heapShared.inline.hpp"
 #include "oops/oop.hpp"
 
 template <class T, class N>

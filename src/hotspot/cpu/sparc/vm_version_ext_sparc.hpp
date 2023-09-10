@@ -25,8 +25,8 @@
 #ifndef CPU_SPARC_VM_VM_VERSION_EXT_SPARC_HPP
 #define CPU_SPARC_VM_VM_VERSION_EXT_SPARC_HPP
 
-#include "runtime/vm_version.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #if defined(SOLARIS)
 #include <kstat.h>

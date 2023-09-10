@@ -27,9 +27,9 @@
 
 #include "oops/access.inline.hpp"
 #include "oops/oop.hpp"
-#include "runtime/jniHandles.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 inline bool JNIHandles::is_jweak(jobject handle) {
   STATIC_ASSERT(weak_tag_size == 1);

@@ -24,11 +24,11 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHVERIFIER_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHVERIFIER_HPP
 
-#include "gc/shenandoah/markBitMap.hpp"
-#include "gc/shenandoah/shenandoahRootVerifier.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/markBitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahRootVerifier.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 class ShenandoahHeap;
 

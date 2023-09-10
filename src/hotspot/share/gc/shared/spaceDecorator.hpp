@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_SPACEDECORATOR_HPP
 #define SHARE_VM_GC_SHARED_SPACEDECORATOR_HPP
 
-#include "gc/parallel/mutableSpace.hpp"
-#include "gc/shared/space.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class SpaceDecorator: public AllStatic {
  public:

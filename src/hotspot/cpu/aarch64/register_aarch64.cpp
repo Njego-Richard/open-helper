@@ -23,7 +23,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "register_aarch64.hpp"
 
 const int ConcreteRegisterImpl::max_gpr = RegisterImpl::number_of_registers *

@@ -30,7 +30,7 @@
 #include "jfr/utilities/jfrHashtable.hpp"
 #include "oops/klass.hpp"
 #include "oops/method.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // Composite callback/functor building block
 template <typename T, typename Func1, typename Func2>

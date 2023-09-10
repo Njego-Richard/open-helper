@@ -24,20 +24,20 @@
 #ifndef SHARE_GC_Z_ZPAGE_INLINE_HPP
 #define SHARE_GC_Z_ZPAGE_INLINE_HPP
 
-#include "gc/z/zAddress.inline.hpp"
-#include "gc/z/zForwardingTable.inline.hpp"
-#include "gc/z/zGlobals.hpp"
-#include "gc/z/zLiveMap.inline.hpp"
-#include "gc/z/zMark.hpp"
-#include "gc/z/zNUMA.hpp"
-#include "gc/z/zPage.hpp"
-#include "gc/z/zPhysicalMemory.inline.hpp"
-#include "gc/z/zUtils.inline.hpp"
-#include "gc/z/zVirtualMemory.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zForwardingTable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLiveMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMark.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zNUMA.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPhysicalMemory.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zVirtualMemory.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "runtime/atomic.hpp"
-#include "utilities/align.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 inline const char* ZPage::type_to_string() const {
   switch (type()) {

@@ -25,17 +25,17 @@
 #ifndef SHARE_VM_GC_G1_G1POLICY_HPP
 #define SHARE_VM_GC_G1_G1POLICY_HPP
 
-#include "gc/g1/g1CollectorState.hpp"
-#include "gc/g1/g1GCPhaseTimes.hpp"
-#include "gc/g1/g1InCSetState.hpp"
-#include "gc/g1/g1InitialMarkToMixedTimeTracker.hpp"
-#include "gc/g1/g1MMUTracker.hpp"
-#include "gc/g1/g1OldGenAllocationTracker.hpp"
-#include "gc/g1/g1RemSetTrackingPolicy.hpp"
-#include "gc/g1/g1Predictions.hpp"
-#include "gc/g1/g1YoungGenSizer.hpp"
-#include "gc/shared/gcCause.hpp"
-#include "utilities/pair.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectorState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1GCPhaseTimes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1InCSetState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1InitialMarkToMixedTimeTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1MMUTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1OldGenAllocationTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RemSetTrackingPolicy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Predictions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1YoungGenSizer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/pair.hpp"
 
 // A G1Policy makes policy decisions that determine the
 // characteristics of the collector.  Examples include:

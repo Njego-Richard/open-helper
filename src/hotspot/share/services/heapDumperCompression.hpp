@@ -25,7 +25,7 @@
 #ifndef SHARE_SERVICES_HEAPDUMPERCOMPRESSION_HPP
 #define SHARE_SERVICES_HEAPDUMPERCOMPRESSION_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 
 // Interface for a compression  implementation.

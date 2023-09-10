@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_PREFETCH_HPP
 #define SHARE_VM_RUNTIME_PREFETCH_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // If calls to prefetch methods are in a loop, the loop should be cloned
 // such that if Prefetch{Scan,Copy}Interval and/or PrefetchFieldInterval

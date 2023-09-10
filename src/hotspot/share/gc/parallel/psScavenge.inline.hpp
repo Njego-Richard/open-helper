@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSSCAVENGE_INLINE_HPP
 #define SHARE_VM_GC_PARALLEL_PSSCAVENGE_INLINE_HPP
 
-#include "gc/parallel/parallelScavengeHeap.hpp"
-#include "gc/parallel/psPromotionManager.inline.hpp"
-#include "gc/parallel/psScavenge.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psPromotionManager.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psScavenge.hpp"
 #include "logging/log.hpp"
-#include "memory/iterator.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 inline void PSScavenge::save_to_space_top_before_gc() {
   ParallelScavengeHeap* heap = ParallelScavengeHeap::heap();

@@ -27,11 +27,11 @@
 
 #if INCLUDE_NMT
 
-#include "memory/allocation.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/threadCritical.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadCritical.hpp"
 #include "services/nmtCommon.hpp"
-#include "utilities/nativeCallStack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/nativeCallStack.hpp"
 
 /*
  * This counter class counts memory allocation and deallocation,

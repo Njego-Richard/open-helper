@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_GENERATIONSPEC_HPP
 #define SHARE_VM_GC_SHARED_GENERATIONSPEC_HPP
 
-#include "gc/shared/generation.hpp"
-#include "utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // The specification of a generation.  This class also encapsulates
 // some generation-specific behavior.  This is done here rather than as a

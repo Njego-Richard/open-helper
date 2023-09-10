@@ -22,7 +22,7 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "opto/countbitsnode.hpp"
 #include "opto/opcodes.hpp"
 #include "opto/phaseX.hpp"

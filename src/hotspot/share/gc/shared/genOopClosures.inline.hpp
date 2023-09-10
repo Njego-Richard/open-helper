@@ -25,16 +25,16 @@
 #ifndef SHARE_VM_GC_SHARED_GENOOPCLOSURES_INLINE_HPP
 #define SHARE_VM_GC_SHARED_GENOOPCLOSURES_INLINE_HPP
 
-#include "gc/shared/cardTableRS.hpp"
-#include "gc/shared/genCollectedHeap.hpp"
-#include "gc/shared/genOopClosures.hpp"
-#include "gc/shared/generation.hpp"
-#include "gc/shared/space.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableRS.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genOopClosures.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/compressedOops.inline.hpp"
 #include "oops/oop.inline.hpp"
 #if INCLUDE_SERIALGC
-#include "gc/serial/defNewGeneration.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/defNewGeneration.inline.hpp"
 #endif
 
 inline OopsInGenClosure::OopsInGenClosure(Generation* gen) :

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_JVMFLAGWRITEABLE_HPP
 #define SHARE_VM_RUNTIME_JVMFLAGWRITEABLE_HPP
 
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 class JVMFlagWriteable : public CHeapObj<mtArguments> {
 public:

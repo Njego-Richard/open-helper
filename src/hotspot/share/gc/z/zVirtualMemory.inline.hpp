@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZVIRTUALMEMORY_INLINE_HPP
 #define SHARE_GC_Z_ZVIRTUALMEMORY_INLINE_HPP
 
-#include "gc/z/zMemory.inline.hpp"
-#include "gc/z/zVirtualMemory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMemory.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zVirtualMemory.hpp"
 
 inline ZVirtualMemory::ZVirtualMemory() :
     _start(UINTPTR_MAX),

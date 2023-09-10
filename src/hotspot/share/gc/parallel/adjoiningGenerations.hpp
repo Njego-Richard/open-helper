@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_PARALLEL_ADJOININGGENERATIONS_HPP
 #define SHARE_VM_GC_PARALLEL_ADJOININGGENERATIONS_HPP
 
-#include "gc/parallel/adjoiningVirtualSpaces.hpp"
-#include "gc/parallel/asPSOldGen.hpp"
-#include "gc/parallel/asPSYoungGen.hpp"
-#include "gc/parallel/generationSizer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/adjoiningVirtualSpaces.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/asPSOldGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/asPSYoungGen.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/generationSizer.hpp"
 
 
 // Contains two generations that both use an AdjoiningVirtualSpaces.

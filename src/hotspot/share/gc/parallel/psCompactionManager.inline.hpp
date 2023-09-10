@@ -25,17 +25,17 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSCOMPACTIONMANAGER_INLINE_HPP
 #define SHARE_VM_GC_PARALLEL_PSCOMPACTIONMANAGER_INLINE_HPP
 
-#include "gc/parallel/parMarkBitMap.hpp"
-#include "gc/parallel/psCompactionManager.hpp"
-#include "gc/parallel/psParallelCompact.inline.hpp"
-#include "gc/shared/taskqueue.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parMarkBitMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psCompactionManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psParallelCompact.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.inline.hpp"
 #include "oops/access.inline.hpp"
 #include "oops/arrayOop.inline.hpp"
 #include "oops/compressedOops.inline.hpp"
 #include "oops/objArrayOop.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 inline bool ParCompactionManager::steal(int queue_num, int* seed, oop& t) {
   return stack_array()->steal(queue_num, seed, t);

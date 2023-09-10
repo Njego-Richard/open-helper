@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_JFR_UTILITIES_JFRBIGENDIAN_HPP
 #define SHARE_VM_JFR_UTILITIES_JFRBIGENDIAN_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/bytes.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #ifndef VM_LITTLE_ENDIAN
 # define bigendian_16(x) (x)

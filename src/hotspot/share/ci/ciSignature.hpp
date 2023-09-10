@@ -28,8 +28,8 @@
 #include "ci/ciClassList.hpp"
 #include "ci/ciSymbol.hpp"
 #include "interpreter/bytecodes.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // ciSignature
 //

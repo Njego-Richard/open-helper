@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_PARALLEL_PSTASKS_HPP
 #define SHARE_VM_GC_PARALLEL_PSTASKS_HPP
 
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 //
 // psTasks.hpp is a collection of GCTasks used by the

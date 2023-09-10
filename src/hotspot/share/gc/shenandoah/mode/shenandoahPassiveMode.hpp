@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_SHENANDOAH_MODE_SHENANDOAHPASSIVEMODE_HPP
 #define SHARE_GC_SHENANDOAH_MODE_SHENANDOAHPASSIVEMODE_HPP
 
-#include "gc/shenandoah/mode/shenandoahMode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/mode/shenandoahMode.hpp"
 
 class ShenandoahPassiveMode : public ShenandoahMode {
 public:

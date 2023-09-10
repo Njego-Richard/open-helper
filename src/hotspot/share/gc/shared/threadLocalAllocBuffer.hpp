@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_SHARED_THREADLOCALALLOCBUFFER_HPP
 #define SHARE_VM_GC_SHARED_THREADLOCALALLOCBUFFER_HPP
 
-#include "gc/shared/gcUtil.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.hpp"
 #include "oops/typeArrayOop.hpp"
-#include "runtime/perfData.hpp"
-#include "runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 
 class GlobalTLABStats;
 

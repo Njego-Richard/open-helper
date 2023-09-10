@@ -26,7 +26,7 @@
 #define SHARE_VM_PRIMS_JVM_MISC_HPP
 
 #include "jni.h"
-#include "runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 
 // Useful entry points shared by JNI and JVM interface.
 // We do not allow real JNI or JVM entry point to call each other.

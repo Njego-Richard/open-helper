@@ -22,10 +22,10 @@
  *
  */
 
-#include "precompiled.hpp"
-#include "gc/parallel/adjoiningVirtualSpaces.hpp"
-#include "memory/allocation.inline.hpp"
-#include "runtime/java.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/adjoiningVirtualSpaces.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
 
 AdjoiningVirtualSpaces::AdjoiningVirtualSpaces(ReservedSpace rs,
                                                size_t min_low_byte_size,

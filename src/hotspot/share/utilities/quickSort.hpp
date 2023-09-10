@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_UTILITIES_QUICKSORT_HPP
 #define SHARE_VM_UTILITIES_QUICKSORT_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class QuickSort : AllStatic {
 

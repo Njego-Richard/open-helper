@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_OOPS_OBJARRAYKLASS_INLINE_HPP
 #define SHARE_VM_OOPS_OBJARRAYKLASS_INLINE_HPP
 
-#include "memory/memRegion.hpp"
-#include "memory/iterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "oops/arrayOop.inline.hpp"
 #include "oops/arrayKlass.hpp"
 #include "oops/klass.hpp"
 #include "oops/objArrayKlass.hpp"
 #include "oops/objArrayOop.inline.hpp"
 #include "oops/oop.inline.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 template <typename T, class OopClosureType>
 void ObjArrayKlass::oop_oop_iterate_elements(objArrayOop a, OopClosureType* closure) {

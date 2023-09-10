@@ -68,8 +68,8 @@ typedef Elf32_Sym       Elf_Sym;
 #endif
 
 #include "globalDefinitions.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/decoder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/decoder.hpp"
 
 class ElfStringTable;
 class ElfSymbolTable;

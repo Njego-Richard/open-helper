@@ -27,8 +27,8 @@
 #define CPU_ZERO_VM_NATIVEINST_ZERO_HPP
 
 #include "asm/assembler.hpp"
-#include "runtime/icache.hpp"
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 // We have interfaces for the following instructions:
 // - NativeInstruction

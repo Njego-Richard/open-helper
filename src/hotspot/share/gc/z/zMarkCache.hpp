@@ -24,8 +24,8 @@
 #ifndef SHARE_GC_Z_ZMARKCACHE_HPP
 #define SHARE_GC_Z_ZMARKCACHE_HPP
 
-#include "gc/z/zGlobals.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class ZPage;
 

@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_UTILITIES_HISTOGRAM_HPP
 #define SHARE_VM_UTILITIES_HISTOGRAM_HPP
 
-#include "memory/allocation.hpp"
-#include "runtime/os.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // This class provides a framework for collecting various statistics.
 // The current implementation is oriented towards counting invocations

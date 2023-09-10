@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUPTHREAD_INLINE_HPP
 #define SHARE_VM_GC_SHARED_STRINGDEDUP_STRINGDEDUPTHREAD_INLINE_HPP
 
-#include "gc/shared/suspendibleThreadSet.hpp"
-#include "gc/shared/stringdedup/stringDedupQueue.inline.hpp"
-#include "gc/shared/stringdedup/stringDedupThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/suspendibleThreadSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupQueue.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupThread.hpp"
 
 template <typename S>
 void StringDedupThreadImpl<S>::do_deduplication() {

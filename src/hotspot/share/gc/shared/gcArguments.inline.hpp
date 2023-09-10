@@ -22,7 +22,7 @@
  *
  */
 
-#include "gc/shared/gcArguments.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcArguments.hpp"
 
 class CollectedHeap;
 

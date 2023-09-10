@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_MEMORY_REFERENCETYPE_HPP
 #define SHARE_VM_MEMORY_REFERENCETYPE_HPP
 
-#include "utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 // ReferenceType is used to distinguish between java/lang/ref/Reference subclasses
 

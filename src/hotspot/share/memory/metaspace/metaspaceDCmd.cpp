@@ -22,10 +22,10 @@
  * questions.
  *
  */
-#include "precompiled.hpp"
-#include "memory/metaspace.hpp"
-#include "memory/metaspace/metaspaceDCmd.hpp"
-#include "memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/metaspaceDCmd.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "services/diagnosticCommand.hpp"
 #include "services/nmtCommon.hpp"
 

@@ -26,8 +26,8 @@
 #define SHARE_VM_UTILITIES_TICKS_HPP
 
 #include "jni.h"
-#include "memory/allocation.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Time sources
 class ElapsedCounterSource {

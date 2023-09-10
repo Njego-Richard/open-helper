@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_UTILITIES_PRESERVEEXCEPTION_HPP
 #define SHARE_VM_UTILITIES_PRESERVEEXCEPTION_HPP
 
-#include "runtime/handles.hpp"
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 // This file provides more support for exception handling; see also exceptions.hpp
 class PreserveExceptionMark {

@@ -27,11 +27,11 @@
 
 #include "classfile/stackMapFrame.hpp"
 #include "classfile/verifier.hpp"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/constantPool.hpp"
 #include "oops/method.hpp"
-#include "utilities/bytes.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class StackMapReader;
 

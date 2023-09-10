@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_JAVA_HPP
 #define SHARE_VM_RUNTIME_JAVA_HPP
 
-#include "runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 // Execute code before all handles are released and thread is killed; prologue to vm_exit
 extern void before_exit(JavaThread * thread);

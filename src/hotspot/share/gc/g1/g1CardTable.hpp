@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_GC_G1_G1CARDTABLE_HPP
 #define SHARE_VM_GC_G1_G1CARDTABLE_HPP
 
-#include "gc/g1/g1RegionToSpaceMapper.hpp"
-#include "gc/shared/cardTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RegionToSpaceMapper.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTable.hpp"
 #include "oops/oopsHierarchy.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class G1CardTable;
 class G1RegionToSpaceMapper;

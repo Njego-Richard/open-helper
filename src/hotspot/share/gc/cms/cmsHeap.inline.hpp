@@ -25,9 +25,9 @@
 #ifndef SHARE_GC_CMS_CMSHEAP_INLINE_HPP
 #define SHARE_GC_CMS_CMSHEAP_INLINE_HPP
 
-#include "gc/cms/cmsHeap.hpp"
-#include "gc/cms/concurrentMarkSweepGeneration.inline.hpp"
-#include "gc/serial/defNewGeneration.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/defNewGeneration.inline.hpp"
 
 template <typename OopClosureType1, typename OopClosureType2>
 void CMSHeap::oop_since_save_marks_iterate(OopClosureType1* cur,

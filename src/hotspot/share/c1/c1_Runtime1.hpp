@@ -28,8 +28,8 @@
 #include "c1/c1_FrameMap.hpp"
 #include "code/stubs.hpp"
 #include "interpreter/interpreter.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/deoptimization.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 
 class StubAssembler;
 

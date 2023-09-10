@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_UTILITIES_JFRSPINLOCKHELPER_HPP
 #define SHARE_VM_JFR_UTILITIES_JFRSPINLOCKHELPER_HPP
 
-#include "runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 // this utility could be useful for non cx8 platforms
 

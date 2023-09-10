@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_STATSAMPLER_HPP
 #define SHARE_VM_RUNTIME_STATSAMPLER_HPP
 
-#include "runtime/perfData.hpp"
-#include "runtime/task.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/task.hpp"
 
 class StatSamplerTask;
 

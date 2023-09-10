@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_GC_SHARED_ADAPTIVESIZEPOLICY_HPP
 #define SHARE_VM_GC_SHARED_ADAPTIVESIZEPOLICY_HPP
 
-#include "gc/shared/collectedHeap.hpp"
-#include "gc/shared/gcCause.hpp"
-#include "gc/shared/gcUtil.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.hpp"
 #include "logging/log.hpp"
-#include "memory/allocation.hpp"
-#include "memory/universe.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 
 // This class keeps statistical information and computes the
 // size of the heap.

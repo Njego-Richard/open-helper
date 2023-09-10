@@ -26,11 +26,11 @@
 #define SHARE_VM_RUNTIME_STUBROUTINES_HPP
 
 #include "code/codeBlob.hpp"
-#include "memory/allocation.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/mutexLocker.hpp"
-#include "runtime/stubCodeGenerator.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubCodeGenerator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // StubRoutines provides entry points to assembly routines used by
 // compiled code and the run-time system. Platform-specific entry
@@ -85,7 +85,7 @@ class StubRoutines: AllStatic {
   // Dependencies
   friend class StubGenerator;
 
-#include CPU_HEADER(stubRoutines)
+//#include CPU_HEADER(stubRoutines)
 
   static jint    _verify_oop_count;
   static address _verify_oop_subroutine_entry;

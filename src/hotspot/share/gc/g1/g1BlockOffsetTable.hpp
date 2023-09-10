@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_G1_G1BLOCKOFFSETTABLE_HPP
 #define SHARE_VM_GC_G1_G1BLOCKOFFSETTABLE_HPP
 
-#include "gc/g1/g1RegionToSpaceMapper.hpp"
-#include "gc/shared/blockOffsetTable.hpp"
-#include "memory/memRegion.hpp"
-#include "memory/virtualspace.hpp"
-#include "utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RegionToSpaceMapper.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/blockOffsetTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Forward declarations
 class G1BlockOffsetTable;

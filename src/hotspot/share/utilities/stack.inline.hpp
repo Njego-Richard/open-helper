@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_UTILITIES_STACK_INLINE_HPP
 #define SHARE_VM_UTILITIES_STACK_INLINE_HPP
 
-#include "memory/allocation.inline.hpp"
-#include "utilities/align.hpp"
-#include "utilities/stack.hpp"
-#include "utilities/copy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
 
 template <MEMFLAGS F> StackBase<F>::StackBase(size_t segment_size, size_t max_cache_size,
                      size_t max_size):

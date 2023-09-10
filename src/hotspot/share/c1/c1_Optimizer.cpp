@@ -22,14 +22,14 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "c1/c1_Canonicalizer.hpp"
 #include "c1/c1_Optimizer.hpp"
 #include "c1/c1_ValueMap.hpp"
 #include "c1/c1_ValueSet.inline.hpp"
 #include "c1/c1_ValueStack.hpp"
-#include "memory/resourceArea.hpp"
-#include "utilities/bitMap.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 #include "compiler/compileLog.hpp"
 
 typedef GrowableArray<ValueSet*> ValueSetList;

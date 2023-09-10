@@ -26,7 +26,7 @@
 #define SHARE_VM_SERVICES_MEM_TRACKER_HPP
 
 #include "services/nmtCommon.hpp"
-#include "utilities/nativeCallStack.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/nativeCallStack.hpp"
 
 
 #if !INCLUDE_NMT
@@ -79,7 +79,7 @@ class MemTracker : AllStatic {
 
 #else
 
-#include "runtime/threadCritical.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadCritical.hpp"
 #include "services/mallocTracker.hpp"
 #include "services/virtualMemoryTracker.hpp"
 

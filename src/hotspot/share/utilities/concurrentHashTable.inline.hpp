@@ -25,14 +25,14 @@
 #ifndef SHARE_UTILITIES_CONCURRENT_HASH_TABLE_INLINE_HPP
 #define SHARE_UTILITIES_CONCURRENT_HASH_TABLE_INLINE_HPP
 
-#include "memory/allocation.inline.hpp"
-#include "runtime/atomic.hpp"
-#include "runtime/orderAccess.hpp"
-#include "runtime/prefetch.inline.hpp"
-#include "utilities/concurrentHashTable.hpp"
-#include "utilities/globalCounter.inline.hpp"
-#include "utilities/numberSeq.hpp"
-#include "utilities/spinYield.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/concurrentHashTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalCounter.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/numberSeq.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/spinYield.hpp"
 
 // 2^30 = 1G buckets
 #define SIZE_BIG_LOG2 30

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OOPS_SYMBOL_HPP
 #define SHARE_VM_OOPS_SYMBOL_HPP
 
-#include "memory/allocation.hpp"
-#include "utilities/exceptions.hpp"
-#include "utilities/macros.hpp"
-#include "utilities/utf8.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/utf8.hpp"
 
 // A Symbol is a canonicalized string.
 // All Symbols reside in global SymbolTable and are reference counted.

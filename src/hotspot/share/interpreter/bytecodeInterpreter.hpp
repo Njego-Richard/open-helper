@@ -25,14 +25,14 @@
 #ifndef SHARE_VM_INTERPRETER_BYTECODEINTERPRETER_HPP
 #define SHARE_VM_INTERPRETER_BYTECODEINTERPRETER_HPP
 
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/methodData.hpp"
 #include "oops/method.hpp"
-#include "runtime/basicLock.hpp"
-#include "runtime/frame.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/globalDefinitions.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/basicLock.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #ifdef CC_INTERP
 

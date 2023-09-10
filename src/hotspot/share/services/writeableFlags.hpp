@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_SERVICES_WRITEABLEFLAG_HPP
 #define SHARE_VM_SERVICES_WRITEABLEFLAG_HPP
 
-#include "runtime/flags/jvmFlag.hpp"
-#include "runtime/globals.hpp"
-#include "utilities/formatBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/formatBuffer.hpp"
 
 class WriteableFlags : AllStatic {
 private:

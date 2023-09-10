@@ -26,9 +26,9 @@
 #ifndef OS_CPU_LINUX_S390_VM_ATOMIC_LINUX_S390_INLINE_HPP
 #define OS_CPU_LINUX_S390_VM_ATOMIC_LINUX_S390_INLINE_HPP
 
-#include "runtime/atomic.hpp"
-#include "runtime/os.hpp"
-#include "runtime/vm_version.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 
 // Note that the compare-and-swap instructions on System z perform
 // a serialization function before the storage operand is fetched

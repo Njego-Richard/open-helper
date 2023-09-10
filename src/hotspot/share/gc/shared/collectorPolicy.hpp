@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_GC_SHARED_COLLECTORPOLICY_HPP
 #define SHARE_VM_GC_SHARED_COLLECTORPOLICY_HPP
 
-#include "gc/shared/barrierSet.hpp"
-#include "gc/shared/cardTableRS.hpp"
-#include "gc/shared/generationSpec.hpp"
-#include "memory/allocation.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableRS.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generationSpec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // This class (or more correctly, subtypes of this class)
 // are used to define global garbage collector attributes.

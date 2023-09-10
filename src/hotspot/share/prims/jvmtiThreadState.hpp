@@ -26,10 +26,10 @@
 #define SHARE_VM_PRIMS_JVMTITHREADSTATE_HPP
 
 #include "jvmtifiles/jvmti.h"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "prims/jvmtiEventController.hpp"
-#include "runtime/thread.hpp"
-#include "utilities/growableArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 //
 // Forward Declarations

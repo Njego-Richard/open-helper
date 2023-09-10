@@ -30,7 +30,7 @@
 // jni types to the array of arguments passed into JavaCalls::call.
 
 #include "jni.h"
-#include "memory/allocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "oops/oop.hpp"
 
 class JNITypes : AllStatic {

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_UTILITIES_COPY_HPP
 #define SHARE_VM_UTILITIES_COPY_HPP
 
-#include "runtime/stubRoutines.hpp"
-#include "utilities/align.hpp"
-#include "utilities/debug.hpp"
-#include "utilities/macros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubRoutines.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 // Assembly code for platforms that need it.
 extern "C" {
@@ -342,7 +342,7 @@ class Copy : AllStatic {
   }
 
   // Platform dependent implementations of the above methods.
-#include CPU_HEADER(copy)
+//#include CPU_HEADER(copy)
 
 };
 

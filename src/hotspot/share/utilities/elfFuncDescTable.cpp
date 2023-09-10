@@ -23,12 +23,12 @@
  *
  */
 
-#include "precompiled.hpp"
+#include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
 #if !defined(_WINDOWS) && !defined(__APPLE__)
 
-#include "memory/allocation.inline.hpp"
-#include "utilities/elfFuncDescTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/elfFuncDescTable.hpp"
 
 ElfFuncDescTable::ElfFuncDescTable(FILE* file, Elf_Shdr shdr, int index) :
   _file(file), _index(index), _section(file, shdr) {
