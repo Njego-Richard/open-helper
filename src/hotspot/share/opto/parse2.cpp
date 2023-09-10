@@ -30,7 +30,7 @@
 #include "interpreter/linkResolver.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "opto/addnode.hpp"
 #include "opto/castnode.hpp"
 #include "opto/convertnode.hpp"

@@ -27,12 +27,12 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
-#include "oops/arrayOop.inline.hpp"
-#include "oops/arrayKlass.hpp"
-#include "oops/klass.hpp"
-#include "oops/objArrayKlass.hpp"
-#include "oops/objArrayOop.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 template <typename T, class OopClosureType>

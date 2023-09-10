@@ -26,7 +26,7 @@
 #include <fcntl.h>
 #include <limits.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
 #include "jlong.h"
 #include "io_util.h"

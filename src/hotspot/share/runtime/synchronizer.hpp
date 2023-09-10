@@ -26,7 +26,7 @@
 #define SHARE_VM_RUNTIME_SYNCHRONIZER_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
-#include "oops/markOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/markOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/basicLock.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"

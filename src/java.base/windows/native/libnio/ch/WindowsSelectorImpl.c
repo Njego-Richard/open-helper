@@ -37,7 +37,7 @@
 #include <winsock2.h>
 
 #include "jvm.h"
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
 #include "nio.h"
 #include "sun_nio_ch_WindowsSelectorImpl.h"

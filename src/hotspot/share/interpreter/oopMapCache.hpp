@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_INTERPRETER_OOPMAPCACHE_HPP
 #define SHARE_VM_INTERPRETER_OOPMAPCACHE_HPP
 
-#include "oops/generateOopMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/generateOopMap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
 
 // A Cache for storing (method, bci) -> oopMap.

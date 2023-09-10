@@ -26,8 +26,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOopClosures.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.inline.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 

@@ -22,7 +22,7 @@
  * questions.
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 JNIEXPORT jint JNICALL
 Java_TestJNIBlockFullGC_TestCriticalArray0(JNIEnv *env, jclass jCls, jintArray jIn) {

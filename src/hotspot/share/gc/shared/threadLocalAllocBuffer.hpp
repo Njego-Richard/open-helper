@@ -26,7 +26,7 @@
 #define SHARE_VM_GC_SHARED_THREADLOCALALLOCBUFFER_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.hpp"
-#include "oops/typeArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 

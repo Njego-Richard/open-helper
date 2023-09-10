@@ -27,7 +27,7 @@
 
 #include "logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/array.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/array.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/resourceHash.hpp"

@@ -29,7 +29,7 @@
 #ifdef MACOSX
 #include <dlfcn.h>
 #endif
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "J2D_GL/gl.h"
 #include "J2D_GL/glext.h"
 #include "OGLFuncMacros.h"

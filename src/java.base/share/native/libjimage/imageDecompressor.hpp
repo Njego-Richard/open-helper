@@ -37,7 +37,7 @@
 
 #include "imageFile.hpp"
 #include "inttypes.hpp"
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 /*
  * Compressed resources located in image have an header.

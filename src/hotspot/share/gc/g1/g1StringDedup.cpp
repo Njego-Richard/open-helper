@@ -33,7 +33,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupQueue.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupThread.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 void G1StringDedup::initialize() {

@@ -26,7 +26,7 @@
 #define SHARE_VM_CODE_DEPENDENCYCONTEXT_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"

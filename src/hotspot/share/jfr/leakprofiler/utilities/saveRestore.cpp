@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/classLoaderData.hpp"
 #include "jfr/leakprofiler/utilities/saveRestore.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 MarkOopContext::MarkOopContext() : _obj(NULL), _mark_oop(NULL) {}
 

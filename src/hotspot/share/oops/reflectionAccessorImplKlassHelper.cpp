@@ -26,7 +26,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/reflectionAccessorImplKlassHelper.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/reflectionAccessorImplKlassHelper.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/constantTag.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"

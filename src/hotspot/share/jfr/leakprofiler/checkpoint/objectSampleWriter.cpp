@@ -35,8 +35,8 @@
 #include "jfr/leakprofiler/utilities/unifiedOop.hpp"
 #include "jfr/metadata/jfrSerializer.hpp"
 #include "jfr/writers/jfrTypeWriterHost.hpp"
-#include "oops/oop.inline.hpp"
-#include "oops/symbol.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 template <typename Data>

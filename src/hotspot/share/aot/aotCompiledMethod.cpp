@@ -34,7 +34,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "jvmci/compilerRuntime.hpp"
 #include "jvmci/jvmciRuntime.hpp"
-#include "oops/method.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"

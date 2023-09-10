@@ -24,9 +24,9 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
-#include "oops/instanceKlass.hpp"
-#include "oops/method.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "prims/privilegedStack.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe.inline.hpp"

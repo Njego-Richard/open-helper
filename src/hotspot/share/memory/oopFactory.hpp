@@ -29,9 +29,9 @@
 #include "classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/referenceType.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "oops/objArrayKlass.hpp"
-#include "oops/oop.hpp"
-#include "oops/typeArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // oopFactory is a class used for creating new objects.

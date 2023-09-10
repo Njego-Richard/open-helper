@@ -27,7 +27,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1InCSetState.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
-#include "oops/markOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/markOop.hpp"
 
 class HeapRegion;
 class G1CollectedHeap;

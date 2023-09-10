@@ -26,7 +26,7 @@
 #define SHARE_VM_OOPS_ARRAYKLASS_INLINE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
-#include "oops/arrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayKlass.hpp"
 
 inline Klass* ArrayKlass::higher_dimension_acquire() const {
   return OrderAccess::load_acquire(&_higher_dimension);

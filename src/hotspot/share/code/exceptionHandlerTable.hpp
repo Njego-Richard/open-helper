@@ -26,7 +26,7 @@
 #define SHARE_VM_CODE_EXCEPTIONHANDLERTABLE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // A HandlerTableEntry describes an individual entry of a subtable

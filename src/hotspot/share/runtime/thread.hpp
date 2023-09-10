@@ -26,11 +26,11 @@
 #ifndef SHARE_VM_RUNTIME_THREAD_HPP
 #define SHARE_VM_RUNTIME_THREAD_HPP
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcThreadLocalData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/threadLocalAllocBuffer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "prims/jvmtiExport.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"

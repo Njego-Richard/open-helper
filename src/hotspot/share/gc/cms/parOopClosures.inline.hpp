@@ -32,9 +32,9 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genOopClosures.inline.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 template <class T> inline void ParScanWeakRefClosure::do_oop_work(T* p) {
   oop obj = RawAccess<IS_NOT_NULL>::oop_load(p);

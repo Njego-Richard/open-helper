@@ -30,7 +30,7 @@
 #include "code/icBuffer.hpp"
 #include "code/vtableStubs.hpp"
 #include "interpreter/interpreter.hpp"
-#include "oops/compiledICHolder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compiledICHolder.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframeArray.hpp"

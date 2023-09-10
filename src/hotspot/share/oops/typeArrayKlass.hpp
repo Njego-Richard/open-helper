@@ -26,7 +26,7 @@
 #define SHARE_VM_OOPS_TYPEARRAYKLASS_HPP
 
 #include "classfile/classLoaderData.hpp"
-#include "oops/arrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayKlass.hpp"
 
 // A TypeArrayKlass is the klass of a typeArray
 // It contains the type and size of the elements

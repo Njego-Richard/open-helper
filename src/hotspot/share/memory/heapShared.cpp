@@ -35,8 +35,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceClosure.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 

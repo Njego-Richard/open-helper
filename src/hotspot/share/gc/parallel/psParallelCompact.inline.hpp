@@ -29,10 +29,10 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parMarkBitMap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psParallelCompact.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/klass.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 inline bool PSParallelCompact::is_marked(oop obj) {
   return mark_bitmap()->is_marked(obj);

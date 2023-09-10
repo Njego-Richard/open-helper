@@ -31,11 +31,11 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceClosure.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "oops/arrayKlass.hpp"
-#include "oops/arrayOop.hpp"
-#include "oops/instanceKlass.hpp"
-#include "oops/objArrayOop.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 int ArrayKlass::static_size(int header_size) {

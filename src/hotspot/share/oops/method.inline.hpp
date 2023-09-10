@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_METHOD_INLINE_HPP
 #define SHARE_VM_OOPS_METHOD_INLINE_HPP
 
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 inline address Method::from_compiled_entry() const {

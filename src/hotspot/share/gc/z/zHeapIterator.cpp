@@ -29,7 +29,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zRootsIterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.inline.hpp"
 

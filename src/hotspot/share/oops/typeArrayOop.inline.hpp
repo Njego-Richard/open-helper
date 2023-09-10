@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OOPS_TYPEARRAYOOP_INLINE_HPP
 #define SHARE_VM_OOPS_TYPEARRAYOOP_INLINE_HPP
 
-#include "oops/access.inline.hpp"
-#include "oops/oop.inline.hpp"
-#include "oops/arrayOop.inline.hpp"
-#include "oops/typeArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.hpp"
 
 int typeArrayOopDesc::object_size() {
   TypeArrayKlass* tk = TypeArrayKlass::cast(klass());

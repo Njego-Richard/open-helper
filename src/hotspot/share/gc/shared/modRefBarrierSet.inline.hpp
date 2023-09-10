@@ -27,10 +27,10 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/modRefBarrierSet.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/klass.inline.hpp"
-#include "oops/objArrayOop.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 
 // count is number of array elements being written
 void ModRefBarrierSet::write_ref_array(HeapWord* start, size_t count) {

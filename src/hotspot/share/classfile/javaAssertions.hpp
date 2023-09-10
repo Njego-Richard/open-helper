@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_JAVAASSERTIONS_HPP
 #define SHARE_VM_CLASSFILE_JAVAASSERTIONS_HPP
 
-#include "oops/objArrayOop.hpp"
-#include "oops/typeArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 

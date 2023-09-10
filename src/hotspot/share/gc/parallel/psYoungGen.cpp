@@ -31,7 +31,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/spaceDecorator.hpp"
 #include "logging/log.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 

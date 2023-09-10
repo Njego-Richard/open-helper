@@ -30,7 +30,7 @@
 #ifndef JDWPTRANSPORT_H
 #define JDWPTRANSPORT_H
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 enum {
     JDWPTRANSPORT_VERSION_1_0 = 0x00010000,

@@ -28,7 +28,7 @@
 #include "code/debugInfo.hpp"
 #include "code/debugInfoRec.hpp"
 #include "code/location.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stackValue.hpp"

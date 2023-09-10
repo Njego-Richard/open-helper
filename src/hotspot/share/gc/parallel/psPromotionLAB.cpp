@@ -26,7 +26,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psPromotionLAB.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 size_t PSPromotionLAB::filler_header_size;
 

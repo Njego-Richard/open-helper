@@ -23,7 +23,7 @@
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceClosure.hpp"
-#include "oops/methodCounters.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodCounters.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 MethodCounters* MethodCounters::allocate(const methodHandle& mh, TRAPS) {

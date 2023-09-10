@@ -34,12 +34,12 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.inline.hpp"
 #include "logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.inline.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/instanceKlass.inline.hpp"
-#include "oops/instanceMirrorKlass.inline.hpp"
-#include "oops/objArrayKlass.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceMirrorKlass.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 PSOldGen*            ParCompactionManager::_old_gen = NULL;

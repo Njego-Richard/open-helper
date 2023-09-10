@@ -26,7 +26,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahAsserts.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahClosures.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.inline.hpp"
-#include "oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 ShenandoahForwardedIsAliveClosure::ShenandoahForwardedIsAliveClosure() :

@@ -1,4 +1,4 @@
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 JNIEXPORT void JNICALL JavaCritical_compiler_runtime_criticalnatives_lookup_LookUp_m1
   (jbyte a1, jlong a2, jchar a3, jint a4, jfloat a5, jdouble a6, jint result_length, jbyte* result) {
   jint l1 = (jint) a5;

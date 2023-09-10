@@ -31,7 +31,7 @@
 #ifndef IMAGE_GLOBALS_H
 #define IMAGE_GLOBALS_H
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 /* Image Conversion function return codes. */
 #define SCALEFAILURE    -1

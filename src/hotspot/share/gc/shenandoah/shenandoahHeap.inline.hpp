@@ -40,7 +40,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahControlThread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahMarkingContext.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahThreadLocalData.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.hpp"

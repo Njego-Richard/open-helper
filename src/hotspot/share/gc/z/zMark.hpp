@@ -26,7 +26,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMarkStack.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zMarkTerminate.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class Thread;

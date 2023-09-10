@@ -26,14 +26,14 @@
 #define SHARE_VM_RUNTIME_ATOMIC_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "metaprogramming/conditional.hpp"
-#include "metaprogramming/enableIf.hpp"
-#include "metaprogramming/isIntegral.hpp"
-#include "metaprogramming/isPointer.hpp"
-#include "metaprogramming/isSame.hpp"
-#include "metaprogramming/primitiveConversions.hpp"
-#include "metaprogramming/removeCV.hpp"
-#include "metaprogramming/removePointer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/conditional.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/enableIf.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/isIntegral.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/isPointer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/isSame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/primitiveConversions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/removeCV.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/removePointer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

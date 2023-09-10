@@ -26,8 +26,8 @@
 #define SHARE_VM_OOPS_KLASS_INLINE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "oops/klass.hpp"
-#include "oops/markOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/markOop.hpp"
 
 inline void Klass::set_prototype_header(markOop header) {
   assert(!header->has_bias_pattern() || is_instance_klass(), "biased locking currently only supported for Java instances");

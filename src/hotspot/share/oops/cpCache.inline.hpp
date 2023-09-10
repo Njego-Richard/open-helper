@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OOPS_CPCACHEOOP_INLINE_HPP
 #define SHARE_VM_OOPS_CPCACHEOOP_INLINE_HPP
 
-#include "oops/cpCache.hpp"
-#include "oops/oopHandle.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/cpCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopHandle.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 inline int ConstantPoolCacheEntry::indices_ord() const { return OrderAccess::load_acquire(&_indices); }

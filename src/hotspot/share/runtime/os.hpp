@@ -27,8 +27,8 @@
 
 #include "jvm.h"
 #include "jvmtifiles/jvmti.h"
-#include "metaprogramming/isRegisteredEnum.hpp"
-#include "metaprogramming/integralConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/isRegisteredEnum.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/integralConstant.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/extendedPC.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"

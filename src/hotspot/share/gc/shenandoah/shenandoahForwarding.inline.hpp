@@ -26,7 +26,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahAsserts.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahForwarding.hpp"
-#include "oops/markOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/markOop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 inline HeapWord* ShenandoahForwarding::get_forwardee_raw(oop obj) {

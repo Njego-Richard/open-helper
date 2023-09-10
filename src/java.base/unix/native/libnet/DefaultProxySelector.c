@@ -28,7 +28,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
 #include "jvm.h"
 #include "jvm_md.h"

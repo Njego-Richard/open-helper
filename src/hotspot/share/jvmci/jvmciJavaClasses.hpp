@@ -25,9 +25,9 @@
 #define SHARE_VM_JVMCI_JVMCIJAVACLASSES_HPP
 
 #include "classfile/systemDictionary.hpp"
-#include "oops/access.hpp"
-#include "oops/instanceMirrorKlass.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceMirrorKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 
 class JVMCIJavaClasses : AllStatic {
  public:

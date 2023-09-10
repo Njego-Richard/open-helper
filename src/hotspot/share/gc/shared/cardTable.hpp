@@ -27,7 +27,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 class CardTable: public CHeapObj<mtGC> {

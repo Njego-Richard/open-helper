@@ -29,7 +29,7 @@
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/init.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"

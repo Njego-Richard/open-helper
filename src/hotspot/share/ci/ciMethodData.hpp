@@ -29,8 +29,8 @@
 #include "ci/ciKlass.hpp"
 #include "ci/ciObject.hpp"
 #include "ci/ciUtilities.hpp"
-#include "oops/methodData.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 
 class ciBitData;

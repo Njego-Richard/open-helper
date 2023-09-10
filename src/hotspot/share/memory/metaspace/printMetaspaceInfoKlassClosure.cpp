@@ -27,7 +27,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/printMetaspaceInfoKlassClosure.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/reflectionAccessorImplKlassHelper.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/reflectionAccessorImplKlassHelper.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 

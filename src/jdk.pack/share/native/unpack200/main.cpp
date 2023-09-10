@@ -45,7 +45,7 @@
 #define THREAD_SELF ((THRTYPE)pthread_self())
 #endif
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "defines.h"
 #include "bytes.h"
 #include "utils.h"

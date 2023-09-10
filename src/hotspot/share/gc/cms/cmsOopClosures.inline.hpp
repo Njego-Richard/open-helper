@@ -28,9 +28,9 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsOopClosures.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.inline.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 // MetadataVisitingOopIterateClosure and MetadataVisitingOopsInGenClosure are duplicated,
 // until we get rid of OopsInGenClosure.

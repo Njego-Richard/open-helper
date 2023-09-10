@@ -26,7 +26,7 @@
 #define SHARE_VM_GC_PARALLEL_PARMARKBITMAP_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
 
 class ParMarkBitMapClosure;

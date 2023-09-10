@@ -26,7 +26,7 @@
 
 #include "asm/macroAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetAssembler.hpp"
-#include "oops/accessDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessDecorators.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

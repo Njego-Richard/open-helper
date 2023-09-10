@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_METAPROGRAMMING_ISSAME_HPP
 #define SHARE_VM_METAPROGRAMMING_ISSAME_HPP
 
-#include "metaprogramming/integralConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/integralConstant.hpp"
 
 // This trait returns true iff the two types X and Y are the same
 

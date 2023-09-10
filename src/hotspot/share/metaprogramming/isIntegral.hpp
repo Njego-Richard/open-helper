@@ -26,9 +26,9 @@
 #ifndef SHARE_VM_METAPROGRAMMING_ISINTEGRAL_HPP
 #define SHARE_VM_METAPROGRAMMING_ISINTEGRAL_HPP
 
-#include "metaprogramming/integralConstant.hpp"
-#include "metaprogramming/isSigned.hpp"
-#include "metaprogramming/removeCV.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/integralConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/isSigned.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/removeCV.hpp"
 #include <limits>
 
 // This metafunction returns true iff the type T (irrespective of CV qualifiers)

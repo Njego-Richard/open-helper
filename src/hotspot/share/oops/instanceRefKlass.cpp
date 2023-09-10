@@ -25,8 +25,8 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/javaClasses.hpp"
 #include "classfile/systemDictionary.hpp"
-#include "oops/instanceRefKlass.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceRefKlass.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 void InstanceRefKlass::update_nonstatic_oop_maps(Klass* k) {
   // Clear the nonstatic oop-map entries corresponding to referent

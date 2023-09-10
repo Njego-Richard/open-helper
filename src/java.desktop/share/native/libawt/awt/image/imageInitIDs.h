@@ -26,7 +26,7 @@
 #ifndef IMAGEINITIDS_H
 #define IMAGEINITIDS_H
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 #ifndef IMGEXTERN
 # define IMGEXTERN extern

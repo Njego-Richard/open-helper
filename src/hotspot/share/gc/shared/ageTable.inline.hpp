@@ -26,7 +26,7 @@
 #define SHARE_VM_GC_SHARED_AGETABLE_INLINE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/ageTable.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 // add entry
 void AgeTable::add(oop p, size_t oop_size) {

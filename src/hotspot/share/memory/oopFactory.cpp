@@ -31,11 +31,11 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "oops/instanceKlass.hpp"
-#include "oops/instanceOop.hpp"
-#include "oops/objArrayOop.hpp"
-#include "oops/oop.inline.hpp"
-#include "oops/typeArrayOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 

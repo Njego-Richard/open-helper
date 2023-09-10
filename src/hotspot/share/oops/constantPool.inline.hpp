@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OOPS_CONSTANTPOOL_INLINE_HPP
 #define SHARE_VM_OOPS_CONSTANTPOOL_INLINE_HPP
 
-#include "oops/constantPool.hpp"
-#include "oops/cpCache.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constantPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/cpCache.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 inline CPSlot ConstantPool::slot_at(int which) const {

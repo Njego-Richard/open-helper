@@ -26,8 +26,8 @@
 #define SHARE_VM_GC_SHARED_REFERENCEPROCESSOR_INLINE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessor.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 
 oop DiscoveredList::head() const {
   return UseCompressedOops ?  CompressedOops::decode(_compressed_head) :

@@ -26,9 +26,9 @@
 #include "asm/macroAssembler.hpp"
 #include "code/relocInfo.hpp"
 #include "nativeInst_x86.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/klass.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointMechanism.hpp"
 

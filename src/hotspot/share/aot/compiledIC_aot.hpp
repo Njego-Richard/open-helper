@@ -27,7 +27,7 @@
 #include "code/compiledIC.hpp"
 #include "code/nativeInst.hpp"
 #include "interpreter/linkResolver.hpp"
-#include "oops/compiledICHolder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compiledICHolder.hpp"
 
 class CompiledPltStaticCall: public CompiledStaticCall {
   friend class CompiledIC;

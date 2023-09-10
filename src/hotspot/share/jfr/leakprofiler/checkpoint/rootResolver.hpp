@@ -27,7 +27,7 @@
 
 #include "jfr/leakprofiler/utilities/rootType.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 
 struct RootCallbackInfo {
   const void* _high;

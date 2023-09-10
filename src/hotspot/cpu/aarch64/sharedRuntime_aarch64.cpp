@@ -34,7 +34,7 @@
 #include "interpreter/interp_masm.hpp"
 #include "logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/compiledICHolder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compiledICHolder.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointMechanism.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframeArray.hpp"

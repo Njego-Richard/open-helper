@@ -26,7 +26,7 @@
 #include "compiler/methodMatcher.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 // The JVM specification defines the allowed characters.
 // Tokens that are disallowed by the JVM specification can have

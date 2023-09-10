@@ -41,9 +41,9 @@
 #include "interpreter/oopMapCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/generateOopMap.hpp"
-#include "oops/method.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/generateOopMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "prims/nativeLookup.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
@@ -51,7 +51,7 @@
 #ifdef COMPILER2
 #include "ci/bcEscapeAnalyzer.hpp"
 #include "ci/ciTypeFlow.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #endif
 
 // ciMethod

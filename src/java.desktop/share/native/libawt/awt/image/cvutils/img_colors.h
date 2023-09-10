@@ -23,7 +23,7 @@
  * questions.
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 JNIEXPORT void JNICALL
 img_makePalette(int cmapsize, int tablesize, int lookupsize,

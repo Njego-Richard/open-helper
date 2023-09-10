@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OOPS_TYPEARRAYOOP_HPP
 #define SHARE_VM_OOPS_TYPEARRAYOOP_HPP
 
-#include "oops/arrayOop.hpp"
-#include "oops/typeArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayKlass.hpp"
 
 // A typeArrayOop is an array containing basic types (non oop elements).
 // It is used for arrays of {characters, singles, doubles, bytes, shorts, integers, longs}

@@ -26,8 +26,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/klass.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 class CompilerRuntime : AllStatic {

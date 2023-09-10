@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_GLOBALDEFINITIONS_VISCPP_HPP
 #define SHARE_VM_UTILITIES_GLOBALDEFINITIONS_VISCPP_HPP
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 // This file holds compiler-dependent includes,
 // globally used constants & types, class (forward)

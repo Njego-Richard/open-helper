@@ -28,7 +28,7 @@
 #include "aot/aotLoader.inline.hpp"
 #include "jvmci/jvmciRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timerTrace.hpp"

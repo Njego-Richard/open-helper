@@ -26,7 +26,7 @@
 #define SHARE_VM_GC_SHARED_CMBITMAP_INLINE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/markBitMap.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 

@@ -28,7 +28,7 @@
 #include "ci/ciUtilities.inline.hpp"
 #include "classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 ciType* ciType::_basic_types[T_CONFLICT+1];
 

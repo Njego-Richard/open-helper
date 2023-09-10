@@ -30,7 +30,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectorCounters.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTrace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 class GCTaskManager;

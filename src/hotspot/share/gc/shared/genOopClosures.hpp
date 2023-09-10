@@ -26,7 +26,7 @@
 #define SHARE_VM_GC_SHARED_GENOOPCLOSURES_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 
 class Generation;
 class HeapWord;

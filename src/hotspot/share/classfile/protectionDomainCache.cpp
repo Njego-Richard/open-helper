@@ -29,8 +29,8 @@
 #include "logging/logStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/oop.inline.hpp"
-#include "oops/weakHandle.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/weakHandle.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.inline.hpp"
 
 unsigned int ProtectionDomainCacheTable::compute_hash(Handle protection_domain) {

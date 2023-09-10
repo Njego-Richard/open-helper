@@ -23,7 +23,7 @@
  * questions.
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "awt_Mlib.h"
 #include "java_awt_image_BufferedImage.h"
 

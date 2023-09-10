@@ -28,7 +28,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jdwpTransport.h"
 #include "sysSocket.h"
 

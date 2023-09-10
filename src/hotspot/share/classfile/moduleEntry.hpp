@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_CLASSFILE_MODULEENTRY_HPP
 #define SHARE_VM_CLASSFILE_MODULEENTRY_HPP
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "classfile/classLoaderData.hpp"
 #include "classfile/vmSymbols.hpp"
-#include "oops/oopHandle.hpp"
-#include "oops/symbol.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopHandle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"

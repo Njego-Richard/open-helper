@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_WRITERS_JFRWRITERHOST_HPP
 #define SHARE_VM_JFR_WRITERS_JFRWRITERHOST_HPP
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "jfr/utilities/jfrTime.hpp"
 

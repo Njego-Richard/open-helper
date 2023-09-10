@@ -45,7 +45,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/filemap.hpp"
 #include "misc_aix.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "os_aix.inline.hpp"
 #include "os_share_aix.hpp"
 #include "porting_aix.hpp"

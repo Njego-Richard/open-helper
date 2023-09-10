@@ -26,7 +26,7 @@
 #define SHARE_GC_CMS_PROMOTIONINFO_INLINE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/promotionInfo.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

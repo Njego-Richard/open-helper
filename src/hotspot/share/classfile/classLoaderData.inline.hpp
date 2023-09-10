@@ -27,9 +27,9 @@
 
 #include "classfile/classLoaderData.hpp"
 #include "classfile/javaClasses.hpp"
-#include "oops/oop.inline.hpp"
-#include "oops/oopHandle.inline.hpp"
-#include "oops/weakHandle.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopHandle.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/weakHandle.inline.hpp"
 
 inline oop ClassLoaderData::class_loader() const {
   assert(!_unloading, "This oop is not available to unloading class loader data");

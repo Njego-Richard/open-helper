@@ -26,7 +26,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBitField.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "metaprogramming/primitiveConversions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/primitiveConversions.hpp"
 
 //
 // Forwarding table entry layout

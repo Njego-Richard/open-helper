@@ -31,7 +31,7 @@
 #include <unistd.h>
 #include <sys/mman.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 /*
  * Throws an exception with the given class name and detail message

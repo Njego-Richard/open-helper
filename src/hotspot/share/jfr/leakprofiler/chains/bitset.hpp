@@ -26,7 +26,7 @@
 #define SHARE_VM_JFR_LEAKPROFILER_CHAINS_BITSET_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 
 class JfrVirtualMemory;

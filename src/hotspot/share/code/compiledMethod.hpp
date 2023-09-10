@@ -27,7 +27,7 @@
 
 #include "code/codeBlob.hpp"
 #include "code/pcDesc.hpp"
-#include "oops/metadata.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
 
 class Dependencies;
 class ExceptionHandlerTable;

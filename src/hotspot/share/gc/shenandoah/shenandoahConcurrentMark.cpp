@@ -48,7 +48,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 template<UpdateRefsMode UPDATE_REFS>
 class ShenandoahInitMarkRootsClosure : public OopClosure {

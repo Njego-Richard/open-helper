@@ -31,8 +31,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupThread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/suspendibleThreadSet.hpp"
 #include "logging/log.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 StringDedupThread* StringDedupThread::_thread = NULL;

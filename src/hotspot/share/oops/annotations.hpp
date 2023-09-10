@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OOPS_ANNOTATIONS_HPP
 #define SHARE_VM_OOPS_ANNOTATIONS_HPP
 
-#include "oops/array.hpp"
-#include "oops/metadata.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/array.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 

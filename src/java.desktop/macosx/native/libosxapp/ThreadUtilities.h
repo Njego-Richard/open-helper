@@ -26,7 +26,7 @@
 #ifndef __THREADUTILITIES_H
 #define __THREADUTILITIES_H
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 #import <pthread.h>
 

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_RUNTIME_ACCESSBACKEND_INLINE_HPP
 #define SHARE_VM_RUNTIME_ACCESSBACKEND_INLINE_HPP
 
-#include "oops/access.hpp"
-#include "oops/accessBackend.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessBackend.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 
 template <DecoratorSet decorators>
 template <DecoratorSet idecorators, typename T>

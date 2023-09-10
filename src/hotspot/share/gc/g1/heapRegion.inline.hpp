@@ -30,7 +30,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ConcurrentMarkBitMap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/prefetch.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"

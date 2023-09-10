@@ -28,9 +28,9 @@
 #include "ci/ciConstant.hpp"
 #include "ci/ciKlass.hpp"
 #include "ci/ciUtilities.inline.hpp"
-#include "oops/objArrayOop.inline.hpp"
-#include "oops/oop.inline.hpp"
-#include "oops/typeArrayOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.inline.hpp"
 
 // ciArray
 //

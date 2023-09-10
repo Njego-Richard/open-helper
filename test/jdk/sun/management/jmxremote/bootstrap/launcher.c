@@ -29,7 +29,7 @@
 #include <strings.h>
 #include <dlfcn.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 typedef jint (*create_vm_func)(JavaVM **, void**, void*);
 

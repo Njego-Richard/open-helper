@@ -50,7 +50,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/spaceDecorator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/weakProcessor.hpp"
 #include "logging/log.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/biasedLocking.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/flagSetting.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"

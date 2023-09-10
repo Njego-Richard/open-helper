@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_C1_C1_DECORATORS_HPP
 #define SHARE_VM_C1_C1_DECORATORS_HPP
 
-#include "oops/accessDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessDecorators.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // Use the C1_NEEDS_PATCHING decorator for situations when the access is using

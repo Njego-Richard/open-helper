@@ -32,7 +32,7 @@
 #include "code/dependencies.hpp"
 #include "code/exceptionHandlerTable.hpp"
 #include "compiler/oopMap.hpp"
-#include "oops/methodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 class CompileTask;

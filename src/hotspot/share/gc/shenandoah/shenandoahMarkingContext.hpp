@@ -27,7 +27,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/markBitMap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 
 class HeapWord;
 

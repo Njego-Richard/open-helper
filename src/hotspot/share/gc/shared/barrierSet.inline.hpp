@@ -25,11 +25,11 @@
 #define SHARE_VM_GC_SHARED_BARRIERSET_INLINE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
-#include "oops/accessDecorators.hpp"
-#include "oops/arrayOop.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/objArrayOop.inline.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 
 template <DecoratorSet decorators, typename BarrierSetT>
 template <typename T>

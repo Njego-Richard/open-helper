@@ -27,7 +27,7 @@
 
 #include "sun_java2d_opengl_WGLSurfaceData.h"
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jlong.h"
 #include "jni_util.h"
 #include "sizecalc.h"

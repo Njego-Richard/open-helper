@@ -27,8 +27,8 @@
 
 #include "interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/array.hpp"
-#include "oops/oopHandle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/array.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopHandle.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/constantTag.hpp"
 

@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "oops/metadata.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "prims/jvmtiRedefineClasses.hpp"

@@ -26,7 +26,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zAddress.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOop.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 
 inline oop ZOop::to_oop(uintptr_t value) {
   return cast_to_oop(value);

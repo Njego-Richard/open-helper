@@ -26,7 +26,7 @@
 #ifndef D3DVERTEXCACHER_H
 #define D3DVERTEXCACHER_H
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "D3DContext.h"
 
 #define MAX_BATCH_SIZE 1024

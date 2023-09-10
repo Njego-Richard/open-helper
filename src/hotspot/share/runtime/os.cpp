@@ -42,7 +42,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/guardedMemory.hpp"
 #endif
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "prims/jvm_misc.hpp"
 #include "prims/privilegedStack.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"

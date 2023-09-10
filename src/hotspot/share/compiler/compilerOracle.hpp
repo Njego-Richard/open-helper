@@ -26,7 +26,7 @@
 #define SHARE_VM_COMPILER_COMPILERORACLE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 
 // CompilerOracle is an interface for turning on and off compilation
 // for some methods

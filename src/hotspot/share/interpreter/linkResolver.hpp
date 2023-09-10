@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_INTERPRETER_LINKRESOLVER_HPP
 #define SHARE_VM_INTERPRETER_LINKRESOLVER_HPP
 
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 
 // All the necessary definitions for run-time link resolution.
 

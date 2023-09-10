@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_REFLECTION_HPP
 #define SHARE_VM_RUNTIME_REFLECTION_HPP
 
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"

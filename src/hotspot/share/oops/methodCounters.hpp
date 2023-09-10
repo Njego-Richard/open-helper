@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_METHODCOUNTERS_HPP
 #define SHARE_VM_OOPS_METHODCOUNTERS_HPP
 
-#include "oops/metadata.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
 #include "compiler/compilerDefinitions.hpp"
 #include "compiler/compilerOracle.hpp"
 #include "interpreter/invocationCounter.hpp"

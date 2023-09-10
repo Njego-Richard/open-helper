@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_BASICLOCK_HPP
 #define SHARE_VM_RUNTIME_BASICLOCK_HPP
 
-#include "oops/markOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/markOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 
 class BasicLock {

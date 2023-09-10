@@ -26,7 +26,7 @@
 #include "classfile/classLoaderData.hpp"
 #include "jfr/jfrEvents.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceTracer.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 void MetaspaceTracer::report_gc_threshold(size_t old_val,
                                           size_t new_val,

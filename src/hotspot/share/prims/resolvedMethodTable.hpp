@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_PRIMS_RESOLVEDMETHOD_HPP
 #define SHARE_VM_PRIMS_RESOLVEDMETHOD_HPP
 
-#include "oops/symbol.hpp"
-#include "oops/weakHandle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/weakHandle.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 // Hashtable to record Method* used in ResolvedMethods, via. ResolvedMethod oops.

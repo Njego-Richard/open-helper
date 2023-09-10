@@ -35,7 +35,7 @@
 
 #ifndef IDE_STANDALONE
 #include "java.h"
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jli_util.h"
 #else /* IDE_STANDALONE */
 // The defines we need for stand alone testing

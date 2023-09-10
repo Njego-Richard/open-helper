@@ -28,9 +28,9 @@
 #include "classfile/classLoaderData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
-#include "oops/metadata.hpp"
-#include "oops/oop.hpp"
-#include "oops/oopHandle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopHandle.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_JFR

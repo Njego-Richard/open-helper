@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CLASSFILE_SYSTEMDICTIONARYSHARED_HPP
 #define SHARE_VM_CLASSFILE_SYSTEMDICTIONARYSHARED_HPP
 
-#include "oops/klass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
 #include "classfile/dictionary.hpp"
 #include "classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/filemap.hpp"

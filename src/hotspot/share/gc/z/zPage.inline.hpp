@@ -34,7 +34,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPhysicalMemory.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zVirtualMemory.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"

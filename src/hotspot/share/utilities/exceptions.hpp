@@ -26,7 +26,7 @@
 #define SHARE_VM_UTILITIES_EXCEPTIONS_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/sizes.hpp"
 

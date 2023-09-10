@@ -33,8 +33,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psScavenge.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/taskqueue.inline.hpp"
 #include "logging/log.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 inline PSPromotionManager* PSPromotionManager::manager_array(uint index) {
   assert(_manager_array != NULL, "access of NULL manager_array");

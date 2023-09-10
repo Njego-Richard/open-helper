@@ -29,7 +29,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahEvacOOMHandler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
-#include "oops/access.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.hpp"
 
 template <bool HAS_FWD, bool EVAC, bool ENQUEUE>
 class ShenandoahUpdateRefsForOopClosure: public BasicOopIterateClosure {

@@ -27,7 +27,7 @@
 #include <string.h>
 #include "Sctp.h"
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "nio_util.h"
 #include "nio.h"
 #include "net_util.h"

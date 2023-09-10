@@ -23,7 +23,7 @@
  * questions.
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jvm.h"
 #include "java_lang_reflect_Field.h"
 

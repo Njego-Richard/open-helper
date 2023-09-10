@@ -27,7 +27,7 @@
 
 #include "classfile/systemDictionary.hpp"
 #include "jvmtifiles/jvmti.h"
-#include "oops/objArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.hpp"
 #include "prims/jvmtiEnvThreadState.hpp"
 #include "prims/jvmtiEventController.hpp"
 #include "prims/jvmtiTrace.hpp"

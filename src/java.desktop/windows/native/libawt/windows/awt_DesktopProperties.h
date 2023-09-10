@@ -27,7 +27,7 @@
 #define AWT_DESKTOP_PROPERTIES_H
 
 #include "awt.h"
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 class AwtDesktopProperties {
     public:

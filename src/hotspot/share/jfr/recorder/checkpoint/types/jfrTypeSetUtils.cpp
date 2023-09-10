@@ -24,9 +24,9 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/recorder/checkpoint/types/jfrTypeSetUtils.hpp"
-#include "oops/instanceKlass.hpp"
-#include "oops/oop.inline.hpp"
-#include "oops/symbol.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 
 static JfrSymbolId::CStringEntry* bootstrap = NULL;
 

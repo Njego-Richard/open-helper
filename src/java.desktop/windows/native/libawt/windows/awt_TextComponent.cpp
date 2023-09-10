@@ -29,7 +29,7 @@
 #include "awt_TextField.h"
 #include "awt_Canvas.h"
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "awt_Font.h"
 
 

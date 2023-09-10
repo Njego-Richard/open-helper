@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_FRAME_HPP
 #define SHARE_VM_RUNTIME_FRAME_HPP
 
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/basicLock.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/monitorChunk.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/registerMap.hpp"

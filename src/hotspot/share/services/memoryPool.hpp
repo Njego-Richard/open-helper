@@ -26,7 +26,7 @@
 #define SHARE_VM_SERVICES_MEMORYPOOL_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heap.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "services/memoryUsage.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

@@ -32,7 +32,7 @@
 
 #include "defines.h"
 #include "jli_util.h"
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 #ifdef _MSC_VER
 #if _MSC_VER > 1400 && _MSC_VER < 1600

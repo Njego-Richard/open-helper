@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_OBJARRAYOOP_HPP
 #define SHARE_VM_OOPS_OBJARRAYOOP_HPP
 
-#include "oops/arrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 class Klass;

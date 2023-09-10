@@ -28,7 +28,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zOopClosures.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 

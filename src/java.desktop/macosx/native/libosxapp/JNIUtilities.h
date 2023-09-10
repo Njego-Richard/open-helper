@@ -26,7 +26,7 @@
 #ifndef __JNIUTILITIES_H
 #define __JNIUTILITIES_H
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
 
 #import <Cocoa/Cocoa.h>

@@ -28,7 +28,7 @@
 
 #include "asm/macroAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/access.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.hpp"
 
 class InterpreterMacroAssembler;
 

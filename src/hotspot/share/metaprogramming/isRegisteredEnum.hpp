@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_METAPROGRAMMING_ISREGISTEREDENUM_HPP
 #define SHARE_VM_METAPROGRAMMING_ISREGISTEREDENUM_HPP
 
-#include "metaprogramming/integralConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/integralConstant.hpp"
 
 // Recognize registered enum types.
 // Registration is by specializing this trait.

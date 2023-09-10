@@ -28,7 +28,7 @@
 #include "jfr/jni/jfrGetAllEventClasses.hpp"
 #include "jfr/jni/jfrJavaSupport.hpp"
 #include "jfr/support/jfrEventClass.hpp"
-#include "oops/instanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"

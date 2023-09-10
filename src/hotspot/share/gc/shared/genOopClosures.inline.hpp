@@ -30,9 +30,9 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genOopClosures.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/generation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #if INCLUDE_SERIALGC
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/defNewGeneration.inline.hpp"
 #endif

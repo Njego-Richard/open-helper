@@ -29,7 +29,7 @@
 #include "ci/ciMethodBlocks.hpp"
 #include "ci/ciStreams.hpp"
 #include "interpreter/bytecode.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"

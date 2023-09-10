@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_SHENANDOAH_SHENANDOAHFORWARDING_HPP
 #define SHARE_GC_SHENANDOAH_SHENANDOAHFORWARDING_HPP
 
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class ShenandoahForwarding {

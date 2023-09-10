@@ -29,7 +29,7 @@
 #include "interpreter/bytecodeInterpreter.hpp"
 #include "interpreter/bytecodeInterpreter.inline.hpp"
 #include "interpreter/interpreter.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"

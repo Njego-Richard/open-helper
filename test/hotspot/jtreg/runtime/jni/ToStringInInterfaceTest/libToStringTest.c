@@ -25,7 +25,7 @@
  * Native test for ToStringInInterfaceTest.
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 #define checkException(env) if ((*env)->ExceptionCheck(env)) { return; }
 

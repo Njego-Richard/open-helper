@@ -27,7 +27,7 @@
 #include "logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"

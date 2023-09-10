@@ -37,7 +37,7 @@
 #include "imageDecompressor.hpp"
 #include "imageFile.hpp"
 #include "inttypes.hpp"
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "osSupport.hpp"
 
 // Map the full jimage, only with 64 bit addressing.

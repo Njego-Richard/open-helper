@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OOPS_OOPSHIERARCHY_HPP
 #define SHARE_VM_OOPS_OOPSHIERARCHY_HPP
 
-#include "metaprogramming/integralConstant.hpp"
-#include "metaprogramming/primitiveConversions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/integralConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/primitiveConversions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 

@@ -26,8 +26,8 @@
 #define SHARE_VM_METAPROGRAMMING_DECAY_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "metaprogramming/removeCV.hpp"
-#include "metaprogramming/removeReference.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/removeCV.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/removeReference.hpp"
 
 // This trait trims the type from CV qualifiers and references.
 // This trait provides a subset of the functionality of std::decay;

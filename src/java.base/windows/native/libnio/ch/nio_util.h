@@ -25,7 +25,7 @@
 
 #include <winsock2.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 /**
  * The maximum buffer size for WSASend/WSARecv. Microsoft recommendation for

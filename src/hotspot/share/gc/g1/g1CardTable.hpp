@@ -27,7 +27,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RegionToSpaceMapper.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTable.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class G1CardTable;

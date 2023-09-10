@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_ARRAY_INLINE_HPP
 #define SHARE_VM_OOPS_ARRAY_INLINE_HPP
 
-#include "oops/array.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/array.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 template <typename T>

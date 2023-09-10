@@ -26,7 +26,7 @@
 #define SHARE_VM_OOPS_ARRAYOOP_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // arrayOopDesc is the abstract baseclass for all arrays.  It doesn't

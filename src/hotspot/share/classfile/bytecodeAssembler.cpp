@@ -27,7 +27,7 @@
 #include "classfile/bytecodeAssembler.hpp"
 #include "interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
-#include "oops/constantPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constantPool.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
 

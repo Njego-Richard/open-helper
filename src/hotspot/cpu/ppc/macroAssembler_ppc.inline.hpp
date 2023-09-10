@@ -32,7 +32,7 @@
 #include "code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetAssembler.hpp"
-#include "oops/accessDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessDecorators.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointMechanism.hpp"
 
 inline bool MacroAssembler::is_ld_largeoffset(address a) {

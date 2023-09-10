@@ -30,7 +30,7 @@
 #include "interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "nativeInst_x86.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 int InlineCacheBuffer::ic_stub_code_size() {
   // Worst case, if destination is not a near call:

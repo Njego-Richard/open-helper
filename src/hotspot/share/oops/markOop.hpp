@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_MARKOOP_HPP
 #define SHARE_VM_OOPS_MARKOOP_HPP
 
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 
 // The markOop describes the header of an object.
 //

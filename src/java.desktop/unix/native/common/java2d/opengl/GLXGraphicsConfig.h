@@ -26,7 +26,7 @@
 #ifndef GLXGraphicsConfig_h_Included
 #define GLXGraphicsConfig_h_Included
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "J2D_GL/glx.h"
 #include "OGLSurfaceData.h"
 #include "OGLContext.h"

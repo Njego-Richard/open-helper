@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OOPS_FIELDINFO_HPP
 #define SHARE_VM_OOPS_FIELDINFO_HPP
 
-#include "oops/constantPool.hpp"
-#include "oops/typeArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constantPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.hpp"
 #include "classfile/vmSymbols.hpp"
 
 // This class represents the field information contained in the fields

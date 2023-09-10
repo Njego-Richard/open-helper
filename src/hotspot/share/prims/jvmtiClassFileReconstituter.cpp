@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/symbolTable.hpp"
 #include "interpreter/bytecodeStream.hpp"
-#include "oops/fieldStreams.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/fieldStreams.hpp"
 #include "prims/jvmtiClassFileReconstituter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"

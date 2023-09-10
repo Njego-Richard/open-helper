@@ -22,7 +22,7 @@
  * or visit www.oracle.com if you need additional information or have any
  * questions.
  */
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 int     DoSplashLoadMemory(void* pdata, int size); /* requires preloading the file */
 int     DoSplashLoadFile(const char* filename);

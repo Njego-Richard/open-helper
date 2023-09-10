@@ -30,7 +30,7 @@
 #include <mlib_types.h>
 #include <mlib_status.h>
 #include <mlib_image_types.h>
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #if defined ( __MEDIALIB_OLD_NAMES_ADDED )
 #include <../include/mlib_image_proto.h>
 #endif /* defined ( __MEDIALIB_OLD_NAMES_ADDED ) */

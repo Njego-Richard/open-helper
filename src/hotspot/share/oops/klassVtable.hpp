@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_KLASSVTABLE_HPP
 #define SHARE_VM_OOPS_KLASSVTABLE_HPP
 
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 

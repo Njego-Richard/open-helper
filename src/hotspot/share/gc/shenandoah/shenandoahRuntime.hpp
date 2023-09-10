@@ -25,7 +25,7 @@
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHRUNTIME_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 
 class HeapWord;
 class JavaThread;

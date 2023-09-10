@@ -26,9 +26,9 @@
 #define SHARE_VM_CLASSFILE_CLASSFILEPARSER_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/referenceType.hpp"
-#include "oops/annotations.hpp"
-#include "oops/constantPool.hpp"
-#include "oops/typeArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/annotations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constantPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
 
 class Annotations;

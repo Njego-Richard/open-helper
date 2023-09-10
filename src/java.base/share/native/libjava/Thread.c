@@ -28,7 +28,7 @@
  *      originally in threadruntime.c, Sun Sep 22 12:09:39 1991
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jvm.h"
 
 #include "java_lang_Thread.h"

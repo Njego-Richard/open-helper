@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_G1_G1CONCURRENTMARKOBJARRAYPROCESSOR_HPP
 #define SHARE_VM_GC_G1_G1CONCURRENTMARKOBJARRAYPROCESSOR_HPP
 
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 
 class G1CMTask;
 

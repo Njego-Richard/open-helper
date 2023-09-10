@@ -26,7 +26,7 @@
 #define SHARE_VM_RUNTIME_RELOCATOR_HPP
 
 #include "interpreter/bytecodes.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
 
 // This code has been converted from the 1.1E java virtual machine

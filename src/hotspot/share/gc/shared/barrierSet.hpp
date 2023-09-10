@@ -27,9 +27,9 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetConfig.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
-#include "oops/access.hpp"
-#include "oops/accessBackend.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessBackend.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/fakeRttiSupport.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

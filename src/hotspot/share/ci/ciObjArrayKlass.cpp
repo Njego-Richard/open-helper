@@ -27,7 +27,7 @@
 #include "ci/ciObjArrayKlass.hpp"
 #include "ci/ciSymbol.hpp"
 #include "ci/ciUtilities.inline.hpp"
-#include "oops/objArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.hpp"
 
 // ciObjArrayKlass
 //

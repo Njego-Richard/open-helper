@@ -28,7 +28,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepThread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/init.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"

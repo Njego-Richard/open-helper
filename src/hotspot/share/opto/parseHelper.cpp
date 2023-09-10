@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "classfile/systemDictionary.hpp"
 #include "compiler/compileLog.hpp"
-#include "oops/objArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.hpp"
 #include "opto/addnode.hpp"
 #include "opto/memnode.hpp"
 #include "opto/mulnode.hpp"

@@ -27,8 +27,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetConfig.inline.hpp"
-#include "oops/access.hpp"
-#include "oops/accessBackend.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessBackend.inline.hpp"
 
 // This file outlines the last 2 steps of the template pipeline of accesses going through
 // the Access API.

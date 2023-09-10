@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OOPS_FIELDSTREAMS_HPP
 #define SHARE_VM_OOPS_FIELDSTREAMS_HPP
 
-#include "oops/instanceKlass.hpp"
-#include "oops/fieldInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/fieldInfo.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.hpp"
 
 // The is the base class for iteration over the fields array

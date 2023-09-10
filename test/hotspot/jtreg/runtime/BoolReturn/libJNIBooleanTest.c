@@ -21,7 +21,7 @@
  * questions.
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 JNIEXPORT jboolean JNICALL
 Java_JNIBooleanTest_foo(JNIEnv *env, jclass cls, jbyte b) {

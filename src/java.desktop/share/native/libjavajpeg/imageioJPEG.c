@@ -43,7 +43,7 @@
 #include <limits.h>
 
 /* java native interface headers */
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
 
 #include "com_sun_imageio_plugins_jpeg_JPEGImageReader.h"

@@ -27,7 +27,7 @@
 #include "asm/macroAssembler.hpp"
 #include "code/relocInfo.hpp"
 #include "nativeInst_aarch64.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 
 

@@ -29,7 +29,7 @@
 #include "interpreter/templateInterpreter.hpp"
 #include "interpreter/templateInterpreterGenerator.hpp"
 #include "interpreter/templateTable.hpp"
-#include "oops/methodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"
 
 #ifndef CC_INTERP
 

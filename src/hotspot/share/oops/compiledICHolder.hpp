@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OOPS_COMPILEDICHOLDEROOP_HPP
 #define SHARE_VM_OOPS_COMPILEDICHOLDEROOP_HPP
 
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
-#include "oops/klass.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 
 // A CompiledICHolder* is a helper object for the inline cache implementation.
 // It holds:

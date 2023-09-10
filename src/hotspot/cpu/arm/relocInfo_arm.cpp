@@ -27,8 +27,8 @@
 #include "assembler_arm.inline.hpp"
 #include "code/relocInfo.hpp"
 #include "nativeInst_arm.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 

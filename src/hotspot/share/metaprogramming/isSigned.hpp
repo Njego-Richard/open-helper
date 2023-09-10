@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_METAPROGRAMMING_ISSIGNED_HPP
 #define SHARE_VM_METAPROGRAMMING_ISSIGNED_HPP
 
-#include "metaprogramming/integralConstant.hpp"
-#include "metaprogramming/removeCV.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/integralConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/removeCV.hpp"
 #include <limits>
 
 template<typename T>

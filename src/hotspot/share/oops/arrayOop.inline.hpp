@@ -25,8 +25,8 @@
 #ifndef SHARE_OOPS_ARRAYOOP_INLINE_HPP
 #define SHARE_OOPS_ARRAYOOP_INLINE_HPP
 
-#include "oops/access.inline.hpp"
-#include "oops/arrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.hpp"
 
 void* arrayOopDesc::base(BasicType type) const {
   oop resolved_obj = Access<>::resolve(as_oop());

@@ -26,7 +26,7 @@
 #include "classfile/classLoaderData.inline.hpp"
 #include "classfile/placeholders.hpp"
 #include "classfile/systemDictionary.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldType.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.inline.hpp"
 

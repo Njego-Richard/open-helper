@@ -27,7 +27,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorage.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.hpp"
-#include "metaprogramming/conditional.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/conditional.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 template<typename F>

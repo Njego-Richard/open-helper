@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_INSTANCEOOP_HPP
 #define SHARE_VM_OOPS_INSTANCEOOP_HPP
 
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 
 // An instanceOop is an instance of a Java Class
 // Evaluating "new HashTable()" will create an instanceOop.

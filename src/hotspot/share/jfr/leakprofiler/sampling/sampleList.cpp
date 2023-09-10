@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/leakprofiler/sampling/objectSample.hpp"
 #include "jfr/leakprofiler/sampling/sampleList.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 SampleList::SampleList(size_t limit, size_t cache_size) :
   _free_list(),

@@ -28,7 +28,7 @@
 #include "code/pcDesc.hpp"
 #include "jfr/periodic/sampling/jfrCallTrace.hpp"
 #include "jfr/utilities/jfrTypes.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/registerMap.hpp"

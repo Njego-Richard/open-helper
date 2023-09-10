@@ -27,8 +27,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ParScanThreadState.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RemSet.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 template <class T> void G1ParScanThreadState::do_oop_evac(T* p) {
   // Reference should not be NULL here as such are never pushed to the task queue.

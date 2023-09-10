@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_MEMORY_UNIVERSE_HPP
 #define SHARE_VM_MEMORY_UNIVERSE_HPP
 
-#include "oops/array.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/array.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 

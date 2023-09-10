@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_WEAKHANDLE_HPP
 #define SHARE_VM_OOPS_WEAKHANDLE_HPP
 
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 
 class outputStream;

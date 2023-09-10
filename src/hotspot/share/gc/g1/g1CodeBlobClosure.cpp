@@ -28,9 +28,9 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionRemSet.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 template <typename T>
 void G1CodeBlobClosure::HeapRegionGatheringOopClosure::do_oop_work(T* p) {

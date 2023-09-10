@@ -31,7 +31,7 @@
 #include "interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "nativeInst_aarch64.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 int InlineCacheBuffer::ic_stub_code_size() {
   return (MacroAssembler::far_branches() ? 6 : 4) * NativeInstruction::instruction_size;

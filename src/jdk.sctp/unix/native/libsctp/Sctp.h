@@ -32,7 +32,7 @@
 #define __EXTENSIONS__
 #include <sys/socket.h>
 #include <netinet/sctp.h>
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 /* Current Solaris headers don't comply with draft rfc */
 #ifndef SCTP_EOF
@@ -72,7 +72,7 @@ typedef int sctp_peeloff_func(int sock, sctp_assoc_t id);
 #include <linux/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 //Causes compiler error if not found, should make warning and uncomment
 /*#include <netinet/sctp.h>*/

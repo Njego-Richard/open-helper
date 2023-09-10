@@ -26,7 +26,7 @@
 #define SHARE_VM_GC_SHARED_ACCESSBARRIERSUPPORT_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/access.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.hpp"
 
 class AccessBarrierSupport: AllStatic {
 private:

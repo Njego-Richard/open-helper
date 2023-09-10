@@ -980,7 +980,7 @@ source_hpp %{
 
 source %{
 
-#include "oops/klass.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.inline.hpp"
 
 // Should the Matcher clone shifts on addressing modes, expecting them
 // to be subsumed into complex addressing expressions or compute them

@@ -28,7 +28,7 @@
  * by the image conversion package.
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "img_globals.h"
 
 #include "java_awt_image_IndexColorModel.h"

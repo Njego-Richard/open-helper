@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_INSTANCEREFKLASS_HPP
 #define SHARE_VM_OOPS_INSTANCEREFKLASS_HPP
 
-#include "oops/instanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class ClassFileParser;

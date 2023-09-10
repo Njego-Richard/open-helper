@@ -27,7 +27,7 @@
 #define CPU_S390_VM_MACROASSEMBLER_S390_HPP
 
 #include "asm/assembler.hpp"
-#include "oops/accessDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessDecorators.hpp"
 
 #define MODERN_IFUN(name)  ((void (MacroAssembler::*)(Register, int64_t, Register, Register))&MacroAssembler::name)
 #define CLASSIC_IFUN(name) ((void (MacroAssembler::*)(Register, int64_t, Register, Register))&MacroAssembler::name)

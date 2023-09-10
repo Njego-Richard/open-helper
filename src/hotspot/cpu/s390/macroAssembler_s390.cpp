@@ -34,9 +34,9 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableBarrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "oops/accessDecorators.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/klass.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.inline.hpp"
 #ifdef COMPILER2
 #include "opto/compile.hpp"
 #include "opto/intrinsicnode.hpp"

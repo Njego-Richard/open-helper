@@ -26,10 +26,10 @@
 
 #include "aot/aotCompiledMethod.hpp"
 #include "classfile/symbolTable.hpp"
-#include "metaprogramming/integralConstant.hpp"
-#include "metaprogramming/isRegisteredEnum.hpp"
-#include "oops/metadata.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/integralConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/isRegisteredEnum.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 
 enum CodeState {
   not_set = 0, // _aot fields is not set yet

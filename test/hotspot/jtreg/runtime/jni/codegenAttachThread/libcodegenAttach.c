@@ -29,7 +29,7 @@
 
 #include <string.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 #if defined(__APPLE__) && defined(__aarch64__)
 

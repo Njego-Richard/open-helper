@@ -26,7 +26,7 @@
 #include "jfr/leakprofiler/sampling/objectSample.hpp"
 #include "jfr/leakprofiler/sampling/samplePriorityQueue.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 SamplePriorityQueue::SamplePriorityQueue(size_t size) :
   _allocated_size(size),

@@ -21,7 +21,7 @@
  *
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 JNIEXPORT jlong JNICALL JavaCritical_gc_shenandoah_jni_CriticalNative_sum1
   (jint length, jlong* a) {

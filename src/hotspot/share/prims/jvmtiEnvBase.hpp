@@ -29,7 +29,7 @@
 #include "prims/jvmtiEnvThreadState.hpp"
 #include "prims/jvmtiEventController.hpp"
 #include "prims/jvmtiThreadState.hpp"
-#include "oops/oopHandle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopHandle.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"

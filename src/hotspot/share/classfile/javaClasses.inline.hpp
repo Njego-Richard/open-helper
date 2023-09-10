@@ -26,9 +26,9 @@
 #define SHARE_VM_CLASSFILE_JAVACLASSES_INLINE_HPP
 
 #include "classfile/javaClasses.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/oop.inline.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 
 void java_lang_String::set_coder(oop string, jbyte coder) {
   assert(initialized && (coder_offset > 0), "Must be initialized");

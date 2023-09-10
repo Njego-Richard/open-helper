@@ -23,7 +23,7 @@
  * questions.
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "dither.h"
 
 JNIEXPORT sgn_ordered_dither_array std_img_oda_red;

@@ -35,7 +35,7 @@
 #include "libadt/vectset.hpp"
 #include "jfr/jfrEvents.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/methodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"
 #include "opto/idealGraphPrinter.hpp"
 #include "opto/phasetype.hpp"
 #include "opto/phase.hpp"

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_G1_G1CONCURRENTMARKOBJARRAYPROCESSOR_INLINE_HPP
 #define SHARE_VM_GC_G1_G1CONCURRENTMARKOBJARRAYPROCESSOR_INLINE_HPP
 
-#include "oops/oop.inline.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 
 inline bool G1CMObjArrayProcessor::should_be_sliced(oop obj) {

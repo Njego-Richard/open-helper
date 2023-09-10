@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OOPS_OOPHANDLE_INLINE_HPP
 #define SHARE_VM_OOPS_OOPHANDLE_INLINE_HPP
 
-#include "oops/access.inline.hpp"
-#include "oops/oopHandle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopHandle.hpp"
 
 inline oop OopHandle::resolve() const {
   return (_obj == NULL) ? (oop)NULL : NativeAccess<>::oop_load(_obj);

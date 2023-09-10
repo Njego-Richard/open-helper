@@ -26,7 +26,7 @@
 #ifndef AlphaMath_h_Included
 #define AlphaMath_h_Included
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 JNIEXPORT extern unsigned char mul8table[256][256];
 JNIEXPORT extern unsigned char div8table[256][256];

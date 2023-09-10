@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_METAPROGRAMMING_ISPOINTER_HPP
 #define SHARE_VM_METAPROGRAMMING_ISPOINTER_HPP
 
-#include "metaprogramming/integralConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/integralConstant.hpp"
 
 // This metafunction returns true iff the type T is (irrespective of CV qualifiers)
 // a pointer type.

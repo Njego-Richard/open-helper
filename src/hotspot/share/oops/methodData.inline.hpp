@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_METHODDATA_INLINE_HPP
 #define SHARE_VM_OOPS_METHODDATA_INLINE_HPP
 
-#include "oops/methodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 inline void DataLayout::release_set_cell_at(int index, intptr_t value) {

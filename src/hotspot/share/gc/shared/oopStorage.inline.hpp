@@ -26,9 +26,9 @@
 #define SHARE_GC_SHARED_OOPSTORAGE_INLINE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorage.hpp"
-#include "metaprogramming/conditional.hpp"
-#include "metaprogramming/isConst.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/conditional.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/isConst.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/count_trailing_zeros.hpp"

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_RECORDER_CHECKPOINT_JFRMETADATAEVENT_HPP
 #define SHARE_VM_JFR_RECORDER_CHECKPOINT_JFRMETADATAEVENT_HPP
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class JfrChunkWriter;

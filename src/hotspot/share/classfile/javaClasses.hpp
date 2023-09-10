@@ -27,7 +27,7 @@
 
 #include "classfile/systemDictionary.hpp"
 #include "jvmtifiles/jvmti.h"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/utf8.hpp"
 

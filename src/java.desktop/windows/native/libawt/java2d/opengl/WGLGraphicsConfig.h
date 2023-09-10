@@ -26,7 +26,7 @@
 #ifndef WGLGraphicsConfig_h_Included
 #define WGLGraphicsConfig_h_Included
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "J2D_GL/gl.h"
 #include "OGLSurfaceData.h"
 #include "OGLContext.h"

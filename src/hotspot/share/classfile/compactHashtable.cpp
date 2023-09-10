@@ -30,7 +30,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heapShared.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metadataFactory.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"
-#include "oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/numberSeq.hpp"
 #include <sys/stat.h>

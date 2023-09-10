@@ -26,9 +26,9 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/compactibleFreeListSpace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/promotionInfo.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genOopClosures.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/markOop.inline.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/markOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 
 /////////////////////////////////////////////////////////////////////////
 //// PromotionInfo

@@ -26,7 +26,7 @@
 #include "classfile/metadataOnStackMark.hpp"
 #include "code/codeCache.hpp"
 #include "compiler/compileBroker.hpp"
-#include "oops/metadata.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
 #include "prims/jvmtiImpl.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/synchronizer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"

@@ -27,7 +27,7 @@
 
 #include "code/debugInfo.hpp"
 #include "code/pcDesc.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 // SimpleScopeDesc is used when all you need to extract from

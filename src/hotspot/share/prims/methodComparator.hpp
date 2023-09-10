@@ -26,8 +26,8 @@
 #define SHARE_VM_PRIMS_METHODCOMPARATOR_HPP
 
 #include "interpreter/bytecodeStream.hpp"
-#include "oops/constantPool.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constantPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 
 // methodComparator provides an interface for determining if methods of
 // different versions of classes are equivalent or switchable

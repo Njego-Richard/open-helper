@@ -25,7 +25,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 #ifndef max
 #define max(a,b) ( (a>b) ? a : b )

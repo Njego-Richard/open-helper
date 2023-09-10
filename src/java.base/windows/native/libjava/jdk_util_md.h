@@ -27,7 +27,7 @@
 #ifndef JDK_UTIL_MD_H
 #define JDK_UTIL_MD_H
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include <float.h>
 
 // checking for nanness

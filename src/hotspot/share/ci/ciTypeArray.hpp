@@ -27,7 +27,7 @@
 
 #include "ci/ciArray.hpp"
 #include "ci/ciClassList.hpp"
-#include "oops/typeArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.hpp"
 
 // ciTypeArray
 //

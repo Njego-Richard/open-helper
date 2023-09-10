@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/leakprofiler/chains/edgeStore.hpp"
 #include "jfr/leakprofiler/chains/edgeUtils.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 StoredEdge::StoredEdge() : Edge() {}
 StoredEdge::StoredEdge(const Edge* parent, const oop* reference) : Edge(parent, reference), _gc_root_id(0), _skip_length(0) {}

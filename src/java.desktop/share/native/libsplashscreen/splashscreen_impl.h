@@ -28,7 +28,7 @@
 
 #include "splashscreen_config.h"
 #include "splashscreen_gfx.h"
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 JNIEXPORT int
 SplashLoadMemory(void *pdata, int size); /* requires preloading the file */

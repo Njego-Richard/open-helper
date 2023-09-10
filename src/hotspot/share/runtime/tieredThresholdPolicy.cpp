@@ -31,7 +31,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointVerifiers.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/tieredThresholdPolicy.hpp"
 #include "code/scopeDesc.hpp"
-#include "oops/method.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.inline.hpp"
 #if INCLUDE_JVMCI
 #include "jvmci/jvmciRuntime.hpp"
 #endif

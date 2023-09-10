@@ -28,11 +28,11 @@
 #include "code/nmethod.hpp"
 #include "code/relocInfo.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/flagSetting.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubCodeGenerator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 const RelocationHolder RelocationHolder::none; // its type is relocInfo::none
 

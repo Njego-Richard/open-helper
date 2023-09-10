@@ -26,7 +26,7 @@
 #include "jvm.h"
 #include "compiler/compileLog.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"

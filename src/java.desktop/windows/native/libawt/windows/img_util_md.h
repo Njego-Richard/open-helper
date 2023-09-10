@@ -32,7 +32,7 @@ extern "C" {
 #else
 #include "colordata.h"
 #endif
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 #ifdef __cplusplus
 extern "C" {

@@ -26,7 +26,7 @@
 #ifndef SHARE_VM_PRIMS_UNSAFE_HPP
 #define SHARE_VM_PRIMS_UNSAFE_HPP
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 extern "C" {
   void JNICALL JVM_RegisterJDKInternalMiscUnsafeMethods(JNIEnv *env, jclass unsafecls);

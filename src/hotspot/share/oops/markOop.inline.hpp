@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_OOPS_MARKOOP_INLINE_HPP
 #define SHARE_VM_OOPS_MARKOOP_INLINE_HPP
 
-#include "oops/klass.hpp"
-#include "oops/markOop.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/markOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 
 // Should this header be preserved during GC (when biased locking is enabled)?

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_RUNTIME_FIELDDESCRIPTOR_HPP
 #define SHARE_VM_RUNTIME_FIELDDESCRIPTOR_HPP
 
-#include "oops/constantPool.hpp"
-#include "oops/fieldInfo.hpp"
-#include "oops/instanceKlass.hpp"
-#include "oops/symbol.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constantPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/fieldInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldType.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/constantTag.hpp"

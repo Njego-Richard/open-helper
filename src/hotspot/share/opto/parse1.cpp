@@ -26,7 +26,7 @@
 #include "compiler/compileLog.hpp"
 #include "interpreter/linkResolver.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "opto/addnode.hpp"
 #include "opto/c2compiler.hpp"
 #include "opto/castnode.hpp"

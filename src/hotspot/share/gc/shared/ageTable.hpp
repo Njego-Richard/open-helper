@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_GC_SHARED_AGETABLE_HPP
 #define SHARE_VM_GC_SHARED_AGETABLE_HPP
 
-#include "oops/markOop.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/markOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 
 /* Copyright (c) 1992, 2018, Oracle and/or its affiliates, and Stanford University.

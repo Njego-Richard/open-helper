@@ -27,7 +27,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/preservedMarks.hpp"
 #include "logging/log.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.inline.hpp"
 
 inline bool PreservedMarks::should_preserve_mark(oop obj, markOop m) const {

@@ -32,7 +32,7 @@
  * verifier.
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 struct struct_class_size_info;
 typedef struct struct_class_size_info class_size_info;

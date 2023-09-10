@@ -86,7 +86,7 @@
 /* statement according to PKCS11 docu */
 #pragma pack(pop, cryptoki)
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 /* A data structure to hold required information about a PKCS#11 module. */
 struct ModuleData {

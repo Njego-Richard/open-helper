@@ -26,7 +26,7 @@
 #ifndef SHARE_VM_PRIMS_STACKWALK_HPP
 #define SHARE_VM_PRIMS_STACKWALK_HPP
 
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe.hpp"
 
 // BaseFrameStream is an abstract base class for encapsulating the VM-side

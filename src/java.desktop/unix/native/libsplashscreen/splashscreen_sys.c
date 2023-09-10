@@ -42,7 +42,7 @@
 #include <fcntl.h>
 #include <poll.h>
 #include <sizecalc.h>
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 static Bool shapeSupported;
 static int shapeEventBase, shapeErrorBase;

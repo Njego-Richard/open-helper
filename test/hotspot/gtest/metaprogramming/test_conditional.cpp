@@ -24,8 +24,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "metaprogramming/conditional.hpp"
-#include "metaprogramming/isSame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/conditional.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/isSame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class ConditionalTest {

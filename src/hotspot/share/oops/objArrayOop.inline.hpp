@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OOPS_OBJARRAYOOP_INLINE_HPP
 #define SHARE_VM_OOPS_OBJARRAYOOP_INLINE_HPP
 
-#include "oops/access.inline.hpp"
-#include "oops/arrayOop.inline.hpp"
-#include "oops/objArrayOop.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 
 inline HeapWord* objArrayOopDesc::base() const { return (HeapWord*) arrayOopDesc::base(T_OBJECT); }

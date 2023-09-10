@@ -31,9 +31,9 @@
 #include "jfr/writers/jfrEncoding.hpp"
 #include "jfr/writers/jfrWriterHost.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/oop.hpp"
-#include "oops/symbol.hpp"
-#include "oops/typeArrayOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.inline.hpp"
 
 inline bool compressed_integers() {
   static const bool comp_integers = JfrOptionSet::compressed_integers();

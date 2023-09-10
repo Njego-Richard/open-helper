@@ -26,7 +26,7 @@
 #undef  _LARGEFILE64_SOURCE
 #define _LARGEFILE64_SOURCE 1
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jvm.h"
 #include "jvm_md.h"
 #include "jni_util.h"

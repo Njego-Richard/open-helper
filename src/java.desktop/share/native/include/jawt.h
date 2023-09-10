@@ -26,7 +26,7 @@
 #ifndef _JAVASOFT_JAWT_H_
 #define _JAVASOFT_JAWT_H_
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 #ifdef __cplusplus
 extern "C" {

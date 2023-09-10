@@ -28,7 +28,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
 #include "logging/log.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
 #include "services/memTracker.hpp"
 

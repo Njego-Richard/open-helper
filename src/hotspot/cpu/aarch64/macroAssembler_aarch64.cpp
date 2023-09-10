@@ -37,9 +37,9 @@
 #include "compiler/disassembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "nativeInst_aarch64.hpp"
-#include "oops/accessDecorators.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/klass.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/biasedLocking.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
@@ -50,7 +50,7 @@
 #include "c1/c1_LIRAssembler.hpp"
 #endif
 #ifdef COMPILER2
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "opto/compile.hpp"
 #include "opto/intrinsicnode.hpp"
 #include "opto/node.hpp"

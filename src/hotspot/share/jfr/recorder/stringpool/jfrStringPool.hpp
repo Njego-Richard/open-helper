@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_RECORDER_STRINGPOOL_JFRSTRINGPOOL_HPP
 #define SHARE_VM_JFR_RECORDER_STRINGPOOL_JFRSTRINGPOOL_HPP
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jfr/recorder/storage/jfrMemorySpace.hpp"
 #include "jfr/recorder/storage/jfrMemorySpaceRetrieval.hpp"
 #include "jfr/recorder/stringpool/jfrStringPoolBuffer.hpp"

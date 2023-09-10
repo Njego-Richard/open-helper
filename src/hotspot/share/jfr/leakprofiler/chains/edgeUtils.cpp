@@ -28,11 +28,11 @@
 #include "jfr/leakprofiler/chains/edgeStore.hpp"
 #include "jfr/leakprofiler/chains/edgeUtils.hpp"
 #include "jfr/leakprofiler/utilities/unifiedOop.hpp"
-#include "oops/fieldStreams.hpp"
-#include "oops/instanceKlass.hpp"
-#include "oops/instanceMirrorKlass.hpp"
-#include "oops/objArrayOop.inline.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/fieldStreams.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceMirrorKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 bool EdgeUtils::is_leak_edge(const Edge& edge) {

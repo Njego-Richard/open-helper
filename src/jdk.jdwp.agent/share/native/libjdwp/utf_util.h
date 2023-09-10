@@ -26,7 +26,7 @@
 #ifndef _utf_util_h_
 #define _utf_util_h_
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 
 int JNICALL utf8sToUtf8mLength(jbyte *string, int length);

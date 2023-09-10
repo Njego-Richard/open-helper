@@ -26,7 +26,7 @@
 #define SHARE_VM_JFR_LEAKPROFILER_CHAINS_EDGE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 
 class Edge {
  protected:

@@ -26,7 +26,7 @@
 #define SHARE_VM_CI_CIKLASS_HPP
 
 #include "ci/ciType.hpp"
-#include "oops/klass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
 
 // ciKlass
 //

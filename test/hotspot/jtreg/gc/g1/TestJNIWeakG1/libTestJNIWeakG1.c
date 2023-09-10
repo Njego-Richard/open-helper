@@ -25,7 +25,7 @@
  * Native support for TestJNIWeakG1 test.
  */
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 static jweak registered = NULL;
 

@@ -26,7 +26,7 @@
 #define SHARE_VM_SERVICES_HEAPDUMPER_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 // HeapDumper is used to dump the java heap to file in HPROF binary format:

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_OOPHANDLE_HPP
 #define SHARE_VM_OOPS_OOPHANDLE_HPP
 
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 
 // Simple class for encapsulating oop pointers stored in metadata.
 // These are different from Handle.  The Handle class stores pointers

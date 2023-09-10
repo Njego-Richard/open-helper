@@ -32,9 +32,9 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1StringDedup.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1StringDedupQueue.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/preservedMarks.inline.hpp"
-#include "oops/access.inline.hpp"
-#include "oops/compressedOops.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 inline bool G1FullGCMarker::mark_object(oop obj) {

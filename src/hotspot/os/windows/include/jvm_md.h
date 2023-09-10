@@ -35,7 +35,7 @@
 #include <windef.h>
 #include <winbase.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 typedef int socklen_t;
 

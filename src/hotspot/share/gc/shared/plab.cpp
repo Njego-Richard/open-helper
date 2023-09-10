@@ -27,8 +27,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/plab.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/threadLocalAllocBuffer.hpp"
 #include "logging/log.hpp"
-#include "oops/arrayOop.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 size_t PLAB::min_size() {
   // Make sure that we return something that is larger than AlignmentReserve

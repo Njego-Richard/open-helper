@@ -23,6 +23,6 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "oops/instanceOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceOop.hpp"
 
 // <<this page is intentionally left blank>>

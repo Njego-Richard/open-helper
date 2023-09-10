@@ -28,7 +28,7 @@
 #include "interpreter/bytecodeHistogram.hpp"
 #include "interpreter/cppInterpreterGenerator.hpp"
 #include "interpreter/interpreterRuntime.hpp"
-#include "oops/method.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "interpreter/cppInterpreter.hpp"
 

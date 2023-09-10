@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_RECORDER_CHECKPOINT_TYPES_JFRTHREADGROUP_HPP
 #define SHARE_VM_JFR_RECORDER_CHECKPOINT_TYPES_JFRTHREADGROUP_HPP
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jfr/utilities/jfrAllocation.hpp"
 #include "jfr/utilities/jfrTypes.hpp"
 

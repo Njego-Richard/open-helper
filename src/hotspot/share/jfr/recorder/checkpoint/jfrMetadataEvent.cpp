@@ -26,9 +26,9 @@
 #include "jfr/jni/jfrJavaSupport.hpp"
 #include "jfr/recorder/checkpoint/jfrMetadataEvent.hpp"
 #include "jfr/recorder/repository/jfrChunkWriter.hpp"
-#include "oops/klass.inline.hpp"
-#include "oops/oop.inline.hpp"
-#include "oops/typeArrayOop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/semaphore.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 

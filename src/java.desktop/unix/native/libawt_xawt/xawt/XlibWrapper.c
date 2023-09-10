@@ -25,7 +25,7 @@
 
 #include "awt.h"
 #include "awt_util.h"
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jlong.h"
 #include "Region.h"
 #include "sizecalc.h"

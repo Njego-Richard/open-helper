@@ -25,7 +25,7 @@
 #define SHARE_GC_Z_ZOOP_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 
 class ZOop : public AllStatic {
 public:

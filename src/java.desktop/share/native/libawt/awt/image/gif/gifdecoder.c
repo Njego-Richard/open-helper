@@ -24,7 +24,7 @@
  */
 
 #include <stdio.h>
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
 
 #define OUTCODELENGTH 4097

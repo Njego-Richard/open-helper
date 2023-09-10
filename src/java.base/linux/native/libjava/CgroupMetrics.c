@@ -24,7 +24,7 @@
  */
 #include <unistd.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jvm.h"
 
 #include "jdk_internal_platform_CgroupMetrics.h"

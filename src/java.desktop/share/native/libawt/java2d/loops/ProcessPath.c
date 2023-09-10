@@ -28,7 +28,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "j2d_md.h"
 #include "java_awt_geom_PathIterator.h"
 

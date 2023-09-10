@@ -31,7 +31,7 @@ extern "C" {
 #endif
 
 #include <stddef.h>
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 #include "java_awt_AlphaComposite.h"
 

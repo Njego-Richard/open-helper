@@ -38,7 +38,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
 
 /* undo "system_boolean" hack and undef FAR since we don't use it anyway */

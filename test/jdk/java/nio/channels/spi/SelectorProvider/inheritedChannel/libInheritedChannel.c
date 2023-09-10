@@ -34,7 +34,7 @@
 #include <fcntl.h>
 #include <ctype.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 
 /*
  * Throws the exception of the given class name and detail message

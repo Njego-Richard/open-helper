@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_LEAKPROFILER_UTILITIES_UNIFIEDOOP_HPP
 #define SHARE_VM_JFR_LEAKPROFILER_UTILITIES_UNIFIEDOOP_HPP
 
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 class UnifiedOop : public AllStatic {
  public:

@@ -26,7 +26,7 @@
 #define SHARE_VM_MEMORY_METADATAFACTORY_HPP
 
 #include "classfile/classLoaderData.hpp"
-#include "oops/array.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/array.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 

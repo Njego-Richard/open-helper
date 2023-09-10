@@ -1,4 +1,4 @@
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 JNIEXPORT void JNICALL JavaCritical_compiler_runtime_criticalnatives_argumentcorruption_CheckLongArgs_m1
   (jlong a1, jlong a2, jlong a3, jlong a4, jlong a5, jlong a6, jlong a7, jlong a8,jint result_length,jbyte* result) {
 

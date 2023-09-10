@@ -26,7 +26,7 @@
 #define SHARE_VM_OOPS_ARRAYKLASS_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "oops/klass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
 
 class fieldDescriptor;
 class klassVtable;

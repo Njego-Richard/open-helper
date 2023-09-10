@@ -26,9 +26,9 @@
 #ifndef CPU_PPC_VM_JNITYPES_PPC_HPP
 #define CPU_PPC_VM_JNITYPES_PPC_HPP
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 
 // This file holds platform-dependent routines used to write primitive
 // jni types to the array of arguments passed into JavaCalls::call.

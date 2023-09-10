@@ -27,7 +27,7 @@
 #include <string.h>
 #include <sys/resource.h>
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
 #include "jvm.h"
 #include "jlong.h"

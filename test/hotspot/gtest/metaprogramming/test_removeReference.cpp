@@ -24,8 +24,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "metaprogramming/removeReference.hpp"
-#include "metaprogramming/isSame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/removeReference.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/isSame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 
 class RemoveReferenceTest {

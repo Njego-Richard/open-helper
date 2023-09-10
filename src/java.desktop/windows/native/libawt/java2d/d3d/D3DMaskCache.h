@@ -26,7 +26,7 @@
 #ifndef D3DMASKCACHE_H
 #define D3DMASKCACHE_H
 
-#include "jni.h"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "D3DContext.h"
 
 /**

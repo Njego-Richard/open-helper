@@ -29,7 +29,7 @@
 #include "code/vtableStubs.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "prims/jvmtiCodeBlobEvents.hpp"
 #include "prims/jvmtiExport.hpp"
 #include "prims/jvmtiThreadState.inline.hpp"

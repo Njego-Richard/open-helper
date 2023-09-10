@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_OOPS_TYPEARRAYKLASS_INLINE_HPP
 #define SHARE_VM_OOPS_TYPEARRAYKLASS_INLINE_HPP
 
-#include "oops/arrayKlass.hpp"
-#include "oops/klass.hpp"
-#include "oops/oop.inline.hpp"
-#include "oops/typeArrayKlass.hpp"
-#include "oops/typeArrayOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.hpp"
 
 class OopIterateClosure;
 

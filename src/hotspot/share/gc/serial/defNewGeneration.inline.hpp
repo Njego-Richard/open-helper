@@ -30,7 +30,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genOopClosures.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.inline.hpp"
-#include "oops/access.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
 
 // Methods of protected closure types
 

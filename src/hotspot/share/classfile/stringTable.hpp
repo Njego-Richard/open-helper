@@ -29,8 +29,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.hpp"
-#include "oops/oop.hpp"
-#include "oops/weakHandle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/weakHandle.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/concurrentHashTable.hpp"
 
 template <class T, class N> class CompactHashtable;

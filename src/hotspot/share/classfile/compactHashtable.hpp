@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_COMPACTHASHTABLE_HPP
 #define SHARE_VM_CLASSFILE_COMPACTHASHTABLE_HPP
 
-#include "oops/array.hpp"
-#include "oops/symbol.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/array.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 template <class T, class N> class CompactHashtable;

@@ -26,8 +26,8 @@
 #define SHARE_VM_RUNTIME_HANDLES_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/arena.hpp"
-#include "oops/oop.hpp"
-#include "oops/oopsHierarchy.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 
 class InstanceKlass;
 class Klass;

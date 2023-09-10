@@ -28,7 +28,7 @@
 #include "classfile/systemDictionary.hpp"
 #include "jfr/leakprofiler/checkpoint/objectSampleDescription.hpp"
 #include "jfr/recorder/checkpoint/jfrCheckpointWriter.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"

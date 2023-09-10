@@ -26,7 +26,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parMarkBitMap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psCompactionManager.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psParallelCompact.inline.hpp"
-#include "oops/oop.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "services/memTracker.hpp"

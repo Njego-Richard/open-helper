@@ -26,8 +26,8 @@
 #define SHARE_VM_CI_CIINSTANCE_HPP
 
 #include "ci/ciObject.hpp"
-#include "oops/instanceOop.hpp"
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceOop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 
 // ciInstance
 //

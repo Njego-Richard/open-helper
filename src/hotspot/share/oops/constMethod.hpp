@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_CONSTMETHODOOP_HPP
 #define SHARE_VM_OOPS_CONSTMETHODOOP_HPP
 
-#include "oops/oop.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // An ConstMethod represents portions of a Java method which are not written to after
