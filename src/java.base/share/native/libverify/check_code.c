@@ -87,8 +87,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
-#include "jvm.h"
-#include "classfile_constants.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
+//#include "classfile_constants.h"
 #include "opcodes.in_out"
 
 /* On AIX malloc(0) and calloc(0, ...) return a NULL pointer, which is legal,

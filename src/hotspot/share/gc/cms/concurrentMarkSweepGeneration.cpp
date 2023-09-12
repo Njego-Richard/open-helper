@@ -23,10 +23,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoaderData.hpp"
-#include "classfile/stringTable.hpp"
-#include "classfile/symbolTable.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsCollectorPolicy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsGCStats.hpp"
@@ -70,7 +70,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
-#include "prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/flagSetting.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"

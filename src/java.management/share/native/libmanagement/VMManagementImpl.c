@@ -25,7 +25,7 @@
 
 #include <jni.h>
 #include <stdlib.h>
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "management.h"
 #include "sun_management_VMManagementImpl.h"
 

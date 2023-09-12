@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_SUPPORT_JFRTRACEIDEXTENSION_HPP
 #define SHARE_VM_JFR_SUPPORT_JFRTRACEIDEXTENSION_HPP
 
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceId.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #define DEFINE_TRACE_ID_FIELD mutable traceid _trace_id

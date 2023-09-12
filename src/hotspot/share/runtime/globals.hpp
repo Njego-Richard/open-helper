@@ -54,15 +54,15 @@
 #endif
 
 // //#include CPU_HEADER(globals)
-// #include OS_HEADER(globals)
-// #include OS_CPU_HEADER(globals)
+// //#include OS_HEADER(globals)
+// //#include OS_CPU_HEADER(globals)
 // #ifdef COMPILER1
 // //#include CPU_HEADER(c1_globals)
-// #include OS_HEADER(c1_globals)
+// //#include OS_HEADER(c1_globals)
 // #endif
 // #ifdef COMPILER2
 // //#include CPU_HEADER(c2_globals)
-// #include OS_HEADER(c2_globals)
+// //#include OS_HEADER(c2_globals)
 // #endif
 
 #if !defined(COMPILER1) && !defined(COMPILER2) && !INCLUDE_JVMCI

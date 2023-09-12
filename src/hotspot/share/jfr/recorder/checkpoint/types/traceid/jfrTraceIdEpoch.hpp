@@ -26,7 +26,7 @@
 #define SHARE_VM_JFR_CHECKPOINT_TYPES_TRACEID_JFRTRACEIDEPOCH_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 
 #define USED_BIT 1
 #define METHOD_USED_BIT (USED_BIT << 2)

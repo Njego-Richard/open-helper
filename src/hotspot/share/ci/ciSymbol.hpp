@@ -28,7 +28,7 @@
 #include "ci/ciBaseObject.hpp"
 #include "ci/ciObject.hpp"
 #include "ci/ciObjectFactory.hpp"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 
 // ciSymbol

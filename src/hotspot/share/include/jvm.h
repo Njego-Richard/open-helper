@@ -29,7 +29,7 @@
 #include <sys/stat.h>
 
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
-#include "jvm_md.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/include/jvm_md.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -1032,7 +1032,7 @@ JNIEXPORT jboolean JNICALL
 JVM_IsSameClassPackage(JNIEnv *env, jclass class1, jclass class2);
 
 /* Get classfile constants */
-#include "classfile_constants.h"
+//#include "classfile_constants.h"
 
 /*
  * A function defined by the byte-code verifier and called by the VM.

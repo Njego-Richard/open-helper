@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ThreadLocalData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/satbMarkQueue.hpp"

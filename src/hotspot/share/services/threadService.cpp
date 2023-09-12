@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heapInspection.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"

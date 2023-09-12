@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_PRIMS_JVMTIEXPORT_HPP
 #define SHARE_VM_PRIMS_JVMTIEXPORT_HPP
 
-#include "jvmtifiles/jvmti.h"
+//#include "jvmtifiles/jvmti.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"

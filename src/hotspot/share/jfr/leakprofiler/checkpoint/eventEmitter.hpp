@@ -26,7 +26,7 @@
 #define SHARE_JFR_LEAKPROFILER_CHECKPOINT_EVENTEMITTER_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "jfr/utilities/jfrTime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTime.hpp"
 
 typedef u8 traceid;
 

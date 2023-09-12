@@ -24,8 +24,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/leakprofiler/leakProfiler.hpp"
-#include "jfr/support/jfrAllocationTracer.hpp"
-#include "jfr/support/jfrThreadLocal.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrAllocationTracer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadLocal.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 JfrAllocationTracer::JfrAllocationTracer(HeapWord* obj, size_t alloc_size, Thread* thread) {

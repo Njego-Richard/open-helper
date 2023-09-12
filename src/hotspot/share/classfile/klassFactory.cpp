@@ -23,21 +23,21 @@
 */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classFileParser.hpp"
-#include "classfile/classFileStream.hpp"
-#include "classfile/classLoader.hpp"
-#include "classfile/classLoaderData.hpp"
-#include "classfile/classLoaderData.inline.hpp"
-#include "classfile/klassFactory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classFileParser.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classFileStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/klassFactory.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/filemap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "prims/jvmtiEnvBase.hpp"
-#include "prims/jvmtiRedefineClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiEnvBase.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiRedefineClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_JFR
-#include "jfr/support/jfrKlassExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrKlassExtension.hpp"
 #endif
 
 

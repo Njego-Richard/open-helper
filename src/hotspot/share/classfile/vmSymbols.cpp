@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "compiler/compilerDirectives.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"

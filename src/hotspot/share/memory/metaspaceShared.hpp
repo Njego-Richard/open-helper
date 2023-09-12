@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_MEMORY_METASPACESHARED_HPP
 #define SHARE_VM_MEMORY_METASPACESHARED_HPP
 
-#include "classfile/compactHashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/compactHashtable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/virtualspace.hpp"

@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoader.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/allocTracer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcId.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcLocker.hpp"

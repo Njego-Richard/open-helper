@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referencePolicy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"

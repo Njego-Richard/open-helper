@@ -34,7 +34,7 @@
 #include "nativeInst_sparc.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compiledICHolder.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
-#include "prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframeArray.hpp"

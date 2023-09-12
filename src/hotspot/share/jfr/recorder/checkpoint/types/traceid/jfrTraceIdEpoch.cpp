@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceIdEpoch.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceIdEpoch.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 

@@ -23,10 +23,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoaderData.inline.hpp"
-#include "classfile/symbolTable.hpp"
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceId.inline.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceId.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayKlass.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.inline.hpp"

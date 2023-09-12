@@ -26,7 +26,7 @@
 #include <stdio.h>
 #include <jni.h>
 #include "jni_util.h"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "management_ext.h"
 
 #define ERR_MSG_SIZE 128

@@ -27,7 +27,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "jfrfiles/jfrEventIds.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 
 class Thread;
 

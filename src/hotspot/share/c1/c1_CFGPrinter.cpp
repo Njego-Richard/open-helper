@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "c1/c1_CFGPrinter.hpp"
 #include "c1/c1_IR.hpp"
 #include "c1/c1_InstructionPrinter.hpp"

@@ -26,7 +26,7 @@
 #include "aot/aotCodeHeap.hpp"
 #include "aot/aotLoader.hpp"
 #include "ci/ciUtilities.inline.hpp"
-#include "classfile/javaAssertions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaAssertions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableBarrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcConfig.hpp"

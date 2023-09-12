@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_MEMORY_OOPFACTORY_HPP
 #define SHARE_VM_MEMORY_OOPFACTORY_HPP
 
-#include "classfile/symbolTable.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/referenceType.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.hpp"

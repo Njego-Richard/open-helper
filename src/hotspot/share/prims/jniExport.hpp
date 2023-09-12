@@ -26,7 +26,7 @@
 #define SHARE_VM_PRIMS_JNI_EXPORT_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
-#include "prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 
 class JniExportedInterface {
  public:

@@ -24,7 +24,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jmm.h"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "compiler/compileBroker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"

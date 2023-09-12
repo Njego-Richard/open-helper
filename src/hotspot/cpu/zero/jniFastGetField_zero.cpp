@@ -26,8 +26,8 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "assembler_zero.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "prims/jniFastGetField.hpp"
-#include "prims/jvm_misc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jniFastGetField.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvm_misc.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 
 address JNI_FastGetField::generate_fast_get_boolean_field() {

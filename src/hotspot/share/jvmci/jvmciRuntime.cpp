@@ -22,9 +22,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "asm/codeBuffer.hpp"
-#include "classfile/javaClasses.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.inline.hpp"
 #include "code/codeCache.hpp"
 #include "code/compiledMethod.inline.hpp"
 #include "compiler/compileBroker.hpp"

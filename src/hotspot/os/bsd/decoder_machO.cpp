@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
 #ifdef __APPLE__
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "decoder_machO.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 

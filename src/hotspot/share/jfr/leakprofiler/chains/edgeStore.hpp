@@ -26,7 +26,7 @@
 #define SHARE_VM_LEAKPROFILER_CHAINS_EDGESTORE_HPP
 
 #include "jfr/leakprofiler/chains/edge.hpp"
-#include "jfr/utilities/jfrHashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrHashtable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 typedef u8 traceid;

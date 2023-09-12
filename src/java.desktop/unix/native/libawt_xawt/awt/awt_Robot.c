@@ -27,7 +27,7 @@
     #error This file should not be included in headless library
 #endif
 
-#include "jvm_md.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/include/jvm_md.h"
 #include <dlfcn.h>
 
 #include "awt_p.h"

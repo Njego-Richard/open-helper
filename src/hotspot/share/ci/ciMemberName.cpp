@@ -26,7 +26,7 @@
 #include "ci/ciClassList.hpp"
 #include "ci/ciMemberName.hpp"
 #include "ci/ciUtilities.inline.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 
 // ------------------------------------------------------------------
 // ciMemberName::get_vmtarget

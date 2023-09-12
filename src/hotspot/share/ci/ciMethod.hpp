@@ -30,7 +30,7 @@
 #include "ci/ciObject.hpp"
 #include "ci/ciSignature.hpp"
 #include "compiler/methodLiveness.hpp"
-#include "prims/methodHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
 
 class ciMethodBlocks;

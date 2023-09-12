@@ -32,7 +32,7 @@
 #include "gdefs.h"
 
 #include "jni_util.h"
-#include "jvm_md.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/include/jvm_md.h"
 #include "awt_Component.h"
 #include "awt_GraphicsEnv.h"
 

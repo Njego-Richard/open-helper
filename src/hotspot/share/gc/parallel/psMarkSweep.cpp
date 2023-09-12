@@ -24,9 +24,9 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "aot/aotLoader.hpp"
-#include "classfile/stringTable.hpp"
-#include "classfile/symbolTable.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psAdaptiveSizePolicy.hpp"

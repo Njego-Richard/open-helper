@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_WRITERS_JFRNATIVEEVENTWRITER_HPP
 #define SHARE_VM_JFR_WRITERS_JFRNATIVEEVENTWRITER_HPP
 
-#include "jfr/support/jfrFlush.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrFlush.hpp"
 #include "jfr/writers/jfrEncoding.hpp"
 #include "jfr/writers/jfrEventWriterHost.inline.hpp"
 #include "jfr/writers/jfrMemoryWriterHost.inline.hpp"

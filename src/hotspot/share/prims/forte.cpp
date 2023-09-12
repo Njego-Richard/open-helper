@@ -28,7 +28,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
-#include "prims/forte.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/forte.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"

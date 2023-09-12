@@ -28,7 +28,7 @@
 #define SHARE_VM_PRIMS_JVMTITAGMAP_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
-#include "jvmtifiles/jvmti.h"
+//#include "jvmtifiles/jvmti.h"
 #include "jvmtifiles/jvmtiEnv.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"

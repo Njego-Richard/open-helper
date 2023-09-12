@@ -38,7 +38,7 @@
 #include "jfr/recorder/storage/jfrStorage.hpp"
 #include "jfr/recorder/stacktrace/jfrStackTraceRepository.hpp"
 #include "jfr/recorder/stringpool/jfrStringPool.hpp"
-#include "jfr/utilities/jfrTime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTime.hpp"
 #include "jfr/writers/jfrJavaEventWriter.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
@@ -48,7 +48,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 #ifdef ASSERT
-#include "prims/jvmtiEnvBase.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiEnvBase.hpp"
 #endif
 
 static bool is_disabled_on_command_line() {

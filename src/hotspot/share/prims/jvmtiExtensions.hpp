@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_PRIMS_JVMTIEXTENSIONS_HPP
 #define SHARE_VM_PRIMS_JVMTIEXTENSIONS_HPP
 
-#include "jvmtifiles/jvmti.h"
+//#include "jvmtifiles/jvmti.h"
 #include "jvmtifiles/jvmtiEnv.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 

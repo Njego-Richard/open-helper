@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CLASSFILE_LOADERCONSTRAINTS_HPP
 #define SHARE_VM_CLASSFILE_LOADERCONSTRAINTS_HPP
 
-#include "classfile/placeholders.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/placeholders.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 
 class ClassLoaderData;

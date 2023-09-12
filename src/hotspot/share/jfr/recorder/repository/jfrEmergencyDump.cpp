@@ -29,7 +29,7 @@
 #include "jfr/recorder/repository/jfrEmergencyDump.hpp"
 #include "jfr/recorder/service/jfrPostBox.hpp"
 #include "jfr/recorder/service/jfrRecorderService.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 #include "logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"

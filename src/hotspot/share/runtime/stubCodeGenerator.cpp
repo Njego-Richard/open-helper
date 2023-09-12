@@ -28,7 +28,7 @@
 #include "code/codeCache.hpp"
 #include "compiler/disassembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
-#include "prims/forte.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/forte.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubCodeGenerator.hpp"
 
 

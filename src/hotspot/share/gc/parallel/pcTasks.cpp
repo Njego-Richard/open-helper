@@ -24,7 +24,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "aot/aotLoader.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/pcTasks.hpp"
@@ -38,7 +38,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
-#include "prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"

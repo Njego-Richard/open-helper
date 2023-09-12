@@ -24,8 +24,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/jni/jfrJavaSupport.hpp"
-#include "jfr/utilities/jfrJavaLog.hpp"
-#include "jfr/utilities/jfrLogTagSets.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrJavaLog.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrLogTagSets.hpp"
 #include "logging/log.hpp"
 #include "logging/logConfiguration.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"

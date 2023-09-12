@@ -22,10 +22,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoaderData.hpp"
-#include "classfile/stringTable.hpp"
-#include "classfile/symbolTable.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "code/codeCache.hpp"
 #include "compiler/oopMap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.inline.hpp"
@@ -38,7 +38,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"

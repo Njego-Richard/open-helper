@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/cmsHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/compactibleFreeListSpace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/cms/concurrentMarkSweepGeneration.hpp"

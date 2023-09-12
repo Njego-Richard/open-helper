@@ -40,7 +40,7 @@
 #include "c1/c1_Runtime1.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframeArray.hpp"
 #endif
-#include "prims/methodHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
 
 #ifdef ASSERT
 void RegisterMap::check_location_valid() {

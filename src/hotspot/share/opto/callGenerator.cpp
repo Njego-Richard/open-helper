@@ -28,7 +28,7 @@
 #include "ci/ciObjArray.hpp"
 #include "ci/ciMemberName.hpp"
 #include "ci/ciMethodHandle.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "compiler/compileLog.hpp"
 #include "opto/addnode.hpp"
 #include "opto/callGenerator.hpp"

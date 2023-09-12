@@ -24,7 +24,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/recorder/service/jfrPostBox.hpp"
-#include "jfr/utilities/jfrTryLock.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTryLock.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"

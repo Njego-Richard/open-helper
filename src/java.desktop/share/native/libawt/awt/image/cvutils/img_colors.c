@@ -33,7 +33,7 @@
 #endif /* TIMES */
 
 #ifndef MAKECUBE_EXE
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "jni_util.h"
 
 extern JavaVM *jvm;

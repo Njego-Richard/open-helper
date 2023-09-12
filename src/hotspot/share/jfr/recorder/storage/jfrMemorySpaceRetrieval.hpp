@@ -28,8 +28,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "jfr/recorder/repository/jfrChunkWriter.hpp"
 #include "jfr/recorder/storage/jfrBuffer.hpp"
-#include "jfr/utilities/jfrAllocation.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 
 /*
 * Some policy classes for getting mspace memory

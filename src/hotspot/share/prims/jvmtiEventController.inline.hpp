@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_PRIMS_JVMTIEVENTCONTROLLER_INLINE_HPP
 #define SHARE_VM_PRIMS_JVMTIEVENTCONTROLLER_INLINE_HPP
 
-#include "prims/jvmtiEventController.hpp"
-#include "prims/jvmtiImpl.hpp"
-#include "prims/jvmtiUtil.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiEventController.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiImpl.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiUtil.hpp"
 
 // these inline functions are in a separate file to break include cycles
 

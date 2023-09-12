@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "asm/macroAssembler.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTable.hpp"
@@ -37,8 +37,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/markOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"
-#include "prims/jvmtiExport.hpp"
-#include "prims/jvmtiThreadState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiThreadState.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/basicLock.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/biasedLocking.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"

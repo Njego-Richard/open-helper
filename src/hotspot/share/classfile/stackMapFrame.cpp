@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/stackMapFrame.hpp"
-#include "classfile/verifier.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stackMapFrame.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/verifier.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"

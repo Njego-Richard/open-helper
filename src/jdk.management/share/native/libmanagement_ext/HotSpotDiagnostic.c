@@ -24,7 +24,7 @@
  */
 
 #include <jni.h>
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "management_ext.h"
 #include "com_sun_management_internal_HotSpotDiagnostic.h"
 

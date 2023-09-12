@@ -26,7 +26,7 @@
 #define SHARE_VM_JFR_JNI_JFRUPCALLS_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
-#include "jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 class JavaThread;

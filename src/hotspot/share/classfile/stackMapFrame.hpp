@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_STACKMAPFRAME_HPP
 #define SHARE_VM_CLASSFILE_STACKMAPFRAME_HPP
 
-#include "classfile/verificationType.hpp"
-#include "classfile/verifier.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/verificationType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/verifier.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"

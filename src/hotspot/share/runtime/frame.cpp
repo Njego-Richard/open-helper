@@ -37,7 +37,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/verifyOopClosure.hpp"
-#include "prims/methodHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"

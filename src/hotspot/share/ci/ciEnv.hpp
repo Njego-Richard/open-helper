@@ -27,7 +27,7 @@
 
 #include "ci/ciClassList.hpp"
 #include "ci/ciObjectFactory.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "code/debugInfoRec.hpp"
 #include "code/dependencies.hpp"
 #include "code/exceptionHandlerTable.hpp"

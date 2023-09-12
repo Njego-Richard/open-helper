@@ -26,7 +26,7 @@
 #include <sys/types.h>
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "asm/assembler.hpp"
 #include "asm/assembler.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"

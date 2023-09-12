@@ -25,8 +25,8 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/recorder/jfrEventSetting.inline.hpp"
 #include "jfr/recorder/stacktrace/jfrStackTraceRepository.hpp"
-#include "jfr/support/jfrStackTraceMark.hpp"
-#include "jfr/support/jfrThreadLocal.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrStackTraceMark.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadLocal.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 
 JfrStackTraceMark::JfrStackTraceMark() : _t(Thread::current()), _previous_id(0), _previous_hash(0) {

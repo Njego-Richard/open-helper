@@ -25,7 +25,7 @@
 #ifndef SHARE_JFR_RECORDER_CHECKPOINT_TYPES_TRACEID_JFRTRACEIDBITS_INLINE_HPP
 #define SHARE_JFR_RECORDER_CHECKPOINT_TYPES_TRACEID_JFRTRACEIDBITS_INLINE_HPP
 
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

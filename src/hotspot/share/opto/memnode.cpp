@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "compiler/compileLog.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/barrierSetC2.hpp"

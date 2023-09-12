@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoaderData.inline.hpp"
-#include "classfile/moduleEntry.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/moduleEntry.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heapInspection.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"

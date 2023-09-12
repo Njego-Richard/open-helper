@@ -26,7 +26,7 @@
 #define SHARE_VM_LEAKPROFILER_CHECKPOINT_OBJECTSAMPLECHECKPOINT_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 
 class EdgeStore;
 class JavaThread;

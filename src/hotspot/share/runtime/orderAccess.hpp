@@ -312,7 +312,7 @@ struct OrderAccess::PlatformOrderedLoad {
   }
 };
 
-#include OS_CPU_HEADER(orderAccess)
+//#include OS_CPU_HEADER(orderAccess)
 
 template<> inline void ScopedFenceGeneral<X_ACQUIRE>::postfix()       { OrderAccess::acquire(); }
 template<> inline void ScopedFenceGeneral<RELEASE_X>::prefix()        { OrderAccess::release(); }

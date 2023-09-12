@@ -27,7 +27,7 @@
 #include "jfr/recorder/checkpoint/jfrCheckpointWriter.hpp"
 #include "jfr/recorder/repository/jfrChunkWriter.hpp"
 #include "jfr/recorder/stacktrace/jfrStackTraceRepository.hpp"
-#include "jfr/support/jfrThreadLocal.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadLocal.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 
 /*

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_JFR_LEAKPROFILER_SAMPLING_OBJECTSAMPLE_HPP
 #define SHARE_VM_JFR_LEAKPROFILER_SAMPLING_OBJECTSAMPLE_HPP
 
-#include "jfr/utilities/jfrAllocation.hpp"
-#include "jfr/utilities/jfrBlob.hpp"
-#include "jfr/utilities/jfrTime.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrBlob.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"

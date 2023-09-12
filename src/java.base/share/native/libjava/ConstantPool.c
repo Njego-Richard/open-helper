@@ -23,7 +23,7 @@
  * questions.
  */
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "jdk_internal_reflect_ConstantPool.h"
 
 JNIEXPORT jint JNICALL Java_jdk_internal_reflect_ConstantPool_getSize0

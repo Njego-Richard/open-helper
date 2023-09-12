@@ -29,7 +29,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 //#include CPU_HEADER(c2_globals)
-#include OS_HEADER(c2_globals)
+//#include OS_HEADER(c2_globals)
 
 //
 // Defines all globals flags used by the server compiler.

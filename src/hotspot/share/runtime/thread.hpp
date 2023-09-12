@@ -31,7 +31,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/threadLocalAllocBuffer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
-#include "prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handshake.hpp"
@@ -55,7 +55,7 @@
 # include "stack_zero.hpp"
 #endif
 #if INCLUDE_JFR
-#include "jfr/support/jfrThreadExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadExtension.hpp"
 #endif
 
 #ifdef INCLUDE_THIRD_PARTY_HEAP
@@ -2038,7 +2038,7 @@ class JavaThread: public Thread {
   }
 
   // Machine dependent stuff
-#include OS_CPU_HEADER(thread)
+//#include OS_CPU_HEADER(thread)
 
  public:
   void set_blocked_on_compilation(bool value) {

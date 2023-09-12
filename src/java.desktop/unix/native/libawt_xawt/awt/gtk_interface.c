@@ -24,7 +24,7 @@
  */
 #include <dlfcn.h>
 #include <stdlib.h>
-#include "jvm_md.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/include/jvm_md.h"
 #include "gtk_interface.h"
 
 GtkApi* gtk2_load(JNIEnv *env, const char* lib_name);

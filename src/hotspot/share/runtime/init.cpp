@@ -23,13 +23,13 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/stringTable.hpp"
-#include "classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
 #include "code/icBuffer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "prims/methodHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"

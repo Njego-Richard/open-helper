@@ -23,13 +23,13 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/serviceThread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
-#include "prims/jvmtiImpl.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiImpl.hpp"
 #include "services/diagnosticArgument.hpp"
 #include "services/diagnosticFramework.hpp"
 #include "services/gcNotifier.hpp"

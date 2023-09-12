@@ -23,10 +23,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
-#include "classfile/classLoaderHierarchyDCmd.hpp"
-#include "classfile/classLoaderStats.hpp"
-#include "classfile/compactHashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderHierarchyDCmd.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/compactHashtable.hpp"
 #include "compiler/compileBroker.hpp"
 #include "compiler/directivesParser.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/vmGCOperations.hpp"

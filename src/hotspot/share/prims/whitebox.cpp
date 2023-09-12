@@ -26,9 +26,9 @@
 
 #include <new>
 
-#include "classfile/classLoaderData.hpp"
-#include "classfile/modules.hpp"
-#include "classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/modules.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
 #include "code/codeCache.hpp"
 #include "compiler/methodMatcher.hpp"
 #include "compiler/directivesParser.hpp"
@@ -48,8 +48,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.inline.hpp"
-#include "prims/wbtestmethods/parserTests.hpp"
-#include "prims/whitebox.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/wbtestmethods/parserTests.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/whitebox.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/compilationPolicy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
@@ -72,7 +72,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_CDS
-#include "prims/cdsoffsets.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/cdsoffsets.hpp"
 #endif // INCLUDE_CDS
 #if INCLUDE_G1GC
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"

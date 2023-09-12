@@ -26,7 +26,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "prims/jvmtiRedefineClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiRedefineClasses.hpp"
 
 void Metadata::set_on_stack(const bool value) {
   // nothing to set for most metadata

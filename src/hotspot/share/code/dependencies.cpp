@@ -27,7 +27,7 @@
 #include "ci/ciEnv.hpp"
 #include "ci/ciKlass.hpp"
 #include "ci/ciMethod.hpp"
-#include "classfile/javaClasses.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.inline.hpp"
 #include "code/dependencies.hpp"
 #include "compiler/compileLog.hpp"
 #include "compiler/compileBroker.hpp"

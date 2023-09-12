@@ -26,7 +26,7 @@
 #ifndef NET_UTILS_H
 #define NET_UTILS_H
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "jni_util.h"
 #include "net_util_md.h"
 

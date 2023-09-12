@@ -26,7 +26,7 @@
 #define SHARE_JFR_WRITERS_JFRTYPEWRITERHOST_HPP
 
 #include "jfr/recorder/checkpoint/jfrCheckpointWriter.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 template <typename WriterImpl, u4 ID>

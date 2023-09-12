@@ -23,7 +23,7 @@
  * questions.
  */
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "jdk_internal_reflect_NativeConstructorAccessorImpl.h"
 #include "jdk_internal_reflect_NativeMethodAccessorImpl.h"
 

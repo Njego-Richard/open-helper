@@ -29,7 +29,7 @@
 #include "ci/ciInstanceKlass.hpp"
 #include "ci/ciKlass.hpp"
 #include "ci/ciMethodHandle.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "code/compressedStream.hpp"
 #include "code/nmethod.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"

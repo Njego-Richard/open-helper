@@ -24,8 +24,8 @@
 
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/altHashing.hpp"
-#include "classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/altHashing.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"

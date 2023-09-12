@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_OBJARRAYKLASS_HPP
 #define SHARE_VM_OOPS_OBJARRAYKLASS_HPP
 
-#include "classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

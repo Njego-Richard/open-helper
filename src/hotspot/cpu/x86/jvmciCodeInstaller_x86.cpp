@@ -33,7 +33,7 @@
 #include "jvmci/jvmciCompilerToVM.hpp"
 #include "jvmci/jvmciRuntime.hpp"
 #include "asm/register.hpp"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "code/vmreg.hpp"
 #include "vmreg_x86.inline.hpp"
 

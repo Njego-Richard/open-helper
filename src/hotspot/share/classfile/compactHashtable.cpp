@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
-#include "classfile/compactHashtable.inline.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/compactHashtable.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "logging/logMessage.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heapShared.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metadataFactory.hpp"

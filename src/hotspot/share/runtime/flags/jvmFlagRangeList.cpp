@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
-#include "classfile/stringTable.hpp"
-#include "classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessor.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/markOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"

@@ -25,8 +25,8 @@
 #ifndef SHARE_JFR_UTILITIES_JFRBLOB_HPP
 #define SHARE_JFR_UTILITIES_JFRBLOB_HPP
 
-#include "jfr/utilities/jfrAllocation.hpp"
-#include "jfr/utilities/jfrRefCountPointer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrRefCountPointer.hpp"
 
 class JfrBlob;
 typedef RefCountPointer<JfrBlob, MultiThreadedRefCounter> JfrBlobReference;

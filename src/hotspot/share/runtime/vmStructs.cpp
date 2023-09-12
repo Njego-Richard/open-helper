@@ -28,12 +28,12 @@
 #include "ci/ciMethodData.hpp"
 #include "ci/ciObjArrayKlass.hpp"
 #include "ci/ciSymbol.hpp"
-#include "classfile/compactHashtable.hpp"
-#include "classfile/dictionary.hpp"
-#include "classfile/javaClasses.hpp"
-#include "classfile/stringTable.hpp"
-#include "classfile/symbolTable.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/compactHashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/dictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "code/codeBlob.hpp"
 #include "code/codeCache.hpp"
 #include "code/compressedStream.hpp"
@@ -80,7 +80,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.hpp"
-#include "prims/jvmtiAgentThread.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiAgentThread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
@@ -100,8 +100,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 //#include CPU_HEADER(vmStructs)
-#include OS_HEADER(vmStructs)
-#include OS_CPU_HEADER(vmStructs)
+//#include OS_HEADER(vmStructs)
+//#include OS_CPU_HEADER(vmStructs)
 
 #if INCLUDE_JVMCI
 # include "jvmci/vmStructs_jvmci.hpp"

@@ -25,8 +25,8 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
 
-#include "classfile/classLoaderData.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahAsserts.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"

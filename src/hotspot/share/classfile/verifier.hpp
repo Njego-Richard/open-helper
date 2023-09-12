@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CLASSFILE_VERIFIER_HPP
 #define SHARE_VM_CLASSFILE_VERIFIER_HPP
 
-#include "classfile/verificationType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/verificationType.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"

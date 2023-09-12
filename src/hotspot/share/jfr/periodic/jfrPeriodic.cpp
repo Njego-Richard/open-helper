@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
-#include "classfile/classLoaderStats.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderStats.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "code/codeCache.hpp"
 #include "compiler/compileBroker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcConfiguration.hpp"
@@ -39,8 +39,8 @@
 #include "jfr/periodic/jfrThreadDumpEvent.hpp"
 #include "jfr/periodic/jfrNetworkUtilization.hpp"
 #include "jfr/recorder/jfrRecorder.hpp"
-#include "jfr/support/jfrThreadId.hpp"
-#include "jfr/utilities/jfrTime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTime.hpp"
 #include "jfrfiles/jfrPeriodic.hpp"
 #include "logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heapInspection.hpp"

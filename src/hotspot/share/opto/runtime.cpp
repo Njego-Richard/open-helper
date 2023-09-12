@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/systemDictionary.hpp"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "code/codeCache.hpp"
 #include "code/compiledMethod.inline.hpp"
 #include "code/compiledIC.hpp"

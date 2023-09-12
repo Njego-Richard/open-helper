@@ -23,11 +23,11 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoaderData.inline.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
-#include "prims/jvmtiGetLoadedClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiGetLoadedClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"

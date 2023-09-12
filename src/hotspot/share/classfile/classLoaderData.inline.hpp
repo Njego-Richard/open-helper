@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_CLASSLOADERDATA_INLINE_HPP
 #define SHARE_VM_CLASSFILE_CLASSLOADERDATA_INLINE_HPP
 
-#include "classfile/classLoaderData.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopHandle.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/weakHandle.inline.hpp"

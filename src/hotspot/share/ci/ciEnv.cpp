@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "ci/ciConstant.hpp"
 #include "ci/ciEnv.hpp"
 #include "ci/ciField.hpp"
@@ -33,8 +33,8 @@
 #include "ci/ciNullObject.hpp"
 #include "ci/ciReplay.hpp"
 #include "ci/ciUtilities.inline.hpp"
-#include "classfile/systemDictionary.hpp"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "code/codeCache.hpp"
 #include "code/scopeDesc.hpp"
 #include "compiler/compileBroker.hpp"
@@ -54,7 +54,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
-#include "prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/init.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/reflection.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.inline.hpp"

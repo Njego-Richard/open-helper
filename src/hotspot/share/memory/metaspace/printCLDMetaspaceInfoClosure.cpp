@@ -22,8 +22,8 @@
  *
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoaderData.inline.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/printCLDMetaspaceInfoClosure.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/printMetaspaceInfoKlassClosure.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"

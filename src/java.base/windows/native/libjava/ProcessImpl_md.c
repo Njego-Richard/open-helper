@@ -27,7 +27,7 @@
 #include "java_lang_ProcessImpl.h"
 
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "jni_util.h"
 #include "io_util.h"
 #include "io_util_md.h"

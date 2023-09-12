@@ -95,7 +95,7 @@ inline unsigned count_trailing_zeros(uintx x) {
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
-#include OS_CPU_HEADER(count_trailing_zeros)
+//#include OS_CPU_HEADER(count_trailing_zeros)
 
 /*****************************************************************************
  * Unknown toolchain

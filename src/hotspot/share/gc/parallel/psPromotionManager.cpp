@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/javaClasses.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/gcTaskManager.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/parallelScavengeHeap.hpp"

@@ -24,8 +24,8 @@
 
 #ifndef SHARE_VM_JFR_LEAKPROFILER_SAMPLING_SAMPLELIST_HPP
 #define SHARE_VM_JFR_LEAKPROFILER_SAMPLING_SAMPLELIST_HPP
-#include "jfr/utilities/jfrAllocation.hpp"
-#include "jfr/utilities/jfrDoublyLinkedList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrDoublyLinkedList.hpp"
 
 class ObjectSample;
 

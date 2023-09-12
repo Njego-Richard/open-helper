@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "prims/jvmtiExport.hpp"
-#include "prims/jvmtiExtensions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExtensions.hpp"
 
 // the list of extension functions
 GrowableArray<jvmtiExtensionFunctionInfo*>* JvmtiExtensions::_ext_functions;

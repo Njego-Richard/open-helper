@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_METHODOOP_HPP
 #define SHARE_VM_OOPS_METHODOOP_HPP
 
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "code/compressedStream.hpp"
 #include "compiler/compilerDefinitions.hpp"
 #include "compiler/oopMap.hpp"
@@ -41,7 +41,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_JFR
-#include "jfr/support/jfrTraceIdExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrTraceIdExtension.hpp"
 #endif
 
 

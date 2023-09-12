@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/recorder/checkpoint/jfrCheckpointManager.hpp"
 #include "jfr/recorder/checkpoint/jfrCheckpointWriter.hpp"
-#include "jfr/utilities/jfrBlob.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrBlob.hpp"
 #include "jfr/writers/jfrBigEndianWriter.hpp"
 
 JfrCheckpointFlush::JfrCheckpointFlush(Type* old, size_t used, size_t requested, Thread* t) :

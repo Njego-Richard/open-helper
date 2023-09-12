@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_DICTIONARY_HPP
 #define SHARE_VM_CLASSFILE_DICTIONARY_HPP
 
-#include "classfile/protectionDomainCache.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/protectionDomainCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"

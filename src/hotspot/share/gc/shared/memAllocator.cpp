@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/allocTracer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/memAllocator.hpp"
@@ -31,7 +31,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
-#include "prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"

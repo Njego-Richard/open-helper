@@ -23,14 +23,14 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "asm/macroAssembler.inline.hpp"
-#include "classfile/javaClasses.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.inline.hpp"
 #include "interpreter/interpreter.hpp"
 #include "interpreter/interp_masm.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "prims/methodHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/flagSetting.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/preserveException.hpp"

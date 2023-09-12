@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "logging/log.hpp"
 #include "jfr/jfrEvents.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"

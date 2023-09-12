@@ -29,7 +29,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metadataFactory.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/generateOopMap.hpp"
-#include "prims/methodHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 

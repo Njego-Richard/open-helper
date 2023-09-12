@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_VMSYMBOLS_HPP
 #define SHARE_VM_CLASSFILE_VMSYMBOLS_HPP
 
-#include "classfile/moduleEntry.hpp"
-#include "jfr/support/jfrIntrinsics.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/moduleEntry.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrIntrinsics.hpp"
 #include "jvmci/vmSymbols_jvmci.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"

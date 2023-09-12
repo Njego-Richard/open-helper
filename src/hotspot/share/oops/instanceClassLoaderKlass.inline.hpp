@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_INSTANCECLASSLOADERKLASS_INLINE_HPP
 #define SHARE_VM_OOPS_INSTANCECLASSLOADERKLASS_INLINE_HPP
 
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceClassLoaderKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.inline.hpp"

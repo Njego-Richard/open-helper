@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/metadataOnStackMark.hpp"
-#include "classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/metadataOnStackMark.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
 #include "code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1BarrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"

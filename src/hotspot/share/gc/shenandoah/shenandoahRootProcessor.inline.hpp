@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_SHENANDOAH_SHENANDOAHROOTPROCESSOR_INLINE_HPP
 #define SHARE_GC_SHENANDOAH_SHENANDOAHROOTPROCESSOR_INLINE_HPP
 
-#include "classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahPhaseTimings.hpp"

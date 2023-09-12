@@ -28,7 +28,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heapInspection.hpp"
-#include "prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/synchronizer.hpp"

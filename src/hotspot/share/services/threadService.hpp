@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_SERVICES_THREADSERVICE_HPP
 #define SHARE_VM_SERVICES_THREADSERVICE_HPP
 
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/init.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"

@@ -25,14 +25,14 @@
 #ifndef SHARE_VM_CLASSFILE_PACKAGEENTRY_HPP
 #define SHARE_VM_CLASSFILE_PACKAGEENTRY_HPP
 
-#include "classfile/moduleEntry.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/moduleEntry.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 #if INCLUDE_JFR
-#include "jfr/support/jfrTraceIdExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrTraceIdExtension.hpp"
 #endif
 
 

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CLASSFILE_STACKMAPTABLEFORMAT_HPP
 #define SHARE_VM_CLASSFILE_STACKMAPTABLEFORMAT_HPP
 
-#include "classfile/verificationType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/verificationType.hpp"
 
 // These classes represent the stack-map substructures described in the JVMS
 // (hence the non-conforming naming scheme).

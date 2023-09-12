@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_PRIMS_JVMTIENVTHREADSTATE_HPP
 #define SHARE_VM_PRIMS_JVMTIENVTHREADSTATE_HPP
 
-#include "jvmtifiles/jvmti.h"
+//#include "jvmtifiles/jvmti.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
-#include "prims/jvmtiEventController.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiEventController.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 

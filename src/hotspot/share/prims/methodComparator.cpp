@@ -28,7 +28,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constantPool.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
-#include "prims/methodComparator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodComparator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 

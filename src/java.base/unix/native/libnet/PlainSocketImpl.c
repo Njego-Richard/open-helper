@@ -24,7 +24,7 @@
  */
 #include <errno.h>
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "net_util.h"
 
 #include "java_net_SocketOptions.h"

@@ -25,9 +25,9 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvmtifiles/jvmtiEnv.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "prims/jvmtiEventController.inline.hpp"
-#include "prims/jvmtiImpl.hpp"
-#include "prims/jvmtiThreadState.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiEventController.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiImpl.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiThreadState.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointVerifiers.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe.hpp"
 

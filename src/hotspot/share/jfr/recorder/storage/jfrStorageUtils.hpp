@@ -27,8 +27,8 @@
 
 #include "jfr/recorder/storage/jfrBuffer.hpp"
 #include "jfr/recorder/repository/jfrChunkWriter.hpp"
-#include "jfr/utilities/jfrAllocation.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 template <typename Operation, typename NextOperation>

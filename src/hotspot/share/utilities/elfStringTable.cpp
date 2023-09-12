@@ -26,7 +26,7 @@
 
 #if !defined(_WINDOWS) && !defined(__APPLE__)
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/elfStringTable.hpp"

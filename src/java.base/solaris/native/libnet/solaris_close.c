@@ -27,7 +27,7 @@
 #include <sys/socket.h>
 #include <stropts.h>
 #include <unistd.h>
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "net_util.h"
 
 /* Support for restartable system calls on Solaris. */

@@ -26,11 +26,11 @@
 // This file is organized as os_linux_x86.cpp.
 
 // no precompiled headers
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "asm/assembler.inline.hpp"
-#include "classfile/classLoader.hpp"
-#include "classfile/systemDictionary.hpp"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "code/icBuffer.hpp"
 #include "code/nativeInst.hpp"
 #include "code/vtableStubs.hpp"
@@ -39,8 +39,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "nativeInst_s390.hpp"
 #include "os_share_linux.hpp"
-#include "prims/jniFastGetField.hpp"
-#include "prims/jvm_misc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jniFastGetField.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvm_misc.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/extendedPC.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"

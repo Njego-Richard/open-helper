@@ -34,7 +34,7 @@
 #include <string.h>
 #include "jlong.h"
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "jni_util.h"
 #include <zlib.h>
 #include "java_util_zip_Inflater.h"

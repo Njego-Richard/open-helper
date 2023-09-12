@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/javaClasses.inline.hpp"
-#include "classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
 #include "code/codeCache.hpp"
 #include "code/dependencyContext.hpp"
 #include "compiler/compileBroker.hpp"
@@ -37,7 +37,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.inline.hpp"
-#include "prims/methodHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/compilationPolicy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"

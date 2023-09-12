@@ -26,9 +26,9 @@
 #define SHARE_VM_JFR_RECORDER_CHECKPOINT_JFRCHECKPOINTWRITER_HPP
 
 #include "jfr/recorder/storage/jfrBuffer.hpp"
-#include "jfr/utilities/jfrBlob.hpp"
-#include "jfr/utilities/jfrTime.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrBlob.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 #include "jfr/writers/jfrEventWriterHost.inline.hpp"
 #include "jfr/writers/jfrMemoryWriterHost.inline.hpp"
 #include "jfr/writers/jfrStorageAdapter.hpp"

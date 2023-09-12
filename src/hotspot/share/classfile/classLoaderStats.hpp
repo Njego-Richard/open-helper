@@ -26,7 +26,7 @@
 #define SHARE_VM_CLASSFILE_CLASSLOADERSTATS_HPP
 
 
-#include "classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"

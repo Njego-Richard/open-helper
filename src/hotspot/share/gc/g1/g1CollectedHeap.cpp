@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/metadataOnStackMark.hpp"
-#include "classfile/stringTable.hpp"
-#include "classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/metadataOnStackMark.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
 #include "code/codeCache.hpp"
 #include "code/icBuffer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Allocator.inline.hpp"
@@ -84,7 +84,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
-#include "prims/resolvedMethodTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/resolvedMethodTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/flagSetting.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"

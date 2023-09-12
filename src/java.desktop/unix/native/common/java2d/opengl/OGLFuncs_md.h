@@ -30,7 +30,7 @@
 #ifndef MACOSX
 #include <dlfcn.h>
 #endif
-#include "jvm_md.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/include/jvm_md.h"
 #include "J2D_GL/glx.h"
 #include "OGLFuncMacros.h"
 

@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_PRIMS_JVMTITRACE_HPP
 #define SHARE_VM_PRIMS_JVMTITRACE_HPP
 
-#include "classfile/systemDictionary.hpp"
-#include "jvmtifiles/jvmti.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
+//#include "jvmtifiles/jvmti.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.hpp"
-#include "prims/jvmtiEnvThreadState.hpp"
-#include "prims/jvmtiEventController.hpp"
-#include "prims/jvmtiUtil.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiEnvThreadState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiEventController.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiUtil.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stackValueCollection.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
 

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_JAVACLASSES_HPP
 #define SHARE_VM_CLASSFILE_JAVACLASSES_HPP
 
-#include "classfile/systemDictionary.hpp"
-#include "jvmtifiles/jvmti.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
+//#include "jvmtifiles/jvmti.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/utf8.hpp"

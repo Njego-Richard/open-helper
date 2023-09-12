@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoader.hpp"
-#include "classfile/sharedPathsMiscInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/sharedPathsMiscInfo.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"

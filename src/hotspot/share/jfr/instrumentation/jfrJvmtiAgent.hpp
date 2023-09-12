@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_INSTRUMENTATION_JFRJVMTIAGENT_HPP
 #define SHARE_VM_JFR_INSTRUMENTATION_JFRJVMTIAGENT_HPP
 
-#include "jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
 
 class JfrJvmtiAgent : public JfrCHeapObj {
   friend class JfrRecorder;

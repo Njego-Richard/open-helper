@@ -28,7 +28,7 @@
 #include "interpreter/interpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constMethod.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
-#include "prims/methodHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/synchronizer.hpp"

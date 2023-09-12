@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Analytics.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ConcurrentMark.inline.hpp"

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CLASSFILE_CLASSLOADER_INLINE_HPP
 #define SHARE_VM_CLASSFILE_CLASSLOADER_INLINE_HPP
 
-#include "classfile/classLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 // Next entry in class path

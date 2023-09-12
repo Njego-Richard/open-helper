@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_RECORDER_SERVICE_JFRPOSTBOX_HPP
 #define SHARE_VM_JFR_RECORDER_SERVICE_JFRPOSTBOX_HPP
 
-#include "jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
 
 #define MSGBIT(e) (1<<(e))
 

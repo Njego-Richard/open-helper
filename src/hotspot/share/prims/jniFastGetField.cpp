@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "prims/jniFastGetField.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jniFastGetField.hpp"
 
 address JNI_FastGetField::speculative_load_pclist [LIST_CAPACITY];
 address JNI_FastGetField::slowcase_entry_pclist   [LIST_CAPACITY];

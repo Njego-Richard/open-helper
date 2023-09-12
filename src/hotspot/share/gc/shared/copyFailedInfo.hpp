@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_COPYFAILEDINFO_HPP
 #define SHARE_VM_GC_SHARED_COPYFAILEDINFO_HPP
 
-#include "jfr/support/jfrThreadId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadId.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 

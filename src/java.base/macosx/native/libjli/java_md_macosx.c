@@ -24,7 +24,7 @@
  */
 
 #include "java.h"
-#include "jvm_md.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/include/jvm_md.h"
 #include <dirent.h>
 #include <dlfcn.h>
 #include <fcntl.h>

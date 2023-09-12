@@ -27,7 +27,7 @@
 #include "logging/log.hpp"
 #include "logging/logConfiguration.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "prims/jvmtiTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiTrace.hpp"
 
 //
 // class JvmtiTrace

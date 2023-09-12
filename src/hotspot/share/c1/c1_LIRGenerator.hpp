@@ -30,7 +30,7 @@
 #include "c1/c1_LIR.hpp"
 #include "ci/ciMethodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
-#include "jfr/support/jfrIntrinsics.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrIntrinsics.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/sizes.hpp"
 

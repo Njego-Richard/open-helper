@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_JFR_RECORDER_REPOSITORY_JFRRCHUNKSTATE_HPP
 #define SHARE_VM_JFR_RECORDER_REPOSITORY_JFRRCHUNKSTATE_HPP
 
-#include "jfr/utilities/jfrAllocation.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 
 class JfrChunkState : public JfrCHeapObj {
   friend class JfrChunkWriter;

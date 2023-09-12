@@ -28,7 +28,7 @@
 #include <ctype.h>
 #include <assert.h>
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "jdk_util.h"
 
 JNIEXPORT void

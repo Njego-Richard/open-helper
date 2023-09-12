@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/javaClasses.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.inline.hpp"
 #include "code/codeBlob.hpp"
 #include "code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
@@ -36,7 +36,7 @@
 #include "jfr/recorder/jfrRecorder.hpp"
 #include "jfr/recorder/checkpoint/types/jfrThreadGroup.hpp"
 #include "jfr/recorder/checkpoint/types/jfrThreadState.hpp"
-#include "jfr/support/jfrThreadLocal.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadLocal.hpp"
 #include "jfr/writers/jfrJavaEventWriter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceGCThresholdUpdater.hpp"

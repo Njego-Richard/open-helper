@@ -29,8 +29,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 #if INCLUDE_JFR
-#include "jfr/support/jfrThreadLocal.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadLocal.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 #define JFR_THREAD_ID(thread) ((thread)->jfr_thread_local()->thread_id())
 #else
 typedef u8 traceid;

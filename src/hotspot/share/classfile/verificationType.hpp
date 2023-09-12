@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CLASSFILE_VERIFICATIONTYPE_HPP
 #define SHARE_VM_CLASSFILE_VERIFICATIONTYPE_HPP
 
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"

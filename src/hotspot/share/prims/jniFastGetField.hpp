@@ -26,7 +26,7 @@
 #define SHARE_VM_PRIMS_JNIFASTGETFIELD_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "prims/jvm_misc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvm_misc.hpp"
 
 // Basic logic of a fast version of jni_Get<Primitive>Field:
 //

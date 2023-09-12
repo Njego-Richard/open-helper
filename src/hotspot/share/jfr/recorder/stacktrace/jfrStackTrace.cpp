@@ -24,7 +24,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/recorder/checkpoint/jfrCheckpointWriter.hpp"
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceId.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceId.inline.hpp"
 #include "jfr/recorder/repository/jfrChunkWriter.hpp"
 #include "jfr/recorder/stacktrace/jfrStackTrace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SERIAL_MARKSWEEP_INLINE_HPP
 #define SHARE_VM_GC_SERIAL_MARKSWEEP_INLINE_HPP
 
-#include "classfile/classLoaderData.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/serial/markSweep.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"

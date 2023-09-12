@@ -22,8 +22,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/stringTable.hpp"
-#include "classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
 #include "interpreter/linkResolver.hpp"
 #include "jvmci/compilerRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/cpCache.inline.hpp"

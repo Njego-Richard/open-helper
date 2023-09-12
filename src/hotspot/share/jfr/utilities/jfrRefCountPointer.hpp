@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_UTILITIES_JFRREFCOUNTPOINTER_HPP
 #define SHARE_VM_JFR_UTILITIES_JFRREFCOUNTPOINTER_HPP
 
-#include "jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 
 template <typename T>

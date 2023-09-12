@@ -26,7 +26,7 @@
 #include "asm/macroAssembler.inline.hpp"
 #include "c1/c1_MacroAssembler.hpp"
 #include "c1/c1_Runtime1.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "interpreter/interpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.hpp"

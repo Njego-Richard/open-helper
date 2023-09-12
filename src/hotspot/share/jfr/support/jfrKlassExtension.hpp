@@ -26,7 +26,7 @@
 #define SHARE_VM_JFR_SUPPORT_JFRKLASSEXTENSION_HPP
 
 #include "jfr/instrumentation/jfrEventClassTransformer.hpp"
-#include "jfr/support/jfrTraceIdExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrTraceIdExtension.hpp"
 
 #define DEFINE_KLASS_TRACE_ID_OFFSET \
   static ByteSize trace_id_offset() { return in_ByteSize(offset_of(InstanceKlass, _trace_id)); }

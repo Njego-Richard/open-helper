@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "code/codeCache.hpp"
 #include "code/debugInfoRec.hpp"
 #include "code/nmethod.hpp"
@@ -42,7 +42,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/fieldStreams.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/verifyOopClosure.hpp"
-#include "prims/jvmtiThreadState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiThreadState.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/biasedLocking.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/compilationPolicy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"

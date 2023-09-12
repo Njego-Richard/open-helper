@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_INSTANCEMIRRORKLASS_HPP
 #define SHARE_VM_OOPS_INSTANCEMIRRORKLASS_HPP
 
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"

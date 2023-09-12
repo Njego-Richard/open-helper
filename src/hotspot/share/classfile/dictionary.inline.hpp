@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CLASSFILE_DICTIONARY_INLINE_HPP
 #define SHARE_VM_CLASSFILE_DICTIONARY_INLINE_HPP
 
-#include "classfile/dictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/dictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 
 inline ProtectionDomainEntry* DictionaryEntry::pd_set_acquire() const {

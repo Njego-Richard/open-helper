@@ -24,7 +24,7 @@
  */
 
 #include <dlfcn.h>
-#include "jvm_md.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/include/jvm_md.h"
 #include <setjmp.h>
 #include <string.h>
 

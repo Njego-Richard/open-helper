@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JVMCI_JVMCIENV_HPP
 #define SHARE_VM_JVMCI_JVMCIENV_HPP
 
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "code/debugInfoRec.hpp"
 #include "code/dependencies.hpp"
 #include "code/exceptionHandlerTable.hpp"

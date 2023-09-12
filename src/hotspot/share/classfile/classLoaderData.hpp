@@ -34,7 +34,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_JFR
-#include "jfr/support/jfrTraceIdExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrTraceIdExtension.hpp"
 #endif
 
 // external name (synthetic) for the primordial "bootstrap" class loader instance

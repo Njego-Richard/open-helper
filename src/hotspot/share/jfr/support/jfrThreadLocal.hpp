@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_JFR_SUPPORT_JFRTHREADLOCAL_HPP
 #define SHARE_VM_JFR_SUPPORT_JFRTHREADLOCAL_HPP
 
-#include "jfr/utilities/jfrBlob.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrBlob.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 
 class JavaThread;
 class JfrBuffer;

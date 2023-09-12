@@ -30,7 +30,7 @@
 #include <string.h>
 #include "gtk2_interface.h"
 #include "java_awt_Transparency.h"
-#include "jvm_md.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/include/jvm_md.h"
 #include "sizecalc.h"
 #include <jni_util.h>
 #include "awt.h"

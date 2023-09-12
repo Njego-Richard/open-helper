@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_MEMORY_FILEMAP_HPP
 #define SHARE_VM_MEMORY_FILEMAP_HPP
 
-#include "classfile/classLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
 #include "include/cds.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceShared.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"

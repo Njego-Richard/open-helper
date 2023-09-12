@@ -24,7 +24,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "asm/assembler.inline.hpp"
 #include "compiler/disassembler.hpp"
 #include "code/compiledIC.hpp"

@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_OOPS_INSTANCEMIRRORKLASS_INLINE_HPP
 #define SHARE_VM_OOPS_INSTANCEMIRRORKLASS_INLINE_HPP
 
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceMirrorKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"

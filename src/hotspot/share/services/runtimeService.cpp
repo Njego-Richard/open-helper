@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
 #include "logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 #include "services/attachListener.hpp"

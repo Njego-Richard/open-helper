@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHHEAP_INLINE_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHHEAP_INLINE_HPP
 
-#include "classfile/javaClasses.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/threadLocalAllocBuffer.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/suspendibleThreadSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/markBitMap.inline.hpp"

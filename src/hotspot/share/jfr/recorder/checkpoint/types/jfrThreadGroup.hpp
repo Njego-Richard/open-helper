@@ -26,8 +26,8 @@
 #define SHARE_VM_JFR_RECORDER_CHECKPOINT_TYPES_JFRTHREADGROUP_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
-#include "jfr/utilities/jfrAllocation.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 
 class JfrCheckpointWriter;
 template <typename>

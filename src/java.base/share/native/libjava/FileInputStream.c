@@ -31,7 +31,7 @@
 #include "jlong.h"
 #include "io_util.h"
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 
 #include "java_io_FileInputStream.h"
 

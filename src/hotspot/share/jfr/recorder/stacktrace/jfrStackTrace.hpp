@@ -25,8 +25,8 @@
 #ifndef SHARE_JFR_RECORDER_STACKTRACE_JFRSTACKTRACE_HPP
 #define SHARE_JFR_RECORDER_STACKTRACE_JFRSTACKTRACE_HPP
 
-#include "jfr/utilities/jfrAllocation.hpp"
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 
 class frame;
 class JavaThread;

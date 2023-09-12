@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_JFR_WRITERS_JFRWRITERHOST_INLINE_HPP
 #define SHARE_VM_JFR_WRITERS_JFRWRITERHOST_INLINE_HPP
 
-#include "classfile/javaClasses.hpp"
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceId.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceId.inline.hpp"
 #include "jfr/recorder/service/jfrOptionSet.hpp"
 #include "jfr/writers/jfrEncoding.hpp"
 #include "jfr/writers/jfrWriterHost.hpp"

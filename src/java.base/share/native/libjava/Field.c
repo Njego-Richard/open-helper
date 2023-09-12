@@ -24,7 +24,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "java_lang_reflect_Field.h"
 
 JNIEXPORT jbyteArray JNICALL

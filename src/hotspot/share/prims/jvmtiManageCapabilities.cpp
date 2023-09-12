@@ -25,8 +25,8 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jvmtifiles/jvmtiEnv.hpp"
 #include "logging/log.hpp"
-#include "prims/jvmtiExport.hpp"
-#include "prims/jvmtiManageCapabilities.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiManageCapabilities.hpp"
 
 static const jint CAPA_SIZE = (JVMTI_INTERNAL_CAPABILITY_COUNT + 7) / 8;
 

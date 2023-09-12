@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedup.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupQueue.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupQueue.inline.hpp"

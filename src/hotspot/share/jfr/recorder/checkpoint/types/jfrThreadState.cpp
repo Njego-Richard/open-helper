@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/recorder/checkpoint/types/jfrThreadState.hpp"
 #include "jfr/recorder/checkpoint/jfrCheckpointWriter.hpp"
-#include "jvmtifiles/jvmti.h"
+//#include "jvmtifiles/jvmti.h"
 
 struct jvmti_thread_state {
   u8 id;

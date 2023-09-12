@@ -27,7 +27,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constantPool.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.hpp"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 
 // This class represents the field information contained in the fields
 // array of an InstanceKlass.  Currently it's laid on top an array of

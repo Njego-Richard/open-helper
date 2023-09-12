@@ -26,8 +26,8 @@
 #define SHARE_VM_CLASSFILE_MODULEENTRY_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
-#include "classfile/classLoaderData.hpp"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopHandle.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
@@ -37,7 +37,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 #if INCLUDE_JFR
-#include "jfr/support/jfrTraceIdExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrTraceIdExtension.hpp"
 #endif
 
 #define UNNAMED_MODULE "unnamed module"

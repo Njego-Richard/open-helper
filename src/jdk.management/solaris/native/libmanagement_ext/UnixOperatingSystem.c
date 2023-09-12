@@ -37,7 +37,7 @@
 #include <dlfcn.h>
 #include <sys/loadavg.h>
 #include <jni.h>
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "com_sun_management_internal_OperatingSystemImpl.h"
 
 typedef struct {

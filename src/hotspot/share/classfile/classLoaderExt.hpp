@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_CLASSLOADEREXT_HPP
 #define SHARE_VM_CLASSFILE_CLASSLOADEREXT_HPP
 
-#include "classfile/classLoader.hpp"
-#include "classfile/moduleEntry.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/moduleEntry.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 class ClassListParser;

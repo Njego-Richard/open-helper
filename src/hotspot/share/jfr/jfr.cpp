@@ -30,7 +30,7 @@
 #include "jfr/recorder/checkpoint/jfrCheckpointManager.hpp"
 #include "jfr/recorder/repository/jfrEmergencyDump.hpp"
 #include "jfr/recorder/service/jfrOptionSet.hpp"
-#include "jfr/support/jfrThreadLocal.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadLocal.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
 
 bool Jfr::is_enabled() {

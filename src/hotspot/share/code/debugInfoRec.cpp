@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "code/debugInfoRec.hpp"
 #include "code/scopeDesc.hpp"
-#include "prims/jvmtiExport.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 
 // Private definition.
 // There is one DIR_Chunk for each scope and values array.

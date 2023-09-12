@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_WRITERS_JFRSTREAMWRITERHOST_HPP
 #define SHARE_VM_JFR_WRITERS_JFRSTREAMWRITERHOST_HPP
 
-#include "jfr/utilities/jfrTypes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 #include "jfr/writers/jfrMemoryWriterHost.inline.hpp"
 
 template <typename Adapter, typename AP> // Adapter and AllocationPolicy

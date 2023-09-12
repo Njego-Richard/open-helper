@@ -29,7 +29,7 @@
 #include <mach/mach.h>
 #include <mach/task_info.h>
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 
 JNIEXPORT jdouble JNICALL
 Java_com_sun_management_internal_OperatingSystemImpl_getSystemCpuLoad0

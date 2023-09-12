@@ -34,9 +34,9 @@
 
 #include "logging/log.hpp"
 #include "jfr/jfrEvents.hpp"
-#include "jfr/support/jfrThreadId.hpp"
-#include "jfr/support/jfrThreadLocal.hpp"
-#include "jfr/utilities/jfrTime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadLocal.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"

@@ -27,7 +27,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
-#include "jfr/utilities/jfrTime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTime.hpp"
 
 class ClassLoaderData;
 class Klass;

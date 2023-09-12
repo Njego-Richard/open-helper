@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OOPS_INSTANCEKLASS_HPP
 #define SHARE_VM_OOPS_INSTANCEKLASS_HPP
 
-#include "classfile/classLoader.hpp"
-#include "classfile/classLoaderData.hpp"
-#include "classfile/moduleEntry.hpp"
-#include "classfile/packageEntry.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/moduleEntry.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/packageEntry.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/referenceType.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/annotations.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constMethod.hpp"
@@ -41,7 +41,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_JFR
-#include "jfr/support/jfrKlassExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrKlassExtension.hpp"
 #endif
 
 

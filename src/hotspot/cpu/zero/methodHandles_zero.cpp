@@ -32,7 +32,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.inline.hpp"
-#include "prims/methodHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
 
 void MethodHandles::invoke_target(Method* method, TRAPS) {
 

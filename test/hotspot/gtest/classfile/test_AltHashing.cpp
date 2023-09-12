@@ -21,7 +21,7 @@
  * questions.
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/altHashing.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/altHashing.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/formatBuffer.hpp"
 #include "unittest.hpp"

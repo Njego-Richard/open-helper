@@ -30,7 +30,7 @@
 #ifndef _WIN32_DIRENT_H_
 #define _WIN32_DIRENT_H_
 
-#include "jvm_md.h"     /* DIR actually defined in here */
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/include/jvm_md.h"     /* DIR actually defined in here */
 
 DIR *opendir(const char *dirname);
 struct dirent *readdir(DIR *dirp);

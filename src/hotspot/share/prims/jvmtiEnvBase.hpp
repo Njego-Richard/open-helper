@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_PRIMS_JVMTIENVBASE_HPP
 #define SHARE_VM_PRIMS_JVMTIENVBASE_HPP
 
-#include "classfile/classLoader.hpp"
-#include "prims/jvmtiEnvThreadState.hpp"
-#include "prims/jvmtiEventController.hpp"
-#include "prims/jvmtiThreadState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiEnvThreadState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiEventController.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiThreadState.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopHandle.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/fieldDescriptor.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"

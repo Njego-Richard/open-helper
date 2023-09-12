@@ -26,7 +26,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
-#include OS_CPU_HEADER(gc/z/zGlobals)
+//#include OS_CPU_HEADER(gc/z/zGlobals)
 
 // Collector name
 const char* const ZGCName                       = "The Z Garbage Collector";

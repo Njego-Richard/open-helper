@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classFileParser.hpp"
-#include "classfile/stackMapTable.hpp"
-#include "classfile/verifier.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classFileParser.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stackMapTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/verifier.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 
 // Keep these in a separate file to prevent inlining

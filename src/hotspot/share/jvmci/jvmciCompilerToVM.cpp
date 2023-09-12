@@ -23,7 +23,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "ci/ciUtilities.inline.hpp"
-#include "classfile/javaClasses.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.inline.hpp"
 #include "code/scopeDesc.hpp"
 #include "interpreter/linkResolver.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"

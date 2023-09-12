@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_KLASS_HPP
 #define SHARE_VM_OOPS_KLASS_HPP
 
-#include "classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
@@ -34,7 +34,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_JFR
-#include "jfr/support/jfrTraceIdExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrTraceIdExtension.hpp"
 #endif
 
 // Klass IDs for all subclasses of Klass

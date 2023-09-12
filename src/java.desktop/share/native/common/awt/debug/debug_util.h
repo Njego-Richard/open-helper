@@ -41,10 +41,10 @@ typedef int dbool_t;
 
 typedef void * dmutex_t;
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>

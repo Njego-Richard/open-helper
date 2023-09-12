@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_INSTANCEREFKLASS_INLINE_HPP
 #define SHARE_VM_OOPS_INSTANCEREFKLASS_INLINE_HPP
 
-#include "classfile/javaClasses.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessor.hpp"
 #include "logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"

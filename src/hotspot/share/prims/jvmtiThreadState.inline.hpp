@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_PRIMS_JVMTITHREADSTATE_INLINE_HPP
 #define SHARE_VM_PRIMS_JVMTITHREADSTATE_INLINE_HPP
 
-#include "prims/jvmtiEnvThreadState.hpp"
-#include "prims/jvmtiThreadState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiEnvThreadState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiThreadState.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 
 // JvmtiEnvThreadStateIterator implementation

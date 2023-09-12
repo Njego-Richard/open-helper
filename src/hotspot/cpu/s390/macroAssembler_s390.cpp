@@ -42,7 +42,7 @@
 #include "opto/intrinsicnode.hpp"
 #include "opto/matcher.hpp"
 #endif
-#include "prims/methodHandles.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
 #include "registerSaver_s390.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/biasedLocking.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"

@@ -25,7 +25,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "jdk_internal_org_jline_terminal_impl_jna_win_Kernel32Impl.h"
 
 #include <stdlib.h>

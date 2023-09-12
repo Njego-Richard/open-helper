@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoaderData.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.inline.hpp"
 #include "code/compiledIC.hpp"
 #include "code/nmethod.hpp"
 #include "code/scopeDesc.hpp"
@@ -32,7 +32,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
-#include "prims/nativeLookup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/nativeLookup.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/compilationPolicy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"

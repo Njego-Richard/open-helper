@@ -24,7 +24,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "ci/ciMethodData.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "compiler/compilerOracle.hpp"
 #include "interpreter/bytecode.hpp"
 #include "interpreter/bytecodeStream.hpp"
@@ -33,7 +33,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceClosure.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.inline.hpp"
-#include "prims/jvmtiRedefineClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiRedefineClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/compilationPolicy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"

@@ -26,7 +26,7 @@
 #include "compiler/compileBroker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "jfr/jfrEvents.hpp"
-#include "jfr/support/jfrThreadId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadId.hpp"
 #include "logging/log.hpp"
 #include "logging/logStream.hpp"
 #include "logging/logConfiguration.hpp"

@@ -41,8 +41,8 @@
 #ifndef GENERATED_JVMTIFILES_JVMTIENV_HPP
 #define GENERATED_JVMTIFILES_JVMTIENV_HPP
 
-#include "prims/jvmtiEnvBase.hpp"
-#include "prims/jvmtiImpl.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiEnvBase.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiImpl.hpp"
 
 enum {
     JVMTI_INTERNAL_CAPABILITY_COUNT = </xsl:text>

@@ -38,7 +38,7 @@
 #include "GraphicsPrimitiveMgr.h"
 #include "Region.h"
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 
 /**
  * The following methods are implemented in the windowing system (i.e. GLX

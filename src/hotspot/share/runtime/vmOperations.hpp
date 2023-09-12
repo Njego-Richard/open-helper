@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_VMOPERATIONS_HPP
 #define SHARE_VM_RUNTIME_VMOPERATIONS_HPP
 
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"

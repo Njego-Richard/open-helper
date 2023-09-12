@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_SERVICES_DIAGNOSTICCOMMAND_HPP
 #define SHARE_VM_SERVICES_DIAGNOSTICCOMMAND_HPP
 
-#include "classfile/stringTable.hpp"
-#include "classfile/symbolTable.hpp"
-#include "classfile/systemDictionary.hpp"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"

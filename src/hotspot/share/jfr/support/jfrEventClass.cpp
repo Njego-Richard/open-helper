@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceId.inline.hpp"
-#include "jfr/support/jfrEventClass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceId.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrEventClass.hpp"
 
 bool JdkJfrEvent::is(const Klass* k) {
   return JfrTraceId::is_jdk_jfr_event(k);

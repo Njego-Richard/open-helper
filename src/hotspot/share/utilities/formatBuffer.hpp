@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_UTILITIES_FORMATBUFFER_HPP
 #define SHARE_VM_UTILITIES_FORMATBUFFER_HPP
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include <stdarg.h>
 

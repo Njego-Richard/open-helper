@@ -39,7 +39,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include <poll.h>
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "net_util.h"
 
 /*

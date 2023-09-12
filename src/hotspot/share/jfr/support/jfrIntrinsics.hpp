@@ -28,10 +28,10 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #if INCLUDE_JFR
-#include "jfr/support/jfrKlassExtension.hpp"
-#include "jfr/support/jfrThreadExtension.hpp"
-#include "jfr/utilities/jfrTime.hpp"
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceIdMacros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrKlassExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceIdMacros.hpp"
 
 #define JFR_TEMPLATES(template) \
   template(jdk_jfr_internal_JVM,          "jdk/jfr/internal/JVM")

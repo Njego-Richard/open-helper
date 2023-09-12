@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_PRIMS_JVMTICODEBLOBEVENTS_HPP
 #define SHARE_VM_PRIMS_JVMTICODEBLOBEVENTS_HPP
 
-#include "jvmtifiles/jvmti.h"
+//#include "jvmtifiles/jvmti.h"
 
 // forward declaration
 class JvmtiEnv;

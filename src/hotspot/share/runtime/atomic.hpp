@@ -580,7 +580,7 @@ struct Atomic::PlatformXchg {
 
 // platform specific in-line definitions - must come before shared definitions
 
-#include OS_CPU_HEADER(atomic)
+//#include OS_CPU_HEADER(atomic)
 
 // shared in-line definitions
 

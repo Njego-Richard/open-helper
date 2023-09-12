@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CLASSFILE_COMPACTHASHTABLE_INLINE_HPP
 #define SHARE_VM_CLASSFILE_COMPACTHASHTABLE_INLINE_HPP
 
-#include "classfile/compactHashtable.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/compactHashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/filemap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heapShared.inline.hpp"

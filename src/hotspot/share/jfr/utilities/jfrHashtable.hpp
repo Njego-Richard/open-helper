@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_UTILITIES_JFRHASHTABLE_HPP
 #define SHARE_VM_JFR_UTILITIES_JFRHASHTABLE_HPP
 
-#include "jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"

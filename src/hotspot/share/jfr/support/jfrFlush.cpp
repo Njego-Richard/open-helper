@@ -26,8 +26,8 @@
 #include "jfr/recorder/jfrEventSetting.inline.hpp"
 #include "jfr/recorder/storage/jfrStorage.hpp"
 #include "jfr/recorder/stacktrace/jfrStackTraceRepository.hpp"
-#include "jfr/support/jfrFlush.hpp"
-#include "jfr/support/jfrThreadLocal.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrFlush.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadLocal.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 

@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "ci/ciCallSite.hpp"
 #include "ci/ciMethodHandle.hpp"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "compiler/compileBroker.hpp"
 #include "compiler/compileLog.hpp"
 #include "interpreter/linkResolver.hpp"
@@ -38,7 +38,7 @@
 #include "opto/rootnode.hpp"
 #include "opto/runtime.hpp"
 #include "opto/subnode.hpp"
-#include "prims/nativeLookup.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/nativeLookup.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 
 void trace_type_profile(Compile* C, ciMethod *method, int depth, int bci, ciMethod *prof_method, ciKlass *prof_klass, int site_count, int receiver_count) {

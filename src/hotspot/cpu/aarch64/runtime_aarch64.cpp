@@ -27,7 +27,7 @@
 #ifdef COMPILER2
 #include "asm/macroAssembler.hpp"
 #include "asm/macroAssembler.inline.hpp"
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "code/vmreg.hpp"
 #include "interpreter/interpreter.hpp"
 #include "opto/runtime.hpp"

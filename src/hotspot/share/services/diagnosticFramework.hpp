@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_SERVICES_DIAGNOSTICFRAMEWORK_HPP
 #define SHARE_VM_SERVICES_DIAGNOSTICFRAMEWORK_HPP
 
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"

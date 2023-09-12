@@ -26,7 +26,7 @@
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "TimeZone_md.h"
 
 #define VALUE_UNKNOWN           0

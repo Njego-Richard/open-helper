@@ -24,8 +24,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "prims/jniFastGetField.hpp"
-#include "prims/jvm_misc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jniFastGetField.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvm_misc.hpp"
 
 // TSO ensures that loads are blocking and ordered with respect to
 // to earlier loads, so we don't need LoadLoad membars.

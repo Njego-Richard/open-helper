@@ -27,7 +27,7 @@
 #include <windows.h>
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "java_util_prefs_WindowsPreferences.h"
 
 #ifdef __cplusplus

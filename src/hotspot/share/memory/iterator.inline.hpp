@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_MEMORY_ITERATOR_INLINE_HPP
 #define SHARE_VM_MEMORY_ITERATOR_INLINE_HPP
 
-#include "classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compressedOops.inline.hpp"

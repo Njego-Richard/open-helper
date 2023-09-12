@@ -23,7 +23,7 @@
  * questions.
  */
 
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "java_lang_String.h"
 
 JNIEXPORT jobject JNICALL

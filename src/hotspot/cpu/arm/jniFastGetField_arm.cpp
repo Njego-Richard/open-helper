@@ -26,8 +26,8 @@
 #include "asm/macroAssembler.hpp"
 #include "assembler_arm.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "prims/jniFastGetField.hpp"
-#include "prims/jvm_misc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jniFastGetField.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvm_misc.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 
 #define __ masm->

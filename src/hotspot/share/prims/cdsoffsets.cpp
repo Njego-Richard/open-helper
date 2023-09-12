@@ -29,7 +29,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/filemap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
-#include "prims/cdsoffsets.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/cdsoffsets.hpp"
 
 CDSOffsets::CDSOffsets(const char* name, int offset, CDSOffsets* next) {
   _name = NEW_C_HEAP_ARRAY(char, strlen(name) + 1, mtInternal);

@@ -27,7 +27,7 @@
 #define JDK_UTIL_H
 
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "jdk_util_md.h"
 
 #ifdef __cplusplus

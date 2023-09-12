@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/javaClasses.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.inline.hpp"
 #include "interpreter/bytecodeHistogram.hpp"
 #include "interpreter/bytecodeTracer.hpp"
 #include "interpreter/bytecodes.hpp"

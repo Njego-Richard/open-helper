@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_PRIMS_METHODHANDLES_HPP
 #define SHARE_VM_PRIMS_METHODHANDLES_HPP
 
-#include "classfile/javaClasses.hpp"
-#include "classfile/vmSymbols.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"

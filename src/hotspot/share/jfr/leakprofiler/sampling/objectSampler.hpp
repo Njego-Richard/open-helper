@@ -26,7 +26,7 @@
 #define SHARE_VM_LEAKPROFILER_SAMPLING_OBJECTSAMPLER_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "jfr/utilities/jfrTime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTime.hpp"
 
 typedef u8 traceid;
 

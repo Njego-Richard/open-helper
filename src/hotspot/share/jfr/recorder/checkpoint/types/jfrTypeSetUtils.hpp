@@ -25,9 +25,9 @@
 #ifndef SHARE_JFR_RECORDER_CHECKPOINT_TYPES_JFRTYPESETUTILS_HPP
 #define SHARE_JFR_RECORDER_CHECKPOINT_TYPES_JFRTYPESETUTILS_HPP
 
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceId.inline.hpp"
-#include "jfr/utilities/jfrAllocation.hpp"
-#include "jfr/utilities/jfrHashtable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceId.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrHashtable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"

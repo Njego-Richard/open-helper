@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_MEMORY_HEAPSHARED_HPP
 #define SHARE_VM_MEMORY_HEAPSHARED_HPP
 
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.hpp"

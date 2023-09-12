@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_PRIMS_JVMTIENTER_INLINE_HPP
 #define SHARE_VM_PRIMS_JVMTIENTER_INLINE_HPP
 
-#include "classfile/systemDictionary.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "jvmtifiles/jvmtiEnv.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "prims/jvmtiImpl.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiImpl.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
 
 #endif // SHARE_VM_PRIMS_JVMTIENTER_INLINE_HPP

@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/classLoaderData.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
@@ -33,7 +33,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/weakHandle.inline.hpp"
-#include "prims/resolvedMethodTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/resolvedMethodTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointVerifiers.hpp"

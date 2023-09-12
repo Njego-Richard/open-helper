@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_OS_HPP
 #define SHARE_VM_RUNTIME_OS_HPP
 
-#include "jvm.h"
-#include "jvmtifiles/jvmti.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
+// //#include "jvmtifiles/jvmti.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/isRegisteredEnum.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/integralConstant.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/extendedPC.hpp"
@@ -899,10 +899,10 @@ class os: AllStatic {
 
   // Platform dependent stuff
 #ifndef _WINDOWS
-# include "os_posix.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/os_posix.hpp"
 #endif
-#include OS_CPU_HEADER(os)
-#include OS_HEADER(os)
+//#include OS_CPU_HEADER(os)
+//#include OS_HEADER(os) 
 
 #ifndef OS_NATIVE_THREAD_CREATION_FAILED_MSG
 #define OS_NATIVE_THREAD_CREATION_FAILED_MSG "unable to create native thread: possibly out of memory or process/resource limits reached"

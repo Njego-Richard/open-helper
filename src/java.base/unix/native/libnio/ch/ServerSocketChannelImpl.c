@@ -39,7 +39,7 @@ typedef size_t socklen_t;       /* New in SunOS 5.7, so need this for 5.6 */
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "jni_util.h"
 #include "net_util.h"
-#include "jvm.h"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "jlong.h"
 #include "sun_nio_ch_ServerSocketChannelImpl.h"
 #include "nio.h"

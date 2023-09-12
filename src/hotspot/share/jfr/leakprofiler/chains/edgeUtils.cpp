@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "classfile/javaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 #include "jfr/leakprofiler/chains/edge.hpp"
 #include "jfr/leakprofiler/chains/edgeStore.hpp"
 #include "jfr/leakprofiler/chains/edgeUtils.hpp"

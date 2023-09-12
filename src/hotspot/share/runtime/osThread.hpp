@@ -92,7 +92,7 @@ class OSThread: public CHeapObj<mtThread> {
   static ByteSize interrupted_offset()            { return byte_offset_of(OSThread, _interrupted); }
 
   // Platform dependent stuff
-#include OS_HEADER(osThread)
+//#include OS_HEADER(osThread)
 
  public:
   static ByteSize thread_id_offset()              { return byte_offset_of(OSThread, _thread_id); }

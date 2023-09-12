@@ -24,9 +24,9 @@
 #ifndef SHARE_VM_JFR_RECORDER_STORAGE_JFRMEMORYSPACE_HPP
 #define SHARE_VM_JFR_RECORDER_STORAGE_JFRMEMORYSPACE_HPP
 
-#include "jfr/utilities/jfrAllocation.hpp"
-#include "jfr/utilities/jfrDoublyLinkedList.hpp"
-#include "jfr/utilities/jfrIterator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrAllocation.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrDoublyLinkedList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrIterator.hpp"
 
 template <typename T, template <typename> class RetrievalType, typename Callback>
 class JfrMemorySpace : public JfrCHeapObj {

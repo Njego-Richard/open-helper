@@ -30,7 +30,7 @@
 #include "rdtsc_x86.hpp"
 #endif
 
-#include OS_CPU_HEADER(os)
+//#include OS_CPU_HEADER(os)
 
 template <typename TimeSource, const int unit>
 inline double conversion(typename TimeSource::Type& value) {

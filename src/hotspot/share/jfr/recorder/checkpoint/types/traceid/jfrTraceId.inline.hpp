@@ -25,14 +25,14 @@
 #ifndef SHARE_JFR_RECORDER_CHECKPOINT_TYPES_TRACEID_JFRTRACEID_INLINE_HPP
 #define SHARE_JFR_RECORDER_CHECKPOINT_TYPES_TRACEID_JFRTRACEID_INLINE_HPP
 
-#include "classfile/classLoaderData.hpp"
-#include "classfile/moduleEntry.hpp"
-#include "classfile/packageEntry.hpp"
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceId.hpp"
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceIdBits.inline.hpp"
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceIdEpoch.hpp"
-#include "jfr/recorder/checkpoint/types/traceid/jfrTraceIdMacros.hpp"
-#include "jfr/support/jfrKlassExtension.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/moduleEntry.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/packageEntry.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceId.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceIdBits.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceIdEpoch.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/recorder/checkpoint/types/traceid/jfrTraceIdMacros.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrKlassExtension.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
