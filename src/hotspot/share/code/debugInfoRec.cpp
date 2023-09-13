@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/debugInfoRec.hpp"
-#include "code/scopeDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfoRec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/scopeDesc.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 
 // Private definition.

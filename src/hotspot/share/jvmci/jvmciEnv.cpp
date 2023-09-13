@@ -23,16 +23,16 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "jvmci/jvmciEnv.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciEnv.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaAssertions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
-#include "code/codeCache.hpp"
-#include "code/scopeDesc.hpp"
-#include "compiler/compileBroker.hpp"
-#include "compiler/compileLog.hpp"
-#include "compiler/compilerOracle.hpp"
-#include "interpreter/linkResolver.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/scopeDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileBroker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileLog.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerOracle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/linkResolver.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
@@ -51,8 +51,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sweeper.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/dtrace.hpp"
-#include "jvmci/jvmciRuntime.hpp"
-#include "jvmci/jvmciJavaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciJavaClasses.hpp"
 
 JVMCIEnv::JVMCIEnv(CompileTask* task):
   _task(task),

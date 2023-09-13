@@ -23,13 +23,13 @@
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadCritical.hpp"
-#include "services/memTracker.hpp"
-#include "services/virtualMemoryTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/virtualMemoryTracker.hpp"
 
 size_t VirtualMemorySummary::_snapshot[CALC_OBJ_SIZE_IN_TYPE(VirtualMemorySnapshot, size_t)];
 

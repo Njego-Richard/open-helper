@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_INTERPRETER_INTERPRETER_HPP
 #define SHARE_VM_INTERPRETER_INTERPRETER_HPP
 
-#include "code/stubs.hpp"
-#include "interpreter/cppInterpreter.hpp"
-#include "interpreter/templateInterpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/stubs.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/cppInterpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/templateInterpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 

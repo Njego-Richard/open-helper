@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "ci/ciClassList.hpp"
-#include "ci/ciMethodHandle.hpp"
-#include "ci/ciUtilities.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciClassList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodHandle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciUtilities.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 
 // ------------------------------------------------------------------

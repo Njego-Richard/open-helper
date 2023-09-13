@@ -28,7 +28,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedup.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedupTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/suspendibleThreadSet.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/padded.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.inline.hpp"

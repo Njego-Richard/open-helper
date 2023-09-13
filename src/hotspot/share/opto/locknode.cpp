@@ -23,10 +23,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "opto/locknode.hpp"
-#include "opto/parse.hpp"
-#include "opto/rootnode.hpp"
-#include "opto/runtime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/locknode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/parse.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/rootnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/runtime.hpp"
 
 //=============================================================================
 const RegMask &BoxLockNode::in_RegMask(uint i) const {

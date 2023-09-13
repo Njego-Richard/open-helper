@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/spaceDecorator.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
 
 // Catch-all file for utility classes

@@ -23,13 +23,13 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
 #include "assembler_arm.inline.hpp"
-#include "code/debugInfoRec.hpp"
-#include "code/icBuffer.hpp"
-#include "code/vtableStubs.hpp"
-#include "interpreter/interpreter.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfoRec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/icBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vtableStubs.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compiledICHolder.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
@@ -40,7 +40,7 @@
 #include "c1/c1_Runtime1.hpp"
 #endif
 #ifdef COMPILER2
-#include "opto/runtime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/runtime.hpp"
 #endif
 
 #define __ masm->

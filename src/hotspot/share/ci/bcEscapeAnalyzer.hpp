@@ -26,10 +26,10 @@
 #define SHARE_VM_CI_BCESCAPEANALYZER_HPP
 
 #ifdef COMPILER2
-#include "ci/ciObject.hpp"
-#include "ci/ciMethod.hpp"
-#include "ci/ciMethodData.hpp"
-#include "code/dependencies.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciObject.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/dependencies.hpp"
 #include "libadt/vectset.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"

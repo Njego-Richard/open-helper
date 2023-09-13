@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_ASM_ASSEMBLER_HPP
 #define SHARE_VM_ASM_ASSEMBLER_HPP
 
-#include "asm/codeBuffer.hpp"
-#include "asm/register.hpp"
-#include "code/oopRecorder.hpp"
-#include "code/relocInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/codeBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/register.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/oopRecorder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/relocInfo.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"

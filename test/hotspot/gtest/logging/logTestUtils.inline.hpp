@@ -21,9 +21,9 @@
  * questions.
  */
 
-#include "logging/log.hpp"
-#include "logging/logConfiguration.hpp"
-#include "logging/logStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logConfiguration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "unittest.hpp"

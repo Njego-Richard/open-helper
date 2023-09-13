@@ -26,7 +26,7 @@
 #define SHARE_VM_GC_G1_G1HRPRINTER_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 
 #define SKIP_RETIRED_FULL_REGIONS 1
 

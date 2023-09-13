@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_CODE_ICBUFFER_HPP
 #define SHARE_VM_CODE_ICBUFFER_HPP
 
-#include "asm/codeBuffer.hpp"
-#include "code/stubs.hpp"
-#include "interpreter/bytecodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/codeBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/stubs.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 

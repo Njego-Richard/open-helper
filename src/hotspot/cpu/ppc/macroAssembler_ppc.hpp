@@ -26,7 +26,7 @@
 #ifndef CPU_PPC_VM_MACROASSEMBLER_PPC_HPP
 #define CPU_PPC_VM_MACROASSEMBLER_PPC_HPP
 
-#include "asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessDecorators.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/rtmLocking.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_CI_CIINSTANCEKLASS_HPP
 #define SHARE_VM_CI_CIINSTANCEKLASS_HPP
 
-#include "ci/ciConstantPoolCache.hpp"
-#include "ci/ciFlags.hpp"
-#include "ci/ciKlass.hpp"
-#include "ci/ciSymbol.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciConstantPoolCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciSymbol.hpp"
 
 // ciInstanceKlass
 //

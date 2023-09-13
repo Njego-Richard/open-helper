@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTraceTime.inline.hpp"
 #include "logTestFixture.hpp"
 #include "logTestUtils.inline.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
 #include "unittest.hpp"
 

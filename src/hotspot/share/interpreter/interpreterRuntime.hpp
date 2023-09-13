@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_INTERPRETER_INTERPRETERRUNTIME_HPP
 #define SHARE_VM_INTERPRETER_INTERPRETERRUNTIME_HPP
 
-#include "interpreter/bytecode.hpp"
-#include "interpreter/linkResolver.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/linkResolver.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"

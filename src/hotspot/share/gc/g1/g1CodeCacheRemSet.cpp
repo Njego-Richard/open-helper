@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/codeCache.hpp"
-#include "code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CodeRootSetTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CodeCacheRemSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"

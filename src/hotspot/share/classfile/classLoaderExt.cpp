@@ -45,7 +45,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
-#include "services/threadService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/threadService.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stringUtils.hpp"
 
 jshort ClassLoaderExt::_app_class_paths_start_index = ClassLoaderExt::max_classpath_index;

@@ -23,12 +23,12 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.inline.hpp"
-#include "services/attachListener.hpp"
-#include "services/dtraceAttacher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/attachListener.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/dtraceAttacher.hpp"
 
 #include <unistd.h>
 #include <signal.h>

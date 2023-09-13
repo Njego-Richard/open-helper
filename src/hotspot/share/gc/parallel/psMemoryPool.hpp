@@ -28,8 +28,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/mutableSpace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psOldGen.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/psYoungGen.hpp"
-#include "services/memoryPool.hpp"
-#include "services/memoryUsage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryUsage.hpp"
 
 class PSGenerationPool : public CollectedMemoryPool {
 private:

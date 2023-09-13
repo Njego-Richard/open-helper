@@ -23,15 +23,15 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "asm/macroAssembler.hpp"
-#include "asm/macroAssembler.inline.hpp"
-#include "code/debugInfoRec.hpp"
-#include "code/icBuffer.hpp"
-#include "code/nativeInst.hpp"
-#include "code/vtableStubs.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfoRec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/icBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nativeInst.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vtableStubs.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcLocker.hpp"
-#include "interpreter/interpreter.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compiledICHolder.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointMechanism.hpp"
@@ -45,7 +45,7 @@
 #include "c1/c1_Runtime1.hpp"
 #endif
 #ifdef COMPILER2
-#include "opto/runtime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/runtime.hpp"
 #endif
 #if INCLUDE_SHENANDOAHGC
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahBarrierSet.hpp"

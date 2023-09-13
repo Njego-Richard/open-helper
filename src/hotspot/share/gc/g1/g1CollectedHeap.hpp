@@ -51,7 +51,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/preservedMarks.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/softRefPolicy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/memRegion.hpp"
-#include "services/memoryManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryManager.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 
 // A "G1CollectedHeap" is an implementation of a java heap for HotSpot.

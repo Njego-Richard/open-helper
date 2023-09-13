@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "asm/assembler.hpp"
-#include "interpreter/bytecode.hpp"
-#include "interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constMethod.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"

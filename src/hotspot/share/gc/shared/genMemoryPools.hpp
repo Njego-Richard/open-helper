@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_GC_SHARED_GENMEMORYPOOLS_HPP
 #define SHARE_VM_GC_SHARED_GENMEMORYPOOLS_HPP
 
-#include "services/memoryPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryPool.hpp"
 
 class ContiguousSpace;
 class DefNewGeneration;

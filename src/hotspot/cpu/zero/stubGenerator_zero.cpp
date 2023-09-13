@@ -24,9 +24,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
 #include "assembler_zero.inline.hpp"
-#include "interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
 #include "nativeInst_zero.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
@@ -41,7 +41,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 #include "stack_zero.inline.hpp"
 #ifdef COMPILER2
-#include "opto/runtime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/runtime.hpp"
 #endif
 
 // For SafeFetch we need POSIX tls and setjmp

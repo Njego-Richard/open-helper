@@ -25,8 +25,8 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1Arguments.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1HeapVerifier.hpp"
-#include "logging/logConfiguration.hpp"
-#include "logging/logTestFixture.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logConfiguration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTestFixture.hpp"
 #include "unittest.hpp"
 
 class G1HeapVerifierTest : public LogTestFixture {

@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_LOGGING_LOGDIAGNOSTICCOMMAND_HPP
 #define SHARE_VM_LOGGING_LOGDIAGNOSTICCOMMAND_HPP
 
-#include "services/diagnosticCommand.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticCommand.hpp"
 
 // The LogDiagnosticCommand represents the 'VM.log' DCMD
 // that allows configuration of the logging at runtime.

@@ -26,7 +26,7 @@
 // Make sure the defines don't screw up the declarations later on in this file.
 #define DONT_USE_REGISTER_DEFINES
 
-#include "asm/register.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/register.hpp"
 
 REGISTER_DEFINITION(Register, noreg);
 

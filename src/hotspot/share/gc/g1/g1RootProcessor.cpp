@@ -24,10 +24,10 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
-#include "aot/aotLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/aot/aotLoader.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1BarrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CodeBlobClosure.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CollectedHeap.inline.hpp"
@@ -43,7 +43,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/weakProcessor.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutex.hpp"
-#include "services/management.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/management.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 void G1RootProcessor::worker_has_discovered_all_strong_classes() {

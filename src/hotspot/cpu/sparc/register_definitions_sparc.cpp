@@ -25,8 +25,8 @@
 // Note: precompiled headers can not be used in this file because of the above
 //       definition
 
-#include "asm/assembler.hpp"
-#include "asm/register.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/register.hpp"
 #include "interp_masm_sparc.hpp"
 #include "register_sparc.hpp"
 

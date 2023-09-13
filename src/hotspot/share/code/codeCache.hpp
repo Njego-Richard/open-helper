@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CODE_CODECACHE_HPP
 #define SHARE_VM_CODE_CODECACHE_HPP
 
-#include "code/codeBlob.hpp"
-#include "code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeBlob.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/heap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"

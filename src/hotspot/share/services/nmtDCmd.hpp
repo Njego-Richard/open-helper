@@ -27,10 +27,10 @@
 
 #if INCLUDE_NMT
 
-#include "services/diagnosticArgument.hpp"
-#include "services/diagnosticFramework.hpp"
-#include "services/memBaseline.hpp"
-#include "services/mallocTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticArgument.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticFramework.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memBaseline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/mallocTracker.hpp"
 
 /**
  * Native memory tracking DCmd implementation

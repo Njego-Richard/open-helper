@@ -27,9 +27,9 @@
 
 #include "libadt/vectset.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "opto/node.hpp"
-#include "opto/phaseX.hpp"
-#include "opto/regmask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/regmask.hpp"
 
 class Compile;
 class Node;

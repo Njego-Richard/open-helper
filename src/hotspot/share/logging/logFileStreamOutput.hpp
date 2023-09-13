@@ -24,8 +24,8 @@
 #ifndef SHARE_VM_LOGGING_LOGFILESTREAMOUTPUT_HPP
 #define SHARE_VM_LOGGING_LOGFILESTREAMOUTPUT_HPP
 
-#include "logging/logDecorators.hpp"
-#include "logging/logOutput.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logOutput.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class LogDecorations;

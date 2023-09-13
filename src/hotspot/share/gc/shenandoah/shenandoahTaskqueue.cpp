@@ -25,8 +25,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahTaskqueue.inline.hpp"
-#include "logging/log.hpp"
-#include "logging/logStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logStream.hpp"
 
 void ShenandoahObjToScanQueueSet::clear() {
   uint size = GenericTaskQueueSet<ShenandoahObjToScanQueue, mtGC>::size();

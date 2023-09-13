@@ -30,7 +30,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/klass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
-#include "services/diagnosticCommand.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticCommand.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/resourceHash.hpp"
 
 

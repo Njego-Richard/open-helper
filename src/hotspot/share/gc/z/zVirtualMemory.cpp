@@ -24,7 +24,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zGlobals.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zVirtualMemory.inline.hpp"
-#include "services/memTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memTracker.hpp"
 
 ZVirtualMemoryManager::ZVirtualMemoryManager() :
     _manager(),

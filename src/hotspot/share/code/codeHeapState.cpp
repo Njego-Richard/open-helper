@@ -24,8 +24,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/codeHeapState.hpp"
-#include "compiler/compileBroker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeHeapState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileBroker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepoint.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sweeper.hpp"
 

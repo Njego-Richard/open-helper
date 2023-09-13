@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/debugInfoRec.hpp"
-#include "code/pcDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfoRec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/pcDesc.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"

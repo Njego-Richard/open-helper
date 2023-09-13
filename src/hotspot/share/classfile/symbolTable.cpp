@@ -37,7 +37,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointVerifiers.hpp"
-#include "services/diagnosticCommand.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticCommand.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.inline.hpp"
 
 // --------------------------------------------------------------------------

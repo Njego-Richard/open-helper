@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/exceptionHandlerTable.hpp"
-#include "code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/exceptionHandlerTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 
 void ExceptionHandlerTable::add_entry(HandlerTableEntry entry) {

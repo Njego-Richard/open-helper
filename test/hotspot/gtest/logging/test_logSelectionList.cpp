@@ -23,9 +23,9 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
-#include "logging/logLevel.hpp"
-#include "logging/logSelectionList.hpp"
-#include "logging/logTagSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logLevel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logSelectionList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTagSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "logTestUtils.inline.hpp"
 #include "unittest.hpp"

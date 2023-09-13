@@ -25,9 +25,9 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
-#include "asm/assembler.inline.hpp"
-#include "asm/macroAssembler.inline.hpp"
-#include "compiler/disassembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/disassembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"

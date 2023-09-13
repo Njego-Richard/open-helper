@@ -22,7 +22,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zNUMA.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 
 bool ZNUMA::_enabled;

@@ -26,8 +26,8 @@
 #define SHARE_VM_MEMORY_BINARYTREEDICTIONARY_INLINE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/spaceDecorator.hpp"
-#include "logging/log.hpp"
-#include "logging/logStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/binaryTreeDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/freeList.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"

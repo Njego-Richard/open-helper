@@ -24,12 +24,12 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "asm/assembler.hpp"
-#include "interpreter/bytecodeHistogram.hpp"
-#include "interpreter/cppInterpreter.hpp"
-#include "interpreter/cppInterpreterGenerator.hpp"
-#include "interpreter/interpreter.hpp"
-#include "interpreter/interpreterRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodeHistogram.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/cppInterpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/cppInterpreterGenerator.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreterRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/cpCache.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"

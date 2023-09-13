@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_ASM_CODEBUFFER_HPP
 #define SHARE_VM_ASM_CODEBUFFER_HPP
 
-#include "code/oopRecorder.hpp"
-#include "code/relocInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/oopRecorder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/relocInfo.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"

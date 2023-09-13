@@ -26,7 +26,7 @@
 #define SHARE_VM_CLASSFILE_SYSTEMDICTIONARY_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
-#include "jvmci/systemDictionary_jvmci.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/systemDictionary_jvmci.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"

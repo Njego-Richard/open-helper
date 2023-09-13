@@ -26,10 +26,10 @@
 #define SHARE_VM_JVMCI_JVMCIENV_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
-#include "code/debugInfoRec.hpp"
-#include "code/dependencies.hpp"
-#include "code/exceptionHandlerTable.hpp"
-#include "compiler/oopMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfoRec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/dependencies.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/exceptionHandlerTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/oopMap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 class CompileTask;

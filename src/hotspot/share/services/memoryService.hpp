@@ -26,10 +26,10 @@
 #define SHARE_VM_SERVICES_MEMORYSERVICE_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
-#include "services/memoryUsage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryUsage.hpp"
 
 // Forward declaration
 class MemoryPool;

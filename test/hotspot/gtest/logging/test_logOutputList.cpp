@@ -22,10 +22,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "logging/logFileStreamOutput.hpp"
-#include "logging/logLevel.hpp"
-#include "logging/logOutput.hpp"
-#include "logging/logOutputList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logFileStreamOutput.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logLevel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logOutput.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logOutputList.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "unittest.hpp"
 

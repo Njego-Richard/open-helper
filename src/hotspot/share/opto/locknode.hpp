@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_OPTO_LOCKNODE_HPP
 #define SHARE_VM_OPTO_LOCKNODE_HPP
 
-#include "opto/node.hpp"
-#include "opto/opcodes.hpp"
-#include "opto/subnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opcodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/subnode.hpp"
 
 class BiasedLockingCounters;
 class RTMLockingCounters;

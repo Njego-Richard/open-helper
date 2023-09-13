@@ -25,7 +25,7 @@
 #ifndef CPU_ARM_GC_G1_G1BARRIERSETASSEMBLER_ARM_HPP
 #define CPU_ARM_GC_G1_G1BARRIERSETASSEMBLER_ARM_HPP
 
-#include "asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/modRefBarrierSetAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

@@ -23,14 +23,14 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "ci/ciUtilities.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciUtilities.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableBarrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/cardTableBarrierSetC2.hpp"
-#include "opto/arraycopynode.hpp"
-#include "opto/graphKit.hpp"
-#include "opto/idealKit.hpp"
-#include "opto/macro.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/arraycopynode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/graphKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/idealKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/macro.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #define __ ideal.

@@ -33,7 +33,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.hpp"
-#include "services/management.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/management.hpp"
 
 class OopClosure;
 class ThreadDumpResult;

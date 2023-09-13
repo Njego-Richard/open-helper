@@ -29,7 +29,7 @@
 #include "jfr/recorder/repository/jfrChunkWriter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTimeConverter.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 

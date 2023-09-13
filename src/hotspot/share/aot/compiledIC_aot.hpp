@@ -24,9 +24,9 @@
 #ifndef SHARE_VM_AOT_COMPILEDIC_AOT_HPP
 #define SHARE_VM_AOT_COMPILEDIC_AOT_HPP
 
-#include "code/compiledIC.hpp"
-#include "code/nativeInst.hpp"
-#include "interpreter/linkResolver.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compiledIC.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nativeInst.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/linkResolver.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compiledICHolder.hpp"
 
 class CompiledPltStaticCall: public CompiledStaticCall {

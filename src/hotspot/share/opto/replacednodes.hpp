@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OPTO_REPLACEDNODES_HPP
 #define SHARE_VM_OPTO_REPLACEDNODES_HPP
 
-#include "opto/connode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/connode.hpp"
 
 // During parsing, when a node is "improved",
 // GraphKit::replace_in_map() is called to update the current map so

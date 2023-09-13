@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CODE_COMPILEDIC_HPP
 #define SHARE_VM_CODE_COMPILEDIC_HPP
 
-#include "code/nativeInst.hpp"
-#include "interpreter/linkResolver.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nativeInst.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/linkResolver.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/compiledICHolder.hpp"
 
 //-----------------------------------------------------------------------------

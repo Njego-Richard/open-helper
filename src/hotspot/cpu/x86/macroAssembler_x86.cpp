@@ -24,13 +24,13 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
-#include "asm/assembler.hpp"
-#include "asm/assembler.inline.hpp"
-#include "compiler/disassembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/disassembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.inline.hpp"
-#include "interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessDecorators.hpp"
@@ -49,7 +49,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include "crc32c.h"
 #ifdef COMPILER2
-#include "opto/intrinsicnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/intrinsicnode.hpp"
 #endif
 
 #ifdef PRODUCT

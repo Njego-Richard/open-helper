@@ -24,11 +24,11 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
-#include "opto/connode.hpp"
-#include "opto/convertnode.hpp"
-#include "opto/loopnode.hpp"
-#include "opto/opaquenode.hpp"
-#include "opto/rootnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/connode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/convertnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/loopnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opaquenode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/rootnode.hpp"
 
 //================= Loop Unswitching =====================
 //

@@ -25,15 +25,15 @@
 #ifndef SHARE_VM_OPTO_CHAITIN_HPP
 #define SHARE_VM_OPTO_CHAITIN_HPP
 
-#include "code/vmreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "opto/connode.hpp"
-#include "opto/live.hpp"
-#include "opto/matcher.hpp"
-#include "opto/phase.hpp"
-#include "opto/regalloc.hpp"
-#include "opto/regmask.hpp"
-#include "opto/machnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/connode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/live.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phase.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/regalloc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/regmask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/machnode.hpp"
 
 class LoopTree;
 class Matcher;

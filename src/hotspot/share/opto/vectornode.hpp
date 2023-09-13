@@ -24,10 +24,10 @@
 #ifndef SHARE_VM_OPTO_VECTORNODE_HPP
 #define SHARE_VM_OPTO_VECTORNODE_HPP
 
-#include "opto/matcher.hpp"
-#include "opto/memnode.hpp"
-#include "opto/node.hpp"
-#include "opto/opcodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/memnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opcodes.hpp"
 
 //------------------------------VectorNode-------------------------------------
 // Vector Operation

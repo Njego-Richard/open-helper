@@ -26,8 +26,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/barrierSetC2.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/cardTableBarrierSetC2.hpp"
-#include "opto/arraycopynode.hpp"
-#include "opto/graphKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/arraycopynode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/graphKit.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_SHENANDOAHGC

@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/compressedStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compressedStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 // 32-bit one-to-one sign encoding taken from Pack200

@@ -42,7 +42,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointMechanism.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
-#include "services/threadService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/threadService.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/dtrace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/preserveException.hpp"

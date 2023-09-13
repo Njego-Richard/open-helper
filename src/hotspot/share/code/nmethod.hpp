@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CODE_NMETHOD_HPP
 #define SHARE_VM_CODE_NMETHOD_HPP
 
-#include "code/compiledMethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compiledMethod.hpp"
 
 class DepChange;
 class DirectiveSet;

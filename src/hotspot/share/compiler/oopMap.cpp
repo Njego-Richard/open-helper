@@ -23,11 +23,11 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/codeBlob.hpp"
-#include "code/codeCache.hpp"
-#include "code/nmethod.hpp"
-#include "code/scopeDesc.hpp"
-#include "compiler/oopMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeBlob.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/scopeDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/oopMap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
@@ -40,7 +40,7 @@
 #include "c1/c1_Defs.hpp"
 #endif
 #ifdef COMPILER2
-#include "opto/optoreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/optoreg.hpp"
 #endif
 
 // OopMapStream

@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_OPTO_CALLNODE_HPP
 #define SHARE_VM_OPTO_CALLNODE_HPP
 
-#include "opto/connode.hpp"
-#include "opto/mulnode.hpp"
-#include "opto/multnode.hpp"
-#include "opto/opcodes.hpp"
-#include "opto/phaseX.hpp"
-#include "opto/replacednodes.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/connode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/mulnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/multnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opcodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/replacednodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 
 // Portions of code courtesy of Clifford Click
 

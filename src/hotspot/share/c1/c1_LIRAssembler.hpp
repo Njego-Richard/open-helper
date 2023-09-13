@@ -26,7 +26,7 @@
 #define SHARE_VM_C1_C1_LIRASSEMBLER_HPP
 
 #include "c1/c1_CodeStubs.hpp"
-#include "ci/ciMethodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

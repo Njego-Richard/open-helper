@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "ci/ciInstance.hpp"
-#include "ci/ciMethodType.hpp"
-#include "ci/ciUtilities.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstance.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodType.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciUtilities.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.hpp"
 
 ciType* ciMethodType::class_to_citype(oop klass_oop) const {

@@ -25,9 +25,9 @@
 #define SHARE_GC_Z_ZSERVICEABILITY_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "services/memoryManager.hpp"
-#include "services/memoryPool.hpp"
-#include "services/memoryService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryService.hpp"
 
 class ZServiceabilityCounters;
 

@@ -45,7 +45,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
-#include "services/threadService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/threadService.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/dtrace.hpp"

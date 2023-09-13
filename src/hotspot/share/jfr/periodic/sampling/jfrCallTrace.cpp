@@ -23,10 +23,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/debugInfoRec.hpp"
-#include "code/nmethod.hpp"
-#include "code/pcDesc.hpp"
-#include "jfr/periodic/sampling/jfrCallTrace.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfoRec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/pcDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/periodic/sampling/jfrCallTrace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"

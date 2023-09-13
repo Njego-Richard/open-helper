@@ -25,8 +25,8 @@
 #ifndef CPU_SPARC_VM_FRAME_SPARC_INLINE_HPP
 #define CPU_SPARC_VM_FRAME_SPARC_INLINE_HPP
 
-#include "asm/macroAssembler.hpp"
-#include "code/vmreg.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // Inline functions for SPARC frames:

@@ -24,7 +24,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "asm/assembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jniFastGetField.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvm_misc.hpp"

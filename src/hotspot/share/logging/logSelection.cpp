@@ -23,9 +23,9 @@
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
-#include "logging/log.hpp"
-#include "logging/logSelection.hpp"
-#include "logging/logTagSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logSelection.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTagSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"

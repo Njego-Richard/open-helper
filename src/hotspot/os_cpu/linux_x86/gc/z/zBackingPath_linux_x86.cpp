@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zArray.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBackingPath_linux_x86.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zErrno.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 
 #include <stdio.h>
 #include <unistd.h>

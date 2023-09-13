@@ -23,11 +23,11 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "ci/ciMethodData.hpp"
-#include "ci/ciTypeFlow.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciTypeFlow.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
-#include "compiler/compileLog.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileLog.hpp"
 #include "libadt/dict.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
@@ -35,10 +35,10 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceMirrorKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayKlass.hpp"
-#include "opto/matcher.hpp"
-#include "opto/node.hpp"
-#include "opto/opcodes.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opcodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 
 // Portions of code courtesy of Clifford Click
 

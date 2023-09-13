@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CODE_STUBS_HPP
 #define SHARE_VM_CODE_STUBS_HPP
 
-#include "asm/codeBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/codeBuffer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // The classes in this file provide a simple framework for the

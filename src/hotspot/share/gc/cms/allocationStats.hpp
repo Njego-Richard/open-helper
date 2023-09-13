@@ -26,7 +26,7 @@
 #define SHARE_VM_GC_CMS_ALLOCATIONSTATS_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcUtil.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

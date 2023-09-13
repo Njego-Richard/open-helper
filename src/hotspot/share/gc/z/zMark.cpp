@@ -36,7 +36,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zThread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zWorkers.inline.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"

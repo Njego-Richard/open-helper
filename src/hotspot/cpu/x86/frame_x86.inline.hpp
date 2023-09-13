@@ -25,8 +25,8 @@
 #ifndef CPU_X86_VM_FRAME_X86_INLINE_HPP
 #define CPU_X86_VM_FRAME_X86_INLINE_HPP
 
-#include "code/codeCache.hpp"
-#include "code/vmreg.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.inline.hpp"
 
 // Inline functions for Intel frames:
 

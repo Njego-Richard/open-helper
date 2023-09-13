@@ -35,7 +35,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/isGCActiveMark.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/vmGCOperations.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "services/memoryService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryService.hpp"
 
 class GCMemoryManager;
 

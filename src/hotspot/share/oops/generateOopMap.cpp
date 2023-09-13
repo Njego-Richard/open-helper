@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "interpreter/bytecodeStream.hpp"
-#include "logging/log.hpp"
-#include "logging/logStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodeStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/generateOopMap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"

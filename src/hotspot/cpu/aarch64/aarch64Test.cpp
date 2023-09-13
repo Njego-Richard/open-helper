@@ -25,8 +25,8 @@
 #include <stdlib.h>
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/codeBlob.hpp"
-#include "asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeBlob.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
 
 // hook routine called during JVM bootstrap to test AArch64 assembler
 

@@ -22,13 +22,13 @@
  */
 
 // no precompiled headers
-#include "ci/ciUtilities.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciUtilities.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.inline.hpp"
-#include "jvmci/jvmciRuntime.hpp"
-#include "jvmci/jvmciCompilerToVM.hpp"
-#include "jvmci/vmStructs_jvmci.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciCompilerToVM.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/vmStructs_jvmci.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"

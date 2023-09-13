@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_METHODDATAOOP_HPP
 #define SHARE_VM_OOPS_METHODDATAOOP_HPP
 
-#include "interpreter/bytecodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/universe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
@@ -35,7 +35,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/copy.hpp"
 #if INCLUDE_JVMCI
-#include "jvmci/jvmci_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmci_globals.hpp"
 #endif
 
 class BytecodeStream;

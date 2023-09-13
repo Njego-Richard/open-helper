@@ -28,7 +28,7 @@
 #include "c1/c1_IR.hpp"
 #include "c1/c1_Canonicalizer.hpp"
 #include "c1/c1_ValueMap.hpp"
-#include "ci/ciMethodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 
 // Macros for the Trace and the Assertion flag

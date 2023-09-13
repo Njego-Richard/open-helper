@@ -26,7 +26,7 @@
 #ifndef CPU_AARCH64_VM_MACROASSEMBLER_AARCH64_INLINE_HPP
 #define CPU_AARCH64_VM_MACROASSEMBLER_AARCH64_INLINE_HPP
 
-#include "asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
 
 #ifndef PRODUCT
 

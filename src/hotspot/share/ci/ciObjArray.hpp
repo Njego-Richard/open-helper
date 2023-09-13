@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CI_CIOBJARRAY_HPP
 #define SHARE_VM_CI_CIOBJARRAY_HPP
 
-#include "ci/ciArray.hpp"
-#include "ci/ciClassList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciClassList.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.hpp"
 
 // ciObjArray

@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_CI_CIFIELD_HPP
 #define SHARE_VM_CI_CIFIELD_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciConstant.hpp"
-#include "ci/ciFlags.hpp"
-#include "ci/ciInstance.hpp"
-#include "ci/ciUtilities.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciClassList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstance.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciUtilities.hpp"
 
 // ciField
 //

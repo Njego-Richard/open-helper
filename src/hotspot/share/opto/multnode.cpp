@@ -23,15 +23,15 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "opto/callnode.hpp"
-#include "opto/cfgnode.hpp"
-#include "opto/matcher.hpp"
-#include "opto/mathexactnode.hpp"
-#include "opto/multnode.hpp"
-#include "opto/opcodes.hpp"
-#include "opto/phaseX.hpp"
-#include "opto/regmask.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/callnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/cfgnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/mathexactnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/multnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opcodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/regmask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/vmError.hpp"
 
 //=============================================================================

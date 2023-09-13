@@ -29,7 +29,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeapRegionCounters.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceCounters.hpp"
-#include "services/memoryService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryService.hpp"
 
 class ShenandoahYoungGenerationCounters : public GenerationCounters {
 public:

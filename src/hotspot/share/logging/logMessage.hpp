@@ -24,10 +24,10 @@
 #ifndef SHARE_VM_LOGGING_LOGMESSAGE_HPP
 #define SHARE_VM_LOGGING_LOGMESSAGE_HPP
 
-#include "logging/log.hpp"
-#include "logging/logMessageBuffer.hpp"
-#include "logging/logPrefix.hpp"
-#include "logging/logTag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logMessageBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logPrefix.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTag.hpp"
 
 // The LogMessage class represents a multi-part/multi-line message
 // that is guaranteed to be sent and written to the log outputs

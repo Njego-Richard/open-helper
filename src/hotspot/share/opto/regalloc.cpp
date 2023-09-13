@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "opto/regalloc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/regalloc.hpp"
 
 static const int NodeRegsOverflowSize = 200;
 

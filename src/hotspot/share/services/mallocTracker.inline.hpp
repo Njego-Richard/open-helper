@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_SERVICES_MALLOC_TRACKER_INLINE_HPP
 #define SHARE_VM_SERVICES_MALLOC_TRACKER_INLINE_HPP
 
-#include "services/mallocTracker.hpp"
-#include "services/memTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/mallocTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memTracker.hpp"
 
 inline void* MallocTracker::get_base(void* memblock){
   return get_base(memblock, MemTracker::tracking_level());

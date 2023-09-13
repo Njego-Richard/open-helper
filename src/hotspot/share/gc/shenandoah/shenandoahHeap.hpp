@@ -33,7 +33,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahEvacOOMHandler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahPadding.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahSharedVariables.hpp"
-#include "services/memoryManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryManager.hpp"
 
 class ConcurrentGCTimer;
 class ReferenceProcessor;

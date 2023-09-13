@@ -23,10 +23,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "opto/countbitsnode.hpp"
-#include "opto/opcodes.hpp"
-#include "opto/phaseX.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/countbitsnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opcodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 
 //------------------------------Value------------------------------------------
 const Type* CountLeadingZerosINode::Value(PhaseGVN* phase) const {

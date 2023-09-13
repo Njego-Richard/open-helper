@@ -23,8 +23,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
-#include "opto/connode.hpp"
-#include "opto/vectornode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/connode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/vectornode.hpp"
 
 //------------------------------VectorNode--------------------------------------
 

@@ -23,12 +23,12 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "ci/bcEscapeAnalyzer.hpp"
-#include "ci/ciConstant.hpp"
-#include "ci/ciField.hpp"
-#include "ci/ciMethodBlocks.hpp"
-#include "ci/ciStreams.hpp"
-#include "interpreter/bytecode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/bcEscapeAnalyzer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciField.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodBlocks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciStreams.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecode.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"

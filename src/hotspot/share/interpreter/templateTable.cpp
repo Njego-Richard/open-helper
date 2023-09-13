@@ -24,8 +24,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
-#include "interpreter/interp_masm.hpp"
-#include "interpreter/templateTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interp_masm.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/templateTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timerTrace.hpp"
 
 #ifdef CC_INTERP

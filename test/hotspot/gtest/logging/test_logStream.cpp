@@ -24,8 +24,8 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "logTestFixture.hpp"
 #include "logTestUtils.inline.hpp"
-#include "logging/log.hpp"
-#include "logging/logStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logStream.hpp"
 #include "unittest.hpp"
 
 class LogStreamTest : public LogTestFixture {

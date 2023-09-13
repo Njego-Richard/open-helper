@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_GC_SHENANDOAH_SHENANDOAHCODEROOTS_HPP
 #define SHARE_VM_GC_SHENANDOAH_SHENANDOAHCODEROOTS_HPP
 
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahSharedVariables.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahLock.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahPadding.hpp"

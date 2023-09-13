@@ -26,7 +26,7 @@
 #ifndef CPU_ZERO_VM_NATIVEINST_ZERO_HPP
 #define CPU_ZERO_VM_NATIVEINST_ZERO_HPP
 
-#include "asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 

@@ -23,19 +23,19 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "aot/aotLoader.hpp"
-#include "code/codeBlob.hpp"
-#include "code/codeCache.hpp"
-#include "code/codeHeapState.hpp"
-#include "code/compiledIC.hpp"
-#include "code/dependencies.hpp"
-#include "code/icBuffer.hpp"
-#include "code/nmethod.hpp"
-#include "code/pcDesc.hpp"
-#include "compiler/compileBroker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/aot/aotLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeBlob.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeHeapState.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compiledIC.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/dependencies.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/icBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/pcDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileBroker.hpp"
 #include "jfr/jfrEvents.hpp"
-#include "logging/log.hpp"
-#include "logging/logStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
@@ -53,7 +53,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointVerifiers.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sweeper.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
-#include "services/memoryService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryService.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/vmError.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/xmlstream.hpp"
@@ -62,9 +62,9 @@
 #include "c1/c1_Compiler.hpp"
 #endif
 #ifdef COMPILER2
-#include "opto/c2compiler.hpp"
-#include "opto/compile.hpp"
-#include "opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/c2compiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/compile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
 #endif
 
 // Helper class for printing in CodeCache

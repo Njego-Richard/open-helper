@@ -26,7 +26,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
-#include "services/mallocSiteTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/mallocSiteTable.hpp"
 
 /*
  * Early os::malloc() calls come from initializations of static variables, long before entering any

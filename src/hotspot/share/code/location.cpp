@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/debugInfo.hpp"
-#include "code/location.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/location.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 void Location::print_on(outputStream* st) const {

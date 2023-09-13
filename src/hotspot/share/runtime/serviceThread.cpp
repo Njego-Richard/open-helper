@@ -30,10 +30,10 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiImpl.hpp"
-#include "services/diagnosticArgument.hpp"
-#include "services/diagnosticFramework.hpp"
-#include "services/gcNotifier.hpp"
-#include "services/lowMemoryDetector.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticArgument.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticFramework.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/gcNotifier.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/lowMemoryDetector.hpp"
 
 ServiceThread* ServiceThread::_instance = NULL;
 JvmtiDeferredEvent* ServiceThread::_jvmti_event = NULL;

@@ -24,12 +24,12 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "asm/macroAssembler.inline.hpp"
-#include "compiler/disassembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/disassembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetAssembler.hpp"
-#include "interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "nativeInst_ppc.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
@@ -44,7 +44,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubRoutines.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #ifdef COMPILER2
-#include "opto/intrinsicnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/intrinsicnode.hpp"
 #endif
 
 #ifdef PRODUCT

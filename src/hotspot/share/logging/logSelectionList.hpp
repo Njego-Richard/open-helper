@@ -24,9 +24,9 @@
 #ifndef SHARE_VM_LOGGING_LOGSELECTIONLIST_HPP
 #define SHARE_VM_LOGGING_LOGSELECTIONLIST_HPP
 
-#include "logging/logConfiguration.hpp"
-#include "logging/logSelection.hpp"
-#include "logging/logTag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logConfiguration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logSelection.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTag.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"

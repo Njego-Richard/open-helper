@@ -83,7 +83,7 @@ typedef unsigned int uintptr_t;
 #define uint   unsigned int
 
 // VM components
-#include "opto/opcodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opcodes.hpp"
 
 // Macros
 // Debugging note:  Put a breakpoint on "abort".
@@ -94,7 +94,7 @@ typedef unsigned int uintptr_t;
 
 // ADLC components
 #include "arena.hpp"
-#include "opto/adlcVMDeps.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp"
 #include "filebuff.hpp"
 #include "dict2.hpp"
 #include "forms.hpp"

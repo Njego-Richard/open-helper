@@ -24,8 +24,8 @@
 #ifndef SHARE_VM_LOGGING_LOGSELECTION_HPP
 #define SHARE_VM_LOGGING_LOGSELECTION_HPP
 
-#include "logging/logLevel.hpp"
-#include "logging/logTag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logLevel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTag.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class LogTagSet;

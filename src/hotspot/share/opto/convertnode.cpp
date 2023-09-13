@@ -23,12 +23,12 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "opto/addnode.hpp"
-#include "opto/castnode.hpp"
-#include "opto/convertnode.hpp"
-#include "opto/matcher.hpp"
-#include "opto/phaseX.hpp"
-#include "opto/subnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/castnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/convertnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/subnode.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 
 //=============================================================================

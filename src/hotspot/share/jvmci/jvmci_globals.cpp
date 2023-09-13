@@ -24,7 +24,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
-#include "jvmci/jvmci_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmci_globals.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcConfig.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/defaultStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals_extension.hpp"

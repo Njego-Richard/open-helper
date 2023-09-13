@@ -23,8 +23,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "ci/ciSymbol.hpp"
-#include "ci/ciUtilities.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciSymbol.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciUtilities.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
 
 // ------------------------------------------------------------------

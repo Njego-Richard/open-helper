@@ -26,10 +26,10 @@
 #ifndef CPU_S390_VM_MACROASSEMBLER_S390_INLINE_HPP
 #define CPU_S390_VM_MACROASSEMBLER_S390_INLINE_HPP
 
-#include "asm/assembler.inline.hpp"
-#include "asm/macroAssembler.hpp"
-#include "asm/codeBuffer.hpp"
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/codeBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 
 // Simplified shift operations for single register operands, constant shift amount.

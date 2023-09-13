@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_INTERPRETER_BYTECODESTREAM_HPP
 #define SHARE_VM_INTERPRETER_BYTECODESTREAM_HPP
 
-#include "interpreter/bytecode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecode.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"

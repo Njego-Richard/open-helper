@@ -24,9 +24,9 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "c1/c1_ValueType.hpp"
-#include "ci/ciArray.hpp"
-#include "ci/ciInstance.hpp"
-#include "ci/ciNullObject.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstance.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciNullObject.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 
 

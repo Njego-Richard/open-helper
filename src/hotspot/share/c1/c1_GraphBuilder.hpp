@@ -29,9 +29,9 @@
 #include "c1/c1_Instruction.hpp"
 #include "c1/c1_ValueMap.hpp"
 #include "c1/c1_ValueStack.hpp"
-#include "ci/ciMethodData.hpp"
-#include "ci/ciStreams.hpp"
-#include "compiler/compileLog.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciStreams.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileLog.hpp"
 
 class MemoryBuffer;
 

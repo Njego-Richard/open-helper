@@ -27,7 +27,7 @@
 #include <errno.h>
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "osContainer_linux.hpp"
 #include "cgroupSubsystem_linux.hpp"
 

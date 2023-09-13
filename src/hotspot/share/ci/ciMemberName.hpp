@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CI_CIMEMBERNAME_HPP
 #define SHARE_VM_CI_CIMEMBERNAME_HPP
 
-#include "ci/ciCallProfile.hpp"
-#include "ci/ciInstance.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciCallProfile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstance.hpp"
 
 // ciMemberName
 //

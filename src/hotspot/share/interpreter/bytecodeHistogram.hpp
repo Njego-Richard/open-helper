@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_INTERPRETER_BYTECODEHISTOGRAM_HPP
 #define SHARE_VM_INTERPRETER_BYTECODEHISTOGRAM_HPP
 
-#include "interpreter/bytecodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // BytecodeCounter counts the number of bytecodes executed

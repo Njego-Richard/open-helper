@@ -23,14 +23,14 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "asm/macroAssembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.inline.hpp"
 #include "c1/c1_Compilation.hpp"
 #include "c1/c1_LIRAssembler.hpp"
 #include "c1/c1_MacroAssembler.hpp"
 #include "c1/c1_Runtime1.hpp"
 #include "c1/c1_ValueStack.hpp"
-#include "ci/ciArrayKlass.hpp"
-#include "ci/ciInstance.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstance.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/cardTableBarrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"

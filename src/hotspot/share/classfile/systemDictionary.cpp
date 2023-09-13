@@ -24,7 +24,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
-#include "aot/aotLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/aot/aotLoader.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classFileParser.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classFileStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
@@ -41,15 +41,15 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
-#include "code/codeCache.hpp"
-#include "compiler/compileBroker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileBroker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTraceTime.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorage.inline.hpp"
-#include "interpreter/bytecodeStream.hpp"
-#include "interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodeStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
 #include "jfr/jfrEvents.hpp"
-#include "logging/log.hpp"
-#include "logging/logStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/filemap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspaceClosure.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
@@ -79,15 +79,15 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"
-#include "services/classLoadingService.hpp"
-#include "services/diagnosticCommand.hpp"
-#include "services/threadService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/classLoadingService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticCommand.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/threadService.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_CDS
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionaryShared.hpp"
 #endif
 #if INCLUDE_JVMCI
-#include "jvmci/jvmciRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciRuntime.hpp"
 #endif
 
 PlaceholderTable*      SystemDictionary::_placeholders        = NULL;

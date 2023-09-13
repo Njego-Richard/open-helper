@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_C1_C1_DEFS_HPP
 #define SHARE_VM_C1_C1_DEFS_HPP
 
-#include "asm/register.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/register.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

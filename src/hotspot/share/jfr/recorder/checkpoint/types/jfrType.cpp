@@ -24,8 +24,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/javaClasses.inline.hpp"
-#include "code/codeBlob.hpp"
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeBlob.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcCause.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcName.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcTrace.hpp"
@@ -51,8 +51,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
 
 #ifdef COMPILER2
-#include "opto/compile.hpp"
-#include "opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/compile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
 #endif
 
 // Requires a ResourceMark for get_thread_name/as_utf8

@@ -25,7 +25,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "jfr/jfr.hpp"
 #include "jfr/leakprofiler/leakProfiler.hpp"
-#include "jfr/periodic/sampling/jfrThreadSampler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/periodic/sampling/jfrThreadSampler.hpp"
 #include "jfr/recorder/jfrRecorder.hpp"
 #include "jfr/recorder/checkpoint/jfrCheckpointManager.hpp"
 #include "jfr/recorder/repository/jfrEmergencyDump.hpp"

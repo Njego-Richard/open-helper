@@ -25,7 +25,7 @@
 #ifndef CPU_SPARC_VM_NATIVEINST_SPARC_HPP
 #define CPU_SPARC_VM_NATIVEINST_SPARC_HPP
 
-#include "asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 

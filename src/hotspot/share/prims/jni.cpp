@@ -27,7 +27,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/include/jni.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
-#include "ci/ciReplay.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciReplay.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/altHashing.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classFileStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoader.hpp"
@@ -39,10 +39,10 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcLocker.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/stringdedup/stringDedup.hpp"
-#include "interpreter/linkResolver.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/linkResolver.hpp"
 #include "jfr/jfrEvents.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadId.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
@@ -82,8 +82,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
-#include "services/memTracker.hpp"
-#include "services/runtimeService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/runtimeService.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/defaultStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/dtrace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/events.hpp"
@@ -92,8 +92,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/vmError.hpp"
 #if INCLUDE_JVMCI
-#include "jvmci/jvmciCompiler.hpp"
-#include "jvmci/jvmciRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciCompiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciRuntime.hpp"
 #endif
 
 static jint CurrentVersion = JNI_VERSION_10;

@@ -27,7 +27,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
-#include "services/heapDumperCompression.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/heapDumperCompression.hpp"
 
 
 char const* FileWriter::open_writer() {

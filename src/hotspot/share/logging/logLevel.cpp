@@ -22,7 +22,7 @@
  *
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "logging/logLevel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logLevel.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stringUtils.hpp"
 

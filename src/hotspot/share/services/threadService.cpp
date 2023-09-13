@@ -40,7 +40,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
-#include "services/threadService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/threadService.hpp"
 
 // TODO: we need to define a naming convention for perf counters
 // to distinguish counters for:

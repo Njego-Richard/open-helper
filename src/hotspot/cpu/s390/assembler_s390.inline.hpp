@@ -26,9 +26,9 @@
 #ifndef CPU_S390_VM_ASSEMBLER_S390_INLINE_HPP
 #define CPU_S390_VM_ASSEMBLER_S390_INLINE_HPP
 
-#include "asm/assembler.inline.hpp"
-#include "asm/codeBuffer.hpp"
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/codeBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 
 // Convention: Use Z_R0 and Z_R1 instead of Z_scratch_* in all
 // assembler_s390.* files.

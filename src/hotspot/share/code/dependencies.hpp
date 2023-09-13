@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_CODE_DEPENDENCIES_HPP
 #define SHARE_VM_CODE_DEPENDENCIES_HPP
 
-#include "ci/ciCallSite.hpp"
-#include "ci/ciInstanceKlass.hpp"
-#include "ci/ciKlass.hpp"
-#include "ci/ciMethodHandle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciCallSite.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodHandle.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
-#include "code/compressedStream.hpp"
-#include "code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compressedStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointVerifiers.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"

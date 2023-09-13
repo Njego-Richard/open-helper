@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CLASSFILE_CLASSLOADER_HPP
 #define SHARE_VM_CLASSFILE_CLASSLOADER_HPP
 
-#include "jimage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/libjimage/jimage.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"

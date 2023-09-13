@@ -26,7 +26,7 @@
 #ifndef HOTSPOT_SHARE_CLASSFILE_CLASSLOADERHIERARCHYDCMD_HPP_
 #define HOTSPOT_SHARE_CLASSFILE_CLASSLOADERHIERARCHYDCMD_HPP_
 
-#include "services/diagnosticCommand.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticCommand.hpp"
 
 class ClassLoaderHierarchyDCmd: public DCmdWithParser {
   DCmdArgument<bool> _show_classes;

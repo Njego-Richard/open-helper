@@ -24,7 +24,7 @@
 #ifndef SHARE_GC_SHENANDOAH_SHENANDOAHROOTPROCESSOR_HPP
 #define SHARE_GC_SHENANDOAH_SHENANDOAHROOTPROCESSOR_HPP
 
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/oopStorageParState.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahCodeRoots.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"

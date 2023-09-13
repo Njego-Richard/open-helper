@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_COMPILER_ABSTRACTCOMPILER_HPP
 #define SHARE_VM_COMPILER_ABSTRACTCOMPILER_HPP
 
-#include "ci/compilerInterface.hpp"
-#include "compiler/compilerDefinitions.hpp"
-#include "compiler/compilerDirectives.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/compilerInterface.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerDirectives.hpp"
 
 typedef void (*initializer)(void);
 

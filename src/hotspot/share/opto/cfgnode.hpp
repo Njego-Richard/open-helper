@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OPTO_CFGNODE_HPP
 #define SHARE_VM_OPTO_CFGNODE_HPP
 
-#include "opto/multnode.hpp"
-#include "opto/node.hpp"
-#include "opto/opcodes.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/multnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opcodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 
 // Portions of code courtesy of Clifford Click
 

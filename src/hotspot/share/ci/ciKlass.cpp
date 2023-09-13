@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "ci/ciKlass.hpp"
-#include "ci/ciSymbol.hpp"
-#include "ci/ciUtilities.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciSymbol.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciUtilities.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 
 // ciKlass

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CI_CIMETHODHANDLE_HPP
 #define SHARE_VM_CI_CIMETHODHANDLE_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciInstance.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciClassList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstance.hpp"
 
 // ciMethodHandle
 //

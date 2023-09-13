@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_COMPILER_COMPILERDIRECTIVES_HPP
 #define SHARE_VM_COMPILER_COMPILERDIRECTIVES_HPP
 
-#include "ci/ciMetadata.hpp"
-#include "ci/ciMethod.hpp"
-#include "compiler/methodMatcher.hpp"
-#include "compiler/compilerOracle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMetadata.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/methodMatcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerOracle.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
   //      Directives flag name,    type, default value, compile command name

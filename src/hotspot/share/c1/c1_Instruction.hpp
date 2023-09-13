@@ -28,7 +28,7 @@
 #include "c1/c1_Compilation.hpp"
 #include "c1/c1_LIR.hpp"
 #include "c1/c1_ValueType.hpp"
-#include "ci/ciField.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciField.hpp"
 
 // Predefined classes
 class ciField;

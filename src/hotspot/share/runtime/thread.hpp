@@ -52,7 +52,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #ifdef ZERO
-# include "stack_zero.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/cpu/zero/stack_zero.hpp"
 #endif
 #if INCLUDE_JFR
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadExtension.hpp"

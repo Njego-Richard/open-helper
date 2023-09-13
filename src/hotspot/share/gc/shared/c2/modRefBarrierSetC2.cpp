@@ -23,10 +23,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "opto/arraycopynode.hpp"
-#include "opto/graphKit.hpp"
-#include "opto/idealKit.hpp"
-#include "opto/narrowptrnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/arraycopynode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/graphKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/idealKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/narrowptrnode.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/modRefBarrierSetC2.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

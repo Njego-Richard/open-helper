@@ -28,8 +28,8 @@
 
 #if INCLUDE_NMT
 
-#include "services/memTracker.hpp"
-#include "services/virtualMemoryTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/virtualMemoryTracker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "unittest.hpp"
 

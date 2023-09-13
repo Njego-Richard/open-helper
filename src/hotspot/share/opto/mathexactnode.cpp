@@ -24,12 +24,12 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
-#include "opto/addnode.hpp"
-#include "opto/cfgnode.hpp"
-#include "opto/machnode.hpp"
-#include "opto/matcher.hpp"
-#include "opto/mathexactnode.hpp"
-#include "opto/subnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/cfgnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/machnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/mathexactnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/subnode.hpp"
 
 template <typename OverflowOp>
 class AddHelper {

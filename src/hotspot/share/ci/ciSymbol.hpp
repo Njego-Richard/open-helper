@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_CI_CISYMBOL_HPP
 #define SHARE_VM_CI_CISYMBOL_HPP
 
-#include "ci/ciBaseObject.hpp"
-#include "ci/ciObject.hpp"
-#include "ci/ciObjectFactory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciBaseObject.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciObject.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciObjectFactory.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 

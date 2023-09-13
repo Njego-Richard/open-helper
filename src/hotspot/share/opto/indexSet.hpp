@@ -27,8 +27,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "opto/compile.hpp"
-#include "opto/regmask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/compile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/regmask.hpp"
 
 // This file defines the IndexSet class, a set of sparse integer indices.
 // This data structure is used by the compiler in its liveness analysis and

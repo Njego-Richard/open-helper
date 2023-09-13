@@ -26,10 +26,10 @@
 #define SHARE_VM_OOPS_METHODOOP_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
-#include "code/compressedStream.hpp"
-#include "compiler/compilerDefinitions.hpp"
-#include "compiler/oopMap.hpp"
-#include "interpreter/invocationCounter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compressedStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/oopMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/invocationCounter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/annotations.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constantPool.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodCounters.hpp"

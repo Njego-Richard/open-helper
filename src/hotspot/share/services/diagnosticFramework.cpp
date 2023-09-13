@@ -30,9 +30,9 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"
-#include "services/diagnosticArgument.hpp"
-#include "services/diagnosticFramework.hpp"
-#include "services/management.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticArgument.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticFramework.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/management.hpp"
 
 CmdLine::CmdLine(const char* line, size_t len, bool no_command_name)
   : _cmd(line), _cmd_len(0), _args(NULL), _args_len(0)

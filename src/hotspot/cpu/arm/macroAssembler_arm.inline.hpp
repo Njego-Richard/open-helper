@@ -25,9 +25,9 @@
 #ifndef CPU_ARM_VM_MACROASSEMBLER_ARM_INLINE_HPP
 #define CPU_ARM_VM_MACROASSEMBLER_ARM_INLINE_HPP
 
-#include "asm/assembler.inline.hpp"
-#include "asm/codeBuffer.hpp"
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/codeBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 inline void MacroAssembler::pd_patch_instruction(address branch, address target) {

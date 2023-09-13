@@ -24,11 +24,11 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrIntrinsics.hpp"
-#include "opto/c2compiler.hpp"
-#include "opto/compile.hpp"
-#include "opto/optoreg.hpp"
-#include "opto/output.hpp"
-#include "opto/runtime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/c2compiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/compile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/optoreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/output.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/runtime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 

@@ -22,19 +22,19 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "compiler/disassembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/disassembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
-#include "jvmci/jvmciEnv.hpp"
-#include "jvmci/jvmciCodeInstaller.hpp"
-#include "jvmci/jvmciJavaClasses.hpp"
-#include "jvmci/jvmciCompilerToVM.hpp"
-#include "jvmci/jvmciRuntime.hpp"
-#include "asm/register.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciEnv.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciCodeInstaller.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciJavaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciCompilerToVM.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/register.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/vmSymbols.hpp"
-#include "code/vmreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.hpp"
 #include "vmreg_x86.inline.hpp"
 
 jint CodeInstaller::pd_next_offset(NativeInstruction* inst, jint pc_offset, Handle method, TRAPS) {

@@ -26,8 +26,8 @@
 
 #ifndef SERIALGC
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shenandoah/shenandoahHeap.hpp"
-#include "services/memoryPool.hpp"
-#include "services/memoryUsage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryUsage.hpp"
 #endif
 
 class ShenandoahMemoryPool : public CollectedMemoryPool {

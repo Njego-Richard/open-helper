@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CI_CICALLSITE_HPP
 #define SHARE_VM_CI_CICALLSITE_HPP
 
-#include "ci/ciInstance.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstance.hpp"
 
 // ciCallSite
 //

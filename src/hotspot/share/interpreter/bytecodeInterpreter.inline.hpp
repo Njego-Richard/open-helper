@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_INTERPRETER_BYTECODEINTERPRETER_INLINE_HPP
 #define SHARE_VM_INTERPRETER_BYTECODEINTERPRETER_INLINE_HPP
 
-#include "interpreter/bytecodeInterpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodeInterpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubRoutines.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

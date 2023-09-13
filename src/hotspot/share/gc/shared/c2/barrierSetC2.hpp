@@ -27,8 +27,8 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/accessDecorators.hpp"
-#include "opto/loopnode.hpp"
-#include "opto/memnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/loopnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/memnode.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // This means the access is mismatched. This means the value of an access

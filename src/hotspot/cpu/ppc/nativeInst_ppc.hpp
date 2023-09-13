@@ -26,7 +26,7 @@
 #ifndef CPU_PPC_VM_NATIVEINST_PPC_HPP
 #define CPU_PPC_VM_NATIVEINST_PPC_HPP
 
-#include "asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/safepointMechanism.hpp"

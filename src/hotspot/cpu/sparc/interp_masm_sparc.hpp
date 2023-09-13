@@ -25,8 +25,8 @@
 #ifndef CPU_SPARC_VM_INTERP_MASM_SPARC_HPP
 #define CPU_SPARC_VM_INTERP_MASM_SPARC_HPP
 
-#include "asm/macroAssembler.hpp"
-#include "interpreter/invocationCounter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/invocationCounter.hpp"
 
 // This file specializes the assember with interpreter-specific macros
 

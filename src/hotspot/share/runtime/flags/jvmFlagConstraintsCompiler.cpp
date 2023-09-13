@@ -23,11 +23,11 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/relocInfo.hpp"
-#include "compiler/compilerDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/relocInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
-#include "interpreter/invocationCounter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/invocationCounter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlag.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlagConstraintsCompiler.hpp"

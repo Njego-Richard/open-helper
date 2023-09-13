@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OPTO_ROOTNODE_HPP
 #define SHARE_VM_OPTO_ROOTNODE_HPP
 
-#include "opto/loopnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/loopnode.hpp"
 
 //------------------------------RootNode---------------------------------------
 // The one-and-only before-all-else and after-all-else RootNode.  The RootNode

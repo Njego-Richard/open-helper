@@ -26,7 +26,7 @@
 #define SHARE_VM_CI_CIFLAGS_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
-#include "ci/ciClassList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciClassList.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/accessFlags.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 

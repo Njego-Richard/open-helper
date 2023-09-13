@@ -27,7 +27,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/moduleEntry.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrIntrinsics.hpp"
-#include "jvmci/vmSymbols_jvmci.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/vmSymbols_jvmci.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/symbol.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"

@@ -23,17 +23,17 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "opto/loopnode.hpp"
-#include "opto/addnode.hpp"
-#include "opto/callnode.hpp"
-#include "opto/connode.hpp"
-#include "opto/convertnode.hpp"
-#include "opto/loopnode.hpp"
-#include "opto/matcher.hpp"
-#include "opto/mulnode.hpp"
-#include "opto/opaquenode.hpp"
-#include "opto/rootnode.hpp"
-#include "opto/subnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/loopnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/callnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/connode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/convertnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/loopnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/mulnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opaquenode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/rootnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/subnode.hpp"
 #include <fenv.h>
 #include <math.h>
 

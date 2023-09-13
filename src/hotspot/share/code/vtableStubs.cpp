@@ -23,10 +23,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/vtableStubs.hpp"
-#include "compiler/compileBroker.hpp"
-#include "compiler/disassembler.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vtableStubs.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileBroker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/disassembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
@@ -39,7 +39,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #ifdef COMPILER2
-#include "opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
 #endif
 
 // -----------------------------------------------------------------------------------------

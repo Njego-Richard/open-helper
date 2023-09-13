@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_VFRAME_HPP
 #define SHARE_VM_RUNTIME_VFRAME_HPP
 
-#include "code/debugInfo.hpp"
-#include "code/debugInfoRec.hpp"
-#include "code/location.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfoRec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/location.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"

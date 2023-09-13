@@ -23,8 +23,8 @@
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
-#include "logging/log.hpp"
-#include "logging/logStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/binaryTreeDictionary.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/freeList.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace/chunkManager.hpp"

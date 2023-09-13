@@ -48,7 +48,7 @@
 #include "c1/c1_globals.hpp"
 #endif // COMPILER1
 #ifdef COMPILER2
-#include "opto/c2_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/c2_globals.hpp"
 #endif // COMPILER2
 
 // Some flags that have default values that indicate that the

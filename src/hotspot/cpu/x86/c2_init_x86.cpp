@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "opto/compile.hpp"
-#include "opto/node.hpp"
-#include "opto/optoreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/compile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/optoreg.hpp"
 
 // processor dependent initialization for i486
 

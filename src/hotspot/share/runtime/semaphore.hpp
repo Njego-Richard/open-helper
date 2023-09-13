@@ -29,11 +29,11 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 #if defined(LINUX) || defined(SOLARIS) || defined(AIX)
-# include "semaphore_posix.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/semaphore_posix.hpp"
 #elif defined(BSD)
-# include "semaphore_bsd.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/semaphore_bsd.hpp"
 #elif defined(_WINDOWS)
-# include "semaphore_windows.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/semaphore_windows.hpp"
 #else
 # error "No semaphore implementation provided for this OS"
 #endif

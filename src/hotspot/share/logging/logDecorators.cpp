@@ -22,7 +22,7 @@
  *
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "logging/logDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logDecorators.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.inline.hpp"
 
 const LogDecorators LogDecorators::None = LogDecorators(0);

@@ -22,8 +22,8 @@
  *
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "logging/logLevel.hpp"
-#include "logging/logOutputList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logLevel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logOutputList.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"

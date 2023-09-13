@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_OPTO_MACHNODE_HPP
 #define SHARE_VM_OPTO_MACHNODE_HPP
 
-#include "opto/callnode.hpp"
-#include "opto/matcher.hpp"
-#include "opto/multnode.hpp"
-#include "opto/node.hpp"
-#include "opto/regmask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/callnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/multnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/regmask.hpp"
 
 class BiasedLockingCounters;
 class BufferBlob;

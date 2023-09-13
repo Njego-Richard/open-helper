@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OPTO_STRINGOPTS_HPP
 #define SHARE_VM_OPTO_STRINGOPTS_HPP
 
-#include "opto/node.hpp"
-#include "opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
 
 class StringConcat;
 class IdealVariable;

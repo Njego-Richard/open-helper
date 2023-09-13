@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_LOGGING_LOGHANDLE_HPP
 #define SHARE_VM_LOGGING_LOGHANDLE_HPP
 
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 
 // Wraps a Log instance and throws away the template information.
 //

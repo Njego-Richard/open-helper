@@ -28,7 +28,7 @@
 <xsl:template match="processcode">
 <xsl:text>
 #define VM_JVMTI
-#include "interpreter/bytecodeInterpreter.cpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodeInterpreter.cpp"
 </xsl:text>
 <xsl:text disable-output-escaping = "yes">
 

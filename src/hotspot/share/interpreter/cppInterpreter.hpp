@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_INTERPRETER_CPPINTERPRETER_HPP
 #define SHARE_VM_INTERPRETER_CPPINTERPRETER_HPP
 
-#include "interpreter/abstractInterpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/abstractInterpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 #ifdef CC_INTERP

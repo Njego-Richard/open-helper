@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_INTERPRETER_TEMPLATEINTERPRETER_HPP
 #define SHARE_VM_INTERPRETER_TEMPLATEINTERPRETER_HPP
 
-#include "interpreter/abstractInterpreter.hpp"
-#include "interpreter/templateTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/abstractInterpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/templateTable.hpp"
 
 // This file contains the platform-independent parts
 // of the template interpreter and the template interpreter generator.

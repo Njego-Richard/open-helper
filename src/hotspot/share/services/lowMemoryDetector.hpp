@@ -26,9 +26,9 @@
 #define SHARE_VM_SERVICES_LOWMEMORYDETECTOR_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "services/memoryPool.hpp"
-#include "services/memoryService.hpp"
-#include "services/memoryUsage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryUsage.hpp"
 
 // Low Memory Detection Support
 // Two memory alarms in the JDK (we called them sensors).

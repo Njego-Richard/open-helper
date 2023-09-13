@@ -25,14 +25,14 @@
 #ifndef SHARE_VM_COMPILER_COMPILEBROKER_HPP
 #define SHARE_VM_COMPILER_COMPILEBROKER_HPP
 
-#include "ci/compilerInterface.hpp"
-#include "compiler/abstractCompiler.hpp"
-#include "compiler/compileTask.hpp"
-#include "compiler/compilerDirectives.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/compilerInterface.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/abstractCompiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileTask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerDirectives.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.hpp"
 #if INCLUDE_JVMCI
-#include "jvmci/jvmciCompiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciCompiler.hpp"
 #endif
 
 class nmethod;

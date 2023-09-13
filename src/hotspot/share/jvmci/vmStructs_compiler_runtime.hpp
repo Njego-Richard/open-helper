@@ -25,7 +25,7 @@
 #define SHARE_VM_JVMCI_VMSTRUCTS_COMPILER_RUNTIME_HPP
 
 #if INCLUDE_AOT
-#include "jvmci/compilerRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/compilerRuntime.hpp"
 
 #define VM_ADDRESSES_COMPILER_RUNTIME(declare_address, declare_preprocessor_address, declare_function) \
   declare_function(CompilerRuntime::resolve_dynamic_invoke)                       \

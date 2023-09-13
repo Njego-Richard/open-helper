@@ -25,7 +25,7 @@
 #ifndef CPU_SPARC_VM_ASSEMBLER_SPARC_INLINE_HPP
 #define CPU_SPARC_VM_ASSEMBLER_SPARC_INLINE_HPP
 
-#include "asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
 
 
 inline void Assembler::avoid_pipeline_stall() {

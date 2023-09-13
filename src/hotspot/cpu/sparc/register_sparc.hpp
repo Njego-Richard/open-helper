@@ -25,7 +25,7 @@
 #ifndef CPU_SPARC_VM_REGISTER_SPARC_HPP
 #define CPU_SPARC_VM_REGISTER_SPARC_HPP
 
-#include "asm/register.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/register.hpp"
 
 // forward declaration
 class Address;

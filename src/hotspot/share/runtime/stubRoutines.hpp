@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_STUBROUTINES_HPP
 #define SHARE_VM_RUNTIME_STUBROUTINES_HPP
 
-#include "code/codeBlob.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeBlob.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/mutexLocker.hpp"

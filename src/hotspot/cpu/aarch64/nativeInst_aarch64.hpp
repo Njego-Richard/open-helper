@@ -26,7 +26,7 @@
 #ifndef CPU_AARCH64_VM_NATIVEINST_AARCH64_HPP
 #define CPU_AARCH64_VM_NATIVEINST_AARCH64_HPP
 
-#include "asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 

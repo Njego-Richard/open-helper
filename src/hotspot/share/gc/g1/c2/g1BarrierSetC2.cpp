@@ -29,11 +29,11 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1CardTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1ThreadLocalData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegion.hpp"
-#include "opto/arraycopynode.hpp"
-#include "opto/graphKit.hpp"
-#include "opto/idealKit.hpp"
-#include "opto/macro.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/arraycopynode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/graphKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/idealKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/macro.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 const TypeFunc *G1BarrierSetC2::write_ref_field_pre_entry_Type() {

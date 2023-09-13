@@ -24,11 +24,11 @@
 #ifndef SHARE_VM_LOGGING_LOGTAGSET_HPP
 #define SHARE_VM_LOGGING_LOGTAGSET_HPP
 
-#include "logging/logDecorators.hpp"
-#include "logging/logLevel.hpp"
-#include "logging/logOutputList.hpp"
-#include "logging/logPrefix.hpp"
-#include "logging/logTag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logLevel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logOutputList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logPrefix.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTag.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 class LogMessageBuffer;

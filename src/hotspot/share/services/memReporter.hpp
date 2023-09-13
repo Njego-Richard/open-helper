@@ -29,10 +29,10 @@
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/metaspace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceKlass.hpp"
-#include "services/memBaseline.hpp"
-#include "services/nmtCommon.hpp"
-#include "services/mallocTracker.hpp"
-#include "services/virtualMemoryTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memBaseline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/nmtCommon.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/mallocTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/virtualMemoryTracker.hpp"
 
 /*
  * Base class that provides helpers

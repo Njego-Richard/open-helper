@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_C1_C1_FRAMEMAP_HPP
 #define SHARE_VM_C1_C1_FRAMEMAP_HPP
 
-#include "asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
 #include "c1/c1_Defs.hpp"
 #include "c1/c1_LIR.hpp"
-#include "code/vmreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/synchronizer.hpp"

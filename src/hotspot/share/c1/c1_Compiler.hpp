@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_C1_C1_COMPILER_HPP
 #define SHARE_VM_C1_C1_COMPILER_HPP
 
-#include "compiler/abstractCompiler.hpp"
-#include "compiler/compilerDirectives.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/abstractCompiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerDirectives.hpp"
 
 // There is one instance of the Compiler per CompilerThread.
 

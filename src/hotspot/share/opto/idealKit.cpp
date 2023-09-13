@@ -23,11 +23,11 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "opto/addnode.hpp"
-#include "opto/callnode.hpp"
-#include "opto/cfgnode.hpp"
-#include "opto/idealKit.hpp"
-#include "opto/runtime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/callnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/cfgnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/idealKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/runtime.hpp"
 
 // Static initialization
 

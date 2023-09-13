@@ -66,7 +66,7 @@
 #endif // INCLUDE_JVMTI
 
 #ifndef INCLUDE_VM_STRUCTS
-#define INCLUDE_VM_STRUCTS 1
+#define INCLUDE_VM_STRUCTS 1     
 #endif
 
 #if INCLUDE_VM_STRUCTS

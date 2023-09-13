@@ -31,7 +31,7 @@
 #include "c1/c1_LIRGenerator.hpp"
 #include "c1/c1_LinearScan.hpp"
 #include "c1/c1_ValueStack.hpp"
-#include "code/vmreg.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timerTrace.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
 

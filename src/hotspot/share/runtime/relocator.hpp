@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_RELOCATOR_HPP
 #define SHARE_VM_RUNTIME_RELOCATOR_HPP
 
-#include "interpreter/bytecodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bytes.hpp"
 

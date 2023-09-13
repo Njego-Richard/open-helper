@@ -37,7 +37,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workgroup.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
-#include "services/memoryManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryManager.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/stack.inline.hpp"
 
 class CompactibleFreeListSpacePool : public CollectedMemoryPool {

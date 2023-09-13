@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_STUBCODEGENERATOR_HPP
 #define SHARE_VM_RUNTIME_STUBCODEGENERATOR_HPP
 
-#include "asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // All the basic framework for stub code generation/debugging/printing.

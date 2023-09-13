@@ -25,14 +25,14 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
-#include "code/codeCache.hpp"
-#include "code/debugInfoRec.hpp"
-#include "code/nmethod.hpp"
-#include "code/pcDesc.hpp"
-#include "code/scopeDesc.hpp"
-#include "interpreter/bytecode.hpp"
-#include "interpreter/interpreter.hpp"
-#include "interpreter/oopMapCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfoRec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/pcDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/scopeDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/oopMapCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/oopFactory.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
@@ -63,8 +63,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/xmlstream.hpp"
 
 #if INCLUDE_JVMCI
-#include "jvmci/jvmciRuntime.hpp"
-#include "jvmci/jvmciJavaClasses.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciJavaClasses.hpp"
 #endif
 
 

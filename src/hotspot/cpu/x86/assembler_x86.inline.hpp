@@ -25,9 +25,9 @@
 #ifndef CPU_X86_VM_ASSEMBLER_X86_INLINE_HPP
 #define CPU_X86_VM_ASSEMBLER_X86_INLINE_HPP
 
-#include "asm/assembler.inline.hpp"
-#include "asm/codeBuffer.hpp"
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/codeBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 
 #ifndef _LP64
 inline int Assembler::prefix_and_encode(int reg_enc, bool byteinst) { return reg_enc; }

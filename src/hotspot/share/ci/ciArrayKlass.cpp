@@ -23,10 +23,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "ci/ciArrayKlass.hpp"
-#include "ci/ciObjArrayKlass.hpp"
-#include "ci/ciTypeArrayKlass.hpp"
-#include "ci/ciUtilities.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciObjArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciTypeArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciUtilities.hpp"
 
 // ciArrayKlass
 //

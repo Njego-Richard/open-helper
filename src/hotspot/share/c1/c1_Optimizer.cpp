@@ -30,7 +30,7 @@
 #include "c1/c1_ValueStack.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.inline.hpp"
-#include "compiler/compileLog.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileLog.hpp"
 
 typedef GrowableArray<ValueSet*> ValueSetList;
 

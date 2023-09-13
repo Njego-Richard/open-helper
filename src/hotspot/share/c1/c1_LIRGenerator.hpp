@@ -28,7 +28,7 @@
 #include "c1/c1_Decorators.hpp"
 #include "c1/c1_Instruction.hpp"
 #include "c1/c1_LIR.hpp"
-#include "ci/ciMethodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrIntrinsics.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"

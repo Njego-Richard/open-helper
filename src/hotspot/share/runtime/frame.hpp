@@ -31,7 +31,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/registerMap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #ifdef ZERO
-# include "stack_zero.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/cpu/zero/stack_zero.hpp"
 #endif
 
 typedef class BytecodeInterpreter* interpreterState;

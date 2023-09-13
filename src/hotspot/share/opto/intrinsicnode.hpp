@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_OPTO_INTRINSICNODE_HPP
 #define SHARE_VM_OPTO_INTRINSICNODE_HPP
 
-#include "opto/node.hpp"
-#include "opto/opcodes.hpp"
-#include "opto/connode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opcodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/connode.hpp"
 
 
 //----------------------PartialSubtypeCheckNode--------------------------------

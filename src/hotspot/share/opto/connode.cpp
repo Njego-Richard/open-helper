@@ -24,14 +24,14 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
-#include "opto/addnode.hpp"
-#include "opto/compile.hpp"
-#include "opto/connode.hpp"
-#include "opto/machnode.hpp"
-#include "opto/matcher.hpp"
-#include "opto/memnode.hpp"
-#include "opto/phaseX.hpp"
-#include "opto/subnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/compile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/connode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/machnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/memnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/subnode.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 
 // Optimization - Graph Style

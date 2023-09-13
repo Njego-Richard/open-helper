@@ -48,9 +48,9 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
-#include "services/heapDumper.hpp"
-#include "services/heapDumperCompression.hpp"
-#include "services/threadService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/heapDumper.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/heapDumperCompression.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/threadService.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 

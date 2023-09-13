@@ -23,10 +23,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "code/debugInfoRec.hpp"
-#include "code/nmethod.hpp"
-#include "code/pcDesc.hpp"
-#include "code/scopeDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfoRec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/pcDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/scopeDesc.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 
 PcDesc::PcDesc(int pc_offset, int scope_decode_offset, int obj_decode_offset) {

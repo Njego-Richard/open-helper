@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_C1_C1_COMPILATION_HPP
 #define SHARE_VM_C1_C1_COMPILATION_HPP
 
-#include "ci/ciEnv.hpp"
-#include "ci/ciMethodData.hpp"
-#include "code/exceptionHandlerTable.hpp"
-#include "compiler/compilerDirectives.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciEnv.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/exceptionHandlerTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerDirectives.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 

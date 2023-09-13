@@ -26,7 +26,7 @@
 #ifndef CPU_ZERO_VM_INTERPRETERFRAME_ZERO_HPP
 #define CPU_ZERO_VM_INTERPRETERFRAME_ZERO_HPP
 
-#include "interpreter/bytecodeInterpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodeInterpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "stack_zero.hpp"

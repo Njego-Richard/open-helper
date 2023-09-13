@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_AOT_AOTCODEHEAP_HPP
 #define SHARE_VM_AOT_AOTCODEHEAP_HPP
 
-#include "aot/aotCompiledMethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/aot/aotCompiledMethod.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/integralConstant.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/metaprogramming/isRegisteredEnum.hpp"

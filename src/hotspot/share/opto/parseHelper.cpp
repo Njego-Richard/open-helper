@@ -24,14 +24,14 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
-#include "compiler/compileLog.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileLog.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.hpp"
-#include "opto/addnode.hpp"
-#include "opto/memnode.hpp"
-#include "opto/mulnode.hpp"
-#include "opto/parse.hpp"
-#include "opto/rootnode.hpp"
-#include "opto/runtime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/memnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/mulnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/parse.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/rootnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/runtime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 
 //------------------------------make_dtrace_method_entry_exit ----------------

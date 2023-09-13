@@ -26,10 +26,10 @@
 #define SHARE_VM_OPTO_LIVE_HPP
 
 #include "libadt/vectset.hpp"
-#include "opto/block.hpp"
-#include "opto/indexSet.hpp"
-#include "opto/phase.hpp"
-#include "opto/regmask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/block.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/indexSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phase.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/regmask.hpp"
 
 class Block;
 class PhaseCFG;

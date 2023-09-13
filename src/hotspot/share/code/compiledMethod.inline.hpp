@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CODE_COMPILEDMETHOD_INLINE_HPP
 #define SHARE_VM_CODE_COMPILEDMETHOD_INLINE_HPP
 
-#include "code/compiledMethod.hpp"
-#include "code/nativeInst.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compiledMethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nativeInst.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
 

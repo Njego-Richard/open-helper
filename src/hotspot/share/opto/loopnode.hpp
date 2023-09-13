@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_OPTO_LOOPNODE_HPP
 #define SHARE_VM_OPTO_LOOPNODE_HPP
 
-#include "opto/cfgnode.hpp"
-#include "opto/multnode.hpp"
-#include "opto/phaseX.hpp"
-#include "opto/subnode.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/cfgnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/multnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/subnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 
 class CmpNode;
 class CountedLoopEndNode;

@@ -24,7 +24,7 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
 #include "logTestUtils.inline.hpp"
-#include "logging/logFileOutput.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logFileOutput.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "unittest.hpp"

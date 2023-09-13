@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OPTO_ESCAPE_HPP
 #define SHARE_VM_OPTO_ESCAPE_HPP
 
-#include "opto/addnode.hpp"
-#include "opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 
 //

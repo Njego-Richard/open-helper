@@ -28,7 +28,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1BiasedArray.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1RegionToSpaceMapper.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/heapRegionSet.hpp"
-#include "services/memoryUsage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryUsage.hpp"
 
 class HeapRegion;
 class HeapRegionClosure;

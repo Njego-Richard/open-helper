@@ -26,7 +26,7 @@
 #define SHARE_VM_UTILITIES_NATIVE_CALL_STACK_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "services/nmtCommon.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/nmtCommon.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 
 /*

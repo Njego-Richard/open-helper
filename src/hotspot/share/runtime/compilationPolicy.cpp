@@ -24,10 +24,10 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.inline.hpp"
-#include "code/compiledIC.hpp"
-#include "code/nmethod.hpp"
-#include "code/scopeDesc.hpp"
-#include "interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compiledIC.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/scopeDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.inline.hpp"
@@ -50,7 +50,7 @@
 #include "c1/c1_Compiler.hpp"
 #endif
 #ifdef COMPILER2
-#include "opto/c2compiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/c2compiler.hpp"
 #endif
 
 CompilationPolicy* CompilationPolicy::_policy;

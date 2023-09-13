@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_RUNTIME_FRAME_INLINE_HPP
 #define SHARE_VM_RUNTIME_FRAME_INLINE_HPP
 
-#include "code/compiledMethod.inline.hpp"
-#include "interpreter/bytecodeInterpreter.hpp"
-#include "interpreter/bytecodeInterpreter.inline.hpp"
-#include "interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compiledMethod.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodeInterpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodeInterpreter.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/signature.hpp"

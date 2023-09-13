@@ -25,18 +25,18 @@
 #ifndef SHARE_VM_OPTO_GRAPHKIT_HPP
 #define SHARE_VM_OPTO_GRAPHKIT_HPP
 
-#include "ci/ciEnv.hpp"
-#include "ci/ciMethodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciEnv.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/c2/barrierSetC2.hpp"
-#include "opto/addnode.hpp"
-#include "opto/callnode.hpp"
-#include "opto/cfgnode.hpp"
-#include "opto/compile.hpp"
-#include "opto/divnode.hpp"
-#include "opto/mulnode.hpp"
-#include "opto/phaseX.hpp"
-#include "opto/subnode.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/callnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/cfgnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/compile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/divnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/mulnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/subnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 
 class BarrierSetC2;

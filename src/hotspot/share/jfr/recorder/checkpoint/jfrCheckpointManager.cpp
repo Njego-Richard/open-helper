@@ -38,7 +38,7 @@
 #include "jfr/recorder/storage/jfrStorageUtils.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrBigEndian.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/utilities/jfrTypes.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"

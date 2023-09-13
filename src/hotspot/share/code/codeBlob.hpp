@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_CODE_CODEBLOB_HPP
 #define SHARE_VM_CODE_CODEBLOB_HPP
 
-#include "asm/codeBuffer.hpp"
-#include "compiler/compilerDefinitions.hpp"
-#include "compiler/oopMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/codeBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/oopMap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"

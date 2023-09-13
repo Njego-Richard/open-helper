@@ -25,7 +25,7 @@
 #ifndef CPU_AARCH64_GC_SHARED_BARRIERSETASSEMBLER_AARCH64_HPP
 #define CPU_AARCH64_GC_SHARED_BARRIERSETASSEMBLER_AARCH64_HPP
 
-#include "asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.hpp"
 

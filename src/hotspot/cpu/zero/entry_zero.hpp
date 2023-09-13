@@ -26,7 +26,7 @@
 #ifndef CPU_ZERO_VM_ENTRY_ZERO_HPP
 #define CPU_ZERO_VM_ENTRY_ZERO_HPP
 
-#include "interpreter/cppInterpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/cppInterpreter.hpp"
 
 class ZeroEntry {
  public:

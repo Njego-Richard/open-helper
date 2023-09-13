@@ -29,9 +29,9 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/classLoaderData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/modules.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
-#include "code/codeCache.hpp"
-#include "compiler/methodMatcher.hpp"
-#include "compiler/directivesParser.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/methodMatcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/directivesParser.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/gcConfig.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/genCollectedHeap.hpp"
 #include "jvmtifiles/jvmtiEnv.hpp"
@@ -65,7 +65,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
-#include "services/memoryService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryService.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/elfFile.hpp"
@@ -85,12 +85,12 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/parallel/adjoiningGenerations.hpp"
 #endif // INCLUDE_PARALLELGC
 #if INCLUDE_NMT
-#include "services/mallocSiteTable.hpp"
-#include "services/memTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/mallocSiteTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memTracker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/nativeCallStack.hpp"
 #endif // INCLUDE_NMT
 #if INCLUDE_AOT
-#include "aot/aotLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/aot/aotLoader.hpp"
 #endif // INCLUDE_AOT
 
 #ifdef LINUX

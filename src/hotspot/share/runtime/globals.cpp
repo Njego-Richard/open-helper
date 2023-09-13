@@ -42,10 +42,10 @@
 #include "c1/c1_globals.hpp"
 #endif
 #if INCLUDE_JVMCI
-#include "jvmci/jvmci_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmci_globals.hpp"
 #endif
 #ifdef COMPILER2
-#include "opto/c2_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/c2_globals.hpp"
 #endif
 
 VM_FLAGS(MATERIALIZE_DEVELOPER_FLAG, \

@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CI_CIMETADATA_HPP
 #define SHARE_VM_CI_CIMETADATA_HPP
 
-#include "ci/ciBaseObject.hpp"
-#include "ci/ciClassList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciBaseObject.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciClassList.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
 

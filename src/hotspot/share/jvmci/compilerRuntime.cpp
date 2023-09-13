@@ -24,8 +24,8 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/stringTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/symbolTable.hpp"
-#include "interpreter/linkResolver.hpp"
-#include "jvmci/compilerRuntime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/linkResolver.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/compilerRuntime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/cpCache.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/compilationPolicy.hpp"
@@ -33,7 +33,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vframe.inline.hpp"
-#include "aot/aotLoader.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/aot/aotLoader.hpp"
 
 // Resolve and allocate String
 JRT_BLOCK_ENTRY(void, CompilerRuntime::resolve_string_by_symbol(JavaThread *thread, void* string_result, const char* name))

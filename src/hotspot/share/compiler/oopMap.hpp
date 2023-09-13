@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_COMPILER_OOPMAP_HPP
 #define SHARE_VM_COMPILER_OOPMAP_HPP
 
-#include "code/compressedStream.hpp"
-#include "code/vmreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compressedStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"

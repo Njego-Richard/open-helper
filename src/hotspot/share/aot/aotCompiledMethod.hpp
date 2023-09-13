@@ -24,11 +24,11 @@
 #ifndef SHARE_VM_AOT_AOTCOMPILEDMETHOD_HPP
 #define SHARE_VM_AOT_AOTCOMPILEDMETHOD_HPP
 
-#include "code/codeCache.hpp"
-#include "code/compiledIC.hpp"
-#include "code/compiledMethod.hpp"
-#include "code/pcDesc.hpp"
-#include "code/relocInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compiledIC.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compiledMethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/pcDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/relocInfo.hpp"
 
 class AOTCodeHeap;
 

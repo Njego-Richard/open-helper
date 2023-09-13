@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_LOGGING_LOGFILEOUTPUT_HPP
 #define SHARE_VM_LOGGING_LOGFILEOUTPUT_HPP
 
-#include "logging/logFileStreamOutput.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logFileStreamOutput.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/semaphore.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 

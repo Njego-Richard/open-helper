@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_CI_CIMETHOD_HPP
 #define SHARE_VM_CI_CIMETHOD_HPP
 
-#include "ci/ciFlags.hpp"
-#include "ci/ciInstanceKlass.hpp"
-#include "ci/ciObject.hpp"
-#include "ci/ciSignature.hpp"
-#include "compiler/methodLiveness.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciObject.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciSignature.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/methodLiveness.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/methodHandles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/bitMap.hpp"
 

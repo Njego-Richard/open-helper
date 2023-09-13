@@ -27,8 +27,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessorPhaseTimes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/referenceProcessor.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/workerDataArray.inline.hpp"
-#include "logging/log.hpp"
-#include "logging/logStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 
 #define ASSERT_REF_TYPE(ref_type) assert((ref_type) >= REF_SOFT && (ref_type) <= REF_PHANTOM, \

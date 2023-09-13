@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_COMPILER_DISASSEMBLER_HPP
 #define SHARE_VM_COMPILER_DISASSEMBLER_HPP
 
-#include "asm/codeBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/codeBuffer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

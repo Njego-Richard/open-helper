@@ -22,8 +22,8 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "logging/logDecorations.hpp"
-#include "logging/logTagSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logDecorations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTagSet.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "unittest.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"

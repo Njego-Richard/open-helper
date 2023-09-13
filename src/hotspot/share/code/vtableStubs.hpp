@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CODE_VTABLESTUBS_HPP
 #define SHARE_VM_CODE_VTABLESTUBS_HPP
 
-#include "asm/macroAssembler.hpp"
-#include "code/vmreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 // A VtableStub holds an individual code stub for a pair (vtable index, #args) for either itables or vtables

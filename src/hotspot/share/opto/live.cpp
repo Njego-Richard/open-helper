@@ -25,10 +25,10 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "opto/callnode.hpp"
-#include "opto/chaitin.hpp"
-#include "opto/live.hpp"
-#include "opto/machnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/callnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/chaitin.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/live.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/machnode.hpp"
 
 
 // Compute live-in/live-out.  We use a totally incremental algorithm.  The LIVE

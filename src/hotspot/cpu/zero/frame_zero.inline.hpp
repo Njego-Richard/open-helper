@@ -26,7 +26,7 @@
 #ifndef CPU_ZERO_VM_FRAME_ZERO_INLINE_HPP
 #define CPU_ZERO_VM_FRAME_ZERO_INLINE_HPP
 
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 
 // Constructors
 

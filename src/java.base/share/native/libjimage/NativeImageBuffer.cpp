@@ -38,7 +38,7 @@
 #include "imageDecompressor.hpp"
 #include "imageFile.hpp"
 #include "inttypes.hpp"
-#include "jimage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/libjimage/jimage.hpp"
 #include "osSupport.hpp"
 
 #include "jdk_internal_jimage_NativeImageBuffer.h"

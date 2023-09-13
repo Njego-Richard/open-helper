@@ -24,12 +24,12 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSet.hpp"
-#include "opto/arraycopynode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/arraycopynode.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayKlass.hpp"
-#include "opto/convertnode.hpp"
-#include "opto/graphKit.hpp"
-#include "opto/macro.hpp"
-#include "opto/runtime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/convertnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/graphKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/macro.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/runtime.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #if INCLUDE_SHENANDOAHGC

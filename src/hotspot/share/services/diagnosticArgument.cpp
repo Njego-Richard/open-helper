@@ -27,7 +27,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
-#include "services/diagnosticArgument.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticArgument.hpp"
 
 StringArrayArgument::StringArrayArgument() {
   _array = new(ResourceObj::C_HEAP, mtInternal)GrowableArray<char *>(32, true);

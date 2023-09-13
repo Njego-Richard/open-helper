@@ -24,16 +24,16 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
-#include "opto/block.hpp"
-#include "opto/c2compiler.hpp"
-#include "opto/cfgnode.hpp"
-#include "opto/chaitin.hpp"
-#include "opto/coalesce.hpp"
-#include "opto/connode.hpp"
-#include "opto/indexSet.hpp"
-#include "opto/machnode.hpp"
-#include "opto/matcher.hpp"
-#include "opto/regmask.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/block.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/c2compiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/cfgnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/chaitin.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/coalesce.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/connode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/indexSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/machnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/regmask.hpp"
 
 #ifndef PRODUCT
 void PhaseCoalesce::dump(Node *n) const {

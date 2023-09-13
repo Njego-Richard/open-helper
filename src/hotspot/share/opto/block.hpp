@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_OPTO_BLOCK_HPP
 #define SHARE_VM_OPTO_BLOCK_HPP
 
-#include "opto/multnode.hpp"
-#include "opto/node.hpp"
-#include "opto/phase.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/multnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phase.hpp"
 
 // Optimization - Graph Style
 

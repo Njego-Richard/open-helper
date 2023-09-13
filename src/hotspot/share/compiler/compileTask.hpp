@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_COMPILER_COMPILETASK_HPP
 #define SHARE_VM_COMPILER_COMPILETASK_HPP
 
-#include "ci/ciMethod.hpp"
-#include "code/nmethod.hpp"
-#include "compiler/compileLog.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileLog.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/xmlstream.hpp"
 

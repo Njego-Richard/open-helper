@@ -22,8 +22,8 @@
  *
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "logging/logConfiguration.hpp"
-#include "logging/logDiagnosticCommand.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logConfiguration.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logDiagnosticCommand.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 

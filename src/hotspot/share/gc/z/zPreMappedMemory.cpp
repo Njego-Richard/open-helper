@@ -26,7 +26,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPhysicalMemory.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zPreMappedMemory.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zVirtualMemory.inline.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 
 ZPreMappedMemory::ZPreMappedMemory(ZVirtualMemoryManager &vmm, ZPhysicalMemoryManager &pmm, size_t size) :
     _vmem(),

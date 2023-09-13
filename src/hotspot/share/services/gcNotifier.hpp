@@ -26,9 +26,9 @@
 #define SHARE_VM_SERVICES_GCNOTIFIER_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "services/memoryPool.hpp"
-#include "services/memoryService.hpp"
-#include "services/memoryManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryManager.hpp"
 
 class GCNotificationRequest : public CHeapObj<mtInternal> {
   friend class GCNotifier;

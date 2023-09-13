@@ -25,7 +25,7 @@
 #ifndef CPU_AARCH64_GC_SHARED_MODREFBARRIERSETASSEMBLER_AARCH64_HPP
 #define CPU_AARCH64_GC_SHARED_MODREFBARRIERSETASSEMBLER_AARCH64_HPP
 
-#include "asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/barrierSetAssembler.hpp"
 
 // The ModRefBarrierSetAssembler filters away accesses on BasicTypes other

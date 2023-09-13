@@ -25,16 +25,16 @@
 #ifndef SHARE_VM_OPTO_IDEALKIT_HPP
 #define SHARE_VM_OPTO_IDEALKIT_HPP
 
-#include "opto/addnode.hpp"
-#include "opto/cfgnode.hpp"
-#include "opto/castnode.hpp"
-#include "opto/connode.hpp"
-#include "opto/divnode.hpp"
-#include "opto/graphKit.hpp"
-#include "opto/mulnode.hpp"
-#include "opto/phaseX.hpp"
-#include "opto/subnode.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/cfgnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/castnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/connode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/divnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/graphKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/mulnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/subnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 
 //-----------------------------------------------------------------------------
 //----------------------------IdealKit-----------------------------------------

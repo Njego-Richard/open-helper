@@ -25,7 +25,7 @@
 #ifndef CPU_X86_GC_G1_G1BARRIERSETASSEMBLER_X86_HPP
 #define CPU_X86_GC_G1_G1BARRIERSETASSEMBLER_X86_HPP
 
-#include "asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/modRefBarrierSetAssembler.hpp"
 
 class LIR_Assembler;

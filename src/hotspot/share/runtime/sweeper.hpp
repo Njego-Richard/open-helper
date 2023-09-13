@@ -27,7 +27,7 @@
 
 class WhiteBox;
 
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 
 class CodeBlobClosure;

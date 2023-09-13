@@ -26,7 +26,7 @@
 #ifndef SHARE_MEMORY_METASPACE_METASPACEDCMD_HPP
 #define SHARE_MEMORY_METASPACE_METASPACEDCMD_HPP
 
-#include "services/diagnosticCommand.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticCommand.hpp"
 
 class outputStream;
 

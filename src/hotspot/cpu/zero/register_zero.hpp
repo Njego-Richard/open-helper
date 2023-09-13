@@ -26,7 +26,7 @@
 #ifndef CPU_ZERO_VM_REGISTER_ZERO_HPP
 #define CPU_ZERO_VM_REGISTER_ZERO_HPP
 
-#include "asm/register.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/register.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vm_version.hpp"
 
 class VMRegImpl;

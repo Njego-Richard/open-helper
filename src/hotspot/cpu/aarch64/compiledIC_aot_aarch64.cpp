@@ -22,8 +22,8 @@
  * questions.
  */
 
-#include "aot/compiledIC_aot.hpp"
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/aot/compiledIC_aot.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 
 void CompiledDirectStaticCall::set_to_far(const methodHandle& callee, address entry) {

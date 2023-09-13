@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_CI_CIARRAY_HPP
 #define SHARE_VM_CI_CIARRAY_HPP
 
-#include "ci/ciArrayKlass.hpp"
-#include "ci/ciConstant.hpp"
-#include "ci/ciObject.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciObject.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/arrayOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/objArrayOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/typeArrayOop.hpp"

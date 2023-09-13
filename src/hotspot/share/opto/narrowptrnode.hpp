@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OPTO_NARROWPTRNODE_HPP
 #define SHARE_VM_OPTO_NARROWPTRNODE_HPP
 
-#include "opto/node.hpp"
-#include "opto/opcodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/opcodes.hpp"
 
 //------------------------------EncodeNarrowPtr--------------------------------
 class EncodeNarrowPtrNode : public TypeNode {

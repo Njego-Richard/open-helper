@@ -25,9 +25,9 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "c1/c1_InstructionPrinter.hpp"
 #include "c1/c1_ValueStack.hpp"
-#include "ci/ciArray.hpp"
-#include "ci/ciInstance.hpp"
-#include "ci/ciObject.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciArray.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstance.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciObject.hpp"
 
 
 #ifndef PRODUCT

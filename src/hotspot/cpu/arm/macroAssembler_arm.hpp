@@ -25,8 +25,8 @@
 #ifndef CPU_ARM_VM_MACROASSEMBLER_ARM_HPP
 #define CPU_ARM_VM_MACROASSEMBLER_ARM_HPP
 
-#include "code/relocInfo.hpp"
-#include "code/relocInfo_ext.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/relocInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/relocInfo_ext.hpp"
 
 class BiasedLockingCounters;
 

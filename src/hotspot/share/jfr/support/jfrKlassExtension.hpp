@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_SUPPORT_JFRKLASSEXTENSION_HPP
 #define SHARE_VM_JFR_SUPPORT_JFRKLASSEXTENSION_HPP
 
-#include "jfr/instrumentation/jfrEventClassTransformer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/instrumentation/jfrEventClassTransformer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrTraceIdExtension.hpp"
 
 #define DEFINE_KLASS_TRACE_ID_OFFSET \

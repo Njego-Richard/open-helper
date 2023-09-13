@@ -26,7 +26,7 @@
 #ifndef CPU_S390_GC_SHARED_BARRIERSETASSEMBLER_S390_HPP
 #define CPU_S390_GC_SHARED_BARRIERSETASSEMBLER_S390_HPP
 
-#include "asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/access.hpp"
 

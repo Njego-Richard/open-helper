@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CI_CIINSTANCE_HPP
 #define SHARE_VM_CI_CIINSTANCE_HPP
 
-#include "ci/ciObject.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciObject.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/instanceOop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 

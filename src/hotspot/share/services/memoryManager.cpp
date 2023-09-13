@@ -30,12 +30,12 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/javaCalls.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/orderAccess.hpp"
-#include "services/lowMemoryDetector.hpp"
-#include "services/management.hpp"
-#include "services/memoryManager.hpp"
-#include "services/memoryPool.hpp"
-#include "services/memoryService.hpp"
-#include "services/gcNotifier.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/lowMemoryDetector.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/management.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryService.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/gcNotifier.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/dtrace.hpp"
 
 MemoryManager::MemoryManager(const char* name) : _name(name) {

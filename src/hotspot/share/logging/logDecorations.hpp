@@ -24,8 +24,8 @@
 #ifndef SHARE_VM_LOGGING_LOGDECORATIONS_HPP
 #define SHARE_VM_LOGGING_LOGDECORATIONS_HPP
 
-#include "logging/logDecorators.hpp"
-#include "logging/logTagSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTagSet.hpp"
 
 // Temporary object containing the necessary data for a log call's decorations (timestamps, etc).
 class LogDecorations {

@@ -26,10 +26,10 @@
 #include "libadt/vectset.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
-#include "opto/block.hpp"
-#include "opto/machnode.hpp"
-#include "opto/phaseX.hpp"
-#include "opto/rootnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/block.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/machnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/rootnode.hpp"
 
 // Portions of code courtesy of Clifford Click
 

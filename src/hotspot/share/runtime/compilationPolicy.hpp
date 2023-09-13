@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_RUNTIME_COMPILATIONPOLICY_HPP
 #define SHARE_VM_RUNTIME_COMPILATIONPOLICY_HPP
 
-#include "code/nmethod.hpp"
-#include "compiler/compileBroker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileBroker.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmOperations.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"

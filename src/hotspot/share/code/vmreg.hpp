@@ -25,12 +25,12 @@
 #ifndef SHARE_VM_CODE_VMREG_HPP
 #define SHARE_VM_CODE_VMREG_HPP
 
-#include "asm/register.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/register.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 #ifdef COMPILER2
-#include "opto/adlcVMDeps.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp"
 #endif
 
 //------------------------------VMReg------------------------------------------

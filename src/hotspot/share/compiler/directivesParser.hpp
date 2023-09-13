@@ -26,7 +26,7 @@
 #define SHARE_VM_COMPILER_DIRECTIVESPARSER_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/json.hpp"
-#include "compiler/compilerDirectives.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerDirectives.hpp"
 
 enum FlagType {
   boolFlag,

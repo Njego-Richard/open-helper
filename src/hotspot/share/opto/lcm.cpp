@@ -23,16 +23,16 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "asm/macroAssembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
-#include "opto/ad.hpp"
-#include "opto/block.hpp"
-#include "opto/c2compiler.hpp"
-#include "opto/callnode.hpp"
-#include "opto/cfgnode.hpp"
-#include "opto/machnode.hpp"
-#include "opto/runtime.hpp"
-#include "opto/chaitin.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/ad.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/block.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/c2compiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/callnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/cfgnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/machnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/runtime.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/chaitin.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 
 // Optimization - Graph Style

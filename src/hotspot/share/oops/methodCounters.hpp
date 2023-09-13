@@ -26,9 +26,9 @@
 #define SHARE_VM_OOPS_METHODCOUNTERS_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/metadata.hpp"
-#include "compiler/compilerDefinitions.hpp"
-#include "compiler/compilerOracle.hpp"
-#include "interpreter/invocationCounter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerDefinitions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compilerOracle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/invocationCounter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 

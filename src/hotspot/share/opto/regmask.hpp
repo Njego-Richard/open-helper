@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OPTO_REGMASK_HPP
 #define SHARE_VM_OPTO_REGMASK_HPP
 
-#include "code/vmreg.hpp"
-#include "opto/optoreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/optoreg.hpp"
 
 // Some fun naming (textual) substitutions:
 //

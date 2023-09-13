@@ -25,8 +25,8 @@
 #ifndef CPU_ARM_VM_INTERP_MASM_ARM_HPP
 #define CPU_ARM_VM_INTERP_MASM_ARM_HPP
 
-#include "asm/macroAssembler.hpp"
-#include "interpreter/invocationCounter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/invocationCounter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/jvmtiExport.hpp"
 

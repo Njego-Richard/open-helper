@@ -23,7 +23,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
-#include "logging/logDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logDecorators.hpp"
 #include "unittest.hpp"
 
 static LogDecorators::Decorator decorator_array[] = {

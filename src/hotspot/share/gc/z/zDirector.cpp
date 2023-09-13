@@ -27,7 +27,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zHeap.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zStat.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zUtils.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 
 const double ZDirector::one_in_1000 = 3.290527;
 

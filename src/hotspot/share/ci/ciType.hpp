@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CI_CITYPE_HPP
 #define SHARE_VM_CI_CITYPE_HPP
 
-#include "ci/ciMetadata.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMetadata.hpp"
 
 // ciType
 //

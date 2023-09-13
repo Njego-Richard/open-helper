@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_SERVICES_MEM_TRACKER_HPP
 #define SHARE_VM_SERVICES_MEM_TRACKER_HPP
 
-#include "services/nmtCommon.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/nmtCommon.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/nativeCallStack.hpp"
 
 
@@ -80,8 +80,8 @@ class MemTracker : AllStatic {
 #else
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadCritical.hpp"
-#include "services/mallocTracker.hpp"
-#include "services/virtualMemoryTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/mallocTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/virtualMemoryTracker.hpp"
 
 extern volatile bool NMT_stack_walkable;
 

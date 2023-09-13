@@ -25,7 +25,7 @@
 #ifndef CPU_X86_VM_MACROASSEMBLER_X86_HPP
 #define CPU_X86_VM_MACROASSEMBLER_X86_HPP
 
-#include "asm/assembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/rtmLocking.hpp"
 

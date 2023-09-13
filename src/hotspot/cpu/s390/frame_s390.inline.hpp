@@ -26,8 +26,8 @@
 #ifndef CPU_S390_VM_FRAME_S390_INLINE_HPP
 #define CPU_S390_VM_FRAME_S390_INLINE_HPP
 
-#include "code/codeCache.hpp"
-#include "code/vmreg.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 
 // Inline functions for z/Architecture frames:

@@ -24,10 +24,10 @@
 #ifndef SHARE_VM_LOGGING_LOG_HPP
 #define SHARE_VM_LOGGING_LOG_HPP
 
-#include "logging/logLevel.hpp"
-#include "logging/logPrefix.hpp"
-#include "logging/logTagSet.hpp"
-#include "logging/logTag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logLevel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logPrefix.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTagSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTag.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"
 

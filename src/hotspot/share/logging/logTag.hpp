@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_LOGGING_LOGTAG_HPP
 #define SHARE_VM_LOGGING_LOGTAG_HPP
 
-#include "logging/logTag_ext.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTag_ext.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 

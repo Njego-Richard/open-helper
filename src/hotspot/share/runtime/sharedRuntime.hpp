@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_RUNTIME_SHAREDRUNTIME_HPP
 #define SHARE_VM_RUNTIME_SHAREDRUNTIME_HPP
 
-#include "interpreter/bytecodeHistogram.hpp"
-#include "interpreter/bytecodeTracer.hpp"
-#include "interpreter/linkResolver.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodeHistogram.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodeTracer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/linkResolver.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/hashtable.hpp"

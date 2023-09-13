@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_LOGGING_LOGOUTPUTLIST_HPP
 #define SHARE_VM_LOGGING_LOGOUTPUTLIST_HPP
 
-#include "logging/logLevel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logLevel.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 

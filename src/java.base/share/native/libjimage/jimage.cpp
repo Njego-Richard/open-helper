@@ -31,7 +31,7 @@
 
 #include <string.h>
 
-#include "jimage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/java.base/share/native/libjimage/jimage.hpp"
 
 #include "imageFile.hpp"
 

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CI_CIREPLAY_HPP
 #define SHARE_VM_CI_CIREPLAY_HPP
 
-#include "ci/ciMethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethod.hpp"
 
 // ciReplay
 

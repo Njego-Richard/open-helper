@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_INTERPRETER_ABSTRACTINTERPRETER_HPP
 #define SHARE_VM_INTERPRETER_ABSTRACTINTERPRETER_HPP
 
-#include "asm/macroAssembler.hpp"
-#include "code/stubs.hpp"
-#include "interpreter/bytecodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/stubs.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/frame.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"

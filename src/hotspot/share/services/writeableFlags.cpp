@@ -30,7 +30,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/flags/jvmFlagRangeList.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/java.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
-#include "services/writeableFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/writeableFlags.hpp"
 
 #define TEMP_BUF_SIZE 80
 

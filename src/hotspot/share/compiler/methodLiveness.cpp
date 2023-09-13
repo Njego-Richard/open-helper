@@ -23,12 +23,12 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "ci/ciMethod.hpp"
-#include "ci/ciMethodBlocks.hpp"
-#include "ci/ciStreams.hpp"
-#include "compiler/methodLiveness.hpp"
-#include "interpreter/bytecode.hpp"
-#include "interpreter/bytecodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodBlocks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciStreams.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/methodLiveness.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/resourceArea.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timerTrace.hpp"

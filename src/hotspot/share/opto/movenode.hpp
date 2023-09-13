@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OPTO_MOVENODE_HPP
 #define SHARE_VM_OPTO_MOVENODE_HPP
 
-#include "opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
 
 //------------------------------CMoveNode--------------------------------------
 // Conditional move

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_CODE_DEBUGINFO_HPP
 #define SHARE_VM_CODE_DEBUGINFO_HPP
 
-#include "code/compressedStream.hpp"
-#include "code/location.hpp"
-#include "code/nmethod.hpp"
-#include "code/oopRecorder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/compressedStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/location.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nmethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/oopRecorder.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stackValue.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"

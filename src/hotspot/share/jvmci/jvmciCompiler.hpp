@@ -24,8 +24,8 @@
 #ifndef SHARE_VM_JVMCI_JVMCI_COMPILER_HPP
 #define SHARE_VM_JVMCI_JVMCI_COMPILER_HPP
 
-#include "compiler/abstractCompiler.hpp"
-#include "jvmci/jvmciEnv.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/abstractCompiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciEnv.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 
 class JVMCICompiler : public AbstractCompiler {

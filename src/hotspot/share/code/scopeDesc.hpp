@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_CODE_SCOPEDESC_HPP
 #define SHARE_VM_CODE_SCOPEDESC_HPP
 
-#include "code/debugInfo.hpp"
-#include "code/pcDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/pcDesc.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 

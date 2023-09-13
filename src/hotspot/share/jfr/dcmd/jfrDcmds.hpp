@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_JFRDCMDS_HPP
 #define SHARE_VM_JFR_JFRDCMDS_HPP
 
-#include "services/diagnosticCommand.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticCommand.hpp"
 
 class JfrDumpFlightRecordingDCmd : public DCmdWithParser {
  protected:

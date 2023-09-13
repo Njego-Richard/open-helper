@@ -26,7 +26,7 @@
 #include "jfr/dcmd/jfrDcmds.hpp"
 #include "jfr/jfrEvents.hpp"
 #include "jfr/periodic/jfrThreadDumpEvent.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/exceptions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ostream.hpp"
 

@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OPTO_CALLGENERATOR_HPP
 #define SHARE_VM_OPTO_CALLGENERATOR_HPP
 
-#include "compiler/compileBroker.hpp"
-#include "opto/callnode.hpp"
-#include "opto/compile.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/compileBroker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/callnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/compile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"
 
 //---------------------------CallGenerator-------------------------------------

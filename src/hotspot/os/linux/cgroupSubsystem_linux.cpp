@@ -28,7 +28,7 @@
 #include "cgroupSubsystem_linux.hpp"
 #include "cgroupV1Subsystem_linux.hpp"
 #include "cgroupV2Subsystem_linux.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/globals.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"

@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_CI_CISTREAMS_HPP
 #define SHARE_VM_CI_CISTREAMS_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciExceptionHandler.hpp"
-#include "ci/ciInstanceKlass.hpp"
-#include "ci/ciMethod.hpp"
-#include "interpreter/bytecode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciClassList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciExceptionHandler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecode.hpp"
 
 // ciBytecodeStream
 //

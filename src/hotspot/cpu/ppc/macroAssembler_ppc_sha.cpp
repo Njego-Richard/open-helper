@@ -22,7 +22,7 @@
 // Implemented according to "Descriptions of SHA-256, SHA-384, and SHA-512"
 // (http://www.iwar.org.uk/comsec/resources/cipher/sha256-384-512.pdf).
 
-#include "asm/macroAssembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/stubRoutines.hpp"
 
 /**********************************************************************

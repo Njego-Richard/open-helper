@@ -26,8 +26,8 @@
 #ifndef CPU_AARCH64_VM_FRAME_AARCH64_INLINE_HPP
 #define CPU_AARCH64_VM_FRAME_AARCH64_INLINE_HPP
 
-#include "code/codeCache.hpp"
-#include "code/vmreg.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.inline.hpp"
 #include "pauth_aarch64.hpp"
 
 // Inline functions for AArch64 frames:

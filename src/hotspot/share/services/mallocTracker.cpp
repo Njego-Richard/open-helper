@@ -24,10 +24,10 @@
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/atomic.hpp"
-#include "services/mallocSiteTable.hpp"
-#include "services/mallocTracker.hpp"
-#include "services/mallocTracker.inline.hpp"
-#include "services/memTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/mallocSiteTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/mallocTracker.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/mallocTracker.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memTracker.hpp"
 
 size_t MallocMemorySummary::_snapshot[CALC_OBJ_SIZE_IN_TYPE(MallocMemorySnapshot, size_t)];
 

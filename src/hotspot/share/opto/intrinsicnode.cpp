@@ -23,9 +23,9 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "opto/intrinsicnode.hpp"
-#include "opto/memnode.hpp"
-#include "opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/intrinsicnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/memnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
 
 //=============================================================================
 // Do not match memory edge.

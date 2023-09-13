@@ -22,9 +22,9 @@
  *
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "logging/logTag.hpp"
-#include "logging/logTagSet.hpp"
-#include "logging/logTagSetDescriptions.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTagSet.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTagSetDescriptions.hpp"
 
 // List of described tag sets. Tags should be specified using the LOG_TAGS()
 // macro. Described tag sets can be listed from command line (or DCMD) using

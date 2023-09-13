@@ -27,8 +27,8 @@
 #include "c1/c1_Instruction.hpp"
 #include "c1/c1_InstructionPrinter.hpp"
 #include "c1/c1_ValueStack.hpp"
-#include "ci/ciObjArrayKlass.hpp"
-#include "ci/ciTypeArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciObjArrayKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciTypeArrayKlass.hpp"
 
 
 // Implementation of Instruction

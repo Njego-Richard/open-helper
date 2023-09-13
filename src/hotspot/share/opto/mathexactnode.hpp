@@ -25,11 +25,11 @@
 #ifndef SHARE_VM_OPTO_MATHEXACTNODE_HPP
 #define SHARE_VM_OPTO_MATHEXACTNODE_HPP
 
-#include "opto/multnode.hpp"
-#include "opto/node.hpp"
-#include "opto/addnode.hpp"
-#include "opto/subnode.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/multnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/subnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 
 class PhaseGVN;
 class PhaseTransform;

@@ -26,7 +26,7 @@
 #ifndef OS_LINUX_TRIMCHEAPDCMD_HPP
 #define OS_LINUX_TRIMCHEAPDCMD_HPP
 
-#include "services/diagnosticCommand.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticCommand.hpp"
 
 class outputStream;
 

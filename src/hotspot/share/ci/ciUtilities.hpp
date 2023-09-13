@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CI_CIUTILITIES_HPP
 #define SHARE_VM_CI_CIUTILITIES_HPP
 
-#include "ci/ciEnv.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciEnv.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 
 // The following routines and definitions are used internally in the

@@ -26,9 +26,9 @@
 #ifndef CPU_ZERO_VM_INTERP_MASM_ZERO_HPP
 #define CPU_ZERO_VM_INTERP_MASM_ZERO_HPP
 
-#include "asm/codeBuffer.hpp"
-#include "asm/macroAssembler.hpp"
-#include "interpreter/invocationCounter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/codeBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/invocationCounter.hpp"
 
 // This file specializes the assember with interpreter-specific macros
 

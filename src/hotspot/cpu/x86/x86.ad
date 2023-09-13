@@ -1311,7 +1311,7 @@ inline uint vector_length_in_bytes(const Node* n) {
 
 source %{
 
-#include "opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
 
 // Emit exception handler code.
 // Stuff framesize into a register and call a VM stub routine.

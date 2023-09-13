@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_UTILITIES_JFRLOGTAGSETS_HPP
 #define SHARE_VM_JFR_UTILITIES_JFRLOGTAGSETS_HPP
 
-#include "logging/logTag.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logTag.hpp"
 
 /*
  * This file declares the Unified Logging (UL) tag sets for JFR.

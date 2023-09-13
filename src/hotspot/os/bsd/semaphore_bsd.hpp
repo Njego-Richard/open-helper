@@ -29,7 +29,7 @@
 
 #ifndef __APPLE__
 // Use POSIX semaphores.
-# include "semaphore_posix.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/os/posix/semaphore_posix.hpp"
 
 #else
 // OS X doesn't support unamed POSIX semaphores, so the implementation in os_posix.cpp can't be used.

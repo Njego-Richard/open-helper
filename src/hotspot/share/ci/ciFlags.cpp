@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "ci/ciFlags.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciFlags.hpp"
 
 // ciFlags
 //

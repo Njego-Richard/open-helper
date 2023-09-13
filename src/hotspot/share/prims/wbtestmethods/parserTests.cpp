@@ -33,8 +33,8 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/prims/wbtestmethods/parserTests.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/interfaceSupport.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.inline.hpp"
-#include "services/diagnosticArgument.hpp"
-#include "services/diagnosticFramework.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticArgument.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/diagnosticFramework.hpp"
 
 //There's no way of beforeahnd knowing an upper size
 //Of the length of a string representation of

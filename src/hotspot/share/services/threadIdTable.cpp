@@ -28,7 +28,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/threadSMR.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/timerTrace.hpp"
-#include "services/threadIdTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/threadIdTable.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/resourceHash.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/concurrentHashTable.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/concurrentHashTableTasks.inline.hpp"

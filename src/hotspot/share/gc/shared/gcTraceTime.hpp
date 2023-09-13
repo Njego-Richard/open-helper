@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_GC_SHARED_GCTRACETIME_HPP
 #define SHARE_VM_GC_SHARED_GCTRACETIME_HPP
 
-#include "logging/log.hpp"
-#include "logging/logHandle.hpp"
-#include "logging/logStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logHandle.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/ticks.hpp"
 

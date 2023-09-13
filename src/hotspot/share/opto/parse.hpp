@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_OPTO_PARSE_HPP
 #define SHARE_VM_OPTO_PARSE_HPP
 
-#include "ci/ciMethodData.hpp"
-#include "ci/ciTypeFlow.hpp"
-#include "compiler/methodLiveness.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciTypeFlow.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/methodLiveness.hpp"
 #include "libadt/vectset.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/generateOopMap.hpp"
-#include "opto/graphKit.hpp"
-#include "opto/subnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/graphKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/subnode.hpp"
 
 class BytecodeParseHistogram;
 class InlineTree;

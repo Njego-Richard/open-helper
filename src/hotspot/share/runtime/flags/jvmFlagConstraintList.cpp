@@ -37,7 +37,7 @@
 #include "c1/c1_globals.hpp"
 #endif
 #ifdef COMPILER2
-#include "opto/c2_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/c2_globals.hpp"
 #endif
 
 class JVMFlagConstraint_bool : public JVMFlagConstraint {

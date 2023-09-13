@@ -26,8 +26,8 @@
 #define SHARE_VM_C1_C1_VALUETYPE_HPP
 
 #include "c1/c1_Compilation.hpp"
-#include "ci/ciConstant.hpp"
-#include "ci/ciMethodData.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciConstant.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodData.hpp"
 
 // type hierarchy
 class ValueType;

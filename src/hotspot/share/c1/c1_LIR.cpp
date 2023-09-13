@@ -27,7 +27,7 @@
 #include "c1/c1_LIR.hpp"
 #include "c1/c1_LIRAssembler.hpp"
 #include "c1/c1_ValueStack.hpp"
-#include "ci/ciInstance.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstance.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/sharedRuntime.hpp"
 
 Register LIR_OprDesc::as_register() const {

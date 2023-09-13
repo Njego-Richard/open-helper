@@ -23,7 +23,7 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "opto/c2_globals.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/c2_globals.hpp"
 
 C2_FLAGS(MATERIALIZE_DEVELOPER_FLAG, \
          MATERIALIZE_PD_DEVELOPER_FLAG, \

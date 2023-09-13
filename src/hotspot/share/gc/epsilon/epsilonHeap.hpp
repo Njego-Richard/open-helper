@@ -28,7 +28,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/collectedHeap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/softRefPolicy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/space.hpp"
-#include "services/memoryManager.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryManager.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonCollectorPolicy.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonMonitoringSupport.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/epsilon/epsilonBarrierSet.hpp"

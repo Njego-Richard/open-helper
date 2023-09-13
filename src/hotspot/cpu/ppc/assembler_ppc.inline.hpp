@@ -26,9 +26,9 @@
 #ifndef CPU_PPC_VM_ASSEMBLER_PPC_INLINE_HPP
 #define CPU_PPC_VM_ASSEMBLER_PPC_INLINE_HPP
 
-#include "asm/assembler.inline.hpp"
-#include "asm/codeBuffer.hpp"
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/assembler.inline.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/codeBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 
 inline void Assembler::emit_int32(int x) {
   AbstractAssembler::emit_int32(x);

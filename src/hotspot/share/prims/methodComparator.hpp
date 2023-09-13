@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_PRIMS_METHODCOMPARATOR_HPP
 #define SHARE_VM_PRIMS_METHODCOMPARATOR_HPP
 
-#include "interpreter/bytecodeStream.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodeStream.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/constantPool.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/method.hpp"
 

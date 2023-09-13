@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_INTERPRETER_INTERP_MASM_HPP
 #define SHARE_VM_INTERPRETER_INTERP_MASM_HPP
 
-#include "asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 
 //#include CPU_HEADER(interp_masm)

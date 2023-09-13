@@ -24,10 +24,10 @@
 #ifndef SHARE_VM_OPTO_SUPERWORD_HPP
 #define SHARE_VM_OPTO_SUPERWORD_HPP
 
-#include "opto/loopnode.hpp"
-#include "opto/node.hpp"
-#include "opto/phaseX.hpp"
-#include "opto/vectornode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/loopnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phaseX.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/vectornode.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 #include "libadt/dict.hpp"
 

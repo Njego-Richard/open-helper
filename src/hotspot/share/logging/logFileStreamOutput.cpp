@@ -23,10 +23,10 @@
  */
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/include/jvm.h"
-#include "logging/logDecorators.hpp"
-#include "logging/logDecorations.hpp"
-#include "logging/logFileStreamOutput.hpp"
-#include "logging/logMessageBuffer.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logDecorators.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logDecorations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logFileStreamOutput.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logMessageBuffer.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 
 static bool initialized;

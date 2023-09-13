@@ -25,9 +25,9 @@
 #ifndef SHARE_VM_OPTO_OUTPUT_HPP
 #define SHARE_VM_OPTO_OUTPUT_HPP
 
-#include "opto/ad.hpp"
-#include "opto/block.hpp"
-#include "opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/ad.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/block.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
 
 class Arena;
 class Bundle;

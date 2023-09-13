@@ -26,9 +26,9 @@
 #define SHARE_VM_CI_CITYPEFLOW_HPP
 
 #ifdef COMPILER2
-#include "ci/ciEnv.hpp"
-#include "ci/ciKlass.hpp"
-#include "ci/ciMethodBlocks.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciEnv.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethodBlocks.hpp"
 #endif
 
 

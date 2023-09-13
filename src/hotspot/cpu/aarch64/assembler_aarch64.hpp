@@ -26,7 +26,7 @@
 #ifndef CPU_AARCH64_VM_ASSEMBLER_AARCH64_HPP
 #define CPU_AARCH64_VM_ASSEMBLER_AARCH64_HPP
 
-#include "asm/register.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/register.hpp"
 
 #ifdef __GNUC__
 

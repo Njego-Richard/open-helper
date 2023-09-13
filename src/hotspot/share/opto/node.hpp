@@ -26,8 +26,8 @@
 #define SHARE_VM_OPTO_NODE_HPP
 
 #include "libadt/vectset.hpp"
-#include "opto/compile.hpp"
-#include "opto/type.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/compile.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/type.hpp"
 
 // Portions of code courtesy of Clifford Click
 

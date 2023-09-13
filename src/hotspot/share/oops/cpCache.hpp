@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OOPS_CPCACHEOOP_HPP
 #define SHARE_VM_OOPS_CPCACHEOOP_HPP
 
-#include "interpreter/bytecodes.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/bytecodes.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/array.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oopHandle.hpp"

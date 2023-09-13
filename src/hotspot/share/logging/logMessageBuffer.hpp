@@ -24,8 +24,8 @@
 #ifndef SHARE_VM_LOGGING_LOGMESSAGEBUFFER_HPP
 #define SHARE_VM_LOGGING_LOGMESSAGEBUFFER_HPP
 
-#include "logging/logDecorations.hpp"
-#include "logging/logLevel.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logDecorations.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/logLevel.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 
 class LogMessageBuffer : public StackObj {

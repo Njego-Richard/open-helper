@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_CI_CIENV_HPP
 #define SHARE_VM_CI_CIENV_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciObjectFactory.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciClassList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciObjectFactory.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionary.hpp"
-#include "code/debugInfoRec.hpp"
-#include "code/dependencies.hpp"
-#include "code/exceptionHandlerTable.hpp"
-#include "compiler/oopMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfoRec.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/dependencies.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/exceptionHandlerTable.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/oopMap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/methodData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.hpp"
 

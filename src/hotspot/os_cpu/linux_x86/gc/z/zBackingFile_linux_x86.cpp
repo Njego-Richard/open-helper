@@ -27,7 +27,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zBackingPath_linux_x86.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zErrno.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/z/zLargePages.inline.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/align.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/debug.hpp"

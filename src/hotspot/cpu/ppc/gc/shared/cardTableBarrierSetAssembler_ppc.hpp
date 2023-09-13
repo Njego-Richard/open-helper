@@ -26,7 +26,7 @@
 #ifndef CPU_PPC_GC_SHARED_CARDTABLEBARRIERSETASSEMBLER_PPC_HPP
 #define CPU_PPC_GC_SHARED_CARDTABLEBARRIERSETASSEMBLER_PPC_HPP
 
-#include "asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/shared/modRefBarrierSetAssembler.hpp"
 
 class CardTableBarrierSetAssembler: public ModRefBarrierSetAssembler {

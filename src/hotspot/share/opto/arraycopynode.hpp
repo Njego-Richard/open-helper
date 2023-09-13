@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OPTO_ARRAYCOPYNODE_HPP
 #define SHARE_VM_OPTO_ARRAYCOPYNODE_HPP
 
-#include "opto/callnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/callnode.hpp"
 
 class GraphKit;
 

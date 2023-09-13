@@ -25,10 +25,10 @@
 #ifndef SHARE_VM_OPTO_REGALLOC_HPP
 #define SHARE_VM_OPTO_REGALLOC_HPP
 
-#include "code/vmreg.hpp"
-#include "opto/block.hpp"
-#include "opto/matcher.hpp"
-#include "opto/phase.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/block.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/matcher.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phase.hpp"
 
 class Node;
 class Matcher;

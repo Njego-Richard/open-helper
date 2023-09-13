@@ -30,7 +30,7 @@
 #include "c1/c1_Instruction.hpp"
 #include "c1/c1_LIR.hpp"
 #include "c1/c1_Runtime1.hpp"
-#include "code/nativeInst.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nativeInst.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

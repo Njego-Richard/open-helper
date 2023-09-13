@@ -29,7 +29,7 @@
 #include "jfr/leakprofiler/checkpoint/eventEmitter.hpp"
 #include "jfr/leakprofiler/sampling/objectSampler.hpp"
 #include "jfr/recorder/service/jfrOptionSet.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/iterator.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/thread.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/vmThread.hpp"

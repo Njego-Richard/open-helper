@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OPTO_COALESCE_HPP
 #define SHARE_VM_OPTO_COALESCE_HPP
 
-#include "opto/phase.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/phase.hpp"
 
 class LoopTree;
 class LRG;

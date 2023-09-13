@@ -25,12 +25,12 @@
 #define SHARE_GC_SHENANDOAH_C2_SHENANDOAHSUPPORT_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
-#include "opto/addnode.hpp"
-#include "opto/graphKit.hpp"
-#include "opto/machnode.hpp"
-#include "opto/memnode.hpp"
-#include "opto/multnode.hpp"
-#include "opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/addnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/graphKit.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/machnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/memnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/multnode.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
 
 class PhaseGVN;
 class MemoryGraphFixer;

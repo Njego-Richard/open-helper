@@ -26,8 +26,8 @@
 #define SHARE_VM_GC_G1_G1MEMORYPOOL_HPP
 
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/gc/g1/g1MonitoringSupport.hpp"
-#include "services/memoryPool.hpp"
-#include "services/memoryUsage.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryPool.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/services/memoryUsage.hpp"
 
 // This file contains the three classes that represent the memory
 // pools of the G1 spaces: G1EdenPool, G1SurvivorPool, and

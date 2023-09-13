@@ -23,7 +23,7 @@
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
 
-#include "aot/compiledIC_aot.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/aot/compiledIC_aot.hpp"
 
 bool CompiledPltStaticCall::is_call_to_interpreted() const {
   // It is a call to interpreted, if it calls to a stub. Hence, the destination

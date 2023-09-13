@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_MEMORY_METASPACE_ITERATOR_HPP
 #define SHARE_VM_MEMORY_METASPACE_ITERATOR_HPP
 
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/array.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"

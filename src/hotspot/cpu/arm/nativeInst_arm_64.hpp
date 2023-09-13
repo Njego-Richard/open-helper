@@ -25,8 +25,8 @@
 #ifndef CPU_ARM_VM_NATIVEINST_ARM_64_HPP
 #define CPU_ARM_VM_NATIVEINST_ARM_64_HPP
 
-#include "asm/macroAssembler.hpp"
-#include "code/codeCache.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/macroAssembler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/codeCache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/icache.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/os.hpp"
 

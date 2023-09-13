@@ -25,8 +25,8 @@
 #ifndef SHARE_VM_OPTO_C2COMPILER_HPP
 #define SHARE_VM_OPTO_C2COMPILER_HPP
 
-#include "compiler/abstractCompiler.hpp"
-#include "opto/output.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/abstractCompiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/output.hpp"
 
 class C2Compiler : public AbstractCompiler {
  private:

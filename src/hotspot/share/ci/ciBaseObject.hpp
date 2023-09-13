@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_CI_CIBASEOBJECT_HPP
 #define SHARE_VM_CI_CIBASEOBJECT_HPP
 
-#include "ci/ciClassList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciClassList.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.hpp"
 

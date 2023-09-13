@@ -27,7 +27,7 @@
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/systemDictionaryShared.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/verificationType.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/classfile/verifier.hpp"
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.inline.hpp"
 
 VerificationType VerificationType::from_tag(u1 tag) {

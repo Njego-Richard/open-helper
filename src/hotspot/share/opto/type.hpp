@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OPTO_TYPE_HPP
 #define SHARE_VM_OPTO_TYPE_HPP
 
-#include "opto/adlcVMDeps.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 
 // Portions of code courtesy of Clifford Click

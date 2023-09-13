@@ -24,7 +24,7 @@
 #ifndef SHARE_VM_JVMCI_JVMCI_RUNTIME_HPP
 #define SHARE_VM_JVMCI_JVMCI_RUNTIME_HPP
 
-#include "interpreter/interpreter.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/interpreter/interpreter.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/arguments.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/deoptimization.hpp"

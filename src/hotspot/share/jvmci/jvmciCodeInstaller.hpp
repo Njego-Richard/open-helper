@@ -24,9 +24,9 @@
 #ifndef SHARE_VM_JVMCI_JVMCI_CODE_INSTALLER_HPP
 #define SHARE_VM_JVMCI_JVMCI_CODE_INSTALLER_HPP
 
-#include "jvmci/jvmciCompiler.hpp"
-#include "jvmci/jvmciEnv.hpp"
-#include "code/nativeInst.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciCompiler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jvmci/jvmciEnv.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/nativeInst.hpp"
 
 class RelocBuffer : public StackObj {
   enum { stack_size = 1024 };

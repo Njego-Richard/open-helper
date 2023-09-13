@@ -25,13 +25,13 @@
 #ifndef SHARE_VM_CODE_DEBUGINFOREC_HPP
 #define SHARE_VM_CODE_DEBUGINFOREC_HPP
 
-#include "ci/ciClassList.hpp"
-#include "ci/ciInstanceKlass.hpp"
-#include "ci/ciMethod.hpp"
-#include "code/debugInfo.hpp"
-#include "code/location.hpp"
-#include "code/pcDesc.hpp"
-#include "compiler/oopMap.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciClassList.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstanceKlass.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMethod.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/debugInfo.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/location.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/pcDesc.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/compiler/oopMap.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"
 

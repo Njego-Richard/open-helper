@@ -26,7 +26,7 @@
 #ifndef CPU_AARCH64_VM_REGISTER_AARCH64_HPP
 #define CPU_AARCH64_VM_REGISTER_AARCH64_HPP
 
-#include "asm/register.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/register.hpp"
 
 class VMRegImpl;
 typedef VMRegImpl* VMReg;

@@ -25,7 +25,7 @@
 #ifndef CPU_X86_VM_REGISTER_X86_HPP
 #define CPU_X86_VM_REGISTER_X86_HPP
 
-#include "asm/register.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/asm/register.hpp"
 
 class VMRegImpl;
 typedef VMRegImpl* VMReg;

@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_SERVICES_CLASSLOADINGSERVICE_HPP
 #define SHARE_VM_SERVICES_CLASSLOADINGSERVICE_HPP
 
-#include "logging/log.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/logging/log.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/handles.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/perfData.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/growableArray.hpp"

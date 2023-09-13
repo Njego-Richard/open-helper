@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_RUNTIME_REGISTERMAP_HPP
 #define SHARE_VM_RUNTIME_REGISTERMAP_HPP
 
-#include "code/vmreg.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/vmreg.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/utilities/macros.hpp"
 

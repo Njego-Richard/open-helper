@@ -23,10 +23,10 @@
  */
 
 #include "/workspace/spring-petclinic/openjdk/test/hotspot/gtest/jfr/precompiled.hpp"
-#include "ci/ciEnv.hpp"
-#include "ci/ciInstance.hpp"
-#include "ci/ciMetadata.hpp"
-#include "code/oopRecorder.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciEnv.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciInstance.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/ci/ciMetadata.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/code/oopRecorder.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/memory/allocation.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/oops/oop.inline.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/runtime/jniHandles.inline.hpp"

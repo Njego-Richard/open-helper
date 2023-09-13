@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_OPTO_MULTNODE_HPP
 #define SHARE_VM_OPTO_MULTNODE_HPP
 
-#include "opto/node.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/opto/node.hpp"
 
 class Matcher;
 class ProjNode;
