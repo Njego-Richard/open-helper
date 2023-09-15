@@ -25,7 +25,7 @@
 #ifndef SHARE_VM_JFR_SUPPORT_JFRTHREADEXTENSION_HPP
 #define SHARE_VM_JFR_SUPPORT_JFRTHREADEXTENSION_HPP
 
-pjfrThreadSampler.hpp"
+#include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/periodic/sampling/jfrThreadSampler.hpp"
 #include "/workspace/spring-petclinic/openjdk/src/hotspot/share/jfr/support/jfrThreadLocal.hpp"
 
 #define DEFINE_THREAD_LOCAL_FIELD_JFR mutable JfrThreadLocal _jfr_thread_local
